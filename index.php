@@ -1,4 +1,4 @@
-<html><i>Oh yeah!</i> &ndash; Kool Aid Man
+<html><i>Oh yeah!</i> &ndash; The Kool Aid Man
 <br/>
 <br/>
 <i>
