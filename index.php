@@ -33,7 +33,7 @@
 <i>
 <!-- ** ADOLFO write something in here ** -->
 
-Mira! Un calcet&iacute;n izquierdo!
+Mira!  Un calcet&iacute;n izquierdo!
 
 <!-- ******* End of ADOLFO's block ****** -->
 </i> &ndash; Adolfo
