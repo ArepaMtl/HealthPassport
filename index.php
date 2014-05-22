@@ -7,7 +7,7 @@
 <br/><b>Hola.</b>
 <br/>
 
-<!-- ******* End of MARIOLYS' block ******* -->
+<!-- ******* End of MARIOLYS' block ------- -->
 </i> &ndash; Mariolys
 <br/>
 <br/> 
