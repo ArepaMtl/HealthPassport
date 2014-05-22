@@ -20,13 +20,25 @@
 </i> &ndash; Gaby
 <br/>
 <br/>
-<i>
+<i></i>
 <!-- ** ALEXANDRA write something in here ** -->
-
+<i>To do is to be.</i> &ndash; Socrates
+<br/>
+<i>To be or not to be.</i> &ndash; Shakespeare
+<br/>
+<i>To be is to do.</i> &ndash; Sartre
+<br/>
+<i>Dooby dooby doo.</i> &ndash; Sinatra
+<br/>
+<i>Yabba dabba doo</i> &ndash; Fred Flinstone
+<br/>
+<i>Scooby-doobee-doo</i> &ndash; Scooby Doo
+<br/>
+<br/>
 
 
 <!-- ******* End of ALEXANDRA's block ****** -->
-</i> &ndash; Alexandra
+<i></i> &ndash; Alexandra
 <br/>
 <br/>
 <i>
