@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html><i>Oh yeah!</i> &ndash; The Kool Aid Man
 <br/>
 <br/>
