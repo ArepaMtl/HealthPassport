@@ -5,6 +5,8 @@
 			.section{
 				background-color:red;
 				position:relative;
+				-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+				transition: all 1s;
 			}
 			
 			.section input[type=checkbox]{
@@ -20,6 +22,8 @@
 			.section input + div{
 				overflow:hidden;
 				z-index:0;
+				-webkit-transition: all .2s; /* For Safari 3.1 to 6.0 */
+				transition: all .2s;
 			}
 			
 			.section input[type=checkbox] + div > div:first-child{
