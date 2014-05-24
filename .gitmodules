@@ -1,3 +1,6 @@
 [submodule "lib/jsPDF"]
 	path = lib/jsPDF
 	url = git://github.com/ArepaMtl/jsPDF
+[submodule "lib/jquery"]
+	path = lib/jquery
+	url = git://github.com/ArepaMTL/jquery
