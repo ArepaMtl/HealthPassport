@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+
+//Parameters
+
+
+
+?><!DOCTYPE html>
 <html>
 	<head>
 		<style type="text/css">
