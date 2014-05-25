@@ -7,8 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div id="menu" class="centered">
-			
-		</div>
+		<ul id="menu" class="centered">
+			<li>First thing
+			<li>Second thing
+			<li>Third thing
+		</ul>
 	</body>
 </html>
