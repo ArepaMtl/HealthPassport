@@ -8,9 +8,9 @@
 	</head>
 	<body>
 		<ul id="menu" class="centered">
-			<li>First thing</li>
-			<li>Second thing</li>
-			<li>Third thing</li>
+			<li><a href="">First thing</a></li>
+			<li><a href="">Second thing</a></li>
+			<li><a href="">Third thing</a></li>
 		</ul>
 	</body>
 </html>
