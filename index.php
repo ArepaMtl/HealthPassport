@@ -8,9 +8,9 @@
 	</head>
 	<body>
 		<ul id="menu" class="centered">
-			<li><a href="">First thing</a></li>
-			<li><a href="">Second thing</a></li>
-			<li><a href="">Third thing</a></li>
+			<li><a href="">Medical History</a></li>
+			<li><a href="">Medical Lexicon</a></li>
+			<li><a href="">Information &amp; Contact</a></li>
 		</ul>
 	</body>
 </html>
