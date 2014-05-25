@@ -2,14 +2,15 @@
 
 .centered
 {
-	
+	display:block;
+	position:absolute;
 }
 
 /*Main page*/
 
 #menu
 {
-	
+
 }
 
 #menu > li
