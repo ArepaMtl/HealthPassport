@@ -7,6 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body>
+
 	 <h1> Information. /h1>	
-	 </body>
+
+		
+	</body>
+
 </html>
