@@ -31,6 +31,21 @@ html,body {
 	display:block;
 }
 
+#menuhistory > li
+{
+	margin:0px;
+	padding:0px;
+	display:block;
+}
+
+#menuinformation > li
+{
+	margin:0px;
+	padding:0px;
+	display:block;
+}
+
+
 /*Design - Main page*/
 
 #menu
@@ -42,3 +57,30 @@ html,body {
 {
 	text-decoration:none;
 }
+
+#menuhistory > li > a
+{
+	text-decoration:none;
+}
+
+#menuinformation > li > a
+{
+	text-decoration:none;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+
+
+
