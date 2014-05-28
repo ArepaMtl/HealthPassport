@@ -7,6 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body>
-	
+	<h1> History</h1>
 	</body>
 </html>
