@@ -7,8 +7,15 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> History </h1>
+	 
+	<div class="information">
+		<div id="secondbutton"> <a href=""> Back </a></div> 
+		<h1> Your history </h1> 
+		<div id="button"> <a href=""> Print</a> </div>
+	</div>
 	<ul id="menuhistory" class="centered">
+		<li> <a href="personal_information.php"> Personal information</a></li>
+		<li> <a href="allergies.php"> Allergies</a></li>
 		<li> <a href="current_medication.php"> Current Medication</a></li>
 		<li> <a href="current_diagnosis.php"> Current diagnosis </a> </li>
 		<li> <a href="medical_history.php"> Medical History </a></li>

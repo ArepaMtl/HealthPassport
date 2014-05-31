@@ -2,16 +2,14 @@
 <html>
 	<head>
 		<title>
-			Health Passport Web App - Surgical
+			Health Passport Web App - Allergies
 		</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> Surgical </h1>
+	<h1> Allergies </h1>
 	<div class="information">
-			<p>surgeries/chirurgue: <input type="text" name="checkListItem"/> </p> 
-     		<p>side-effects/ séquelles: <input type="text" name="checkListItem"/> </p> 
-     		<p>date: <input type="text" name="checkListItem"/> </p>
+			<p>allergies: <input type="text" name="checkListItem"/> </p> 
      		<div id="buttoncircle"> <a href=""> +</a> </div>
     		<div id="buttoncircle"> <a href=""> - </a></div>
      </div>
