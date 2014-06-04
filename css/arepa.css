@@ -2,4 +2,36 @@
 {
 	position:relative;
 	display:block;
+	overflow:hidden;
+}
+
+.arepa-detached
+{
+	position:absolute;
+	left:0px;
+	width:100%;
+}
+
+.arepa-pre-detached
+{
+	position:absolute;
+	left:0px;
+	width:100%;
+	background:green;
+}
+
+.arepa-animate-margin-top
+{
+	transition:margin-top 0.5s;
+}
+
+.arepa-animate-detached
+{
+	transition:top 0.5s;
+	transition-property:top,min-height;
+}
+
+.arepa-hidden
+{
+	display:none;
 }
