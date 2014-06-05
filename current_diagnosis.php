@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> Current diagnosis/Diagnostic connu </h1>
+	<h1> <a href="history.php"> Current diagnosis/Diagnostic connu </a> </h1>
 	<div class="information">
 		<p> Conditions you are being treated for/ Conditions médicales pour lesquelles vous êtres traités.</p>
 		<p> <input type="text" name="checkListItem"/> </p>

@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> Current Medication/M&eacute;dication </h1>
+	<h1> <a href="history.php"> Current Medication/M&eacute;dication </a> </h1>
 	<div class="information">
      	<p>name/nom: <input type="text" name="checkListItem"/> </p> 
      	<p>dosage: <input type="text" name="checkListItem"/> </p> 

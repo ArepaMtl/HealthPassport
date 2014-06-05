@@ -10,7 +10,7 @@
 	 
 	<div class="information">
 		<div id="secondbutton"> <a href=""> Back </a></div> 
-		<h1> Your history </h1> 
+		<h1> <a href="index.php"> Your history </a></h1> 
 		<div id="button"> <a href=""> Print</a> </div>
 	</div>
 	<ul id="menuhistory" class="centered">

@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> Surgical </h1>
+	<h1> <a href="history.php"> Surgical/Chirurgicaux </a></h1>
 	<div class="information">
 			<p>surgeries/chirurgue: <input type="text" name="checkListItem"/> </p> 
      		<p>side-effects/ séquelles: <input type="text" name="checkListItem"/> </p> 

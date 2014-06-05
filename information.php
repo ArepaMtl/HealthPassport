@@ -8,7 +8,7 @@
 	</head>
 	<body>
 
-	 <h1> Information. </h1>	
+	 <h1> <a href="index.php">Information </a> </h1>	
 	<ul id="menuinformation" class="centered">
 		<li> <a href="centers.php"> Centers</a></li>
 		<li> <a href="emergency.php"> Emergency </a> </li>

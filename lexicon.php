@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> Lexicon </h1>
+	<h1> <a href="index.php"> Lexicon </a></h1>
 	<input type="text" name="checkListItem"/> <div id="button"> Search </div>
 	<ul>
 	<li><a></a></li>
