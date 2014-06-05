@@ -21,6 +21,7 @@ $arepa.maximizedElements = new Array();
 //Only works for position:relative/static, display:block elements
 //with no border/padding/margin
 //Maximizes an HTML element
+//Body must be static for this to work
 $arepa.maximizeElement = function(element){
 	var offsetTop= $(element).offset().top;
 	if (element.hasOwnProperty($arepa.MAXIMIZE_STATUS)){
@@ -83,6 +84,11 @@ $arepa.maximizeElement = function(element){
 	$("body").append(element);
 	
 	element[$arepa.MAXIMIZE_STATUS] = $arepa.MAXIMIZE_STATUS_ANIMATING;
+	
+	$('html, body').animate({
+    	scrollTop: 0
+ 	}, 2000);
+	
 	window.setTimeout(function(){
 		$("body").css("margin-top",-offsetTop);
 		$(element).css("top",0);
@@ -103,6 +109,8 @@ $arepa.maximizeElement = function(element){
     					$(this).addClass("arepa-hidden");
     				}
 				});
+				
+				element[$arepa.MAXIMIZE_STATUS] = $arepa.MAXIMIZE_STATUS_FINISHING;
 			}
 		});
 		
