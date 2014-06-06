@@ -8,9 +8,9 @@
 	</head>
 	<body>
 		<ul id="menu" class="centered">
-			<li><a href="history.php">Medical History</a></li>
-			<li><a href="lexicon.php">Medical Lexicon</a></li>
-			<li><a href="information.php">Information &amp; Contact</a></li>
+			<li><a href="history.php" data-localize="medicalhistory.link">Medical History</a></li>
+			<li><a href="lexicon.php" data-localize="medicallexicon.link">Medical Lexicon</a></li>
+			<li><a href="information.php" data-localize="information.link">Information &amp; Contact</a></li>
 		</ul>
 	</body>
 </html>

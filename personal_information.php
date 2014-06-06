@@ -7,25 +7,25 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> <a href="history.php"> Personal Information </a> </h1>
+	<h1> <a href="history.php" data-localize="personalinformation.title"> Personal Information </a> </h1>
 	<div class="information">
-			<p>This health passport belongs to/ce passeport sant&eacute; appartient &agrave;: <input type="text" name="checkListItem"/> </p> 
-     		<h3> First person to notify/Personne &agrave; contacter en premier lieu</h3>
-     			<p>Language/langue parl&eacute;e: <input type="text" name="checkListItem"/> </p> 
-     			<p>Name/nom: <input type="text" name="checkListItem"/> </p>
-     			<p>Home phone/t&eacute;l&eacute;phone maison: <input type="text" name="checkListItem"/> </p>
-     			<p>Cell/mobile: <input type="text" name="checkListItem"/> </p>
-     			<p>Email/courriel: <input type="text" name="checkListItem"/> </p>
-     		<h3> Second person to notify/Personne &agrave; contacter en deuxi&egrave;me lieu</h3>
-     			<p>Language/langue parl&eacute;e: <input type="text" name="checkListItem"/> </p> 
-     			<p>Name/nom: <input type="text" name="checkListItem"/> </p>
-     			<p>Home phone/t&eacute;l&eacute;phone maison: <input type="text" name="checkListItem"/> </p>
-     			<p>Cell/mobile: <input type="text" name="checkListItem"/> </p>
-     			<p>Email/courriel: <input type="text" name="checkListItem"/> </p>
-     		<h3> Other Information/Autres Informations:</h3>
-     			 <p>Family doctor/m&eacute;decin de famille: <input type="text" name="checkListItem"/> </p>
-     			 <p>Name and address of usual clinic/nom et adresse de votre clinique: <input type="text" name="checkListItem"/> </p>
-     		<div id="button"> Save  </div>
+			<p data-localize="belongs.personalinformation">This health passport belongs to/ce passeport sant&eacute; appartient &agrave;: <input type="text" name="checkListItem"/> </p> 
+     		<h3 data-localize="firstpersontonotify.personalinformation"> First person to notify/Personne &agrave; contacter en premier lieu</h3>
+     			<p data-localize="language.personalinformation">Language/langue parl&eacute;e: <input type="text" name="checkListItem"/> </p> 
+     			<p data-localize="name.firstpersontonotify">Name/nom: <input type="text" name="checkListItem"/> </p>
+     			<p data-localize="phone.firstpersontonotify">Home phone/t&eacute;l&eacute;phone maison: <input type="text" name="checkListItem"/> </p>
+     			<p data-localize="cellphone.firstpersontonotify">Cell/mobile: <input type="text" name="checkListItem"/> </p>
+     			<p data-localize="email.firstpersontonotify">Email/courriel: <input type="text" name="checkListItem"/> </p>
+     		<h3 data-localize="secondpersontonotify.personalinformation"> Second person to notify/Personne &agrave; contacter en deuxi&egrave;me lieu</h3>
+     			<p data-localize="language.secondpersontonotify">Language/langue parl&eacute;e: <input type="text" name="checkListItem"/> </p> 
+     			<p data-localize="name.secondpersontonotify">Name/nom: <input type="text" name="checkListItem"/> </p>
+     			<p data-localize="phone.secondpersontonotify">Home phone/t&eacute;l&eacute;phone maison: <input type="text" name="checkListItem"/> </p>
+     			<p data-localize="cellphone.secondpersontonotify">Cell/mobile: <input type="text" name="checkListItem"/> </p>
+     			<p data-localize="email.secondpersontonotify">Email/courriel: <input type="text" name="checkListItem"/> </p>
+     		<h3 data-localize="other.personalinformation"> Other Information/Autres Informations:</h3>
+     			 <p data-localize="familydoctor.other">Family doctor/m&eacute;decin de famille: <input type="text" name="checkListItem"/> </p>
+     			 <p data-localize="nameaddress.other">Name and address of usual clinic/nom et adresse de votre clinique: <input type="text" name="checkListItem"/> </p>
+     		<div id="button" data-localize="savebutton"> Save  </div>
      </div>
 	</body>
 </html>

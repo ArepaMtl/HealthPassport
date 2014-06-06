@@ -7,37 +7,37 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> <a href="history.php">Living Habits/Habitudes de vie</a> </h1>
+	<h1> <a href="history.php" data-localize="livinghabits.title">Living Habits/Habitudes de vie</a> </h1>
 	<ul class="centered">
-		<li> <a href="">Smoking/Femeur </a><br>
+		<li> <a href="" data-localize="smoking.link">Smoking/Femeur </a><br>
 			<ul>			
-				<li> <p><input type="checkbox"> yes/oui </p>
-					<p>How many cigarattes per day?/ Combient de cigarettes par jour?:  					
+				<li> <p><input type="checkbox" data-localize="yes.smoking"> yes/oui </p>
+					<p data-localize="question.smoking">How many cigarattes per day?/ Combient de cigarettes par jour?:  					
 					<input type="text" name="checkListItem"/></p>
-					<p> since/depuis <input type="text" name="checkListItem"/></p>
+					<p data-localize="since.smoking"> since/depuis <input type="text" name="checkListItem"/></p>
 				</li>
-				<li> <input type="checkbox"> no/non </li>
+				<li> <input type="checkbox" data-localize="no.smoking"> no/non </li>
 			</ul>
 		
 		</li>
-		<li> <a href=""> Alcohol/Alcool </a> 
+		<li> <a href=""data-localize="alcohol.link"> Alcohol/Alcool </a> 
 			<ul>			
-				<li> <p><input type="checkbox"> yes/oui </p>
-					<p>How many drinks per week?/ Combient de verres par semaine?:  					
+				<li> <p><input type="checkbox" data-localize="yes.alcohol"> yes/oui </p>
+					<p data-localize="question.alcohol">How many drinks per week?/ Combient de verres par semaine?:  					
 					<input type="text" name="checkListItem"/></p>
-					<p> since/depuis <input type="text" name="checkListItem"/></p>
+					<p data-localize="since.alcohol"> since/depuis <input type="text" name="checkListItem"/></p>
 				</li>
-				<li> <input type="checkbox"> no/non </li>
+				<li> <input type="checkbox" data-localize="no.alcohol"> no/non </li>
 			</ul>	
 		</li>
-		<li>  <a href=""> Physical Activities/Activit&eacute;s Physiques </a>
-		<p>Such as walking, running, swimming/ Marche, course, natation.</p>
-			<p> Activity/Activit&eacute; <input type="text" name="checkListItem"/></p>
-			<div id="buttoncircle"> <a href=""> +</a> </div>
-    		<div id="buttoncircle"> <a href=""> - </a></div>
+		<li>  <a href="" data-localize="physicalactivities.link"> Physical Activities/Activit&eacute;s Physiques </a>
+		<p data-localize="example.physicalativity">Such as walking, running, swimming/ Marche, course, natation.</p>
+			<p data-localize="activity.physicalativity"> Activity/Activit&eacute; <input type="text" name="checkListItem"/></p>
+			<div id="buttoncircle"> <a href="" data-localize="plusbutton"> +</a> </div>
+    		<div id="buttoncircle"> <a href="" data-localize="minusbutton"> - </a></div>
 		</li>
-		<li> <a href=""> Sleep  </a>
-			<p>Number of hours per night /Nombre d'heures par nuit <input type="text" name="checkListItem"/></p>
+		<li> <a href="" data-localize="sleep.link"> Sleep  </a>
+			<p data-localize="numberhours.sleep">Number of hours per night /Nombre d'heures par nuit <input type="text" name="checkListItem"/></p>
 		</li>
 	</ul>
 	</body>

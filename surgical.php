@@ -7,13 +7,13 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> <a href="history.php"> Surgical/Chirurgicaux </a></h1>
+	<h1> <a href="history.php" data-localize="surgical.title"> Surgical/Chirurgicaux </a></h1>
 	<div class="information">
-			<p>surgeries/chirurgue: <input type="text" name="checkListItem"/> </p> 
-     		<p>side-effects/ séquelles: <input type="text" name="checkListItem"/> </p> 
-     		<p>date: <input type="text" name="checkListItem"/> </p>
-     		<div id="buttoncircle"> <a href=""> +</a> </div>
-    		<div id="buttoncircle"> <a href=""> - </a></div>
+			<p data-localize="surgeries.surgical">surgeries/chirurgue: <input type="text" name="checkListItem"/> </p> 
+     		<p data-localize="sideeffects.surgical">side-effects/ s&eacute;quelles: <input type="text" name="checkListItem"/> </p> 
+     		<p data-localize="date.surgical">date: <input type="text" name="checkListItem"/> </p>
+     		<div id="buttoncircle"> <a href="" data-localize="plusbutton"> +</a> </div>
+    		<div id="buttoncircle"> <a href="" data-localize="minusbutton"> - </a></div>
      </div>
 	</body>
 </html>
