@@ -40,9 +40,11 @@ $arepa.maximizeElement = function(element){
 	$arepa.maximizedElements.push(element);
 	
 	//Values
+	var scrollTop = $(document).scrollTop();
 	var offsetTop= $(element).offset().top;
 	var height = $(element).outerHeight();
 	var color = $arepa.getClosestBackgroundColor(element);
+	
 	
 	//Reminders
 	$arepa.setIfNull(element,$arepa.DETACHED_PARENT,element.parentNode);
@@ -51,6 +53,7 @@ $arepa.maximizeElement = function(element){
 	$arepa.setIfNull(element,$arepa.ORIGINAL_BODY_BG_COLOR,$("body").css("background-color"));
 	$arepa.setIfNull(element,$arepa.ORIGINAL_OVERFLOW,$(element).css("overflow"));
 	$arepa.setIfNull(element,$arepa.ORIGINAL_OFFSET_TOP,height);
+	$arepa.setIfNull(element,$arepa.ORIGINAL_SCROLL_TOP,scrollTop);
 	$arepa.setIfNull(element,$arepa.ORIGINAL_HEIGHT,offsetTop);
 	
 	//Do not revert this one
@@ -78,13 +81,17 @@ $arepa.maximizeElement = function(element){
     	scrollTop: 0
  	}, 2000);
 	
-	//Object to remember things inside completion blocks
-	var trascendentObject = new Object();
-	trascendentObject.animationDone = false;
+	element[$arepa.MAXIMIZE_TIMER_COUNT]++;
+	
+	var currentMaximizeCounter = element[$arepa.MAXIMIZE_TIMER_COUNT];
 	
 	window.setTimeout(function(){
 		//Stop if stopped being maximized
 		if (!element[$arepa.IS_MAXIMIZED]){
+			return;
+		}
+		
+		if (element[$arepa.MAXIMIZE_TIMER_COUNT] != currentMaximizeCounter){
 			return;
 		}
 		
@@ -121,7 +128,7 @@ $arepa.maximizeElement = function(element){
 	
 	return true;
 	
-}
+};
 
 $arepa.minimizeElement = function(element){
 	if (!element[$arepa.IS_MAXIMIZED]){
@@ -136,7 +143,7 @@ $arepa.minimizeElement = function(element){
 	$arepa.maximizedElements.pop();
 	
 	
-}
+};
 
 $arepa.getClosestBackgroundColor = function(element){
 	var parentElement = element;
@@ -152,17 +159,17 @@ $arepa.getClosestBackgroundColor = function(element){
 	}
 	
 	return color;
-}
+};
 
 $arepa.getPlaceholderWithHeight = function(height){
 	var placeholder = document.createElement("div");
 	$(placeholder).addClass("arepa-block");
 	$(placeholder).css("height",height);
 	return placeholder;
-}
+};
 
 $arepa.setIfNull = function(element,key,value){
 	if (element[key]==null){
 		element[key] = value;
 	}
-}
+};
