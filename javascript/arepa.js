@@ -224,6 +224,7 @@ $ArepaSimpleAnimation = function(before,wait,after){
 		if (before0 != null && !before0()){
 			return;
 		}
+		this.before();
 	};
 	this.perform = function(){
 		this.performWithBlocks(null,null,null,null);
