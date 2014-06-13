@@ -71,11 +71,15 @@ $arepa.maximizeElement = function(element){
 	$(element).addClass("arepa-detached");
 	$(element).addClass("arepa-animate-detached");
 	
+	
+	
 	//Setting other css
 	$(element).css("background-color",color);
 	$(element).css("top",offsetTop);
 	$(element).css("height",height);
 	$(element).css("overflow","hidden");
+	
+	//return;
 	
 	//Making body animated
 	$("body").addClass("arepa-animate-margin-top");
@@ -88,6 +92,8 @@ $arepa.maximizeElement = function(element){
 	element[$arepa.MAXIMIZE_TIMER_COUNT] += 1;
 	
 	var currentMaximizeCounter = element[$arepa.MAXIMIZE_TIMER_COUNT];
+	
+	
 	
 	window.setTimeout(function(){
 		//Stop if stopped being maximized
