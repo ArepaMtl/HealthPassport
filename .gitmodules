@@ -7,3 +7,6 @@
 [submodule "lib/jquery-localize"]
 	path = lib/jquery-localize
 	url = git://github.com/ArepaMTL/jquery-localize
+[submodule "lib/HideSeek"]
+	path = lib/HideSeek
+	url = https://github.com/ArepaMtl/HideSeek
