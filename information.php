@@ -7,12 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-
-	 <h1> <a href="index.php" data-localize="information.title">Information </a> </h1>	
+     <div id="top-bar">
+	 	<h1 data-localize="information.title"> Information </h1>	
+	 	<a href="index.php" id="back-button"></a>
+	 </div>
 		<ul id="menuinformation" class="centered">
-			<li> <a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a></li>
-			<li> <a href="chssn.php" data-localize="chssn.link"> Chssn </a> </li>
-			<li> <a href="" data-localize="anyotherinformation.link"> Any other information </a></li>
+			<li> <div class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a></div></li>
+			<li> <div class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a></div> </li>
+			<li> <div class="item"><a href="" data-localize="anyotherinformation.link"> Any other information </a></div></li>
 		</ul>
 	</body>
 

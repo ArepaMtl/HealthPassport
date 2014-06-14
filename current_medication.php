@@ -7,7 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> <a href="history.php" data-localize="currentmedication.title"> Current Medication/M&eacute;dication </a> </h1>
+	<div id="top-bar">
+		<h1 data-localize="currentmedication.title"> Current Medication/M&eacute;dication </h1>
+		<a href="history.php" id="back-button"></a>
+	</div>
+	
 	<div class="information">
      	<p data-localize="currentmedication.name">name/nom: <input type="text" name="checkListItem"/> </p> 
      	<p data-localize="currentmedication.dosage">dosage: <input type="text" name="checkListItem"/> </p> 

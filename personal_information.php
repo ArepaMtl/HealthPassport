@@ -7,7 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> <a href="history.php" data-localize="personalinformation.title"> Personal Information </a> </h1>
+	<div id="top-bar">
+		<h1 data-localize="personalinformation.title"> Personal Information </h1>
+		<a href="history.php" id="back-button"></a>
+	</div>
 	<div class="information">
 			<p data-localize="belongs.personalinformation">This health passport belongs to/ce passeport sant&eacute; appartient &agrave;: <input type="text" name="checkListItem"/> </p> 
      		<h3 data-localize="firstpersontonotify.personalinformation"> First person to notify/Personne &agrave; contacter en premier lieu</h3>

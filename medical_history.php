@@ -7,7 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<h1> <a href="history.php" data-localize="medicalhistory.title"> Medical history/M&eacute;dicaux </a> </h1>
+	<div id="top-bar">
+		<h1 data-localize="medicalhistory.title"> Medical history/M&eacute;dicaux </h1>
+		<a href="history.php" id="back-button"></a>
+	</div>		
 		<div class="information">
 			<p data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l’hypertension, diabète, asthme.</p>
 	 		<p data-localize="condition.physicalactivity">Condition: <input type="text" name="checkListItem"/> </p> 

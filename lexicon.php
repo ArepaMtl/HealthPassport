@@ -7,8 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1> <a href="index.php" data-localize="lexicon.title"> Lexicon </a> <div id="buttoncirclewhite"> <a href="" data-localize="infobutton"> i </a> </div></h1> 
+	<div id="top-bar">
+		<h1 data-localize="lexicon.title" > Lexicon <div id="buttoncirclewhite"> <a href="" data-localize="infobutton"> i </a> </div></h1>
+		<a href="index.php" id="back-button"></a> 
+	</div>	
 	<input type="text" name="checkListItem"/> <div id="button" data-localize="searchbutton.lexicon"> Search </div>
+	</div>
 		<ul>
 			<li><a></a></li>
 			<li><a></a></li>
