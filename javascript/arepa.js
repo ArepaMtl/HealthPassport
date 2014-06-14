@@ -222,7 +222,7 @@ $arepa.nonHiddenSiblings = function(element){
 	return array;
 };
 
-$ArepaSimpleAnimation = function(before,wait,after){
+$ArepaSimpleAction = function(before,wait,after){
 	this.before = before;
 	this.after = after;
 	this.wait = wait;
