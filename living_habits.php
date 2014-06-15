@@ -8,10 +8,10 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="livinghabits.title">Living Habits/Habitudes de vie </h1>
+		<h1 data-localize="livinghabits.title" class='centered'>Living Habits/Habitudes de vie </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
-	<ul class="centered">
+	<ul id="menu">
 		<li> <div class="item"> <a href="" data-localize="smoking.link">Smoking/Femeur </a><br>
 			<ul>			
 				<li> <p><input type="checkbox" data-localize="yes.smoking"> yes/oui </p>

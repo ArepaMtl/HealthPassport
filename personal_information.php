@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="personalinformation.title"> Personal Information </h1>
+		<h1 data-localize="personalinformation.title" class='centered'> Personal Information </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
 	<div class="information">

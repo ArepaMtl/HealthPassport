@@ -31,7 +31,9 @@
 			.item>a{text-decoration:none;display:block;position:relative;height:64px;line-height:64px;
 			text-align:center;color:white;background-color:rgb(80,197,234);box-shadow:0 3px 0.4em rgba(0,0,0,0.5);
 			font-size:20pt;color:rgb(83,83,83);color:white;font-weight:normal}
-		</style>-->
+		</style>
+		
+		
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(".item>a").click(function(event){
@@ -39,12 +41,12 @@
 					$arepa.maximizeElement(this.parentNode);
 				});
 			});
-		</script>
+		</script>-->
 	</head>
 	<body>
 	 
 	<div id="top-bar">
-		<h1 data-localize="yourhistory.title"> Your history </h1> 
+		<h1 data-localize="yourhistory.title" class='centered'> Your history </h1> 
 		<a href="index.php" id="back-button"></a>
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>

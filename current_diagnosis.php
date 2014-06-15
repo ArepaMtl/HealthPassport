@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="currentdiagnosis.title"> Current diagnosis/Diagnostic connu </h1>
+		<h1 data-localize="currentdiagnosis.title" class='centered'> Current diagnosis/Diagnostic connu </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
 	<div class="information">

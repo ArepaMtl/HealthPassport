@@ -8,10 +8,10 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="importantnumbers.title">Important phone numbers/Num&eacute;ro de t&eacute;l&eacute;phone importants </h1>
+		<h1 data-localize="importantnumbers.title" class='centered'>Important phone numbers/Num&eacute;ro de t&eacute;l&eacute;phone importants </h1>
 		<a href="information.php" id="back-button"></a>
 	</div>
-		<ul class="centered">
+		<ul id="menu">
 			<li> <div class="item"><a href="" data-localize="emergencies.importantnumbers"> Emergencies/Urgences</a> </div><br>
 				<div> <a href=""> <img src="phonepic2.png" height="60" width="60" > </a> </div> 
 			</li>

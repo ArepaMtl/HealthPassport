@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="allergies.tittle"> Allergies </h1>
+		<h1 data-localize="allergies.tittle" class='centered'> Allergies </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
 	<div class="information">

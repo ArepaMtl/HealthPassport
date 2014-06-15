@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="currentmedication.title"> Current Medication/M&eacute;dication </h1>
+		<h1 data-localize="currentmedication.title" class='centered' > Current Medication/M&eacute;dication </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
 	
