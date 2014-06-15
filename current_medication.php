@@ -15,9 +15,8 @@
 	<div class="information">
      	<p data-localize="currentmedication.name">name/nom: <input type="text" name="checkListItem"/> </p> 
      	<p data-localize="currentmedication.dosage">dosage: <input type="text" name="checkListItem"/> </p> 
-    	<div class="buttoncircle" id="plusbutton"> <a href="" data-localize="plusbutton"> </a> </div>
-     	<div class="buttoncircle" id="minusbutton"> <a href="" data-localize="minusbutton"> </a></div>
+		 <a href="" data-localize="minusbutton" class="buttoncircle" id="minusbutton"> </a>
      </div>
-
+    <a href="" data-localize="plusbutton" id="plusbutton"> </a> 
 	</body>
 </html>

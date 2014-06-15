@@ -145,7 +145,7 @@ h1 a{
 	top:50%;
 	width:12px;
 	height:21px;
-	background:url('../design_folder/assets/back-button.png');
+	background:url('../design_folder/assets/back_button.png');
 	background-size:100% 100%;
 	margin-top:-10px;
 }
@@ -188,13 +188,19 @@ h1 a{
 	background-size: 50% 50%;
 	background-position:center;
 	background-repeat:no-repeat;
-	background-color:black;
+	background-color:rgb( 89, 195, 239 );
 	border-radius: 14px;
 	color:#ffffff;
 }
 
 #plusbutton{
+	display:block;
 	background-image:url('../design_folder/assets/plus_sign.png');
+	background-color:rgb( 89, 195, 239 );
+	height:64px;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0px;
 }
 
 #minusbutton{

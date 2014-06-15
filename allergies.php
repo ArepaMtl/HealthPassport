@@ -11,10 +11,11 @@
 		<h1 data-localize="allergies.tittle" class='centered'> Allergies </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
-	<div class="information">
-			<p data-localize="allergies.paragraph"> allergies: <input type="text" name="checkListItem"/> </p> 
-     		<div class="buttoncircle" id="plusbutton"> <a href=""data-localize="plusbutton"> </a> </div>
-    		<div class="buttoncircle" id="minusbutton"> <a href="" data-localize="minusbutton"> </a></div>
-     </div>
+			<div class="information">
+				<p data-localize="allergies.paragraph"> allergies: <input type="text" name="checkListItem"/> </p>
+				<a href="" data-localize="minusbutton" class="buttoncircle" id="minusbutton"> </a>
+			</div> 
+			 <a href=""data-localize="plusbutton" id="plusbutton"> </a>
+    		
 	</body>
 </html>
