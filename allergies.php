@@ -13,8 +13,8 @@
 	</div>
 	<div class="information">
 			<p data-localize="allergies.paragraph"> allergies: <input type="text" name="checkListItem"/> </p> 
-     		<div id="buttoncircle"> <a href=""data-localize="plusbutton"> +</a> </div>
-    		<div id="buttoncircle"> <a href="" data-localize="minusbutton"> - </a></div>
+     		<div class="buttoncircle" id="plusbutton"> <a href=""data-localize="plusbutton"> </a> </div>
+    		<div class="buttoncircle" id="minusbutton"> <a href="" data-localize="minusbutton"> </a></div>
      </div>
 	</body>
 </html>

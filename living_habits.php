@@ -36,8 +36,8 @@
 		<li> <div class="item">  <a href="" data-localize="physicalactivities.link"> Physical Activities/Activit&eacute;s Physiques </a>
 			<p data-localize="example.physicalativity">Such as walking, running, swimming/ Marche, course, natation.</p>
 			<p data-localize="activity.physicalativity"> Activity/Activit&eacute; <input type="text" name="checkListItem"/></p>
-			<div id="buttoncircle"> <a href="" data-localize="plusbutton"> +</a> </div>
-    		<div id="buttoncircle"> <a href="" data-localize="minusbutton"> - </a></div>
+			<div class="buttoncircle" id="plusbutton"> <a href="" data-localize="plusbutton"> </a> </div>
+    		<div class="buttoncircle" id="minusbutton"> <a href="" data-localize="minusbutton"> </a></div>
 		</div></li>
 		<li> <div class="item">  <a href="" data-localize="sleep.link"> Sleep  </a>
 			<p data-localize="numberhours.sleep">Number of hours per night /Nombre d'heures par nuit <input type="text" name="checkListItem"/></p>

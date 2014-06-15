@@ -145,7 +145,7 @@ h1 a{
 	top:50%;
 	width:12px;
 	height:21px;
-	background:url('../back-arrow.png');
+	background:url('../design_folder/assets/back-button.png');
 	background-size:100% 100%;
 	margin-top:-10px;
 }
@@ -180,20 +180,26 @@ h1 a{
 	margin-top:2px;
 }
 
-#buttoncircle{
+
+.buttoncircle{
     display: inline-block;
-    height:25px;
-	width:25px;
+    height:28px;
+	width:28px;
+	background-size: 50% 50%;
+	background-position:center;
+	background-repeat:no-repeat;
 	background-color:black;
-	font-family:arial;
-	font-size:20px;
+	border-radius: 14px;
 	color:#ffffff;
-	border-radius: 15px;
-	text-align:center;
-	margin-top:2px;
-	margin-bottom: 2px;
 }
 
+#plusbutton{
+	background-image:url('../design_folder/assets/plus_sign.png');
+}
+
+#minusbutton{
+	background-image:url('../design_folder/assets/minus.png');
+}
 
 
 #buttoncircle a{
