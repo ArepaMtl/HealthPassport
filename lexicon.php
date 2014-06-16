@@ -8,8 +8,9 @@
 	</head>
 	<body>
 	<div id="top-bar">
-		<h1 data-localize="lexicon.title" class='centered'> Lexicon <div id="buttoncirclewhite"> <a href="" data-localize="infobutton"> i </a> </div></h1>
+		<h1 data-localize="lexicon.title" class='centered'> Lexicon </h1>
 		<a href="index.php" id="back-button"></a> 
+		<a id="informationicon" href="" data-localize="infobutton">  </a>
 	</div>	
 	<input type="text" name="checkListItem"/> <div id="button" data-localize="searchbutton.lexicon"> Search </div>
 	</div>

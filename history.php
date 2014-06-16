@@ -47,7 +47,8 @@
 	 
 	<div id="top-bar">
 		<h1 data-localize="yourhistory.title" class='centered'> Your history </h1> 
-		<a href="index.php" id="back-button"></a>
+		<a href="index.php" id="back-button"> </a>
+		<a href="" id="printer"> </a>
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>
 	<ul id="menu">
