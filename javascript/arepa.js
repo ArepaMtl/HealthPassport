@@ -223,16 +223,5 @@ $arepa.nonHiddenSiblings = function(element){
 };
 
 $ArepaSimpleAction = function(before,wait,after){
-	this.before = before;
-	this.after = after;
-	this.wait = wait;
-	this.performWithBlocks = function(before0,before1,after0,after1){
-		if (before0 != null && !before0()){
-			return;
-		}
-		this.before();
-	};
-	this.perform = function(){
-		this.performWithBlocks(null,null,null,null);
-	};
+	
 };
