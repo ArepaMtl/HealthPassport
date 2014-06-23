@@ -52,7 +52,7 @@
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>
 	<ul id="menuyourhistory">
-		<li class="item"><a href="personal_information.php" data-localize="personalinformation.link"> <div class="loader" id="personalinfo_loader"> Personal information </div> </a></li>
+		<li class="item"> <a href="personal_information.php" data-localize="personalinformation.link">  <div class="loader" id="personalinfo_loader"> Personal information </div> </a> <a href="medical_history.php" id="below-button"> </a></li>
 		<li class="item"><a href="allergies.php" data-localize="allergies.link"> <div class="loader" id="allergies_loader">Allergies </div></a></li>
 		<li class="item"><a href="current_medication.php" data-localize="currentmedication.link"><div class="loader" id="current_medication_loader"> Current Medication </div> </a></li>
 		<li class="item"><a href="current_diagnosis.php" data-localize="currentdiagnosis.link"> <div class="loader" id="current_diagnosis_loader">Current diagnosis </div></a></li>
