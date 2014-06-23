@@ -45,20 +45,20 @@
 	</head>
 	<body>
 	 
-	<div id="top-bar">
+	<div class="top-bar">
 		<h1 data-localize="yourhistory.title" class='centered'> Your history </h1> 
 		<a href="index.php" id="back-button"> </a>
 		<a href="" id="printer"> </a>
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>
-	<ul id="menu">
-		<li><div class="item"><a href="personal_information.php" data-localize="personalinformation.link"> Personal information</a></div></li>
-		<li><div class="item"><a href="allergies.php" data-localize="allergies.link"> Allergies</a></div></li>
-		<li><div class="item"><a href="current_medication.php" data-localize="currentmedication.link"> Current Medication</a></div></li>
-		<li><div class="item"><a href="current_diagnosis.php" data-localize="currentdiagnosis.link"> Current diagnosis </a></div></li>
-		<li><div class="item"><a href="medical_history.php" data-localize="medicalhistory.link"> Medical History </a></div></li>
-		<li><div class="item"><a href="surgical.php" data-localize="surgical.link"> Surgical</a></div></li>
-		<li><div class="item"><a href="living_habits.php" data-localize="livinghabits.link"> Living Habits</a></div></li>
+	<ul id="menuyourhistory">
+		<li class="item"><a href="personal_information.php" data-localize="personalinformation.link"> <div class="loader" id="personalinfo_loader"> Personal information </div> </a></li>
+		<li class="item"><a href="allergies.php" data-localize="allergies.link"> <div class="loader" id="allergies_loader">Allergies </div></a></li>
+		<li class="item"><a href="current_medication.php" data-localize="currentmedication.link"><div class="loader" id="current_medication_loader"> Current Medication </div> </a></li>
+		<li class="item"><a href="current_diagnosis.php" data-localize="currentdiagnosis.link"> <div class="loader" id="current_diagnosis_loader">Current diagnosis </div></a></li>
+		<li class="item"><a href="medical_history.php" data-localize="medicalhistory.link"> <div class="loader" id="medical_history_loader">Medical History </div></a></li>
+		<li class="item"><a href="surgical.php" data-localize="surgical.link"> <div class="loader" id="surgical_loader"> Surgical </div></a> </li>
+		<li class="item"><a href="living_habits.php" data-localize="livinghabits.link"> <div class="loader" id="living_habits_loader">Living Habits </div></a></li>
 	</ul>
 	</body>
 </html>

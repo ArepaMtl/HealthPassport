@@ -16,6 +16,11 @@ h1{
 	margin:0;
 	padding:0;
 	font-family:FranchiseBold;
+	color:rgba(0,0,0,0.78);
+}
+
+h1 a{
+	text-decoration: none;
 }
 
 .centered
@@ -29,9 +34,23 @@ h1{
 	transform: translate(-50%,-50%);	
 }
 
+p{
+	font-family:Futura;
+	color:rgba(0,0,0,0.60);
+	text-align:left;
+	margin-left:5px;
+}
+
+h3{
+	font-family:Futura;
+	color:rgba(0,0,0,0.78);
+}
+
+
+
 /*Structure - Main page*/
 
-#menu
+#menuyourhistory
 {
 	margin:0px;
 	padding:0px;
@@ -58,85 +77,36 @@ h1{
 	display:block;
 }
 
-h1 a{
-	text-decoration: none;
-}
 
 /*Design - Main page*/
 
 
-#menu > li > a 
-{
+#menu > li > a {
 	text-decoration:none;
 }
 
-#menuhistory > li > a
-{
-	text-decoration:none;
+#menu > li :nth-child(1)> div >a{
+	background-color: rgb( 89, 195, 239 );
+    box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+
 }
 
-#menuinformation > li > a
-{
-	text-decoration:none;
+#menu >li:nth-child(2)> div >a{
+	background-color: rgb( 255, 240, 3 );
+    box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+
 }
 
+#menu > li:nth-child(3)> div >a{
+	background-color: rgb( 141, 212, 46 );
+    box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
 
-
-.item{
-	background-color:white;
 }
 
-.item>a{
-	text-decoration:none;
-	display:block;
-	position:relative;
+.top-bar{
 	height:64px;
-	line-height:64px;
-	text-align:center;
-	color:white;
-	background-color:rgb(80,197,234);
-	box-shadow:0 3px 0.4em rgba(0,0,0,0.5);
-	font-size:20pt;
-	color:rgb(83,83,83);
-	color:white;
-	font-weight:normal;
-	margin-top:10px;
-}
-
-#menu>li:nth-child(1)>div>a{
-	background-color: rgb( 89, 195, 239 ); /*Blue block */
-}
-
-#menu>li:nth-child(2)>div>a{
-	background-color: rgb( 169, 211, 112 );/* Green block */
-}
-
-#menu>li:nth-child(3)>div>a{
-	background-color: rgb( 242, 237, 78 ); /* Yellow block */
-}
-
-#menu>li:nth-child(4)>div>a{
-	background-color: rgb( 242, 205, 78 ); /* Orange block */
-
-}
-
-#menu>li:nth-child(5)>div>a{
-	 background-color: rgb( 242, 151, 78 );/* Light Orange block */
-
-}
-
-#menu>li:nth-child(6)>div>a{
-	background-color: rgb( 243, 83, 40 ); /* Light red block */
-}
-
-#menu>li:nth-child(7)>div>a{
-  background-color: rgb( 247, 3, 3 ); /* Red block */
-}
-
-#top-bar{
-	height:64px;
-	box-shadow:0 3px 0.4em rgba(0,0,0,0.5);
-	background-color:white;
+	background-color: rgb( 240, 240, 240 );
+    box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
 	position:relative;
 }
 
@@ -150,6 +120,103 @@ h1 a{
 	background-size:100% 100%;
 	margin-top:-10px;
 }
+
+
+.item{
+	background-color:white;
+}
+
+.item>a{
+	text-decoration:none;
+	display:block;
+	position:relative;
+	height:64px;
+	line-height:64px;
+	text-align:center;
+    color:rgba(0,0,0,0.78);
+	background-color:rgb(166,223,246);
+	box-shadow:0 3px 0.4em rgba(0,0,0,0.5);
+	font-size:20pt;
+	font-weight:normal;
+	margin-top:10px;
+	font-family:FranchiseBold;
+}
+
+#menuyourhistory>li:nth-child(1)>a{
+	background-color: rgb( 166, 223, 246 );
+	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 ); /*Blue block */
+}
+
+#menuyourhistory>li:nth-child(2)>a{
+	background-color: rgb( 193, 232, 142 );
+ 	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );/* Green block */
+}
+
+#menuyourhistory>li:nth-child(3)>a{
+	 background-color: rgb( 247, 244, 123 );
+  	 box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 ); /* Yellow block */
+}
+
+#menuyourhistory>li:nth-child(4)>a{
+	  background-color: rgb( 246, 219, 125 );
+      box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 ); /* Orange block */
+
+}
+
+#menuyourhistory>li:nth-child(5)>a{
+	 background-color: rgb( 247, 179, 123 );
+     box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );/* Mustard Orange block */
+
+}
+
+#menuyourhistory>li:nth-child(6)>a{
+	  background-color: rgb( 249, 162, 139 );
+      box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 ); /* Red block */
+}
+
+#menu>li:nth-child(7)>a{
+    background-color: rgb( 251, 119, 119 ); /* Fix this color, it's not light red */
+    box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+ /* Red block */
+}
+
+.loader{
+	position:absolute;
+	left:0;
+	top:0;
+	width:50%;
+	height:100%;
+}
+
+#personalinfo_loader{
+  	background-color: rgb( 89, 195, 239 );
+ 	/*box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0);*/
+}
+
+#allergies_loader{
+  background-color: rgb( 141, 212, 46 );
+}
+
+#current_medication_loader{
+  background-color: rgb( 241, 234, 12 );  
+}
+
+#current_diagnosis_loader{
+  background-color: rgb( 239, 189, 15 ); 
+}
+
+#medical_history_loader{
+ background-color: rgb( 240, 114, 11 ); 
+}
+
+#surgical_loader{
+  background-color: rgb( 243, 83, 40 );
+}
+
+#living_habits_loader{
+  background-color: rgb( 247, 3, 3 );
+}
+
 
 #buttoncirclewhite{
     display: inline-block;
@@ -262,5 +329,44 @@ h1 a{
 	margin-top:-10px;
 }
 
+#smoking_color{
+	background-color: rgb( 247, 3, 3 );
+  	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+}
+
+#alcohol_color {
+  background-color: rgb( 247, 68, 6 );
+  box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+}
+
+#physical_color {
+  background-color: rgb( 247, 119, 6 );
+  box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+}
+
+#sleep_color {
+  background-color: rgb( 247, 153, 6 );
+  box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+
+}
+
+.content_box {
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+  margin: auto;
+  width: 45%;
+  
+}
+
+.footer {
+  min-height:50px;
+  box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+ }
+
+#box_input{
+	height:15px;
+	width:150px;
+	text-align: left;
+}
 /* June 13 demo */
 

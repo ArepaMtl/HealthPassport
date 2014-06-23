@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<div id="top-bar">
+	<div class="top-bar">
 		<h1 data-localize="importantnumbers.title" class='centered'>Important phone numbers/Num&eacute;ro de t&eacute;l&eacute;phone importants </h1>
 		<a href="information.php" id="back-button"></a>
 	</div>

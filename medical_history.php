@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<div id="top-bar">
+	<div class="top-bar">
 		<h1 data-localize="medicalhistory.title" class='centered'> Medical history/M&eacute;dicaux </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>		

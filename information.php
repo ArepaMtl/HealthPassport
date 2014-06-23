@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-     <div id="top-bar">
+     <div class="top-bar">
 	 	<h1 data-localize="information.title" class='centered'> Information </h1>	
 	 	<a href="index.php" id="back-button"></a>
 	 </div>

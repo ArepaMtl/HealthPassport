@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<div id="top-bar">
+	<div class="top-bar">
 		<h1 data-localize="lexicon.title" class='centered'> Lexicon </h1>
 		<a href="index.php" id="back-button"></a> 
 		<a id="informationicon" href="" data-localize="infobutton">  </a>
