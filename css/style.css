@@ -105,7 +105,7 @@ h3{
 
 .top-bar{
 	height:64px;
-	background-color: rgb( 240, 240, 240 );
+	background-color: rgb( 255, 255, 255 );
     box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
 	position:relative;
 }
@@ -368,5 +368,15 @@ h3{
 	width:150px;
 	text-align: left;
 }
+
+#main_icon{
+  margin: 10% 50% 10% 50%;
+  background: rgb( 240, 240, 240 );
+  background-image: url('../design_folder/assets/Splash_screen_logo.png');
+  min-width: 150px;
+  min-height:150px;
+  background-repeat: no-repeat;
+} 
+
 /* June 13 demo */
 

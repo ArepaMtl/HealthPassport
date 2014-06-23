@@ -11,6 +11,8 @@
 		<h1 data-localize="menu.title" class='centered'> Menu </h1> 
 		<a href="" id="informationicon"> </a>
 	</div>
+	<div id="main_icon">
+	</div>
 		<ul id="menu">
 			<li> <div class="item"><a href="history.php" data-localize="medicalhistory.link">Medical History</a></div></li>
 			<li> <div class="item"><a href="lexicon.php" data-localize="medicallexicon.link">Medical Lexicon</a></div></li>
