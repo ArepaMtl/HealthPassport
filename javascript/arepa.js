@@ -222,6 +222,77 @@ $arepa.nonHiddenSiblings = function(element){
 	return array;
 };
 
-$ArepaSimpleAction = function(before,wait,after){
-	
+//Helpers
+
+$arepa.isNull = function(){
+	for (var i=0;i<arguments.length;i+=1){
+		if (arguments[i] === null || arguments[i] === undefined){
+			return true;
+		}
+	}
+	return false;
 };
+
+//Constructors
+
+$arepa.TimedAction = function(before,wait,after){
+	this.before = before;
+	this.after = after;
+	this.wait = wait;
+	this.isCancelled = function(){
+		return false;
+	};
+	this.cancel = function(){
+		this.isCancelled = function(){
+			return true;
+		};
+	};
+	var _isDone = false;
+	var _action = this;
+	this.perform = function(){
+		var _performArguments = Array.prototype.slice.call(arguments);
+		if (_isDone){
+			return false;
+		}
+		if (_action.isCancelled()){
+			_isDone = true;
+			return false;
+		}
+		if (!$arepa.isNull(before)){
+			before.apply(_action,_performArguments);
+		}
+		var afterBlock = function(){
+			if (_isDone){
+				return false;
+			}
+			if (_action.isCancelled()){
+				_isDone = true;
+				return false;
+			}
+			if (!$arepa.isNull(after)){
+				after.apply(_action,_performArguments);
+			}
+			_isDone = true;
+		};
+		if (typeof(wait) === "number"){
+			window.setTimeout(function(){
+				afterBlock();
+			},wait);
+			return true;
+		}else if (typeof(wait) === "object"){
+			var element = wait.element;
+			var eventName = wait.eventName;
+			var timeout = wait.timeout;
+			if ($arepa.isNull(element,eventName,timeout)){
+				_isDone = true;
+				return false;
+			}
+			
+			return true;
+		}else{
+			_isDone = true;
+			return false;
+		}
+	};
+};
+
