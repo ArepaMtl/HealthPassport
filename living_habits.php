@@ -13,28 +13,28 @@
 	</div>
 		<ul id="menu">
 			<li> <div class="item"> <a href="" data-localize="smoking.link"><div id="smoking_color">Smoking/Femeur </div></a><br>
-				<div class="white_box">
-					<ul id="menu">			
+			<ul id="menu">	
+				 <div class="white_box">		
 						<li> <p><input type="checkbox" data-localize="yes.smoking"> yes/oui </p>
 							<p data-localize="question.smoking">How many cigarattes per day?/ Combient de cigarettes par jour?:  					
 							<input type="text" name="checkListItem" class="box_input"/> </p>
 							<p data-localize="since.smoking"> since/depuis <input type="text" name="checkListItem" class="box_input"/></p>
 						</li>
 						<li> <p><input type="checkbox" data-localize="no.smoking"> no/non</p> </li>
-					</ul>
-				 </div>		
+					 </div>	
+			</ul>
 			</div></li>
 			<li> <div class="item">  <a href=""data-localize="alcohol.link"> <div id="alcohol_color">Alcohol/Alcool</div> </a> 
-				<div class="white_box">
-					<ul id="menu">			
+				<ul id="menu">
+					<div class="white_box">
 						<li> <p><input type="checkbox" data-localize="yes.alcohol"> yes/oui </p>
 							<p data-localize="question.alcohol">How many drinks per week?/ Combient de verres par semaine?:  					
 							<input type="text" name="checkListItem" class="box_input"/></p>
 							<p data-localize="since.alcohol"> since/depuis <input type="text" name="checkListItem" class="box_input"/></p>
 						</li>
 						<li> <p> <input type="checkbox" data-localize="no.alcohol"> no/non </p></li>
-					</ul>
-				</div>	
+					</div>
+				</ul>	
 			</div></li>
 		<li> <div class="item">  <a href="" data-localize="physicalactivities.link"><div id="physical_color"> Physical Activities/Activit&eacute;s Physiques</div> </a>
 				<div class="white_box">

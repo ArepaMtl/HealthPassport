@@ -426,9 +426,6 @@ h3{
 	text-decoration: none;
 	}
 	
-.information{
-	margin:20px;
-}
 
 #printer{
 	position:absolute;
@@ -534,17 +531,24 @@ h3{
 	margin-top:-6px;
 }
 .white_box{
+	position:relative;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
 	display:block;
 	background-color:white;
 	box-shadow: 2.5px 4.33px 5px 0px rgba( 0, 0, 0 ,0.1);
-	min-height:70px;
-	margin-bottom: 10px;
+
 }
 
 .white_box > p {
 	padding-top:5px;
-	text-align:center;
 	padding-bottom:5px;
+	text-align:center;
+
+}
+.white_box > h3 {
+	margin-left:20px;
 }
 
 #emergency {
