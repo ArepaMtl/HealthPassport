@@ -53,7 +53,26 @@ h3{
 
 /*Structure - Main page*/
 
+#menu
+{
+	margin:0px;
+	padding:0px;
+}
+
 #menuyourhistory
+{
+	margin:0px;
+	padding:0px;
+}
+
+#menuinformation
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+#menuphonenumbers
 {
 	margin:0px;
 	padding:0px;
@@ -66,6 +85,7 @@ h3{
 	padding:0px;
 	display:block;
 	text-transform:uppercase;
+	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
 }
 
 #menuyourhistory > li
@@ -80,8 +100,45 @@ h3{
 #menuinformation > li
 {
 	margin:0px;
+	margin-top:10px;
 	padding:0px;
 	display:block;
+	text-transform:uppercase;
+	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+}
+
+#menuphonenumbers > li
+{
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	display:block;
+	text-transform:uppercase;
+	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+}
+
+#menuphonenumbers > li:nth-child(1) >a:first-child{
+	background-color: rgb( 156, 212, 48 );
+}
+
+#menuphonenumbers>li:nth-child(2) >a:first-child{
+	background-color: rgb( 180, 212, 50 );
+}
+
+#menuphonenumbers > li:nth-child(3) >a:first-child{
+	background-color: rgb( 206, 212, 50 );
+}
+
+#menuphonenumbers > li:nth-child(4) >a:first-child{
+	background-color: rgb( 217, 224, 31 );
+}
+
+#menuphonenumbers > li:nth-child(5) >a:first-child{
+	background-color: rgb( 229, 237, 13 );
+}
+
+#information_color{
+	background-color: rgb( 141, 212, 46 );
 }
 
 
@@ -90,7 +147,6 @@ h3{
 
 #menu > li > a:first-child {
 	text-decoration:none;
-	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
 }
 
 #menu > li :nth-child(1) >a:first-child{
@@ -102,6 +158,10 @@ h3{
 }
 
 #menu > li:nth-child(3) >a:first-child{
+	background-color: rgb( 141, 212, 46 );
+}
+
+#information_color{
 	background-color: rgb( 141, 212, 46 );
 }
 
@@ -155,6 +215,19 @@ h3{
 	font-weight:normal;
 	font-family:FranchiseBold;
 }
+
+#menuinformation>li:nth-child(1)>a:first-child{
+	background-color: rgb( 141, 212, 46 ); /*Green block */
+}
+
+#menuinformation>li:nth-child(2)>a:first-child{
+	background-color: rgb( 48, 212, 90 );/* Green block */
+}
+
+#chssn_color{
+	background-color: rgb( 48, 212, 90 );
+}
+
 
 #menuyourhistory>li:nth-child(1)>a:first-child{
 	background-color: rgb( 166, 223, 246 ); /*Blue block */
@@ -379,7 +452,7 @@ h3{
   box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
  }
 
-#box_input{
+.box_input{
 	height:15px;
 	width:150px;
 	text-align: left;
@@ -440,6 +513,37 @@ h3{
 	padding-bottom:5px;
 }
 
+#emergency {
+	display:block;
+	position:relative;
+	background-color: rgb( 255, 255, 255 );
+	box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 0 );
+	font-weight: bold;
+	text-align:center;
+	font-family:FranchiseBold;
+	font-size:50px;
+	color:rgba(0,0,0,0.60);
+	margin-top:10px;
+}
+
+#emergency_icon{
+	position:absolute;
+	left:19px;
+	top:25%;
+	width:25px;
+	height:27px;
+	background-image:url('../design_folder/assets/importantnumbers_phone.png');
+	background-size:100% 100%;
+
+}
+
+#chssn_icon{
+  margin: 10% 45% 10% 45%;
+  background-image: url('../design_folder/assets/Splash_screen_chssn.png');
+  min-width: 120px;
+  min-height:50px;
+  background-repeat: no-repeat;
+} 
 
 /* June 13 demo */
 

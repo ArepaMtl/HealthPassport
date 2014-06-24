@@ -11,10 +11,9 @@
 	 	<h1 data-localize="information.title" class='centered'> Information </h1>	
 	 	<a href="index.php" id="back-button"></a>
 	 </div>
-		<ul id="menu">
-			<li> <div class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a></div></li>
-			<li> <div class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a></div> </li>
-			<li> <div class="item"><a href="" data-localize="anyotherinformation.link"> Any other information </a></div></li>
+		<ul id="menuinformation">
+			<li class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a><a href="phone_numbers.php" id="below-button"> </a></li>
+			<li class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a> <a href="chssn.php" id="below-button"> </a></li>
 		</ul>
 	</body>
 
