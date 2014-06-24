@@ -11,7 +11,7 @@
 		<h1 data-localize="currentdiagnosis.title" class='centered'> Current diagnosis/Diagnostic connu </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
-	<div id="white_box">
+	<div class="white_box">
 		<p data-localize="currentdiagnosis.question"> Conditions you are being treated for/ Conditions médicales pour lesquelles vous êtres traités. <input type="text" name="checkListItem" class="box_input"/> <a href="" data-localize="trashbutton" id="trashbutton"> </a> </p>
     </div>
 	<div id="current_diagnosis_loader"><a href=""data-localize="plusbutton" id="plusbutton"> </a></div>

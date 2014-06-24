@@ -12,24 +12,25 @@
 		<a href="index.php" id="back-button"></a> 
 		<a id="informationicon" href="" data-localize="infobutton">  </a>
 	</div>	
-	<input type="text" name="checkListItem"/> <div id="button" data-localize="searchbutton.lexicon"> Search </div>
+	<div class="white_box">
+		<p><input type="text" name="checkListItem" class="box_input"/> <a href="" id="search-button"> </a> </p> 
 	</div>
-		<ul>
-			<li><a></a></li>
-			<li><a></a></li>
-			<li><a></a></li>
-			<li><a></a></li>
-				
+		<ul id="menulexicon">
+			<li class="item"><a href="" > Greetings</a> <a href="" id="below-button"></a></li>
+			<li class="item"><a href=""> Type of Pain</a> <a href="" id="below-button"></a></li>
+			<li class="item"><a href=""> Pain Scale</a> <a href="" id="below-button"></a></li>
+			<li class="item"><a href=""> Timing</a><a href="" id="below-button"></a></li>
 		</ul>
-	<div> 
+		
+	<div class="white_box"> 
 		<p data-localize="noresultspopup"> No results available for "word"</p> 
+		<p> <a href="" data-localize="closebutton" id="close-popup-button"> </a></p>
 	</div>
-	<div> 
+	<div class="white_box"> 
 		<p data-localize="helppopup"> This section will help you describe your symptoms to a health professional 
-	who cannot speak Englisn/Cette section vous aidera a decrire vos symptomes a un 
-	professionnel de la sante qui ne peut pas parler francais. 		
-	<div id="secondbutton"> <a href="" data-localize="closebutton"> close </a></div></p>
-
+		who cannot speak Englisn/Cette section vous aidera a decrire vos symptomes a un 
+		professionnel de la sante qui ne peut pas parler francais. 		</p>
+	 	<p><a href="" data-localize="closebutton" id="close-popup-button"> </a></p>
 	</div>
 
 	</body>
