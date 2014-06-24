@@ -37,7 +37,6 @@
      			 	<p data-localize="familydoctor.other">Family doctor/m&eacute;decin de famille: <input type="text" name="checkListItem" class="box_input"/> </p>
      			 	<p data-localize="nameaddress.other">Name and address of usual clinic/nom et adresse de votre clinique: <input type="text" name="checkListItem" class="box_input"/> </p><br>
      		</div>
-     		<div id="button" data-localize="savebutton"> Save  </div>
      </div>
      <div class="footer" id="personalinfo_loader"> </div>
 	</body>
