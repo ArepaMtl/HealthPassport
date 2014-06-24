@@ -14,9 +14,9 @@
 	<div id="main_icon">
 	</div>
 		<ul id="menu">
-			<li> <div class="item"><a href="history.php" data-localize="medicalhistory.link">Medical History</a></div></li>
-			<li> <div class="item"><a href="lexicon.php" data-localize="medicallexicon.link">Medical Lexicon</a></div></li>
-			<li> <div class="item"><a href="information.php" data-localize="information.link">Information &amp; Contact</a></div></li>
+			<li class="item"><a href="history.php" data-localize="medicalhistory.link">Medical History</a>  <a href="" id="menuyourhistory_icon"> </a> </li>
+			<li class="item"><a href="lexicon.php" data-localize="medicallexicon.link">Medical Lexicon</a>  <a href="" id="menuyourlexicon_icon"> </a></li>
+			<li class="item"><a href="information.php" data-localize="information.link">Information</a> <a href="" id="menuquestion_icon"> </a></li>
 		</ul>
 	</body>
 </html>
