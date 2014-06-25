@@ -12,10 +12,10 @@
 		<a href="history.php" id="back-button"></a>
 	</div>
 	<div class="white_box">
-			<p data-localize="surgeries.surgical">surgeries/chirurgue: <input type="text" name="checkListItem" class="box_input"/> </p> 
-     		<p data-localize="sideeffects.surgical">side-effects/ s&eacute;quelles: <input type="text" name="checkListItem" class="box_input"/><a href="" data-localize="trashbutton" id="trashbutton"></a> </p> 
-     		<p data-localize="date.surgical">date: <input type="text" name="checkListItem" class="box_input"/> </p>
+			<p><span data-localize="surgeries.surgical">surgeries/chirurgue:</span> <input type="text" name="checkListItem" class="box_input"/> </p> 
+     		<p><span data-localize="sideeffects.surgical">side-effects/ s&eacute;quelles:</span> <input type="text" name="checkListItem" class="box_input"/><a href="" data-localize="trashbutton" id="trashbutton"></a> </p> 
+     		<p><span data-localize="date.surgical">date:</span> <input type="text" name="checkListItem" class="box_input"/> </p>
      </div>
-    <div class="surgical_loader"><a href=""data-localize="plusbutton" id="plusbutton"> </a></div>
+    <div class="surgical_loader"><a href="" id="plusbutton"> </a></div>
 	</body>
 </html>

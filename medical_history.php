@@ -13,9 +13,9 @@
 	</div>		
 		<div class="white_box">
 			<p data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l’hypertension, diabète, asthme.</p>
-	 		<p data-localize="condition.physicalactivity">Condition: <input type="text" name="checkListItem" class="box_input"/> <a href="" data-localize="trashbutton" id="trashbutton"></a></p> 
-     		<p data-localize="date.physicalactivity">Date: <input type="text" name="checkListItem" class="box_input"/> </p> 
+	 		<p><span data-localize="condition.physicalactivity">Condition:</span> <input type="text" name="checkListItem" class="box_input"/> <a href="" data-localize="trashbutton" id="trashbutton"></a></p> 
+     		<p><span data-localize="date.physicalactivity">Date:</span> <input type="text" name="checkListItem" class="box_input"/> </p> 
      	</div>
-    <div class="medical_history_loader"><a href=""data-localize="plusbutton" id="plusbutton"> </a></div>
+    <div class="medical_history_loader"><a href="" id="plusbutton"> </a></div>
 	</body>
 </html>
