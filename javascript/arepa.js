@@ -250,7 +250,7 @@ $arepa.TimedAction = function(before,wait,after){
 	var _isDone = false;
 	var _action = this;
 	this.perform = function(){
-		var _performArguments = Array.prototype.slice.call(arguments);
+		var performArguments = Array.prototype.slice.call(arguments);
 		if (_isDone){
 			return false;
 		}
@@ -259,7 +259,7 @@ $arepa.TimedAction = function(before,wait,after){
 			return false;
 		}
 		if (!$arepa.isNull(before)){
-			before.apply(_action,_performArguments);
+			before.apply(_action,performArguments);
 		}
 		var afterBlock = function(){
 			if (_isDone){
@@ -270,7 +270,7 @@ $arepa.TimedAction = function(before,wait,after){
 				return false;
 			}
 			if (!$arepa.isNull(after)){
-				after.apply(_action,_performArguments);
+				after.apply(_action,performArguments);
 			}
 			_isDone = true;
 		};
@@ -287,7 +287,12 @@ $arepa.TimedAction = function(before,wait,after){
 				_isDone = true;
 				return false;
 			}
-			
+			$(wait.element).bind(wait.eventName, function(){
+				afterBlock();
+			});
+			window.setTimeout(function(){
+				afterBlock();
+			},wait.timeout);
 			return true;
 		}else{
 			_isDone = true;
@@ -295,4 +300,12 @@ $arepa.TimedAction = function(before,wait,after){
 		}
 	};
 };
+
+$arepa.TimedActionSequence = function(){
+	
+}
+
+var timedAction = new $arepa.TimedAction(function(b,a){alert(b);},10000,function(b,a){alert(a);});
+timedAction.perform("this happens before","this happens after");
+window.setTimeout(function(){timedAction.cancel();},5000);
 
