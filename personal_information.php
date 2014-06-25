@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<div class="top-bar" id="personalinfo_loader">
+	<div class="top-bar personalinfo_loader">
 		<h1 data-localize="personalinformation.title" class='centered'> Personal Information </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
@@ -38,6 +38,6 @@
      			 	<p data-localize="nameaddress.other">Name and address of usual clinic/nom et adresse de votre clinique: <input type="text" name="checkListItem" class="box_input"/> </p><br>
      		</div>
      </div>
-     <div class="footer" id="personalinfo_loader"> </div>
+     <div class="footer personalinfo_loader"> </div>
 	</body>
 </html>

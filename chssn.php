@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<div class="top-bar"id="chssn_color" >
+	<div class="top-bar" id="chssn_color" >
 		<h1 data-localize="chssn.title" class='centered'> Chssn </h1>
 		<a href="information.php" id="back-button"></a>
 	</div>

@@ -16,10 +16,10 @@
 		<p><input type="text" name="checkListItem" class="box_input"/> <a href="" id="search-button"> </a> </p> 
 	</div>
 		<ul id="menulexicon">
-			<li class="item"><a href="" > Greetings</a> <a href="" id="below-button"></a></li>
-			<li class="item"><a href=""> Type of Pain</a> <a href="" id="below-button"></a></li>
-			<li class="item"><a href=""> Pain Scale</a> <a href="" id="below-button"></a></li>
-			<li class="item"><a href=""> Timing</a><a href="" id="below-button"></a></li>
+			<li class="item"><a href="" > Greetings</a> <a href="" class="below-button"></a></li>
+			<li class="item"><a href=""> Type of Pain</a> <a href="" class="below-button"></a></li>
+			<li class="item"><a href=""> Pain Scale</a> <a href="" class="below-button"></a></li>
+			<li class="item"><a href=""> Timing</a><a href="" class="below-button"></a></li>
 		</ul>
 		
 	<div class="white_box"> 

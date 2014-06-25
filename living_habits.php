@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<div class="top-bar" id="living_habits_loader">
+	<div class="top-bar living_habits_loader">
 		<h1 data-localize="livinghabits.title" class='centered'>Living Habits/Habitudes de vie </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
@@ -36,13 +36,13 @@
 					</div>
 				</ul>	
 			</div></li>
-		<li> <div class="item">  <a href="" data-localize="physicalactivities.link"><div id="physical_color"> Physical Activities/Activit&eacute;s Physiques</div> </a>
+		<li> <div class="item">  <a href="" data-localize="physicalactivities.link"><div class="physical_color"> Physical Activities/Activit&eacute;s Physiques</div> </a>
 				<div class="white_box">
 					<p data-localize="example.physicalativity">Such as walking, running, swimming/ Marche, course, natation.</p>
 					<p data-localize="activity.physicalativity"> Activity/Activit&eacute; <input type="text" name="checkListItem" class="box_input"/></p>
 				</div>
 			</div>
-  				<div id="physical_color"><a href=""data-localize="plusbutton" id="plusbutton"> </a></div>
+  				<div class="physical_color"><a href=""data-localize="plusbutton" id="plusbutton"> </a></div>
 		</li>
 		<li> <div class="item">  <a href="" data-localize="sleep.link"><div id="sleep_color"> Sleep </div> </a>
 			<div class="white_box">
@@ -51,6 +51,6 @@
 		</div></li>
 	</ul>
 	
-     <div class="footer" id="living_habits_loader"> </div>
+     <div class="footer" class="living_habits_loader"> </div>
 	</body>
 </html>
