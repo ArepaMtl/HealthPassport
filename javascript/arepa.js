@@ -305,7 +305,7 @@ $arepa.TimedActionSequence = function(){
 	
 }
 
-var timedAction = new $arepa.TimedAction(function(b,a){alert(b);},10000,function(b,a){alert(a);});
-timedAction.perform("this happens before","this happens after");
-window.setTimeout(function(){timedAction.cancel();},5000);
+//var timedAction = new $arepa.TimedAction(function(b,a){alert(b);},10000,function(b,a){alert(a);});
+//timedAction.perform("this happens before","this happens after");
+//window.setTimeout(function(){timedAction.cancel();},5000);
 

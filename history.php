@@ -52,13 +52,13 @@
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>
 	<ul id="menuyourhistory">
-		<li class="item"><a href="personal_information.php" data-localize="personalinformation.link">  <div class="loader personalinfo_loader">  </div>Personal information </a> <a href="personal_information.php" class="below-button"> </a></li>
-		<li class="item"><a href="allergies.php" data-localize="allergies.link"> <div class="loader allergies_loader"> </div> Allergies </a>  <a href="allergies.php" class="below-button"> </a></li>
-		<li class="item"><a href="current_medication.php" data-localize="currentmedication.link"><div class="loader current_medication_loader">  </div> Current Medication </a> <a href="current_medication.php" class="below-button"> </a></li>
-		<li class="item"><a href="current_diagnosis.php" data-localize="currentdiagnosis.link"> <div class="loader current_diagnosis_loader"> </div> Current diagnosis </a> <a href="current_diagnosis.php" class="below-button"> </a></li>
-		<li class="item"><a href="medical_history.php" data-localize="medicalhistory.link"> <div class="loader medical_history_loader"></div> Medical History </a> <a href="medical_history.php" class="below-button"> </a></li>
-		<li class="item"><a href="surgical.php" data-localize="surgical.link"> <div class="loader surgical_loader">  </div> Surgical</a><a href="surgical.php" class="below-button"> </a> </li>
-		<li class="item"><a href="living_habits.php" data-localize="livinghabits.link"> <div class="loader living_habits_loader"> </div> Living Habits</a> <a href="living_habits.php" class="below-button"> </a></li>
+		<li class="item"><a href="personal_information.php">  <div class="loader personalinfo_loader">  </div><span  data-localize="personalinformation.link">Personal information</span> </a> <a href="personal_information.php" class="below-button"> </a></li>
+		<li class="item"><a href="allergies.php"> <div class="loader allergies_loader"> </div> <span  data-localize="allergies.link">Allergies </span> </a>  <a href="allergies.php" class="below-button"> </a></li>
+		<li class="item"><a href="current_medication.php"><div class="loader current_medication_loader">  </div> <span  data-localize="currentmedication.link">Current Medication </span> </a> <a href="current_medication.php" class="below-button"> </a></li>
+		<li class="item"><a href="current_diagnosis.php"> <div class="loader current_diagnosis_loader"> </div> <span  data-localize="currentdiagnosis.link">Current diagnosis </span> </a> <a href="current_diagnosis.php" class="below-button"> </a></li>
+		<li class="item"><a href="medical_history.php"> <div class="loader medical_history_loader"></div> <span  data-localize="medicalhistory.link">Medical History </span> </a> <a href="medical_history.php" class="below-button"> </a></li>
+		<li class="item"><a href="surgical.php" > <div class="loader surgical_loader">  </div> <span data-localize="surgical.link">Surgical </span></a><a href="surgical.php" class="below-button"> </a> </li>
+		<li class="item"><a href="living_habits.php"> <div class="loader living_habits_loader"> </div> <span  data-localize="livinghabits.link">Living Habits </span></a> <a href="living_habits.php" class="below-button"> </a></li>
 	</ul>
 	</body>
 </html>

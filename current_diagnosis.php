@@ -12,9 +12,9 @@
 		<a href="history.php" id="back-button"></a>
 	</div>
 	<div class="white_box">
-		<p data-localize="currentdiagnosis.question"> Conditions you are being treated for/ Conditions médicales pour lesquelles vous êtres traités. <input type="text" name="checkListItem" class="box_input"/> <a href="" data-localize="trashbutton" id="trashbutton"> </a> </p>
+		<p> <span data-localize="currentdiagnosis.question"> Conditions you are being treated for/ Conditions médicales pour lesquelles vous êtres traités.</span> <input type="text" name="checkListItem" class="box_input"/> <a href="" data-localize="trashbutton" id="trashbutton"> </a> </p>
     </div>
-	<div class="current_diagnosis_loader"><a href=""data-localize="plusbutton" id="plusbutton"> </a></div>
+	<div class="current_diagnosis_loader"><a href="" id="plusbutton"> </a></div>
 
 	</body>
 </html>
