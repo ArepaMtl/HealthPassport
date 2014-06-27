@@ -249,29 +249,55 @@ $arepa.TimedAction = function(before,wait,after){
 	};
 	var _isDone = false;
 	var _action = this;
+	var _status = 0;
+	this.isDone = function(){
+		return _isDone;
+	};
+	this.status = function(){
+		return _status;
+	};
 	this.perform = function(){
 		var performArguments = Array.prototype.slice.call(arguments);
 		if (_isDone){
 			return false;
 		}
+		
+		_status = 1;
+		
 		if (_action.isCancelled()){
 			_isDone = true;
 			return false;
 		}
+		
+		_status = 2;
+		
 		if (!$arepa.isNull(before)){
 			before.apply(_action,performArguments);
 		}
+		
+		_status = 3;
+		
 		var afterBlock = function(){
+			
 			if (_isDone){
 				return false;
 			}
+			
+			_status = 4;
+			
 			if (_action.isCancelled()){
 				_isDone = true;
 				return false;
 			}
+			
+			_status = 5;
+			
 			if (!$arepa.isNull(after)){
 				after.apply(_action,performArguments);
 			}
+			
+			_status = 6;
+			
 			_isDone = true;
 		};
 		if (typeof(wait) === "number"){
@@ -301,11 +327,62 @@ $arepa.TimedAction = function(before,wait,after){
 	};
 };
 
-$arepa.TimedActionSequence = function(){
+$arepa.TimedActionSequence = function(blockArray,waitArray){
+	this.blockArray = blockArray;
+	this.waitArray = waitArray;
 	
-}
+	var numBlocks = blockArray.length;
+	var numWaits = waitArray.length;
+	
+	if (numBlocks<2){
+		return;
+	}
+	
+	if (numWaits<numBlocks-1){
+		for (var i=numWaits;i<numBlocks-1;i+=1){
+			this.waitArray.push(1);
+		}
+		numWaits = numBlocks - 1;
+	}
+	
+	var _action = new $arepa.TimedAction(blockArray[numBlocks-2],waitArray[numBlocks-2],blockArray[numBlocks-1]);
+	
+	this.backwardActionArray = [_action];
+	
+	for (var i=numBlocks-3;i>=0;i-=1){
+		var prevAction = _action;
+		var nextAction = new $arepa.TimedAction(blockArray[i],waitArray[i],function(){
+			var performArguments = Array.prototype.slice.call(arguments);
+			prevAction.perform.apply(prevAction,performArguments);
+		});
+		this.backwardActionArray.push(nextAction);
+		_action = nextAction;
+	}
+	
+	var _actionSequence = this;
+	
+	this.perform = function(){
+		var performArguments = Array.prototype.slice.call(arguments);
+		return _action.perform.apply(_action,performArguments);
+	};
+	
+};
 
-//var timedAction = new $arepa.TimedAction(function(b,a){alert(b);},10000,function(b,a){alert(a);});
+var timedActionSequence = new $arepa.TimedActionSequence([function(){
+	alert(1);
+},function(){
+	alert(2);
+},function(){
+	alert(3);
+},function(){
+	alert(4);
+}],
+[4000,10000,1000]);
+
+timedActionSequence.perform();
+
+//var timedAction = new $arepa.TimedAction(function(b,a){alert(b);},5000,function(b,a){alert(a);});
 //timedAction.perform("this happens before","this happens after");
-//window.setTimeout(function(){timedAction.cancel();},5000);
+//window.setTimeout(function(){alert(timedAction.isItDone());},2500);
+//window.setTimeout(function(){alert(timedAction.isItDone());},10000);
 
