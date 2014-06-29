@@ -135,7 +135,7 @@
 					var $items = $(this).parent().find(".lexicon-items");
 					var $downButton = $(this).parent().find(".below-button");
 					if ($items.css("display")==="none"){
-						$items.show(200);
+						$items.show();
 						$downButton.css({"transform":"rotate(180deg)"},2000);
 						/*$('html, body').animate({
         					"scrollTop": $(this_item).offset().top
@@ -146,7 +146,7 @@
 							$(this).parent().removeClass("detached-header");
 							$('html, body').scrollTop($(this_item).offset().top);
 						}
-						$items.hide(200);
+						$items.hide();
 						$downButton.css({"transform":"rotate(0deg)"},2000);
 					}
 				});

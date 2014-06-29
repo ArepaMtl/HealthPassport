@@ -17,7 +17,9 @@
 					var $items = $(this).parent().find(".history-items");
 					var $downButton = $(this).parent().find(".below-button");
 					if ($items.css("display")==="none"){
-						$items.show(200);
+						$items.css({"opacity":0});
+						$items.show();
+						$items.animate({"opacity":1},300);
 						$downButton.css({"transform":"rotate(180deg)"},2000);
 						/*$('html, body').animate({
 	    					"scrollTop": $(this_item).offset().top
@@ -28,7 +30,7 @@
 							$(this).parent().removeClass("detached-header");
 							$('html, body').scrollTop($(this_item).offset().top);
 						}
-						$items.hide(200);
+						$items.hide();
 						$downButton.css({"transform":"rotate(0deg)"},2000);
 					}
 				});
