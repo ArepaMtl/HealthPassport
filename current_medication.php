@@ -1,3 +1,12 @@
+<?php
+
+$calledDirectly = ( basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"]) );
+
+if ($calledDirectly){
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,10 +20,30 @@
 		<h1 data-localize="currentmedication.title" class='centered' > Current Medication/M&eacute;dication </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
+	
+<?php
+
+}
+
+?>
+	
 	<div class="white_box">
      	<p><span data-localize="currentmedication.name">name/nom:</span> <input type="text" name="checkListItem" class="box_input"/>  <a href="" data-localize="trashbutton" id="trashbutton"> </a> </p> 
      	<p><span data-localize="currentmedication.dosage">dosage:</span> <input type="text" name="checkListItem" class="box_input"/> </p> 
      </div>
     <div class="current_medication_loader"><a href=""id="plusbutton"> </a></div>
+    
+<?php
+
+if ($calledDirectly){
+
+?>
+    
 	</body>
 </html>
+
+<?php
+
+}
+
+?>

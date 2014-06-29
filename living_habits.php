@@ -1,3 +1,11 @@
+<?php
+
+$calledDirectly = ( basename(__FILE__) == basename($_SERVER["SCRIPT_FILENAME"]) );
+
+if ($calledDirectly){
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,6 +19,13 @@
 		<h1 data-localize="livinghabits.title" class='centered'>Living Habits/Habitudes de vie </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
+	
+<?php
+
+}
+
+?>
+	
 		<ul id="menu">
 			<li> <div class="item"> <a href=""><div id="smoking_color"><span  data-localize="smoking.link">Smoking/Femeur</span> </div></a><br>
 			<ul id="menu">	
@@ -52,5 +67,19 @@
 	</ul>
 	
      <div class="footer" class="living_habits_loader"> </div>
+     
+     
+<?php
+
+if ($calledDirectly){
+
+?>
+     
 	</body>
 </html>
+
+<?php
+
+}
+
+?>

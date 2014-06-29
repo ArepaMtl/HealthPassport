@@ -256,7 +256,7 @@
 		<a id="informationicon" href="">  </a>
 	</div>	
 	<div class="white-box">
-		<input type="text" name="checkListItem" class="search-box"/> <a href="" id="search-button" class="noclick"> </a> 
+		<div class="search-box-container"><input type="text" name="checkListItem" class="search-box"/></div> <a href="" id="search-button" class="noclick"> </a> 
 	</div>
 	<ul id="menulexicon">
 	
