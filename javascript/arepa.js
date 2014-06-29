@@ -113,7 +113,7 @@ $arepa.maximizeElement = function(element){
 		
 		currentMaximizeCounter = element[$arepa.MAXIMIZE_TIMER_COUNT];
 		
-		$(element).bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+		$(element).on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
 			//Stop if stopped being maximized
 			if (!element[$arepa.IS_MAXIMIZED]){
 				return;
@@ -262,20 +262,18 @@ $arepa.TimedAction = function(before,wait,after){
 			return false;
 		}
 		
-		_status = 1;
-		
 		if (_action.isCancelled()){
 			_isDone = true;
 			return false;
 		}
 		
-		_status = 2;
+		_status = 1;
 		
 		if (!$arepa.isNull(before)){
 			before.apply(_action,performArguments);
 		}
 		
-		_status = 3;
+		_status = 2;
 		
 		var afterBlock = function(){
 			
@@ -283,20 +281,18 @@ $arepa.TimedAction = function(before,wait,after){
 				return false;
 			}
 			
-			_status = 4;
-			
 			if (_action.isCancelled()){
 				_isDone = true;
 				return false;
 			}
 			
-			_status = 5;
+			_status = 3;
 			
 			if (!$arepa.isNull(after)){
 				after.apply(_action,performArguments);
 			}
 			
-			_status = 6;
+			_status = 4;
 			
 			_isDone = true;
 		};
@@ -313,8 +309,10 @@ $arepa.TimedAction = function(before,wait,after){
 				_isDone = true;
 				return false;
 			}
-			$(wait.element).bind(wait.eventName, function(){
+			$(wait.element).on(wait.eventName, function(){
 				afterBlock();
+				var callee = arguments.callee;
+				$(wait.element).off(wait.eventName,callee);
 			});
 			window.setTimeout(function(){
 				afterBlock();
@@ -327,7 +325,7 @@ $arepa.TimedAction = function(before,wait,after){
 	};
 };
 
-$arepa.TimedActionSequence = function(blockArray,waitArray){
+$arepa.ActionSequence = function(blockArray,waitArray){
 	this.blockArray = blockArray;
 	this.waitArray = waitArray;
 	
@@ -346,20 +344,49 @@ $arepa.TimedActionSequence = function(blockArray,waitArray){
 	}
 	
 	var _action = new $arepa.TimedAction(blockArray[numBlocks-2],waitArray[numBlocks-2],blockArray[numBlocks-1]);
+	var _cancelled = false;
 	
-	this.backwardActionArray = [_action];
+	this.isCancelled = function(){
+		return _cancelled;
+	};
+	
+	this.actions = [_action];
+	_action.isCancelled = this.isCancelled;
 	
 	for (var i=numBlocks-3;i>=0;i-=1){
-		var prevAction = _action;
-		var nextAction = new $arepa.TimedAction(blockArray[i],waitArray[i],function(){
-			var performArguments = Array.prototype.slice.call(arguments);
-			prevAction.perform.apply(prevAction,performArguments);
-		});
-		this.backwardActionArray.push(nextAction);
+		var nextAction = (function(f_i,f_action){
+			return (new $arepa.TimedAction(blockArray[f_i],waitArray[f_i],function(){
+				var performArguments = Array.prototype.slice.call(arguments);
+				f_action.perform.apply(f_action,performArguments);
+			}));
+		})(i,_action);
+		
+		this.actions.unshift(nextAction);
+		
+		nextAction.isCancelled = this.isCancelled;
 		_action = nextAction;
 	}
 	
-	var _actionSequence = this;
+	this.cancel = function(){
+		_cancelled = true;
+		return this.status();
+	};
+	
+	this.status = function(){
+		//var statusArray = [];
+		var i;
+		var last_status = 0;
+		for (i=0;i<this.actions.length;i+=1){
+			last_status = this.actions[i].status();
+			//statusArray.push(last_status);
+			if (last_status==4){
+				last_status=2;
+			}else{
+				break;
+			}
+		}
+		return i+Math.floor(last_status/2+0.5);
+	};
 	
 	this.perform = function(){
 		var performArguments = Array.prototype.slice.call(arguments);
@@ -368,7 +395,87 @@ $arepa.TimedActionSequence = function(blockArray,waitArray){
 	
 };
 
-var timedActionSequence = new $arepa.TimedActionSequence([function(){
+$arepa.ActionSwitch = function(onBlockArray,onWaitArray,offBlockArray,offWaitArray){
+	this.onBlockArray = onBlockArray;
+	this.onWaitArray = onWaitArray;
+	this.offBlockArray = offBlockArray;
+	this.offWaitArray = offWaitArray;
+	
+	_numBlocks = onBlockArray.length;
+	_actionArray = [];
+	
+	this.status = function(key){
+		if (!(key in _actionArray)){
+			_actionArray[key] = {"action":null,"isOn":false,"offset":0};
+		}
+		var actionObject = _actionArray[key];
+		if (actionObject.action==null){
+			if (actionObject.isOn){
+				return _numBlocks;
+			}else{
+				return -_numBlocks;
+			}
+		}else{
+			if (actionObject.isOn){
+				return actionObject.action.status()+actionObject.offset;
+			}else{
+				return -(actionObject.action.status()+actionObject.offset);
+			}
+		}
+	};
+	
+	this.switchHow = function(){
+		var functionArguments = Array.prototype.slice.call(arguments);
+		var how = functionArguments.shift();
+		var key = functionArgments.shift();
+		var currentStatus = this.status(key);
+		if ((currentStatus>=0 && how) || (currentStatus<=0 && !how)){
+			return;
+		}
+		var actionObject = _actionArray[key];
+		actionObject.action.cancel();
+		var numBlocksDone = Math.abs(currentStatus);
+		
+		var actionSequence;
+		
+		if (how){
+			actionSequence = new $arepa.ActionSequence(this.onBlockArray.slice(-numBlocksDone),this.onWaitArray.slice(-(numBlocksDone-1)));
+		}else{
+			actionSequence = new $arepa.ActionSequence(this.offBlockArray.slice(-numBlocksDone),this.offWaitArray.slice(-(numBlocksDone-1)));
+		}
+		
+		_actionArray[key] = {"action":actionSequence,"isOn":how,"offset":_numBlocks-numBlocksDone};
+		
+		_actionArray[key].action.perform(functionArguments);
+		
+	};
+	
+	this.switchOn = function(){
+		var functionArguments = Array.prototype.slice.call(arguments);
+		functionArguments.unshift(true);
+		this.switchHow.apply(this,functionArguments);
+	};
+	
+	this.switchOff = function(){
+		var functionArguments = Array.prototype.slice.call(arguments);
+		functionArguments.unshift(false);
+		this.switchHow.apply(this,functionArguments);
+	};
+};
+
+/*Maximize:
+   -sth           1            2               3
+ (nothing)-- A --(Z)--> B --(Y-->Z)--> C --(X-->Y-->Z)
+setup, add animation class --(wait)---> set final values --(listen)--> remove animation class, final setup
+
+Inverse (minimize):
+    +sth          -1           -2              -3
+ (nothing)-- X --(A)--> Y --(B-->C)--> Z --(A-->B-->C)
+un-setup, add adnimation class --(wait)---> set initial values --(listen)--> remove animation class, final un-setup
+
+*/
+
+var timedActionSequence = new $arepa.ActionSequence([function(){
 	alert(1);
 },function(){
 	alert(2);
@@ -377,9 +484,44 @@ var timedActionSequence = new $arepa.TimedActionSequence([function(){
 },function(){
 	alert(4);
 }],
-[4000,10000,1000]);
+[1000,1000,1000]);
 
-timedActionSequence.perform();
+// timedActionSequence.perform();
+// 
+// window.setTimeout(function(){
+	// var status = timedActionSequence.cancel();
+	// alert("cancel status: "+status);
+// },3500);
+
+// 
+// function what(){
+	// for (var a = 1;a<=3;a+=1){
+		// var b = a;
+		// window.setTimeout(function(){
+			// alert(b);
+		// },1000);
+	// }
+// }
+// 
+// what();
+
+
+		//var b = a;
+		//window.setTimeout(function(){
+		//	alert(b);
+		//},1);
+
+
+// 
+// 
+// function alertLater(x){
+	// window.setTimeout(function(){
+		// alert(x);
+	// },1000);
+// }
+
+//what();
+
 
 //var timedAction = new $arepa.TimedAction(function(b,a){alert(b);},5000,function(b,a){alert(a);});
 //timedAction.perform("this happens before","this happens after");
