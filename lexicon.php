@@ -137,13 +137,15 @@
 					if ($items.css("display")==="none"){
 						$items.show(200);
 						$downButton.css({"transform":"rotate(180deg)"},2000);
-						$('html, body').animate({
+						/*$('html, body').animate({
         					"scrollTop": $(this_item).offset().top
-    					}, 200);
+    					}, 200);*/
     					//$('html, body').scrollTop($(this_item).offset().top);
 					}else{
-						$(this).parent().removeClass("detached-header");
-						$('html, body').scrollTop($(this_item).offset().top);
+						if ($(this).parent().hasClass("detached-header")){
+							$(this).parent().removeClass("detached-header");
+							$('html, body').scrollTop($(this_item).offset().top);
+						}
 						$items.hide(200);
 						$downButton.css({"transform":"rotate(0deg)"},2000);
 					}
