@@ -1,3 +1,10 @@
+[Greetings / Salutation]
+Good day / Bonjour
+Good evening / Bonsoir
+Hi / Salut
+Good bye / Au revoir
+If you speak slowly in French, I will understand you / Si vous parlez lentement, je vais vous comprendre
+Can you get someone who speaks English? / Pourriez-vous aller chercher quelqu'un qui parle anglais s'il-vous-plaît?
 [Type of pain / Type de douleur]
 I have pain / J’ai de la douleur
 Burning pain / Douleur brûlante

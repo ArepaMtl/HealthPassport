@@ -114,7 +114,7 @@
 				    });
 				}
 				
-				$(".item>.lexicon-items>li").each(function(){
+				$("*[words]").each(function(){
 					var words = $(this).attr("words");
 					var wordArray = words.split(" ");
 					var wordObject = {};
@@ -170,28 +170,72 @@
 				
 				$(".search-box").on("input propertychange paste",function(){
 					var text = removeDiacritics($(this).val()).toLowerCase();
-					var textArray = text.split(" ");
+					var initialTextArray = text.split(" ");
+					var textArray = [];
+					for (var i=0;i<initialTextArray.length;i++){
+						if (initialTextArray[i].length>0){
+							textArray.push(initialTextArray[i]);
+						}
+					}
+					var hasText = (textArray.length>0);
 					$(".item").each(function(){
-						var numMatches = 0;
-						$(this).find(".lexicon-items>li").each(function(){
+						if (hasText){
+							var numMatches = 0;
+							var shouldShowAll = true;
 							var wordObject = this.wordObject;
-							var shouldShow = true;
-							if (wordObject){
-								for (var i=0;i<textArray.length;i++){
-									var thisWord = textArray[i];
-									if (thisWord.length > 0 && wordObject[thisWord] !== true){
-										shouldShow = false;
-										break;
-									}
+							for (var i=0;i<textArray.length;i++){
+								var thisWord = textArray[i];
+								if (thisWord.length > 0 && wordObject[thisWord] !== true){
+									shouldShowAll = false;
+									break;
 								}
 							}
-							if (shouldShow){
-								$(this).show();
-								numMatches+=1;
+							
+							if (shouldShowAll){
+								$(this).find(".lexicon-items>li").each(function(){
+									$(this).show();
+									numMatches+=1;
+								});
 							}else{
-								$(this).hide();
+								$(this).find(".lexicon-items>li").each(function(){
+									var wordObject = this.wordObject;
+									var shouldShow = true;
+									if (wordObject){
+										for (var i=0;i<textArray.length;i++){
+											var thisWord = textArray[i];
+											if (thisWord.length > 0 && wordObject[thisWord] !== true){
+												shouldShow = false;
+												break;
+											}
+										}
+									}
+									if (shouldShow){
+										$(this).show();
+										numMatches+=1;
+									}else{
+										$(this).hide();
+									}
+								});
 							}
-						});
+							
+							
+							if (numMatches===0){
+								$(this).find(".lexicon-items").hide();
+								$(this).hide();
+							}else{
+								$(this).show();
+							}
+							
+							$(this).find(".search-result-bubble").show();
+							$(this).find(".search-result-bubble>div").text(""+numMatches);
+						}else{
+							$(this).find(".lexicon-items>li").each(function(){
+								$(this).show();
+							});
+							$(this).show();
+							$(this).find(".search-result-bubble").hide();
+							$(this).find(".search-result-bubble>div").text("");
+						}
 						
 					});
 						
@@ -224,13 +268,32 @@
 		$replacement = '';
 		return preg_replace($pattern, $replacement,$spaced);
 	}
-
+	$control_point_1 = 6;
+	$control_point_2 = 12;
+	$control_color_0 = array(255, 243, 49);
+	$control_color_1 = array(243, 56, 56);
+	$control_color_2 = array(201, 56, 243);
+	$counter = 0;
 	$handle = @fopen("lexicon.txt", "r");
 	if ($handle) {
 		$started = FALSE;
 		$currentTitleText = "";
     	while (($buffer = fgets($handle, 4096)) !== false) {
+    		
         	if (substr($buffer,0,1)==="["){
+        		$color = array(0,0,0);
+	    		if ($counter <= $control_point_1){
+	    			$alpha = $counter*1.0/$control_point_1;
+	    			$color = array($control_color_0[0]*(1-$alpha)+$control_color_1[0]*$alpha,$control_color_0[1]*(1-$alpha)+$control_color_1[1]*$alpha,$control_color_0[2]*(1-$alpha)+$control_color_1[2]*$alpha);
+	    		}elseif ($counter <= $control_point_2){
+	    			$alpha = ($counter-$control_point_1)*1.0/($control_point_2-$control_point_1);
+					$color = array($control_color_1[0]*(1-$alpha)+$control_color_2[0]*$alpha,$control_color_1[1]*(1-$alpha)+$control_color_2[1]*$alpha,$control_color_1[2]*(1-$alpha)+$control_color_2[2]*$alpha);
+	    		}else{
+	    			$color = array($control_color_2[0],$control_color_2[1],$control_color_2[2]);
+	    		}
+				$color = array(floor($color[0]),floor($color[1]),floor($color[2]));
+	    		$counter += 1;
+				
         		if ($started){
         			print("</ul></li>");
         		}
@@ -246,7 +309,7 @@
 				$englishTitle = htmlentities($englishTitle);
 				$frenchTitle = htmlentities($frenchTitle);
 				$currentTitleText = textWords("$title");
-				print("<li class='item' words=\"$currentTitleText\"><a href='' data-localize=''><div class='item-text submenu-text'><div>$englishTitle</div><div>$frenchTitle</div></div><div class='below-button noclick'></div></a><ul class='lexicon-items'>");
+				print("<li class='item' words=\"$currentTitleText\"><a href='' data-localize='' style='background-color:rgb($color[0],$color[1],$color[2])'><div class='item-text submenu-text'><div>$englishTitle</div><div>$frenchTitle</div></div><div class='below-button noclick'></div><div class='search-result-bubble'><div class='centered'>0</div></div></a><ul class='lexicon-items'>");
 				$started = TRUE;
         	}else{
         		$pos = strpos($buffer," / ");

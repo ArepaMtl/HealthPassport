@@ -261,6 +261,22 @@ li{background-color:white}
 	height:64px;
 }
 
+.search-result-bubble
+{
+	position:absolute;
+	top:50%;
+	right:10px;
+	width:44px;
+	height:44px;
+	margin-top:-22px;
+	background-color:rgba(255,255,255,0.3);
+	border-radius:22px;
+	font-family:"Futura-CondensedMedium",Futura;
+	color:rgba(0,0,0,0.78);
+	font-size:15pt;
+	display:none;
+}
+
 /*   */
 
 
@@ -401,7 +417,7 @@ p{
 	display:block;
 	box-shadow: 2.5px 4.33px 5px 0px rgba( 0, 0, 0 ,0.1);
 }
-
+/*
 #menulexicon > li:nth-child(1)>a:first-child{
 	background-color: rgb( 255, 243, 49 );
 }
@@ -417,6 +433,7 @@ p{
 #menulexicon > li:nth-child(4) >a:first-child{
 	background-color: rgb( 243, 145, 59 );
 }
+*/
 
 #menuphonenumbers{
 	margin:0px;
