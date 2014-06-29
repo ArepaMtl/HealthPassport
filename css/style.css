@@ -207,19 +207,58 @@ li{background-color:white}
 	border:0px;
 	padding:0px;
 	margin:0px;
-	padding-bottom:10px;
 	display:none;
 }
 
 .lexicon-items>li{
 	border:0px;
-	padding:0px;
+	padding:10px;
 	margin:0px;
-	padding-top:10px;
-	padding-left:10px;
 	font-family:"Futura-CondensedMedium",Futura;
 	font-size:15pt;
+	text-align:left;
+}
+
+.lexicon-items>li:nth-child(even)
+{
+	background-color:rgba(0,0,0,0.03);
+}
+
+.lexicon-items>li>span:first-child
+{
+	/*font-family:FranchiseBold;*/
+}
+
+.item{
+	position:relative;
+	min-height:64px;
+}
+
+.item>a:first-child{
+	text-decoration:none;
+	display:block;
+	position:relative;
+	height:64px;
 	text-align:center;
+    color:rgba(0,0,0,0.78);
+	background-color:rgb(166,223,246);
+	font-size:20pt;
+	font-weight:normal;
+}
+
+
+.detached-header>ul
+{
+	margin-top:64px;
+}
+
+.detached-header>a:first-child
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:64px;
 }
 
 /*   */
@@ -413,21 +452,8 @@ p{
 	background-color: rgb( 229, 237, 13 );
 }
 
-.item{
-	position:relative;
-}
 
-.item>a:first-child{
-	text-decoration:none;
-	display:block;
-	position:relative;
-	height:64px;
-	text-align:center;
-    color:rgba(0,0,0,0.78);
-	background-color:rgb(166,223,246);
-	font-size:20pt;
-	font-weight:normal;
-}
+
 
 #menu > .item > a:first-child
 {

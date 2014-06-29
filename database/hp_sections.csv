@@ -1,0 +1,31 @@
+skey	en_title	fr_title	category
+sec01	Health Passport	Passeport pour la santé	location
+sec02	Directory	Directoire	location
+sec03	CLSC	CLSC	Sub-location
+sec04	Hospital	Hôpital	Sub-location
+sec05	COOP Services	Services COOP	Sub-location
+sec06	Volunteer Services	Services bénévoles	Sub-location
+sec07	Others	Autres	Sub-location
+sec08	Contact in cases of emergency	Contact en cas d'urgence	location
+sec09	Note to users	Note aux utilisateurs	location
+sec10	Disclaimer	désistement	location
+sec11	Info Santé 811	Info Santé 811	location
+sec12	How to Prepare for a visit to the doctor	null	location
+sec13	Medical history	Antécédents médicaux	location
+sec14	Living Habits	Habitudes de vie	location
+sec15	Lexicon	Lexique	location
+sec16	Type of pain	type de douleur	Sub-location
+sec17	Timing	chronologie	Sub-location
+sec18	Orientation	orientation	Sub-location
+sec19	Body location	endroit du corps	Sub-location
+sec20	Associated factors	facteurs associés	Sub-location
+sec21	Headache	Mal de tête	Sub-location
+sec22	Cold or flu symptoms	Symptômes du rhume ou grippe	Sub-location
+sec23	Chest pain	Douleur Thoracique	Sub-location
+sec24	Abdominal Pain	Douleur Abdominale	Sub-location
+sec25	Muscle and joint pain	Douleur musculaire et articulaire	Sub-location
+sec26	Other symptoms – Neurologic	Autres symptômes – Neurologique	Sub-location
+sec27	Other symptoms- Circulatory	Autres symptômes – Circulatoire	Sub-location
+sec28	Blood Pressure record	Pression artérielle	location
+sec29	Glycemia	Glycémie	location
+sec30	Personal notes	Notes personnelles	location

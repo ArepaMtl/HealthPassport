@@ -1,0 +1,12 @@
+key;level;description
+pn0;0;Pain free.;null
+pn1;1;Very minor annoyance -occasional minor twinges.;null
+pn2;2;Minor annoyance - occasional strong twinges.;null
+pn3;3;Annoying enough to be distracting.;null
+pn4;4;Can be ignored if you are really involved in your work, but still distracting.;null
+pn5;5;Can't be ignored for more than 30 minutes.;null
+pn6;6;Can't be ignored for any length of time, but you can still go to work and participate in social activities.;null
+pn7;7;Makes it difficult to concentrate, interferes with sleep. You can still function with effort.;null
+pn8;8;Physical activity severely limited. You can read and converse with effort. Nausea and dizziness set in as factors of pain.;null
+pn9;9;Unable to speak. Crying out or moaning uncontrollably - near delirium.;null
+pn10;10;Unconscious. Pain makes you pass out;null

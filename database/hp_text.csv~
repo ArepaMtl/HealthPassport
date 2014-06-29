@@ -1,0 +1,254 @@
+key;location;sub_location;category;description;en_string;fr_string
+hp01;Health Passport;null;organization;null;Megantic English speaking Community \n Development Corporation \n 906 Mooney Street West \n Thetford Mines, (QC) G6G 6H2 \n;Megantic English speaking Community Development Corporation \n 906 Rue Mooney Ouest \n Thetford Mines, (QC) G6G 6H2 \n
+hp02;Health Passport;null;information;if found;If found please call MCDC at 418-332-3851 and arrangements will be made to return it to its owner.;Si ce livret est retrouvé, s’il vous plaît communiquez avec la MCDC au 418-332-3851 afin qu’il soit retourné à son propriétaire.
+hp03;Contact in cases of emergency;null;personal information;name;Name;Nom
+hp04;Contact in cases of emergency;null;personal information;name;First person to notify;Personne à contacter en premier lieu
+hp05;Contact in cases of emergency;null;personal information;name;Second person to notify;Personne à contacter en deuxième lieu
+hp06;Contact in cases of emergency;null;personal information;name;Family doctor;Médecin de famille
+hp07;Contact in cases of emergency;null;personal information;name;Name of usual clinic;Nom de la clinique
+hp08;Contact in cases of emergency;null;personal information;phone;Phone;Téléphone
+hp09;Contact in cases of emergency;null;personal information;cell phone;Cell phone;Téléphone cellulaire
+hp10;Contact in cases of emergency;null;personal information;email;Email;Email
+hp11;Contact in cases of emergency;null;personal information;language;Language;Langue parlée
+hp12;Contact in cases of emergency;null;personal information;address;Address;Adresse
+hp13;Note to users;null;information;null;The primary purpose of this booklet is to help you prepare for a visit with a health professional, most specifically in emergency situations. It is conceived to assist you in communicating in English and convey your health concerns with non-bilingual health professionals. However, it was impossible to cover all health topics. We focused on health issues that are the most frequent reasons to visit an emergency room or a walk-in clinic. We hope you find it useful.;null
+hp14;Disclaimer;null;information;null;This booklet is meant as a guide to facilitate communication between English-speakers and French speaking health professionals. It does not in any way, shape or form replace a professional medical opinion.;null
+hp15;Info Santé 811;null;information;null;This simple 3-digit number is all you need to reach Info-Santé services from anywhere in Quebec. It allows you to speak in English with a health professional for non-urgent situations and it may save you an unnecessary trip to the emergency room.;null
+hp16;How to prepare for a visit to the doctor;null;information;null;1- Write down your health concerns in order of priority (concise, priorize one);null
+hp17;How to prepare for a visit to the doctor;null;information;null;2- Current list of medications (taking or have taken since last visit);null
+hp18;How to prepare for a visit to the doctor;null;information;null;3- Make a list of over-the-counter and herbal remedies tried since last visit;null
+hp19;How to prepare for a visit to the doctor;null;information;null;4- Change of lifestyle (diet, exercise, travel out of the country);null
+hp20;How to prepare for a visit to the doctor;null;information;null;5- List of symptoms (what makes them better or worst);null
+hp21;Medical history;null;personal information;null;Allergies;Allergies
+hp22;Medical history;null;personal information;null;Current medications;Médicaments courants
+hp23;Medical history;null;personal information;null;Name and dosage;Nom et dosage
+hp24;Medical history;null;personal information;null;Current diagnostics;Diagnostiques courants
+hp25;Medical history;null;personal information;null;What you are treated for;Traitements que vous recevez
+hp26;Medical history;null;personal information;null;Past medical history;Antécédents médicaux
+hp27;Medical history;null;example;null;Such as high blood pressure, diabetes, heart disease, asthma and date of diagnosis;tels que l’hypertension, diabète, asthme et date du diagnostique
+hp28;Medical history;null;personal information;null;Surgical;Chirurgicaux
+hp29;Medical history;null;example;null;Surgeries, date and after-effects;chirurgies, date et séquelles
+hp30;Living Habits;null;personal information;null;Smoking;Fumeur
+hp31;Living Habits;null;example;null;How many cigarettes per day? Since when;Combien de cigarettes par jour depuis combiens d’années
+hp32;Living Habits;null;personal information;null;Alcohol;Alcool
+hp33;Living Habits;null;example;null;How many drinks per week? Since when;Combien de consommation par semaine? Et depuis quand?
+hp34;Living Habits;null;personal information;null;Physical activities;Activités physiques
+hp35;Living Habits;null;example;null;Such as walk, run, swim;telles que la marche, course, natation
+hp36;Living Habits;null;personal information;null;Sleep;Sommeil
+hp37;Living Habits;null;example;null;How many hours a night are you getting?;Combien d'heures de sommeil par nuit?
+hp38;Lexicon;null;information;null;This section is designed to help you describe your symptoms in English until a bilingual health professional can take over. The French translation is for the benefit of the health professional.;
+hp39;Lexicon;Type of pain;information;null;Describing the pain and its severity is a key factor in establishing diagnosis. Always try to rank it on a scale of one to 10, 10 being the worst pain you ever had.;
+hp40;Lexicon;Type of pain;information;null;My pain is ...out of 10;Ma douleur est à...sur 10
+hp41;Lexicon;type of pain;phrases;null;I have pain;J’ai de la douleur
+hp42;Lexicon;type of pain;phrases;null;Burning pain;Douleur brûlante
+hp43;Lexicon;type of pain;phrases;null;Constant pain;Douleur constante
+hp44;Lexicon;type of pain;phrases;null;Crushing pain;Douleur écrasante
+hp45;Lexicon;type of pain;phrases;null;Moderate pain;Douleur modérée
+hp46;Lexicon;type of pain;phrases;null;Numbing pain;Engourdissement douloureux
+hp47;Lexicon;type of pain;phrases;null;Severe pain;Douleur sévère
+hp48;Lexicon;type of pain;phrases;null;Squeezing pain;Douleur qui serre
+hp49;Lexicon;type of pain;phrases;null;Stabbing pain;Douleur en coup de poignard
+hp50;Lexicon;type of pain;phrases;null;Throbbing pain;Douleur pulsative
+hp51;Lexicon;timing;phrases;null;Since;Depuis
+hp52;Lexicon;timing;phrases;null;It has been;Ça fait maintenant
+hp53;Lexicon;timing;phrases;null;Today;Aujoud’hui
+hp54;Lexicon;timing;phrases;null;Yesterday;Hier
+hp55;Lexicon;timing;phrases;null;Morning;Matin
+hp56;Lexicon;timing;phrases;null;Afternoon;Après-midi
+hp57;Lexicon;timing;phrases;null;Evening;Soirée
+hp58;Lexicon;timing;phrases;null;Last night;La nuit dernière
+hp59;Lexicon;timing;phrases;null;One, two, three, four days;Un, deux, trois, quatre jours
+hp60;Lexicon;timing;phrases;null;This morning;Ce matin
+hp61;Lexicon;timing;phrases;null;At lunchtime;Au dîner
+hp62;Lexicon;timing;phrases;null;An hour ago;Depuis une heure
+hp63;Lexicon;timing;phrases;null;Once, twice, three times;une, deux, trois fois
+hp64;Lexicon;orientation;phrases;null;Right;Droit
+hp65;Lexicon;orientation;phrases;null;Left;Gauche
+hp66;Lexicon;orientation;phrases;null;Front;Devant
+hp67;Lexicon;orientation;phrases;null;Back;Derrière
+hp68;Lexicon;orientation;phrases;null;Up;Haut
+hp69;Lexicon;orientation;phrases;null;Down;Bas
+hp70;Lexicon;orientation;phrases;null;Higher;Plus haut
+hp71;Lexicon;orientation;phrases;null;Lower;Plus bas
+hp72;Lexicon;body location;phrases;null;Hair;Cheveux
+hp73;Lexicon;body location;phrases;null;Head;Tête
+hp74;Lexicon;body location;phrases;null;Forehead;Front
+hp75;Lexicon;body location;phrases;null;Eyebrows;Sourcils
+hp76;Lexicon;body location;phrases;null;Eyes;Yeux
+hp77;Lexicon;body location;phrases;null;Sinus;Sinus
+hp78;Lexicon;body location;phrases;null;Nose;Nez
+hp79;Lexicon;body location;phrases;null;Mouth;Bouche
+hp80;Lexicon;body location;phrases;null;Cheek;Joue
+hp81;Lexicon;body location;phrases;null;Lips;Lèvres
+hp82;Lexicon;body location;phrases;null;Teeth;Dents
+hp83;Lexicon;body location;phrases;null;Tongue;Langue
+hp84;Lexicon;body location;phrases;null;Throat;Gorge
+hp85;Lexicon;body location;phrases;null;Neck;Cou
+hp86;Lexicon;body location;phrases;null;Shoulder;Épaule
+hp87;Lexicon;body location;phrases;null;Arm;Bras
+hp88;Lexicon;body location;phrases;null;Elbow;Coude
+hp89;Lexicon;body location;phrases;null;Forearm;Avant-bras
+hp90;Lexicon;body location;phrases;null;Hand;Main
+hp91;Lexicon;body location;phrases;null;Finger;Doigt
+hp92;Lexicon;body location;phrases;null;Chest;Poitrine
+hp93;Lexicon;body location;phrases;null;Stomach;Estomac
+hp94;Lexicon;body location;phrases;null;Abdomen;Abdomen
+hp95;Lexicon;body location;phrases;null;Lower abdomen;Bas ventre
+hp96;Lexicon;body location;phrases;null;Pubic area;Pubis
+hp97;Lexicon;body location;phrases;null;Hips;Hanche
+hp98;Lexicon;body location;phrases;null;Genitals;Organes génitaux
+hp99;Lexicon;body location;phrases;null;Anus;Anus
+hp100;Lexicon;body location;phrases;null;Buttock;Fesse
+hp101;Lexicon;body location;phrases;null;Thigh;Cuisse
+hp102;Lexicon;body location;phrases;null;Knee;Genou
+hp103;Lexicon;body location;phrases;null;Calf;Mollet
+hp104;Lexicon;body location;phrases;null;Foot;Pied
+hp105;Lexicon;body location;phrases;null;Ankle;Cheville
+hp106;Lexicon;body location;phrases;null;Wrist;Poignet
+hp107;Lexicon;Associated factors;information;null;What makes it better or worst;Ce qui fait une difference positive ou négative
+hp108;Lexicon;associated factors;phrases;null;I have taken medication and it helped a little;J’ai pris des médicaments et ça m’a aidé un peu
+hp109;Lexicon;associated factors;phrases;null;I’ve applied ice and the pain decreased;J’ai mis de la glace et la douleur a diminuée
+hp110;Lexicon;associated factors;phrases;null;It hurts more when I;La douleur augmente si je
+hp111;Lexicon;associated factors;phrases;null;It's less painful when I;Ça fait moins mal quand je
+hp112;Lexicon;associated factors;phrases;null;It hurts when I move like this;Ça fait mal lorsque je bouge comme ça
+hp113;Lexicon;associated factors;phrases;null;Even if I don’t move it hurts;Ça fait mal même quand je ne bouge pas
+hp114;Lexicon;associated factors;phrases;null;It’s worse when I press on it;C’est pire si j’appuie dessus
+hp115;Lexicon;associated factors;phrases;null;Last time this happened I took;La dernière fois que c’est arrivé, j’ai pris
+hp116;Lexicon;associated factors;phrases;null;It’s the same since it began;Ça n’a pas changé depuis le début
+hp117;Lexicon;headache;phrases;null;I have a headache since;J’ai mal à la tête depuis
+hp118;Lexicon;headache;phrases;null;I did (not) knock my head;Je me suis (je ne me suis pas) cogné la tête
+hp119;Lexicon;headache;phrases;null;I don’t have fever;Je n’ai pas de fièvre
+hp120;Lexicon;headache;phrases;null;My neck (does not) hurts;Mon cou fait mal (ne me fait pas mal).
+hp121;Lexicon;headache;phrases;null;The pain is in the back (front) of my head;J’ai mal en arrière (avant) de la tête
+hp122;Lexicon;headache;phrases;null;Worst headache of my life;Le pire mal de tête de ma vie
+hp123;Lexicon;headache;phrases;null;The pain is squeezing, pressing;La douleur serre, écrase.
+hp124;Lexicon;headache;phrases;null;The pain is throbbing, pounding;La douleur est pulsative, martèle.
+hp125;Lexicon;headache;phrases;null;I felt the headache coming;J’ai senti que j’allais avoir mal à la tête.
+hp126;Lexicon;headache;phrases;null;I saw twinkles, stars before it started;J’ai vu des scintillements avant que ca commence.
+hp127;Lexicon;headache;phrases;null;My eyes are sentive to lights;La lumière me fait mal aux yeux.
+hp128;Lexicon;headache;phrases;null;Loud sounds are bothering me;Les bruits forts me dérange.
+hp129;Lexicon;headache;phrases;null;I have nausea;J’ai des nausées.
+hp130;Lexicon;headache;phrases;null;I have (not) vomited;J’ai (je n’ai pas) vomi
+hp131;Lexicon;headache;phrases;null;I am (not) lightheaded;Je suis (je ne suis pas) étourdi.
+hp132;Lexicon;headache;phrases;null;I have not taken anything for the pain;Je n’ai rien pris pour la douleur.
+hp133;Lexicon;headache;phrases;null;I did not lose consciousness;Je n’ai pas perdu conscienc
+hp134;Lexicon;Cold or flu symptoms;phrases;null;Chest pain;Douleur thoracique
+hp135;Lexicon;Cold or flu symptoms;phrases;null;Cold sweats;Sueurs froides
+hp136;Lexicon;Cold or flu symptoms;phrases;null;Cough with phlegm;Toux avec crachats
+hp137;Lexicon;Cold or flu symptoms;phrases;null;Difficulty swallowing;Difficulté à avaler
+hp138;Lexicon;Cold or flu symptoms;phrases;null;Dry cough;Toux sèche
+hp139;Lexicon;Cold or flu symptoms;phrases;null;Ear aches;Mal aux Oreille
+hp140;Lexicon;Cold or flu symptoms;phrases;null;Ear plugged;Oreilles bouchées
+hp141;Lexicon;Cold or flu symptoms;phrases;null;Fatigue;Fatigue
+hp142;Lexicon;Cold or flu symptoms;phrases;null;Fever (above 37.5);Fièvre (supérieure à 37,5)
+hp143;Lexicon;Cold or flu symptoms;phrases;null;General malaise;Malaise général
+hp144;Lexicon;Cold or flu symptoms;phrases;null;Greenish sputum;Crachat verdâtre
+hp145;Lexicon;Cold or flu symptoms;phrases;null;Muscle aches;Douleur musculaire
+hp146;Lexicon;Cold or flu symptoms;phrases;null;Nasal congestion;Congestion nasale
+hp147;Lexicon;Cold or flu symptoms;phrases;null;Nausea;Nausée
+hp148;Lexicon;Cold or flu symptoms;phrases;null;Runny nose;Écoulement nasal
+hp149;Lexicon;Cold or flu symptoms;phrases;null;Sinus pain;Sinus douloureux
+hp150;Lexicon;Cold or flu symptoms;phrases;null;Shortness of breath;Souffle court
+hp151;Lexicon;Cold or flu symptoms;phrases;null;Sneezing;Éternuement
+hp152;Lexicon;Cold or flu symptoms;phrases;null;Sore throa;Mal de gorg
+hp153;Lexicon;Cold or flu symptoms;phrases;null;Tiredness;Fatigue
+hp154;Lexicon;Cold or flu symptoms;phrases;null;Weezing;Sifflement bronchique
+hp155;Lexicon;Cold or flu symptoms;phrases;null;Yellowish sputum;Crachat jaunâtre
+hp156;Lexicon;Cold or flu symptoms;phrases;null;It hurts when I cough;Ça fait mal quand je tousse
+hp157;Lexicon;Cold or flu symptoms;phrases;null;There’s blood in my sputums;Il y a du sang dans mes crachats
+hp158;Lexicon;Chest pain;phrases;null;I have a chest pain;J’ai une douleur thoracique
+hp159;Lexicon;Chest pain;phrases;null;It’s a crushing, stabbing pain;C’est une douleur écrasante, comme un poignard
+hp160;Lexicon;Chest pain;phrases;null;The pain came suddenly, gradually;La douleur est apparue soudainement, graduellement
+hp161;Lexicon;Chest pain;phrases;null;The pain appeared during (after) a physical effort;La douleur est apparue durant (après) un effort physique
+hp162;Lexicon;Chest pain;phrases;null;The pain appeared at rest;La douleur est apparue au repos
+hp163;Lexicon;Chest pain;phrases;null;The pain is X out of 10;La douleur est a X sur 10
+hp164;Lexicon;Chest pain;phrases;null;I (never) had this pain before;J’ai (jamais) eu ces douleurs avant
+hp165;Lexicon;Chest pain;phrases;null;I feel the pain behind my sternum;La douleur semble derrière mon sternum
+hp166;Lexicon;Chest pain;phrases;null;It usually goes away with rest;Ça disparait habituellement avec du repos
+hp167;Lexicon;Chest pain;phrases;null;I (don’t) have a heart condition;J’ai (pas) des problèmes cardiaques
+hp168;Lexicon;Chest pain;phrases;null;I take medication for my heart;Je prends des médicaments pour mon cœur
+hp169;Lexicon;Chest pain;phrases;null;I have trouble breathing;J’ai de la difficulté a respire
+hp170;Lexicon;Chest pain;phrases;null;It hurts when I take a deep breath;Ça fait mal lorsque je prends une grande respiration
+hp171;Lexicon;Chest pain;phrases;null;The pain is radiating to my arm, shoulder and my jaw;La douleur irradie dans mon bras, épaule et ma mâchoire.
+hp172;Lexicon;Chest pain;phrases;null;The pain is caused by emotion, aggravation, exercise;La douleur est causée par les émotions, l’énervement des exercices physiques
+hp173;Lexicon;Chest pain;phrases;null;I feel clammy;Je me sens mouillé de sueurs
+hp174;Lexicon;Chest pain;phrases;null;My heart is racing;Mon cœur bat rapidement
+hp175;Lexicon;Abdominal Pain;phrases;null;Stomach pain;Douleur à l’estomac
+hp176;Lexicon;Abdominal Pain;phrases;null;Abdominal cramps;Crampes abdominales
+hp177;Lexicon;Abdominal Pain;phrases;null;Vomitting;Vomissement
+hp178;Lexicon;Abdominal Pain;phrases;null;Hearthburn;Brûlement d’estomac
+hp179;Lexicon;Abdominal Pain;phrases;null;Watery stool;Selles liquides
+hp180;Lexicon;Abdominal Pain;phrases;null;Mucus in my stool;Mucus dans mes selles
+hp181;Lexicon;Abdominal Pain;phrases;null;Painful rectum;Douleur au rectum
+hp182;Lexicon;Abdominal Pain;phrases;null;Diarrhea;Diarhée
+hp183;Lexicon;Abdominal Pain;phrases;null;Reflux;Reflux
+hp184;Lexicon;Abdominal Pain;phrases;null;My stomach hurts;Mon estomac me fait mal
+hp185;Lexicon;Abdominal Pain;phrases;null;I can’t keep anything;Je ne garde rien
+hp186;Lexicon;Abdominal Pain;phrases;null;I feel dehydrated;Je me sens déshydraté
+hp187;Lexicon;Abdominal Pain;phrases;null;I have no appetite;Je n’ai pas d’appetit
+hp188;Lexicon;Abdominal Pain;phrases;null;I have not eaten or drank since;Je n’ai rien mangé ni rien bu depuis
+hp189;Lexicon;Abdominal Pain;phrases;null;I have nausea ;J’ai des nausées
+hp190;Lexicon;Abdominal Pain;phrases;null;I have reflux when I bend, and sometimes at night ;J’ai des reflux quand je me penche, et parfois la nuit
+hp191;Lexicon;Abdominal Pain;phrases;null;I have heart burns ;J’ai des brûlements d’estomac
+hp192;Lexicon;Abdominal Pain;phrases;null;I’ve been vomiting since ;Je vomis depuis.
+hp193;Lexicon;Abdominal Pain;phrases;null;I have nothing else to vomit ;Je n’ai plus rien à vomir
+hp194;Lexicon;Abdominal Pain;phrases;null;I have (not) vomited blood ;J’ai (je n’ai pas) vomi du sang
+hp195;Lexicon;Abdominal Pain;phrases;null;I feel lightheaded ;Je me sens étourdis
+hp196;Lexicon;Abdominal Pain;phrases;null;The pain has remained in my stomach, not radiating ;La douleur reste dans mon estomac sans irradier
+hp197;Lexicon;Abdominal Pain;phrases;null;The pain has moved to my lower abdomen ;La douleur a descendue dans le bas de mon ventre
+hp198;Lexicon;Abdominal Pain;phrases;null;I feel bloated ;Je me sens gonflé
+hp199;Lexicon;Abdominal Pain;phrases;null;The pain spread through my back ;La douleur s’étend au travers de mon dos
+hp200;Lexicon;Abdominal Pain;phrases;null;I’ve had diarhea since ;J’ai de la diarhée depuis
+hp201;Lexicon;Abdominal Pain;phrases;null;My stool are watery ;J’ai des selles liquides.\
+hp202;Lexicon;Abdominal Pain;phrases;null;There is mucus in my stool ;Il y a du mucus dans mes selles
+hp203;Lexicon;Abdominal Pain;phrases;null;I did (not) see blood in my stool ;J’ai (je n’ai pas) vu de sang dans mes selles
+hp204;Lexicon;Abdominal Pain;phrases;null;My stools are dark ;Mes selles sont foncées
+hp205;Lexicon;Abdominal Pain;phrases;null;It hurts when I urinate ;J’ai mal lorsque je vais uriner
+hp206;Lexicon;Abdominal Pain;phrases;null;I have not urinated much lately ;J’urine moins dernièrement.
+hp207;Lexicon;Muscle and joint pain;phrases;null;Numb ;Engourdi
+hp208;Lexicon;Muscle and joint pain;phrases;null;Tender ;Sensible
+hp209;Lexicon;Muscle and joint pain;phrases;null;Painful ;Douloureux
+hp210;Lexicon;Muscle and joint pain;phrases;null;I have shoulder, elbow, ankle pain ;J’ai de la douleur à l’épaule, coude, à la cheville
+hp211;Lexicon;Muscle and joint pain;phrases;null;I fell and I hurt my ;Je suis tombé et je me suis fait mal au.
+hp212;Lexicon;Muscle and joint pain;phrases;null;I twisted my ankle while walking ;Je me suis tordu la cheville en marchant.
+hp213;Lexicon;Muscle and joint pain;phrases;null;I did (not) hear a cracking sound ;J’ai (je n’ai pas) entendu de craquement
+hp214;Lexicon;Muscle and joint pain;phrases;null;I felt a tear ;J’ai senti un déchirement
+hp215;Lexicon;Muscle and joint pain;phrases;null;It hurts when I move it ;Ça fait mal quand je le bouge
+hp216;Lexicon;Muscle and joint pain;phrases;null;I was (not) able to walk on it after ;Je (n’)étais (pas) capable de marcher dessus après
+hp217;Lexicon;Muscle and joint pain;phrases;null;It (does not) feels numb ;Je (ne) le sens (pas) engourdi
+hp218;Lexicon;Muscle and joint pain;phrases;null;I have lost sensation in this area ;J’ai une perte de sensation dans cette région
+hp219;Lexicon;Muscle and joint pain;phrases;null;I still have sensation but my strenght is decreased in this area ;J’ai encore de la sensation mais mes forces ont diminué dans cette région
+hp220;Lexicon;Muscle and joint pain;phrases;null;It hurts more when I walk up (down) the stairs ;C’est plus douloureux quand je monte (descends) les escaliers
+hp221;Lexicon;Muscle and joint pain;phrases;null;It feels like my knee will give out ;J’ai l’impression que mon genou va lâcher
+hp222;Lexicon;Muscle and joint pain;phrases;null;The swelling doesn’t decrease ;L’enflure ne diminue pas
+hp223;Lexicon;Muscle and joint pain;phrases;null;The stiffness dissapears as the day progresses ;La raideur diminue comme la journée progresse.
+hp224;Lexicon;Muscle and joint pain;phrases;null;Its not as swollen as it was ;Ce n’est pas aussi enflé que c’était
+hp225;Lexicon;Muscle and joint pain;phrases;null;I have heart burn and I can’t take anti inflammatory /J’ai des brûlement d’estomac et je ne peux pas prendre des anti inflammatoires.;
+hp226;Lexicon;Muscle and joint pain;phrases;null;I have unexplained shakes ;J’ai des tremblements inexpliqués.
+hp227;Lexicon;Other symptoms – Neurologic;phrases;null;Ringing in the ears ;Bourdonnement dans les oreilles
+hp228;Lexicon;Other symptoms – Neurologic;phrases;null;Dizziness ;Étourdissement
+hp229;Lexicon;Other symptoms – Neurologic;phrases;null;Difficulty walking or moving ;Difficulté à marcher ou à bouger
+hp230;Lexicon;Other symptoms – Neurologic;phrases;null;Strange movements in part of the body ;Mouvement bizarre dans certains endroits du corps
+hp231;Lexicon;Other symptoms – Neurologic;phrases;null;Double vision ;Vision double
+hp232;Lexicon;Other symptoms – Neurologic;phrases;null;Drooping eyelid ;Paupière tombante
+hp233;Lexicon;Other symptoms – Neurologic;phrases;null;Confusion ;Confusion.
+hp234;Lexicon;Other symptoms – Neurologic;phrases;null;Memory loss ;Perte de mémoire
+hp235;Lexicon;Other symptoms – Neurologic;phrases;null;Difficulty speaking or understanding ;Difficultés à parler ou à comprendre
+hp236;Lexicon;Other symptoms – Neurologic;phrases;null;Episode of bizarre behavior ;Épisode de comportement bizarre
+hp237;Lexicon;Other symptoms – Neurologic;phrases;null;Change in personnality ;Changement de personnalité. 
+hp238;Lexicon;Other symptoms- Circulatory;phrases;null;Anormal pulse ;Pouls anormal
+hp239;Lexicon;Other symptoms- Circulatory;phrases;null;Bruises ;Ecchymose (bleu)
+hp240;Lexicon;Other symptoms- Circulatory;phrases;null;Chest pain ;Douleur thoracique
+hp241;Lexicon;Other symptoms- Circulatory;phrases;null;Claudication (limping) Claudication (boîter);null
+hp242;Lexicon;Other symptoms- Circulatory;phrases;null;Cold extremities ;extrémités froides
+hp243;Lexicon;Other symptoms- Circulatory;phrases;null;Cyanosis (blue color usually on extremities) ;Cyanose (extrémités teintées de bleu)
+hp244;Lexicon;Other symptoms- Circulatory;phrases;null;Fainting ;Évanouissements
+hp245;Lexicon;Other symptoms- Circulatory;phrases;null;Fatigue ;Fatigue
+hp246;Lexicon;Other symptoms- Circulatory;phrases;null;Poor wound healing ;Plaies longues à guérir
+hp247;Blood Pressure record;null;measure;null;Measurement;null
+hp248;Blood Pressure record;null;date;null;Date;null
+hp249;Glycemia;null;measure;null;Reading;null
+hp250;Glycemia;null;date;null;Date;null
+hp251;Personal notes;null;help;null;I am in need of medical assistance and I don’t speak French, could you please get someone who speaks English for me?;J’ai besoin de soins médicaux et je ne parle pas français. Pourriez-vous S.V.P. aller chercher quelqu’un qui parle anglais?
+hp252;Personal notes;null;help;null;For interpreter services in cases of emergency, please contact MCDC during normal working hours at 418-332-3851 or 1-877-332-3851;null
+hp253;Personal notes;null;organization;null;Megantic English-speaking Community Development Corporation;null
