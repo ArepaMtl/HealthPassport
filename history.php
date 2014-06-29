@@ -12,7 +12,47 @@
 			$(document).ready(function(){
 				$(".item>a:first-child").click(function(event){
 					event.preventDefault();
+					
+					var this_item = this;
+					var $items = $(this).parent().find(".history-items");
+					var $downButton = $(this).parent().find(".below-button");
+					if ($items.css("display")==="none"){
+						$items.show(200);
+						$downButton.css({"transform":"rotate(180deg)"},2000);
+						/*$('html, body').animate({
+	    					"scrollTop": $(this_item).offset().top
+						}, 200);*/
+						//$('html, body').scrollTop($(this_item).offset().top);
+					}else{
+						if ($(this).parent().hasClass("detached-header")){
+							$(this).parent().removeClass("detached-header");
+							$('html, body').scrollTop($(this_item).offset().top);
+						}
+						$items.hide(200);
+						$downButton.css({"transform":"rotate(0deg)"},2000);
+					}
 				});
+				
+				$(window).scroll(function() {
+    				var height = $(window).scrollTop();
+    				//console.log("height: "+height);
+    				$(".item>.history-items").each(function(){
+    					if ($(this).css("display") != "none"){
+    						var offset = $(this).offset();
+    						var itemHeight = $(this).height();
+    						//console.log("offset.top: "+offset.top+", offset.height: "+offset.height);
+    						if (height > offset.top-74 && height < offset.top-74+itemHeight){
+    							$(this).parent().addClass("detached-header");
+    						}else{
+    							$(this).parent().removeClass("detached-header");
+    						}
+    					}else{
+    						$(this).parent().removeClass("detached-header");
+    					}
+    				});
+				});
+				
+				
 			});
 		</script>
 		

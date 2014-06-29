@@ -25,13 +25,13 @@ if ($calledDirectly){
 }
 
 ?>
-	
-	<div class="white_box">
-			<p><span data-localize="surgeries.surgical">surgeries/chirurgue:</span> <input type="text" name="checkListItem" class="box_input"/> </p> 
-     		<p><span data-localize="sideeffects.surgical">side-effects/ s&eacute;quelles:</span> <input type="text" name="checkListItem" class="box_input"/><a href="" data-localize="trashbutton" id="trashbutton"></a> </p> 
-     		<p><span data-localize="date.surgical">date:</span> <input type="text" name="checkListItem" class="box_input"/> </p>
+   
+   <div class="white-box-history">
+     	<div class="left-box-title" data-localize="surgeries.surgical">Surgeries / Chirurgue:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/>  <a href="" data-localize="trashbutton" class="trashbutton"> </a> </div> 
+     	<div class="left-box-title" data-localize="sideeffects.surgical">Side-effects / S&eacute;quelles:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> </div>  
+     	<div class="left-box-title" data-localize="date.surgical">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> </div> 
      </div>
-    <div class="surgical_loader"><a href="" id="plusbutton"> </a></div>
+    <div class="white-box surgical_loader"><a href="" class="plusbutton"> </a></div>
     
     
 <?php

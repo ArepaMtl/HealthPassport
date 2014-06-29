@@ -25,7 +25,52 @@ if ($calledDirectly){
 }
 
 ?>
+
+	<div class="white-box-history">
+		<h3 data-localize="smoking.link"> Smoking / Femeur</h3>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="yes"/><div class="actual-radio"></div> Yes / Oui</label></div>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="no"/><div class="actual-radio"></div> No/Non</label></div>
+		<div class="left-box-title extra-margin-bottom">How many cigarattes per day? / Combient de cigarettes par jour?</div>
+		<div class="left-box-title extra-margin-bottom">
+			<label><input type="radio" name="cigar" value="1_4"/><div class="actual-radio"></div> 1 - 4&nbsp;&nbsp;&nbsp;</label>
+			<label class="second-label"><input type="radio" name="cigar" value="5_9"/><div class="actual-radio"></div> 5 - 9</label>
+		</div>
+		<div class="left-box-title extra-margin-bottom">
+			<label><input type="radio" name="cigar" value="10_15"/><div class="actual-radio"></div> 10 - 15</label>
+			<label class="second-label"><input type="radio" name="cigar" value="15"/><div class="actual-radio"></div> 15+</label>
+		</div>
+		<div class="left-box-title">Since / Depuis:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+	</div>
 	
+	<div class="white-box-history">
+		<h3 data-localize="alcohol.link"> Alcohol / Alcool</h3>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="yes"/><div class="actual-radio"></div> Yes / Oui</label></div>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="no"/><div class="actual-radio"></div> No/Non</label></div>
+		<div class="left-box-title extra-margin-bottom">How many drinks per week? / Combient de verres par semaine?</div>
+		<div class="left-box-title extra-margin-bottom">
+			<label><input type="radio" name="drinks" value="1_4"/><div class="actual-radio"></div> 1 - 4&nbsp;&nbsp;&nbsp;</label>
+			<label class="second-label"><input type="radio" name="drinks" value="5_9"/><div class="actual-radio"></div> 5 - 9</label>
+		</div>
+		<div class="left-box-title extra-margin-bottom">
+			<label><input type="radio" name="drinks" value="10_15"/><div class="actual-radio"></div> 10 - 15</label>
+			<label class="second-label"><input type="radio" name="drinks" value="15"/><div class="actual-radio"></div> 15+</label>
+		</div>
+		<div class="left-box-title">Since / Depuis:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+	</div>
+	
+	<div class="white-box-history">
+		<h3 data-localize="alcohol.link">Sleep</h3>
+		<div class="left-box-title" data-localize="allergies.paragraph"> Number of hours per night / Nombre d'heures par nuit:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> <a href="" class="trashbutton"> </a></div>
+	</div>
+	
+	<div class="white-box-history">
+		<h3 data-localize="alcohol.link">Physical Activities / Activit&eacute;s Physiques</h3>
+		<div class="left-box-title" data-localize="allergies.paragraph"> Activity / Activit&eacute;:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> <a href="" class="trashbutton"> </a></div>
+	</div>
+	
+	<div class="white-box living_habits_loader"><a href="" class="plusbutton"> </a></div>
+
+	<!--
 		<ul id="menu">
 			<li> <div class="item"> <a href=""><div id="smoking_color"><span  data-localize="smoking.link">Smoking/Femeur</span> </div></a><br>
 			<ul id="menu">	
@@ -67,6 +112,8 @@ if ($calledDirectly){
 	</ul>
 	
      <div class="footer" class="living_habits_loader"> </div>
+     
+    -->
      
      
 <?php

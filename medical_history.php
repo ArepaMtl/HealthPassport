@@ -26,12 +26,13 @@ if ($calledDirectly){
 
 ?>
 		
-		<div class="white_box">
-			<p data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l’hypertension, diabète, asthme.</p>
-	 		<p><span data-localize="condition.physicalactivity">Condition:</span> <input type="text" name="checkListItem" class="box_input"/> <a href="" data-localize="trashbutton" id="trashbutton"></a></p> 
-     		<p><span data-localize="date.physicalactivity">Date:</span> <input type="text" name="checkListItem" class="box_input"/> </p> 
-     	</div>
-    <div class="medical_history_loader"><a href="" id="plusbutton"> </a></div>
+		
+   <div class="white-box-history">
+     	<div class="left-box-title" data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l’hypertension, diabète, asthme.:</div>
+     	<div class="left-box-title" data-localize="condition.physicalactivity">Condition:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/>  <a href="" data-localize="trashbutton" class="trashbutton"> </a> </div> 
+     	<div class="left-box-title" data-localize="date.physicalactivity">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> </div> 
+     </div>
+    <div class="white-box medical_history_loader"><a href="" class="plusbutton"> </a></div>
     
     
 <?php

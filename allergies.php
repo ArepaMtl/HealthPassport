@@ -27,10 +27,10 @@ if ($calledDirectly){
 
 ?>
 	
-			 	<div class="white_box">
-					<p> <span data-localize="allergies.paragraph"> Allergies:</span> <input type="text" name="checkListItem" class="box_input"/>  <a href="" id="trashbutton"> </a> </p>
+			 	<div class="white-box-history">
+					<div class="left-box-title" data-localize="allergies.paragraph"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> <a href="" class="trashbutton"> </a></div>
 				</div>
-			 <div class="allergies_loader"><a href=""id="plusbutton"> </a></div>
+			 <div class="white-box allergies_loader"><a href="" class="plusbutton"> </a></div>
 			 
 <?php
 

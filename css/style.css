@@ -15,7 +15,7 @@ html,body {
 /*MAIN MENU*/
 
 .top-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency{
-	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
+	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.2);
 }
 
 .top-bar{
@@ -47,6 +47,7 @@ html,body {
 	margin-top:-26px;
 	width:100px;
 	background-repeat:no-repeat;
+	z-index:10;
 }
 
 #menuyourhistory_icon{
@@ -267,12 +268,18 @@ li{background-color:white}
 	background-color:rgb(166,223,246);
 	font-size:20pt;
 	font-weight:normal;
+	z-index:5;
 }
 
 
-.detached-header>ul
+.detached-header>.lexicon-items
 {
 	margin-top:74px;
+}
+
+.detached-header>.history-items
+{
+	margin-top:84px;
 }
 
 .detached-header>a:first-child
@@ -302,6 +309,11 @@ li{background-color:white}
 
 /* YOUR HISTORY */
 
+/*#menuyourhistory>.item
+{
+	overflow:hidden;
+}*/
+
 #printericon{
 	position:absolute;
 	right:0px;
@@ -319,6 +331,7 @@ li{background-color:white}
 	font-family:"Futura-CondensedMedium",Futura;
 	color:rgba(0,0,0,0.78);
 	font-size:14pt;
+	display:none;
 }
 
 .history-items p{
@@ -332,8 +345,8 @@ li{background-color:white}
 .history-items h3{
 	font-weight:normal;
 	padding:0px;
-	padding-left:5px;
-	padding-right:5px;
+	padding-left:0px;
+	padding-right:0px;
 	margin-top:5px;
 }
 
@@ -344,7 +357,7 @@ li{background-color:white}
      -moz-box-sizing: border-box;
           box-sizing: border-box;
     border:1px;
-    border-color:rgba(0,0,0,0.5);
+    border-color:rgba(0,0,0,0.3);
     border-style:solid;
     position:absolute;
     width:100%;
@@ -353,13 +366,28 @@ li{background-color:white}
     font-size:20pt;
     
 }
-
 .box-input-container
 {
 	height:40px;
 	padding:0px;
 	position:relative;
 }
+
+.side-box-input
+{
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    border:1px;
+    border-color:rgba(0,0,0,0.3);
+    border-style:solid;
+    position:absolute;
+    width:80%;
+    top:0px;
+    height:100%;
+    font-size:20pt;
+}
+
 
 
 .text-container
@@ -392,8 +420,79 @@ li{background-color:white}
 
 .right-box-container{
 	position:relative;
-	height:30px;
+	height:40px;
 	margin-top:5px;
+}
+
+.right-box-container>.box-input {
+	font-size:15pt;
+}
+
+.side-right-box-container{
+	position:relative;
+	height:40px;
+	margin-top:5px;
+}
+
+.side-right-box-container>.box-input {
+	font-size:20pt;
+}
+
+.trashbutton{
+	background-position: right;
+	background-repeat: no-repeat;
+	background-image:url('../design_folder/assets/TRASH.png');
+	background-size:15px 27px;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	width:29px;
+}
+
+.plusbutton{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-image:url('../design_folder/assets/plus_sign.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:18px 18px;
+	margin:0px;
+}
+
+.left-box-title>label>input[type='radio']{
+	display:none;
+}
+
+
+.actual-radio {
+	display:inline-block;
+	width:40px;
+	height:40px;
+	vertical-align:middle;
+	margin-right:10px;
+	border-radius:26px;
+	background-color:rgb(220,220,220);
+	border-style:solid;
+	border-color:rgb(220,220,220);
+	border-width:6px;
+}
+
+input:checked + .actual-radio{
+	background-color:rgb(0,0,0);
+}
+
+.extra-margin-bottom
+{
+	margin-bottom:15px;
+}
+
+.second-label
+{
+	margin-left:15px;
 }
 
 /*   */
@@ -658,27 +757,8 @@ h1 a{
 	background-color: rgb( 48, 212, 90 );
 }
 
-#plusbutton{
-	display:block;
-	background-image:url('../design_folder/assets/plus_sign.png');
-	height:64px;
-	background-position:center;
-	background-repeat:no-repeat;
-	margin:0px;
-}
 
-#trashbutton{
-	display: inline-block;
-	background-size: 100% 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image:url('../design_folder/assets/TRASH.png');
-	height:26px;
-	width:15px;
-	margin-top:6px;
-	margin-bottom:-6px;
-	margin-left:20px;
-}
+
 
 #close-popup-button{
     display: inline-block;
