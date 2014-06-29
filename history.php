@@ -41,7 +41,7 @@
     						var offset = $(this).offset();
     						var itemHeight = $(this).height();
     						//console.log("offset.top: "+offset.top+", offset.height: "+offset.height);
-    						if (height > offset.top-74 && height < offset.top-74+itemHeight){
+    						if (itemHeight > 400 && height > offset.top-74 && height < offset.top-74+itemHeight){
     							$(this).parent().addClass("detached-header");
     						}else{
     							$(this).parent().removeClass("detached-header");

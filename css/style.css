@@ -14,8 +14,8 @@ html,body {
 
 /*MAIN MENU*/
 
-.top-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency{
-	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.2);
+.top-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency{
+	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
 }
 
 .top-bar{
@@ -242,6 +242,8 @@ li{background-color:white}
 	font-size:15pt;
 	text-align:left;
 }
+
+
 
 .lexicon-items>li:nth-child(even)
 {
@@ -493,6 +495,59 @@ input:checked + .actual-radio{
 .second-label
 {
 	margin-left:15px;
+}
+
+/* INFORMATION */
+
+.phone-icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	width:64px;
+	background-image:url('../design_folder/assets/importantnumbers_phone.png');
+	background-size:26px 28px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.info-content
+{
+	font-family:"Futura-CondensedMedium",Futura;
+	font-size:18pt;
+	color:rgba(0,0,0,0.78);
+	width:100%;
+	text-align:center;
+}
+
+.info-content-small
+{
+	font-family:"Futura-CondensedMedium",Futura;
+	font-size:14pt;
+	color:rgba(0,0,0,0.78);
+	width:100%;
+	text-align:center;
+}
+
+
+.info-content-smallest
+{
+	font-family:"Futura-CondensedMedium",Futura;
+	font-size:12pt;
+	color:rgba(0,0,0,0.78);
+	width:100%;
+	text-align:center;
+}
+
+
+.info-link,.info-link:visited, info-link:active
+{
+	text-decoration:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
 }
 
 /*   */
@@ -796,15 +851,7 @@ h1 a{
 
 
 
-#emergency_icon{
-	position:absolute;
-	left:19px;
-	top:25%;
-	width:25px;
-	height:27px;
-	background-image:url('../design_folder/assets/importantnumbers_phone.png');
-	background-size:100% 100%;
-}
+
 
 #chssn_icon{
   margin: 10% 45% 10% 45%;
