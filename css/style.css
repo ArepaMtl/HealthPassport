@@ -277,6 +277,20 @@ li{background-color:white}
 	display:none;
 }
 
+/* YOUR HISTORY */
+
+#printericon{
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:64px;
+	background:url('../design_folder/assets/printer.png');
+	background-size:25px 25px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
 /*   */
 
 
@@ -587,7 +601,7 @@ p{
 	margin-top:2px;
 }
 
-#printer{
+#printer_bad{
 	position:absolute;
 	right:19px;
 	top:50%;

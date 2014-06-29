@@ -170,8 +170,11 @@
     				});
 				});
 				
+				var alphanumericRegex = new RegExp("[^a-zA-Z0-9]+");
+				
 				$(".search-box").on("input propertychange paste",function(){
-					var text = removeDiacritics($(this).val()).toLowerCase();
+					var text = removeDiacritics($(this).val()).toLowerCase().replace(alphanumericRegex," ");
+					
 					var initialTextArray = text.split(" ");
 					var textArray = [];
 					for (var i=0;i<initialTextArray.length;i++){
@@ -222,6 +225,7 @@
 							
 							
 							if (numMatches===0){
+								$(this).find(".below-button").css({"transform":"rotate(0deg)"});
 								$(this).find(".lexicon-items").hide();
 								$(this).hide();
 							}else{

@@ -8,6 +8,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script type="text/javascript" src="javascript/arepa.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".item>a:first-child").click(function(event){
+					event.preventDefault();
+				});
+			});
+		</script>
+		
 		<!--<style type="text/css">
 		
 			@font-face {
@@ -48,17 +56,17 @@
 	<div class="top-bar">
 		<h1 data-localize="yourhistory.title" class='centered'> Your history </h1> 
 		<a href="index.php" id="back-button"> </a>
-		<a href="" id="printer"> </a>
+		<a href="" id="printericon"> </a>
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>
 	<ul id="menuyourhistory">
-		<li class="item"><a href="personal_information.php">  <div class="loader personalinfo_loader">  </div><span  data-localize="personalinformation.link">Personal information</span> </a> <a href="personal_information.php" class="below-button"> </a></li>
-		<li class="item"><a href="allergies.php"> <div class="loader allergies_loader"> </div> <span  data-localize="allergies.link">Allergies </span> </a>  <a href="allergies.php" class="below-button"> </a></li>
-		<li class="item"><a href="current_medication.php"><div class="loader current_medication_loader">  </div> <span  data-localize="currentmedication.link">Current Medication </span> </a> <a href="current_medication.php" class="below-button"> </a></li>
-		<li class="item"><a href="current_diagnosis.php"> <div class="loader current_diagnosis_loader"> </div> <span  data-localize="currentdiagnosis.link">Current diagnosis </span> </a> <a href="current_diagnosis.php" class="below-button"> </a></li>
-		<li class="item"><a href="medical_history.php"> <div class="loader medical_history_loader"></div> <span  data-localize="medicalhistory.link">Medical History </span> </a> <a href="medical_history.php" class="below-button"> </a></li>
-		<li class="item"><a href="surgical.php" > <div class="loader surgical_loader">  </div> <span data-localize="surgical.link">Surgical </span></a><a href="surgical.php" class="below-button"> </a> </li>
-		<li class="item"><a href="living_habits.php"> <div class="loader living_habits_loader"> </div> <span  data-localize="livinghabits.link">Living Habits </span></a> <a href="living_habits.php" class="below-button"> </a></li>
+		<li class="item"><a href="personal_information.php">  <div class="loader personalinfo_loader">  </div><div class='item-text submenu-text'><div>Personal information</div><div>Information personnel</div></div> <div class="below-button noclick"> </div></a> </li>
+		<li class="item"><a href="allergies.php">  <div class="loader allergies_loader">  </div><div class='item-text submenu-text'><div>Allergies</div><div>Allergies</div></div> <div class="below-button noclick"> </div></a> </li>
+		<li class="item"><a href="current_medication.php">  <div class="loader current_medication_loader">  </div><div class='item-text submenu-text'><div>Current medication</div><div>M&eacute;dication</div></div> <div class="below-button noclick"> </div></a> </li>
+		<li class="item"><a href="current_diagnosis.php"> <div class="loader current_diagnosis_loader">  </div><div class='item-text submenu-text'><div>Current diagnosis</div><div>Diagnostic Connu</div></div> <div class="below-button noclick"> </div></a> </li>
+		<li class="item"><a href="medical_history.php"> <div class="loader medical_history_loader">  </div><div class='item-text submenu-text'><div>Medical history</div><div>M&eacute;dicaux</div></div> <div class="below-button noclick"> </div></a> </li>
+		<li class="item"><a href="surgical.php"> <div class="loader surgical_loader">  </div><div class='item-text submenu-text'><div>Surgical</div><div>Chirurgicaux</div></div> <div class="below-button noclick"> </div></a> </li>
+		<li class="item"><a href="living_habits.php"> <div class="loader living_habits_loader">  </div><div class='item-text submenu-text'><div>Living Habits</div><div>Habitudes de vie</div></div> <div class="below-button noclick"> </div></a> </li>
 	</ul>
 	</body>
 </html>
