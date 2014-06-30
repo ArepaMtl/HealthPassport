@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<title>
 			Health Passport
 		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>

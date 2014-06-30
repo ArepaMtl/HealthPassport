@@ -514,7 +514,7 @@ input:checked + .actual-radio{
 .info-content
 {
 	font-family:"Futura-CondensedMedium",Futura;
-	font-size:18pt;
+	font-size:17pt;
 	color:rgba(0,0,0,0.78);
 	width:100%;
 	text-align:center;
@@ -548,6 +548,10 @@ input:checked + .actual-radio{
 	left:0px;
 	right:0px;
 	bottom:0px;
+}
+
+.taller-box{
+	height:96px;
 }
 
 /*   */

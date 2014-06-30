@@ -4,6 +4,7 @@
 		<title>
 			Health Passport Web App - Information
 		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
@@ -20,32 +21,32 @@
 					<a class="info-link" href="information.php"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-small centered">Crisis Centre / Centre de crise:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-smallest centered">Community Services / Services Communautaires:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Community Services /<br/>Services Communautaires:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-small centered">Health Info (Nurse) / Info-Sant&eacute;:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Health Info (Nurse) /<br/>Info-Sant&eacute;:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-smallest centered">Parents Help Line / Ligne d'aide aux parent:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-small centered">Sexual assult / Agression sexuelle:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Sexual assult /<br/>Agression sexuelle:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-smallest centered">Youth Protection / Protection de la jeunesse:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="information.php"><div class="info-content-small centered">Crisis Centre / Centre de crise:<br/>418 688-4240</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="information.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>418 688-4240</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
