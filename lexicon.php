@@ -281,12 +281,21 @@
 	$control_color_1 = array(243, 56, 56);
 	$control_color_2 = array(201, 56, 243);
 	$counter = 0;
-	$handle = @fopen("lexicon.txt", "r");
-	if ($handle) {
+	
+	include "lexicontxt.php";
+	
+	//$handle = @fopen("lexicontxt.php", "r");
+	//if ($handle) {
 		$started = FALSE;
 		$currentTitleText = "";
-    	while (($buffer = fgets($handle, 4096)) !== false) {
-    		
+		$key = 0;
+    	//while (($buffer = fgets($handle, 4096)) !== false) {
+    	while ($buffer = $lexicon_text[$key]) {
+			$key+=1;
+			//$buffer = json_decode($buffer);
+    		//var_dump(mb_detect_encoding($buffer));
+    		//$buffer = utf8_decode($buffer);
+    		//$buffer = "[é / á]";
         	if (substr($buffer,0,1)==="["){
         		$color = array(0,0,0);
 	    		if ($counter <= $control_point_1){
@@ -304,7 +313,7 @@
         		if ($started){
         			print("</ul></li>");
         		}
-        		$title = substr($buffer,1,strlen($buffer)-3);
+        		$title = substr($buffer,1,strlen($buffer)-2);
         		$pos = strpos($title," / ");
         		if ($pos===FALSE){
         			$englishTitle = $title;
@@ -314,7 +323,7 @@
         			$frenchTitle = substr($title,$pos+3);
         		}
 				$englishTitle = htmlentities($englishTitle);
-				$frenchTitle = htmlentities($frenchTitle);
+				$frenchTitle = htmlentities($frenchTitle,ENT_COMPAT | ENT_HTML401,"UTF-8");
 				$currentTitleText = textWords("$title");
 				print("<li class='item' words=\"$currentTitleText\"><a href='' data-localize='' style='background-color:rgb($color[0],$color[1],$color[2])'><div class='item-text submenu-text'><div>$englishTitle</div><div>$frenchTitle</div></div><div class='below-button noclick'></div><div class='search-result-bubble'><div class='centered'>0</div></div></a><ul class='lexicon-items'>");
 				$started = TRUE;
@@ -335,7 +344,7 @@
 				}
         		$englishLine = htmlentities($englishLine);
         		if ($frenchLine != NULL){
-					$frenchLine = htmlentities($frenchLine);
+					$frenchLine = htmlentities($frenchLine,ENT_COMPAT | ENT_HTML401,"UTF-8");
 				}
 				$words = textWords("$buffer");
 				print("<li words=\"$words\"><span>$dash$englishLine</span><span>");
@@ -349,7 +358,7 @@
         	//echo "Error: unexpected fgets() fail\n";
     	}
     	fclose($handle);
-	}
+	//}
 ?>
 	
 		
