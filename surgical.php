@@ -26,12 +26,12 @@ if ($calledDirectly){
 
 ?>
    
-   <div class="white-box-history">
-     	<div class="left-box-title" data-localize="surgeries.surgical">Surgeries / Chirurgue:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/>  <a href="" data-localize="trashbutton" class="trashbutton"> </a> </div> 
-     	<div class="left-box-title" data-localize="sideeffects.surgical">Side-effects / S&eacute;quelles:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> </div>  
-     	<div class="left-box-title" data-localize="date.surgical">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> </div> 
+   <div class="white-box-history" id="surgery-box" data-num-copies="1">
+     	<div class="left-box-title" data-localize="surgeries.surgical">Surgeries / Chirurgue:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="surgery-name"/>  <a href="" data-localize="trashbutton" class="trashbutton" data-erasable-level="2"> </a> </div> 
+     	<div class="left-box-title" data-localize="sideeffects.surgical">Side-effects / S&eacute;quelles:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="surgery-effect"/> </div>  
+     	<div class="left-box-title" data-localize="date.surgical">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="surgery-date"/> </div> 
      </div>
-    <div class="white-box surgical_loader"><a href="" class="plusbutton"> </a></div>
+    <div class="white-box surgical_loader"><a href="" class="plusbutton" data-copiable-item-id="surgery-box"> </a></div>
     
     
 <?php

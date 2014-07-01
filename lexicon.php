@@ -136,7 +136,9 @@
 					var $items = $(this).parent().find(".lexicon-items");
 					var $downButton = $(this).parent().find(".below-button");
 					if ($items.css("display")==="none"){
+						$items.css({"opacity":0});
 						$items.show();
+						$items.animate({"opacity":1},300);
 						$downButton.css({"transform":"rotate(180deg)"},2000);
 						/*$('html, body').animate({
         					"scrollTop": $(this_item).offset().top

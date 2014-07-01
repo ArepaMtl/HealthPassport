@@ -28,47 +28,50 @@ if ($calledDirectly){
 
 	<div class="white-box-history">
 		<h3 data-localize="smoking.link"> Smoking / Femeur</h3>
-		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="yes"/><div class="actual-radio"></div> Yes / Oui</label></div>
-		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="no"/><div class="actual-radio"></div> No/Non</label></div>
-		<div class="left-box-title extra-margin-bottom">How many cigarattes per day? / Combient de cigarettes par jour?</div>
-		<div class="left-box-title extra-margin-bottom">
-			<label><input type="radio" name="cigar" value="1_4"/><div class="actual-radio"></div> 1 - 4&nbsp;&nbsp;&nbsp;</label>
-			<label class="second-label"><input type="radio" name="cigar" value="5_9"/><div class="actual-radio"></div> 5 - 9</label>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="yes" id="cigs-yes" data-dependants="many-cigs,many-cigs-1,many-cigs-2,many-cigs-since,many-cigs-since-box" data-loader="loader-habits" data-loader-id="is-smoker" data-history-id="smoker-yes"/><div class="actual-radio"></div> Yes / Oui</label></div>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="no" data-other-radios="cigs-yes" data-loader="loader-habits" data-loader-id="is-smoker" data-history-id="smoker-no"/><div class="actual-radio"></div> No/Non</label></div>
+		<div class="left-box-title extra-margin-bottom" id="many-cigs">How many cigarattes per day? / Combient de cigarettes par jour?</div>
+		<div class="left-box-title extra-margin-bottom" id="many-cigs-1">
+			<label><input type="radio" name="cigar" value="1_4" data-loader="loader-habits" data-loader-id="cigs-num_IF_cigs-yes" data-history-id="cigs-1"/><div class="actual-radio"></div> 1 - 4&nbsp;&nbsp;&nbsp;</label>
+			<label class="second-label"><input type="radio" name="cigar" value="5_9" data-loader="loader-habits" data-loader-id="cigs-num_IF_cigs-yes" data-history-id="cigs-2"/><div class="actual-radio"></div> 5 - 9</label>
 		</div>
-		<div class="left-box-title extra-margin-bottom">
-			<label><input type="radio" name="cigar" value="10_15"/><div class="actual-radio"></div> 10 - 15</label>
-			<label class="second-label"><input type="radio" name="cigar" value="15"/><div class="actual-radio"></div> 15+</label>
+		<div class="left-box-title extra-margin-bottom" id="many-cigs-2">
+			<label><input type="radio" name="cigar" value="10_15" data-loader="loader-habits" data-loader-id="cigs-num_IF_cigs-yes" data-history-id="cigs-3"/><div class="actual-radio"></div> 10 - 15</label>
+			<label class="second-label"><input type="radio" name="cigar" value="15" data-loader="loader-habits" data-loader-id="cigs-num_IF_cigs-yes" data-history-id="cigs-4"/><div class="actual-radio"></div> 15+</label>
 		</div>
-		<div class="left-box-title">Since / Depuis:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+		<div class="left-box-title" id="many-cigs-since">Since / Depuis:</div><div class="right-box-container" id="many-cigs-since-box"><input type="text" name="checkListItem" class="box-input" data-history-id="cigs-since"/></div>
 	</div>
 	
 	<div class="white-box-history">
 		<h3 data-localize="alcohol.link"> Alcohol / Alcool</h3>
-		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="yes"/><div class="actual-radio"></div> Yes / Oui</label></div>
-		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="smoker" value="no"/><div class="actual-radio"></div> No/Non</label></div>
-		<div class="left-box-title extra-margin-bottom">How many drinks per week? / Combient de verres par semaine?</div>
-		<div class="left-box-title extra-margin-bottom">
-			<label><input type="radio" name="drinks" value="1_4"/><div class="actual-radio"></div> 1 - 4&nbsp;&nbsp;&nbsp;</label>
-			<label class="second-label"><input type="radio" name="drinks" value="5_9"/><div class="actual-radio"></div> 5 - 9</label>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="drinker" value="yes" id="drinks-yes" data-dependants="many-drinks,many-drinks-1,many-drinks-2,many-drinks-since,many-drinks-since-box" data-loader="loader-habits" data-loader-id="is-drinker" data-history-id="drinker-yes"/><div class="actual-radio"></div> Yes / Oui</label></div>
+		<div class="left-box-title extra-margin-bottom"><label><input type="radio" name="drinker" value="no" data-other-radios="drinks-yes" data-loader="loader-habits" data-loader-id="is-drinker" data-history-id="drinker-no"/><div class="actual-radio"></div> No/Non</label></div>
+		<div class="left-box-title extra-margin-bottom" id="many-drinks">How many drinks per week? / Combient de verres par semaine?</div>
+		<div class="left-box-title extra-margin-bottom" id ="many-drinks-1">
+			<label><input type="radio" name="drinks" value="1_4" data-loader="loader-habits" data-loader-id="drinks-num_IF_drinks-yes" data-history-id="drinks-1"/><div class="actual-radio"></div> 1 - 4&nbsp;&nbsp;&nbsp;</label>
+			<label class="second-label"><input type="radio" name="drinks" value="5_9" data-loader="loader-habits" data-loader-id="drinks-num_IF_drinks-yes" data-history-id="drinks-2"/><div class="actual-radio"></div> 5 - 9</label>
 		</div>
-		<div class="left-box-title extra-margin-bottom">
-			<label><input type="radio" name="drinks" value="10_15"/><div class="actual-radio"></div> 10 - 15</label>
-			<label class="second-label"><input type="radio" name="drinks" value="15"/><div class="actual-radio"></div> 15+</label>
+		<div class="left-box-title extra-margin-bottom" id="many-drinks-2">
+			<label><input type="radio" name="drinks" value="10_15" data-loader="loader-habits" data-loader-id="drinks-num_IF_drinks-yes" data-history-id="drinks-3"/><div class="actual-radio"></div> 10 - 15</label>
+			<label class="second-label"><input type="radio" name="drinks" value="15" data-loader="loader-habits" data-loader-id="drinks-num_IF_drinks-yes" data-history-id="drinks-4"/><div class="actual-radio"></div> 15+</label>
 		</div>
-		<div class="left-box-title">Since / Depuis:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+		<div class="left-box-title" id="many-drinks-since">Since / Depuis:</div><div class="right-box-container" id="many-drinks-since-box"><input type="text" name="checkListItem" class="box-input" data-history-id="drinks-since"/></div>
 	</div>
 	
 	<div class="white-box-history">
 		<h3 data-localize="alcohol.link">Sleep</h3>
-		<div class="left-box-title" data-localize="allergies.paragraph"> Number of hours per night / Nombre d'heures par nuit:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> <a href="" class="trashbutton"> </a></div>
+		<div class="left-box-title" data-localize="allergies.paragraph"> Number of hours per night / Nombre d'heures par nuit:</div><div class="right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-loader="loader-habits" data-loader-id="sleep-hours" data-history-id="sleep-hours"/></div>
 	</div>
 	
 	<div class="white-box-history">
-		<h3 data-localize="alcohol.link">Physical Activities / Activit&eacute;s Physiques</h3>
-		<div class="left-box-title" data-localize="allergies.paragraph"> Activity / Activit&eacute;:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> <a href="" class="trashbutton"> </a></div>
+		<h3 class="no-bottom-pad" data-localize="alcohol.link">Physical Activities / Activit&eacute;s Physiques:</h3>
 	</div>
 	
-	<div class="white-box living_habits_loader"><a href="" class="plusbutton"> </a></div>
+	<div class="white-box-history" id="activities-box" data-num-copies="1">
+		<div class="left-box-title" data-localize="allergies.paragraph"> Activity / Activit&eacute;:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="physical-activity"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
+	</div>
+	
+	<div class="white-box living_habits_loader"><a href="" class="plusbutton" data-copiable-item-id="activities-box"> </a></div>
 
 	<!--
 		<ul id="menu">

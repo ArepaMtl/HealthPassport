@@ -56,6 +56,198 @@
 				});
 				
 				
+				
+				var loaderIds = [];
+				
+				$(".loader").each(function(){
+					loaderIds.push($(this).attr("id"));
+				});
+				
+				var updateLoader = function(loader_id){
+					var $container = $("#"+loader_id+"-container");
+					var loaderObject = {};
+					$container.find("[data-loader='"+loader_id+"']").each(function(){
+						var dataLoaderId = $(this).attr("data-loader-id");
+						var ifIndex = dataLoaderId.indexOf("_IF_");
+						var shouldCheck = true;
+						if (ifIndex>-1){
+							//console.log("dataLoaderId "+dataLoaderId+" has a condition!");
+							var conditionId = dataLoaderId.substring(ifIndex+4);
+							dataLoaderId = dataLoaderId.substring(0,ifIndex);
+							//console.log("condition id "+conditionId+" for "+dataLoaderId);
+							if (!$("#"+conditionId).is(':checked')){
+								//console.log("setting to false");
+								shouldCheck = false;
+							}
+							//console.log("done.");
+						}
+						if (shouldCheck){
+							if ($(this).is("[type=radio]")){
+								if ($(this).is(":checked")){
+									loaderObject[dataLoaderId]=1;
+								}else if (loaderObject[dataLoaderId] != 1){
+									loaderObject[dataLoaderId]=0;
+								}
+							}else if ($(this).is("[type=text]")){
+								if ($(this).val().length > 0){
+									loaderObject[dataLoaderId]=1;
+								}else if (loaderObject[dataLoaderId] != 1){
+									loaderObject[dataLoaderId]=0;
+								}
+							}
+						}
+					});
+					//console.log(loaderObject);
+					var total = 0;
+					var progress = 0;
+					for (var key in loaderObject) {
+  						total += 1;
+  						progress += loaderObject[key];
+					}
+					var percentage = 100;
+					if (total>0){
+						percentage = 100.0*progress/total;
+					}
+					if (percentage>100){
+						percentage = 100;
+					}
+					$("#"+loader_id).css("width",percentage+"%");
+				};
+				
+				var updateLoaders = function(){
+					for (var i=0;i<loaderIds.length;i++){
+						updateLoader(loaderIds[i]);
+					}
+				};
+				
+				
+				$("[data-copiable-item-id]").click(function(event){
+					event.preventDefault();
+					//alert(1);
+					var copiableItemId = $(this).attr("data-copiable-item-id");
+					var $item = $("#"+copiableItemId);
+					var numCopies = +$item.attr("data-num-copies");
+					var $clone = $item.clone(true);
+					$clone.removeAttr("id");
+					$clone.removeAttr("data-num-copies");
+					var $lastItem = $item;
+					//alert(numCopies);
+					//alert($lastItem.length);
+					for (var i=1;i<numCopies;i+=1){
+						$lastItem = $lastItem.next();
+					}
+					$clone.find("input[type=text]").val("");
+    				$clone.find("input[type=radio]").prop('checked',false);
+					//alert($lastItem.length);
+					//alert($clone.length);
+					$lastItem.after($clone);
+					$item.attr("data-num-copies",numCopies+1);
+					
+					$clone.find("input[type=text]").first().focus();
+				});
+				
+				$("[data-erasable-level]").click(function(){
+					event.preventDefault();
+					var $erasable = $(this);
+					var numLevels = +$erasable.attr("data-erasable-level");
+					for (var i=1;i<=numLevels;i++){
+						$erasable = $erasable.parent();
+					}
+					var numCopiesAttr = $erasable.attr('data-num-copies');
+
+					// For some browsers, `attr` is undefined; for others,
+					// `attr` is false.  Check for both.
+					if (typeof numCopiesAttr !== typeof undefined && numCopiesAttr !== false) {
+						var numCopies = +numCopiesAttr;
+						if (numCopies==1){
+							var hasFocus = $erasable.find("input[type=text]").first().is(":focus");
+    						$erasable.find("input[type=text]").val("");
+    						$erasable.find("input[type=radio]").prop('checked',false);
+    						if (!hasFocus){
+    							//TODO: FIX THIS!
+    							//$erasable.find("input[type=text]").first().focus();
+    						}
+    						
+    					}else{
+    						$next = $erasable.next();
+    						$next.attr("id",$erasable.attr("id"));
+    						$next.attr("data-num-copies",$erasable.attr("data-num-copies")-1);
+    						$erasable.remove();
+    					}
+					}else{
+						//alert("has more than one copy!");
+						$first = $erasable;
+						//var alertCount=1;
+						while(!$first.is("[data-num-copies]")){
+							//alertCount++
+							//if (alertCount<10){
+								//alert("up!, has class="+$first.attr("class"));
+							//}
+							$first = $first.prev();
+						}
+						$first.attr("data-num-copies",$first.attr("data-num-copies")-1);
+						$erasable.remove();
+					}
+				});
+				
+				
+				//At the end!:
+				
+				var updateDependants = function(element){
+					//alert(element);
+					if (element==null || element==undefined){
+						return;
+					}
+					//alert(1);
+					var depString = $(element).attr("data-dependants");
+					if (depString==null || depString==undefined || depString.length<1){
+						return;
+					}
+					//alert(2);
+					var depArray = depString.split(",");
+					if ($(element).is(':checked')){
+						//alert(3);
+						for (var i=0;i<depArray.length;i+=1){
+							$dependant = $("#"+depArray[i]);
+							$dependant.show();
+						}
+					}else{
+						//alert(4);
+						for (var i=0;i<depArray.length;i+=1){
+							$dependant = $("#"+depArray[i]);
+							$dependant.hide();
+							$dependant.find("input[type=radio]").prop('checked', false);
+						}
+					}
+				};
+				
+				$("[data-dependants]").change(function(){
+					updateDependants(this);
+				});
+				
+				$("[data-other-radios]").change(function(){
+					var otherString = $(this).attr("data-other-radios");
+					if (otherString==null || otherString==undefined || otherString.length<1){
+						return;
+					}
+					var otherArray = otherString.split(",");
+					for (var i=0;i<otherArray.length;i+=1){
+						updateDependants(document.getElementById(otherArray[i]));
+					}
+				});
+				
+				$("[data-dependants]").each(function(){
+					updateDependants(this);
+				});
+				
+				$("[data-loader]").on("input propertychange paste change",function(){
+					updateLoader($(this).attr("data-loader"));
+				});
+				
+				
+				//At the very very end!
+				updateLoaders();
+				
 			});
 		</script>
 		
@@ -110,13 +302,13 @@
 	?>
 	
 	<ul id="menuyourhistory">
-		<li class="item"><a href="personal_information.php">  <div class="loader personalinfo_loader">  </div><div class='item-text submenu-text'><div>Personal information</div><div>Information personnel</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("personal_information.php"); ?></div></li>
-		<li class="item"><a href="allergies.php">  <div class="loader allergies_loader">  </div><div class='item-text submenu-text'><div>Allergies</div><div>Allergies</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("allergies.php"); ?></div></li>
-		<li class="item"><a href="current_medication.php">  <div class="loader current_medication_loader">  </div><div class='item-text submenu-text'><div>Current medication</div><div>M&eacute;dication</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("current_medication.php"); ?></div></li>
-		<li class="item"><a href="current_diagnosis.php"> <div class="loader current_diagnosis_loader">  </div><div class='item-text submenu-text'><div>Current diagnosis</div><div>Diagnostic Connu</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("current_diagnosis.php"); ?></div></li>
-		<li class="item"><a href="medical_history.php"> <div class="loader medical_history_loader">  </div><div class='item-text submenu-text'><div>Medical history</div><div>M&eacute;dicaux</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("medical_history.php"); ?></div></li>
-		<li class="item"><a href="surgical.php"> <div class="loader surgical_loader">  </div><div class='item-text submenu-text'><div>Surgical</div><div>Chirurgicaux</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("surgical.php"); ?></div></li>
-		<li class="item"><a href="living_habits.php"> <div class="loader living_habits_loader">  </div><div class='item-text submenu-text'><div>Living Habits</div><div>Habitudes de vie</div></div> <div class="below-button noclick"> </div></a><div class="history-items"><?php getHistoryItems("living_habits.php"); ?></div></li>
+		<li class="item"><a href="personal_information.php">  <div class="loader personalinfo_loader" id="loader-personal">  </div><div class='item-text submenu-text'><div>Personal information</div><div>Information personnel</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-personal-container"><?php getHistoryItems("personal_information.php"); ?></div></li>
+		<li class="item"><a href="allergies.php">  <div class="loader allergies_loader" id="loader-allergies">  </div><div class='item-text submenu-text'><div>Allergies</div><div>Allergies</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-allergies-container"><?php getHistoryItems("allergies.php"); ?></div></li>
+		<li class="item"><a href="current_medication.php">  <div class="loader current_medication_loader" id="loader-medication">  </div><div class='item-text submenu-text'><div>Current medication</div><div>M&eacute;dication</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-medication-container"><?php getHistoryItems("current_medication.php"); ?></div></li>
+		<li class="item"><a href="current_diagnosis.php"> <div class="loader current_diagnosis_loader" id="loader-diagnosis">  </div><div class='item-text submenu-text'><div>Current diagnosis</div><div>Diagnostic Connu</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-diagnosis-container"><?php getHistoryItems("current_diagnosis.php"); ?></div></li>
+		<li class="item"><a href="medical_history.php"> <div class="loader medical_history_loader" id="loader-history">  </div><div class='item-text submenu-text'><div>Medical history</div><div>M&eacute;dicaux</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-history-container"><?php getHistoryItems("medical_history.php"); ?></div></li>
+		<li class="item"><a href="surgical.php"> <div class="loader surgical_loader" id="loader-surgical">  </div><div class='item-text submenu-text'><div>Surgical</div><div>Chirurgicaux</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-surgical-container"><?php getHistoryItems("surgical.php"); ?></div></li>
+		<li class="item"><a href="living_habits.php"> <div class="loader living_habits_loader" id="loader-habits">  </div><div class='item-text submenu-text'><div>Living Habits</div><div>Habitudes de vie</div></div> <div class="below-button noclick"> </div></a><div class="history-items" id="loader-habits-container"><?php getHistoryItems("living_habits.php"); ?></div></li>
 	</ul>
 	</body>
 </html>

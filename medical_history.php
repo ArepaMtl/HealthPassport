@@ -27,12 +27,12 @@ if ($calledDirectly){
 ?>
 		
 		
-   <div class="white-box-history">
+   <div class="white-box-history" id="medical-box" data-num-copies="1">
      	<div class="left-box-title" data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l’hypertension, diabète, asthme.:</div>
-     	<div class="left-box-title" data-localize="condition.physicalactivity">Condition:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/>  <a href="" data-localize="trashbutton" class="trashbutton"> </a> </div> 
-     	<div class="left-box-title" data-localize="date.physicalactivity">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input"/> </div> 
+     	<div class="left-box-title" data-localize="condition.physicalactivity">Condition:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medical-condition"/>  <a href="" data-localize="trashbutton" class="trashbutton" data-erasable-level="2"> </a> </div> 
+     	<div class="left-box-title" data-localize="date.physicalactivity">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medical-date"/> </div> 
      </div>
-    <div class="white-box medical_history_loader"><a href="" class="plusbutton"> </a></div>
+    <div class="white-box medical_history_loader"><a href="" class="plusbutton" data-copiable-item-id="medical-box"> </a></div>
     
     
 <?php

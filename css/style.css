@@ -9,8 +9,14 @@ html,body {
 @font-face {
 	font-family: FranchiseBold;
 	src: url(../fonts/Franchise-Bold.woff);
-	font-weight: bold;
 }
+
+@font-face {
+	font-family: FuturaCondensedMedium;
+	src: url(../fonts/FuturaCondensedMedium.woff);
+}
+
+
 
 /*MAIN MENU*/
 
@@ -114,11 +120,11 @@ html,body {
 .item-text > div:first-child {
 	text-transform:uppercase;
 	text-align:left;
-	font-family:FranchiseBold;
+	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
 }
 
 .item-text > div:last-child {
-	font-family: "Futura-CondensedMedium",Futura, sans-serif;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	font-stretch: condensed;
 	font-size:16pt;
 	text-align:left;
@@ -238,7 +244,7 @@ li{background-color:white}
 	border:0px;
 	padding:10px;
 	margin:0px;
-	font-family:"Futura-CondensedMedium",Futura;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	font-size:15pt;
 	text-align:left;
 }
@@ -303,7 +309,7 @@ li{background-color:white}
 	margin-top:-22px;
 	background-color:rgba(255,255,255,0.3);
 	border-radius:22px;
-	font-family:"Futura-CondensedMedium",Futura;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	color:rgba(0,0,0,0.78);
 	font-size:15pt;
 	display:none;
@@ -330,7 +336,7 @@ li{background-color:white}
 
 .history-items
 {
-	font-family:"Futura-CondensedMedium",Futura;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	color:rgba(0,0,0,0.78);
 	font-size:14pt;
 	display:none;
@@ -350,6 +356,11 @@ li{background-color:white}
 	padding-left:0px;
 	padding-right:0px;
 	margin-top:5px;
+}
+
+.no-bottom-pad
+{
+	margin-bottom:0px;
 }
 
 .box-input
@@ -513,7 +524,7 @@ input:checked + .actual-radio{
 
 .info-content
 {
-	font-family:"Futura-CondensedMedium",Futura;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	font-size:17pt;
 	color:rgba(0,0,0,0.78);
 	width:100%;
@@ -522,7 +533,7 @@ input:checked + .actual-radio{
 
 .info-content-small
 {
-	font-family:"Futura-CondensedMedium",Futura;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	font-size:14pt;
 	color:rgba(0,0,0,0.78);
 	width:100%;
@@ -532,7 +543,7 @@ input:checked + .actual-radio{
 
 .info-content-smallest
 {
-	font-family:"Futura-CondensedMedium",Futura;
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	font-size:12pt;
 	color:rgba(0,0,0,0.78);
 	width:100%;
@@ -562,7 +573,7 @@ h1{
 	border:0;
 	margin:0;
 	padding:0;
-	font-family:FranchiseBold;
+	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
 	color:rgba(0,0,0,0.78);
 	text-transform:uppercase;
 }
@@ -749,9 +760,13 @@ h1 a{
 	position:absolute;
 	left:0;
 	top:0;
-	width:25%;
+	width:50%;
 	height:100%;
 	z-index:0;
+	-webkit-transition-property: width;
+    -webkit-transition-duration: 0.4s;
+    transition-property: width;
+    transition-duration: 0.4s;
 }
 
 .personalinfo_loader{
@@ -883,7 +898,7 @@ h1 a{
 	background-color: rgb( 255, 255, 255 );
 	font-weight: bold;
 	text-align:center;
-	font-family:FranchiseBold;
+	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
 	font-size:50px;
 	color:rgba(0,0,0,0.60);
 	margin-top:10px;
