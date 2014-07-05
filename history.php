@@ -121,15 +121,20 @@
 				};
 				
 				
+				
 				$("[data-copiable-item-id]").click(function(event){
 					event.preventDefault();
 					//alert(1);
 					var copiableItemId = $(this).attr("data-copiable-item-id");
 					var $item = $("#"+copiableItemId);
 					var numCopies = +$item.attr("data-num-copies");
+					var numEverCopies = +$item.attr("data-num-ever-copies");
 					var $clone = $item.clone(true);
-					$clone.removeAttr("id");
+					$clone.attr("data-original-copy-id",$item.attr("id"));
+					$clone.attr("id",$clone.attr("id")+numEverCopies);
+					$clone.find("input").attr("data-copied-ancestor",$clone.attr("id"));
 					$clone.removeAttr("data-num-copies");
+					$clone.removeAttr("data-num-ever-copies");
 					var $lastItem = $item;
 					//alert(numCopies);
 					//alert($lastItem.length);
@@ -142,6 +147,7 @@
 					//alert($clone.length);
 					$lastItem.after($clone);
 					$item.attr("data-num-copies",numCopies+1);
+					$item.attr("data-num-ever-copies",numEverCopies+1);
 					
 					$clone.find("input[type=text]").first().focus();
 				});
@@ -154,6 +160,7 @@
 						$erasable = $erasable.parent();
 					}
 					var numCopiesAttr = $erasable.attr('data-num-copies');
+					var numEverCopiesAttr = $erasable.attr('data-num-ever-copies');
 
 					// For some browsers, `attr` is undefined; for others,
 					// `attr` is false.  Check for both.
@@ -172,6 +179,7 @@
     						$next = $erasable.next();
     						$next.attr("id",$erasable.attr("id"));
     						$next.attr("data-num-copies",$erasable.attr("data-num-copies")-1);
+    						$next.attr("data-num-ever-copies",$erasable.attr("data-num-ever-copies"));
     						$erasable.remove();
     					}
 					}else{
@@ -244,6 +252,12 @@
 					updateLoader($(this).attr("data-loader"));
 				});
 				
+				
+				//Almost very end
+				
+				$("[data-num-copies]").each(function(){
+					$(this).attr("data-num-ever-copies",$(this).attr("data-num-copies"));
+				});
 				
 				//At the very very end!
 				updateLoaders();
