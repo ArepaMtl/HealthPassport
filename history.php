@@ -120,19 +120,145 @@
 					}
 				};
 				
+				function supports_html5_storage() {
+  					try {
+    					return 'localStorage' in window && window['localStorage'] !== null;
+  					} catch (e) {
+   						return false;
+  					}
+				}
 				
+				var resaveHistoryInputs = function(container_id,oldNumCopies){
+					if (!supports_html5_storage()){
+						return;
+					}
+					
+					var numCopies = $("#"+container_id).attr("data-num-copies");
+					
+					localStorage.setItem("history-"+container_id+"-num-copies",numCopies);
+					
+					$("#"+container_id).find("[data-history-id]").each(function(){
+						var historyId = $(this).attr("data-history-id");
+						localStorage.removeItem("history-"+historyId);
+						for (var i=1;i<oldNumCopies;i++){
+							localStorage.removeItem("history-"+historyId+"."+i);
+						}
+					});
+					
+					$copy = $("#"+container_id);
+					
+					for (var i=0;i<numCopies;i++){
+						$copy.find("[data-history-id]").each(function(){
+							//console.log("called from 1");
+							saveHistoryInput(this);
+						});
+						$copy = $copy.next();
+					}
+					
+					
+				}
 				
-				$("[data-copiable-item-id]").click(function(event){
-					event.preventDefault();
-					//alert(1);
-					var copiableItemId = $(this).attr("data-copiable-item-id");
+				var saveHistoryInput = function(element){
+					
+					if (!supports_html5_storage()){
+						return;
+					}
+					
+					var historyId = $(element).attr("data-history-id");
+					
+					var copiedAncestorId = $(element).attr('data-copied-ancestor-id');
+					
+					if (typeof copiedAncestorId !== typeof undefined && copiedAncestorId !== false){
+						//console.log("has ancestor!!!!!");
+						var copiedAncestorId = $(element).attr("data-copied-ancestor-id");
+						var originalCopyId = $("#"+copiedAncestorId).attr("data-original-copy-id");
+						var originalElement = $("#"+originalCopyId).get(0);
+						var copiedElement = $("#"+copiedAncestorId).get(0);
+						
+						var $original = $(originalElement);
+						
+						var num = 0;
+						
+						for (var $copy = $original; $copy.get(0) != copiedElement; $copy = $copy.next()){
+							num++;
+						}
+						
+						historyId = historyId+"."+num;
+					}else{
+						//console.log("has NO ancestor!!!!!");
+					}
+					
+					var val = $(element).val();
+					
+					if ($(element).is("[type=radio]") || $(element).is("[type=checkbox]")){
+						val = $(element).is(":checked");
+					}
+					
+					localStorage.setItem("history-"+historyId,val);
+					
+				}
+				
+				var loadHistoryInput = function(element){
+					
+					if (!supports_html5_storage()){
+						return;
+					}
+					
+					var historyId = $(element).attr("data-history-id");
+					
+					var copiedAncestorId = $(element).attr('data-copied-ancestor-id');
+					
+					if (typeof copiedAncestorId !== typeof undefined && copiedAncestorId !== false){
+						//console.log("has ancestor!!!!!");
+						var copiedAncestorId = $(element).attr("data-copied-ancestor-id");
+						var originalCopyId = $("#"+copiedAncestorId).attr("data-original-copy-id");
+						var originalElement = $("#"+originalCopyId).get(0);
+						var copiedElement = $("#"+copiedAncestorId).get(0);
+						
+						var $original = $(originalElement);
+						
+						var num = 0;
+						
+						for (var $copy = $original; $copy.get(0) != copiedElement; $copy = $copy.next()){
+							num++;
+						}
+						
+						historyId = historyId+"."+num;
+					}else{
+						//console.log("has NO ancestor!!!!!");
+					}
+					
+					var value = localStorage.getItem("history-"+historyId);
+					
+					if (value==null){
+						return;
+					}
+					
+					if ($(element).is("[type=radio]") || $(element).is("[type=checkbox]")){
+						if (value=="true"){
+							value = true;
+						}else if (value=="false"){
+							value = false;
+						}
+						//console.log("setting value "+(typeof value)+" for element "+element);
+						$(element).prop("checked",value);
+					}else{
+						$(element).val(value)
+					}
+					
+					
+					
+				}
+				
+				var addNewCopy = function(copiableItemId,doResave){
+					
 					var $item = $("#"+copiableItemId);
 					var numCopies = +$item.attr("data-num-copies");
 					var numEverCopies = +$item.attr("data-num-ever-copies");
 					var $clone = $item.clone(true);
 					$clone.attr("data-original-copy-id",$item.attr("id"));
 					$clone.attr("id",$clone.attr("id")+numEverCopies);
-					$clone.find("input").attr("data-copied-ancestor",$clone.attr("id"));
+					$clone.find("input").attr("data-copied-ancestor-id",$clone.attr("id"));
 					$clone.removeAttr("data-num-copies");
 					$clone.removeAttr("data-num-ever-copies");
 					var $lastItem = $item;
@@ -150,6 +276,16 @@
 					$item.attr("data-num-ever-copies",numEverCopies+1);
 					
 					$clone.find("input[type=text]").first().focus();
+					
+					if (doResave){
+						resaveHistoryInputs(copiableItemId,numCopies);
+					}
+				}
+				
+				$("[data-copiable-item-id]").click(function(event){
+					event.preventDefault();
+					var copiableItemId = $(this).attr("data-copiable-item-id");
+					addNewCopy(copiableItemId,true);
 				});
 				
 				$("[data-erasable-level]").click(function(){
@@ -175,12 +311,18 @@
     							//$erasable.find("input[type=text]").first().focus();
     						}
     						
+    						resaveHistoryInputs($erasable.attr("id"),numCopies);
+    						
     					}else{
     						$next = $erasable.next();
     						$next.attr("id",$erasable.attr("id"));
     						$next.attr("data-num-copies",$erasable.attr("data-num-copies")-1);
     						$next.attr("data-num-ever-copies",$erasable.attr("data-num-ever-copies"));
+    						$next.removeAttr("data-original-copy-id");
+    						$next.find("input").removeAttr("data-copied-ancestor-id");
     						$erasable.remove();
+    						
+    						resaveHistoryInputs($next.attr("id"),numCopies);
     					}
 					}else{
 						//alert("has more than one copy!");
@@ -195,14 +337,40 @@
 						}
 						$first.attr("data-num-copies",$first.attr("data-num-copies")-1);
 						$erasable.remove();
+						
+						resaveHistoryInputs($first.attr("id"),$first.attr("data-num-copies")+1);
 					}
 				});
+				
+				//Loading data finally!
+				
+				if (supports_html5_storage()){
+				
+					$("[data-num-copies]").each(function(){
+						var item_id = $(this).attr("id");
+						var localKey = item_id+"-num-copies";
+						var localValue = localStorage.getItem("history-"+localKey);
+						if (localValue==null){
+							return;
+						}
+						for (var i=1;i<localValue;i+=1){
+							addNewCopy(item_id,false);
+						}
+					});		
+					
+					$("[data-history-id]").each(function(){
+						loadHistoryInput(this);
+					});
+				
+				}
 				
 				
 				//At the end!:
 				
-				var updateDependants = function(element){
+				var updateDependants = function(element,doSave){
 					//alert(element);
+					console.log("updating dependants for "+$(element).attr("id"));
+					
 					if (element==null || element==undefined){
 						return;
 					}
@@ -224,13 +392,26 @@
 						for (var i=0;i<depArray.length;i+=1){
 							$dependant = $("#"+depArray[i]);
 							$dependant.hide();
-							$dependant.find("input[type=radio]").prop('checked', false);
+							$dependant.find("input[type=checkbox],input[type=radio]").each(function(){
+								$(this).prop('checked', false);
+								//console.log("called from 2");
+								if (doSave){
+									saveHistoryInput(this);
+								}
+							});
+							$dependant.find("input[type=text]").each(function(){
+								$(this).val("");
+								//console.log("called from 3");
+								if (doSave){
+									saveHistoryInput(this);
+								}
+							});
 						}
 					}
 				};
 				
 				$("[data-dependants]").change(function(){
-					updateDependants(this);
+					updateDependants(this,true);
 				});
 				
 				$("[data-other-radios]").change(function(){
@@ -240,16 +421,29 @@
 					}
 					var otherArray = otherString.split(",");
 					for (var i=0;i<otherArray.length;i+=1){
-						updateDependants(document.getElementById(otherArray[i]));
+						updateDependants(document.getElementById(otherArray[i]),true);
 					}
 				});
 				
 				$("[data-dependants]").each(function(){
-					updateDependants(this);
+					updateDependants(this,false);
 				});
 				
 				$("[data-loader]").on("input propertychange paste change",function(){
 					updateLoader($(this).attr("data-loader"));
+				});
+				
+				$("[data-history-id]").on("input propertychange paste change",function(){
+					saveHistoryInput(this);
+					if ($(this).is("input[type=radio]")){
+						var name = $(this).attr("name");
+						var thisRadio = this;
+						$("input[name='"+name+"']").each(function(){
+							if (this != thisRadio){
+								saveHistoryInput(this);
+							}
+						});
+					}
 				});
 				
 				

@@ -56,8 +56,8 @@ if ($calledDirectly){
      		<div class="white-box-history">
 
      			<h3 data-localize="other.personalinformation"> Other Information / Autres Informations:</h3>
-     			 	<div class="left-box-title" data-localize="familydoctor.other">Family doctor / m&eacute;decin de famille:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info"/> </div>
-     			 	<div class="left-box-title" data-localize="nameaddress.other">Name and address of usual clinic / nom et adresse de votre clinique:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info"/> </div>
+     			 	<div class="left-box-title" data-localize="familydoctor.other">Family doctor / m&eacute;decin de famille:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info" data-history-id="family-doctor"/> </div>
+     			 	<div class="left-box-title" data-localize="nameaddress.other">Name and address of usual clinic / nom et adresse de votre clinique:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info" data-history-id="usual-clinic"/> </div>
      		
      		</div>
 <?php
