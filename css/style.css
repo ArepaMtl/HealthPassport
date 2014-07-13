@@ -6,17 +6,6 @@ html,body {
     background: rgb( 240, 240, 240 );
 }
 
-@font-face {
-	font-family: FranchiseBold;
-	src: url(../fonts/Franchise-Bold.woff);
-}
-
-@font-face {
-	font-family: FuturaCondensedMedium;
-	src: url(../fonts/FuturaCondensedMedium.woff);
-}
-
-
 
 /*MAIN MENU*/
 
@@ -118,15 +107,11 @@ html,body {
 }
 
 .item-text > div:first-child {
-	text-transform:uppercase;
 	text-align:left;
-	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
 }
 
+
 .item-text > div:last-child {
-	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
-	font-stretch: condensed;
-	font-size:16pt;
 	text-align:left;
 }
 
@@ -179,7 +164,6 @@ html,body {
 	right:5px;
 	left:65px;
 	padding:0px;
-	font-size:22pt;
 }
 
 .search-box{
@@ -217,12 +201,7 @@ html,body {
 	background-position:center;
 }
 
-.submenu-text > div:first-child{
-	font-size:18pt;
-}
-.submenu-text > div:last-child{
-	font-size:15pt;
-}
+
 
 .submenu-text
 {
@@ -244,9 +223,6 @@ li{background-color:white}
 	border:0px;
 	padding:10px;
 	margin:0px;
-	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
-	font-size:15pt;
-	text-align:left;
 }
 
 
@@ -274,8 +250,6 @@ li{background-color:white}
 	text-align:center;
     color:rgba(0,0,0,0.78);
 	background-color:rgb(89,195,239);
-	font-size:20pt;
-	font-weight:normal;
 	z-index:5;
 }
 
@@ -309,9 +283,7 @@ li{background-color:white}
 	margin-top:-22px;
 	background-color:rgba(255,255,255,0.3);
 	border-radius:22px;
-	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	color:rgba(0,0,0,0.78);
-	font-size:15pt;
 	display:none;
 }
 
@@ -336,9 +308,7 @@ li{background-color:white}
 
 .history-items
 {
-	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
 	color:rgba(0,0,0,0.78);
-	font-size:14pt;
 	display:none;
 }
 
@@ -351,7 +321,6 @@ li{background-color:white}
 }
 
 .history-items h3{
-	font-weight:normal;
 	padding:0px;
 	padding-left:0px;
 	padding-right:0px;
@@ -376,7 +345,6 @@ li{background-color:white}
     width:100%;
     top:0px;
     height:100%;
-    font-size:20pt;
     
 }
 .box-input-container
@@ -398,7 +366,6 @@ li{background-color:white}
     width:80%;
     top:0px;
     height:100%;
-    font-size:20pt;
 }
 
 
@@ -437,9 +404,6 @@ li{background-color:white}
 	margin-top:5px;
 }
 
-.right-box-container>.box-input {
-	font-size:15pt;
-}
 
 .side-right-box-container{
 	position:relative;
@@ -447,9 +411,6 @@ li{background-color:white}
 	margin-top:5px;
 }
 
-.side-right-box-container>.box-input {
-	font-size:20pt;
-}
 
 .trashbutton{
 	background-position: right;
@@ -543,8 +504,6 @@ input:checked + .actual-radio{
 
 .info-content-smallest
 {
-	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
-	font-size:12pt;
 	color:rgba(0,0,0,0.78);
 	width:100%;
 	text-align:center;
@@ -573,9 +532,7 @@ h1{
 	border:0;
 	margin:0;
 	padding:0;
-	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
 	color:rgba(0,0,0,0.78);
-	text-transform:uppercase;
 }
 
 h1 a{
@@ -896,10 +853,7 @@ h1 a{
 	display:block;
 	position:relative;
 	background-color: rgb( 255, 255, 255 );
-	font-weight: bold;
 	text-align:center;
-	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
-	font-size:50px;
 	color:rgba(0,0,0,0.60);
 	margin-top:10px;
 }
@@ -911,6 +865,94 @@ h1 a{
 }
 
 
+/* Fonts */
 
-/* June 13 demo */
+@font-face {
+	font-family: FranchiseBold;
+	src: url(../fonts/Franchise-Bold.woff);
+}
 
+@font-face {
+	font-family: FuturaCondensedMedium;
+	src: url(../fonts/FuturaCondensedMedium.woff);
+}
+
+.item-text > div:first-child {
+	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
+	text-transform:uppercase;
+}
+
+.item-text > div:last-child {
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
+	font-stretch: condensed;
+	font-size:16pt;
+}
+
+.lexicon-items>li{
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
+	font-size:15pt;
+	text-align:left;
+}
+
+.search-box-container{
+	font-size:22pt;
+}
+
+.submenu-text > div:first-child{
+	font-size:18pt;
+}
+
+.submenu-text > div:last-child{
+	font-size:15pt;
+}
+
+.item>a:first-child{
+	font-size:20pt;
+	font-weight:normal;
+}
+
+.search-result-bubble{
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
+	font-size:15pt;
+}
+
+.history-items{
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
+	font-size:14pt;
+}
+
+.history-items h3{
+	font-weight:normal;
+}
+
+.box-input{
+    font-size:20pt;
+}
+
+.side-box-input{
+    font-size:20pt;
+}
+
+.right-box-container>.box-input {
+	font-size:15pt;
+}
+
+.side-right-box-container>.box-input {
+	font-size:20pt;
+}
+
+.info-content{
+	font-family: FuturaCondensedMedium,"Futura-CondensedMedium",Futura, sans-serif;
+	font-size:17pt;
+}
+
+h1{
+	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
+	text-transform:uppercase;
+}
+
+#emergency {
+	font-weight: bold;
+	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
+	font-size:50px;
+}
