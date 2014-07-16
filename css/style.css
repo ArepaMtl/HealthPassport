@@ -877,6 +877,26 @@ h1 a{
 	src: url(../fonts/FuturaCondensedMedium.woff);
 }
 
+@font-face {
+	font-family: LiberationSansBold;
+	src: url(../fonts/liberationsans-bold-webfont.woff);
+}
+
+@font-face {
+	font-family: LiberationSansBoldItalic;
+	src: url(../fonts/liberationsans-bolditalic-webfont.woff);
+}
+
+@font-face {
+	font-family: LiberationSansItalic;
+	src: url(../fonts/liberationsans-italic-webfont.woff);
+}
+
+@font-face {
+	font-family: LiberationSansRegular;
+	src: url(../fonts/liberationsans-regular-webfont.woff);
+}
+
 .item-text > div:first-child {
 	font-family:FranchiseBold,"Futura-CondensedMedium",Futura,sans-serif;
 	text-transform:uppercase;
