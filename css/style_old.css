@@ -902,13 +902,12 @@ h1 a{
 .item-text > div:last-child {
 	font-family: LiberationSansRegular,"Helvetica", sans-serif;
 	font-stretch: condensed;
-	font-size:20px;
-     white-space:nowrap;
+	font-size:16pt;
 }
 
 .lexicon-items>li{
 	font-family: LiberationSansRegular,"Helvetica", sans-serif;
-	font-size:14px;
+	font-size:15pt;
 	text-align:left;
 }
 
@@ -917,18 +916,16 @@ h1 a{
 }
 
 .submenu-text > div:first-child{
-	font-size: 16px;
-	white-space:nowrap;
+	font-size:18pt;
 }
 
 .submenu-text > div:last-child{
-	font-size:16px;;
+	font-size:15pt;
 }
 
 .item>a:first-child{
-	font-size:22px;
+	font-size:20pt;
 	font-weight:normal;
-	white-space:nowrap;
 }
 
 .search-result-bubble{
@@ -938,7 +935,7 @@ h1 a{
 
 .history-items{
 	font-family: LiberationSansRegular,"Helvetica", sans-serif;
-	font-size:14px;
+	font-size:14pt;
 }
 
 .history-items h3{
@@ -963,14 +960,13 @@ h1 a{
 
 .info-content{
 	font-family: LiberationSansRegular,"Helvetica", sans-serif;
-	font-size:16px;
-	font-weight: bold;
+	font-size:17pt;
 }
 
 .info-content-small
 {
 	font-family: LiberationSansRegular,"Helvetica", sans-serif;
-	font-size:16px;
+	font-size:14pt;
 }
 
 
@@ -978,8 +974,6 @@ h1{
 	font-family:LiberationSansBold,"Helvetica", sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
-	font-size: 24px;
-	white-space:nowrap;
 }
 
 #emergency {
