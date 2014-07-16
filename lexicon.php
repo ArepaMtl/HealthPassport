@@ -324,9 +324,9 @@
         			$englishTitle = substr($title,0,$pos);
         			$frenchTitle = substr($title,$pos+3);
         		}
-				$englishTitle = htmlentities($englishTitle);
-				$frenchTitle = htmlentities($frenchTitle,ENT_COMPAT | ENT_HTML401,"UTF-8");
-				$currentTitleText = textWords("$title");
+				//$englishTitle = htmlentities($englishTitle);
+				//$frenchTitle = htmlentities($frenchTitle,ENT_COMPAT | ENT_HTML401,"UTF-8");
+				$currentTitleText = textWords(html_entity_decode("$title"));
 				print("<li class='item' words=\"$currentTitleText\"><a href='' data-localize='' style='background-color:rgb($color[0],$color[1],$color[2])'><div class='item-text submenu-text'><div>$englishTitle</div><div>$frenchTitle</div></div><div class='below-button noclick'></div><div class='search-result-bubble'><div class='centered'>0</div></div></a><ul class='lexicon-items'>");
 				$started = TRUE;
         	}else{
@@ -344,11 +344,11 @@
 				}else{
 					$dash = "";
 				}
-        		$englishLine = htmlentities($englishLine);
-        		if ($frenchLine != NULL){
-					$frenchLine = htmlentities($frenchLine,ENT_COMPAT | ENT_HTML401,"UTF-8");
-				}
-				$words = textWords("$buffer");
+        		//$englishLine = htmlentities($englishLine);
+        		//if ($frenchLine != NULL){
+				//	$frenchLine = htmlentities($frenchLine,ENT_COMPAT | ENT_HTML401,"UTF-8");
+				//}
+				$words = textWords(html_entity_decode("$buffer"));
 				print("<li words=\"$words\"><span>$dash$englishLine</span><span>");
 				if ($frenchLine != NULL){
 					print("&nbsp;&nbsp;&frasl;&nbsp;&nbsp;</span><span>$frenchLine</span>");

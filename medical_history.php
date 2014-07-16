@@ -28,7 +28,7 @@ if ($calledDirectly){
 		
 		
    <div class="white-box-history" id="medical-box" data-num-copies="1">
-     	<div class="left-box-title" data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l’hypertension, diabète, asthme.:</div>
+     	<div class="left-box-title" data-localize="example.medicalhistory">Such as high blood pressure, diabetes, heart disease, asthma/ Tels que l'hypertension, diab&egrave;te, asthme.:</div>
      	<div class="left-box-title" data-localize="condition.physicalactivity">Condition:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medical-condition"/>  <a href="" data-localize="trashbutton" class="trashbutton" data-erasable-level="2"> </a> </div> 
      	<div class="left-box-title" data-localize="date.physicalactivity">Date:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medical-date"/> </div> 
      </div>

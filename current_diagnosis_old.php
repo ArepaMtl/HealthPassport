@@ -33,7 +33,7 @@ if ($calledDirectly){
 	<div class="current_diagnosis_loader"><a href="" id="plusbutton"> </a></div>-->
 	
 	<div class="white-box-history" id="diagnosis-box" data-num-copies="1">
-					<div class="left-box-title" data-localize="allergies.paragraph"> Conditions you are being treated for / Conditions m&eacute;dicales pour lesquelles vous &ecirc;tres trait&eacute;s:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="diagnosis-condition"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div> 
+					<div class="left-box-title" data-localize="allergies.paragraph"> Conditions you are being treated for / Conditions m&eacute;dicales pour lesquelles vous êtres traités:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="diagnosis-condition"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div> 
 				</div>
 			 <div class="white-box current_diagnosis_loader"><a href="" class="plusbutton" data-copiable-item-id="diagnosis-box"> </a></div>
 
