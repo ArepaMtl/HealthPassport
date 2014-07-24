@@ -83,7 +83,6 @@ html,body {
   background-repeat: no-repeat;
   background-position:center;
   background-size: auto 80%;
-  min-height:250px;
 } 
 
 #informationicon{
@@ -240,7 +239,7 @@ li{background-color:white}
 
 .item{
 	position:relative;
-	min-height:64px;
+	/*min-height:64px;*/
 }
 
 .item>a:first-child{
