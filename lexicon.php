@@ -115,6 +115,16 @@
 				    });
 				}
 				
+				$("#informationicon").click(function(event){
+					event.preventDefault();
+					$("#lexicon-menu-info").css("display","block");
+				});
+				
+				$(".info-popup > div > a:last-child").click(function(event){
+					event.preventDefault();
+					$("#lexicon-menu-info").css("display","none");
+				});
+				
 				$("*[words]").each(function(){
 					var words = $(this).attr("words");
 					var wordArray = words.split(" ");
@@ -392,6 +402,16 @@
 	 	<p><a href="" id="close-popup-button"> </a></p>
 	</div>
 	-->
+	
+	<div id="lexicon-menu-info" class="info-popup">
+			<div>
+				<div>
+				This section will help you describe your symptoms to a health
+				professional who cannot speak English.
+				</div>
+				<a href=""></a>
+			</div>
+		</div>
 
 	</body>
 </html>

@@ -499,7 +499,7 @@
 	<div class="top-bar">
 		<h1 data-localize="yourhistory.title" class='centered'> Your history </h1> 
 		<a href="index.php" id="back-button"> </a>
-		<a href="" id="printericon"> </a>
+		<!--<a href="" id="printericon"> </a>-->
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->
 	</div>
 	<?php

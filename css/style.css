@@ -72,7 +72,7 @@ html,body {
 
 
 #main-icon{
-  background-image: url('../design_folder/assets/logo_menu.png');
+  background-image: url('../design_folder/assets/logo_menu_small.png');
   /*width: 86px;
   height:96px;*/
   position:absolute;
@@ -921,9 +921,6 @@ h1 a{
 	white-space:nowrap;
 }
 
-.submenu-text > div:last-child{
-	font-size:16px;;
-}
 
 .item>a:first-child{
 	font-size:22px;
@@ -988,5 +985,57 @@ h1{
 	font-size:50px;
 }
 
+/* INFO */
+
+.info-popup {
+	background-color:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	display:none;
+	z-index:200;
+}
+
+.info-popup > div {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:300px;
+	height:300px;
+	background:white;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	border-radius:10px;	
+}
+
+.info-popup > div > a:last-child {
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	-ms-transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+	width:60px;
+	height:60px;
+	background-image:url(../design_folder/assets/popup_close.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 50% auto;
+}
+
+.info-popup > div > div
+{
+	position:absolute;
+	top:35px;
+	left:15px;
+	right:15px;
+	bottom:60px;
+	text-align:center;
+	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+}
 
 
