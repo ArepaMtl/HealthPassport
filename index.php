@@ -42,7 +42,7 @@
 			<div>
 				<div>
 				This app is meant as a guide to make it easier for an English-speaking
-				person to communicate with French-speaking health professionals. It does not replace a professional medical opinion in ani way.
+				person to communicate with French-speaking health professionals. It does not replace a professional medical opinion in any way.
 				</div>
 				<a href=""></a>
 			</div>
