@@ -1,0 +1,8 @@
+.chssninfo {
+  background-color: rgb( 202, 207, 206 );
+  
+}
+.health passporinfo {
+  background-color: rgb( 150, 152, 152 );
+ 
+}
