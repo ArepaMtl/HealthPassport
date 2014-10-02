@@ -377,10 +377,10 @@
 				print("</li>");
         	}
     	}
-    	if (!feof($handle)) {
+    	//if (!feof($handle)) {
         	//echo "Error: unexpected fgets() fail\n";
-    	}
-    	fclose($handle);
+			//}
+    	//fclose($handle);
 	//}
 ?>
 	

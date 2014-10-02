@@ -48,5 +48,6 @@
 				<a href=""></a>
 			</div>
 		</div>
+		<div id='loading-page'></div>
 	</body>
 </html>

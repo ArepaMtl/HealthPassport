@@ -1112,4 +1112,37 @@ h1{
 	height:75px;
 }
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeout {
+    0% {opacity: 1;}
+    66% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+/* Standard syntax */
+@keyframes fadeout {
+    0% {opacity: 1;}
+    66% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#loading-page
+{
+	position:fixed;
+	background-color:rgb(240,240,240);
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	background-image:url('../design_folder/assets/logo_splash_screen.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto 40%;
+	z-index:200;
+	pointer-events:none;
+	-webkit-animation: fadeout 2s; /* Chrome, Safari, Opera */
+    animation: fadeout 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
 
