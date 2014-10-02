@@ -9,7 +9,7 @@
 	</head>
 	<body>
      <div class="top-bar">
-	 	<h1 data-localize="information.title" class='centered'> Information </h1>	
+		 <h1 data-localize="information.title" class='centered'> Phone Numbers </h1>	
 	 	<a href="index.php" id="back-button"></a>
 	 </div>
 		<ul id="menuinformation">

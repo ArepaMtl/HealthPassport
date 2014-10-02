@@ -9,7 +9,7 @@ html,body {
 
 /*MAIN MENU*/
 
-.top-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency{
+.top-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
 	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
 }
 
@@ -56,7 +56,12 @@ html,body {
 
 
 #menuquestion_icon{
-	background-image:url('../design_folder/assets/menu_information_icon.png');
+	background-image:url('../design_folder/assets/importantnumber_icon.png');
+}
+
+#menuinfo_icon{
+	background-image:url('../design_folder/assets/chssn_icon.png');
+	background-size:70% auto;
 }
 
 
@@ -66,7 +71,7 @@ html,body {
 	padding:0px;
 	position:absolute;
 	width:100%;
-	bottom:27px;
+	bottom:10px;
 	left:0px;
 }
 
@@ -77,7 +82,7 @@ html,body {
   height:96px;*/
   position:absolute;
   top:64px;
-  bottom:300px;
+  bottom:340px;
   left:0px;
   right:0px;
   background-repeat: no-repeat;
@@ -134,7 +139,7 @@ html,body {
     position:absolute;
 	left:0px;
 	top:0px;
-	height:64px;
+	height:100%;
 	width:56px;
 	background-size:21px 12px;
 	background-image:url('../design_folder/assets/back_icon_down.png');
@@ -155,6 +160,20 @@ html,body {
 	display:block;
 	background-color:white;
 
+}
+
+.dynamic-size-box
+{
+	position:relative;
+	margin:0px;
+	margin-top:10px;
+	display:block;
+	background-color:white;
+	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+	text-align:left;
+	padding:20px;
+	height:none;
 }
 
 .search-box-container{
@@ -247,7 +266,6 @@ li{background-color:white}
 	display:block;
 	position:relative;
 	height:64px;
-	text-align:center;
     color:rgba(0,0,0,0.78);
 	background-color:rgb(89,195,239);
 	z-index:5;
@@ -567,6 +585,10 @@ h1 a{
 	background-color: rgb( 141, 212, 46 );
 }
 
+#menu > li:nth-child(4) >a:first-child{
+	background-color: rgb( 202, 207, 206 );
+}
+
 #menuyourhistory
 {
 	margin:0px;
@@ -613,7 +635,19 @@ h1 a{
 	padding:0px;
 }
 
+#menuchssn{
+	margin:0px;
+	padding:0px;
+}
+
 #menuinformation > li{
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	display:block;
+}
+
+#menuchssn > li{
 	margin:0px;
 	margin-top:10px;
 	padding:0px;
@@ -626,6 +660,14 @@ h1 a{
 
 #menuinformation>li:nth-child(2)>a:first-child{
 	background-color: rgb( 48, 212, 90 );/* Green block */
+}
+
+#menuchssn>li:nth-child(1)>a:first-child{
+	background-color: rgb( 202, 207, 206 ); /*Green block */
+}
+
+#menuchssn>li:nth-child(2)>a:first-child{
+	background-color: rgb( 150, 152, 152 );/* Green block */
 }
 
 #information_color{
@@ -700,7 +742,7 @@ h1 a{
 
 #menu > .item > a:first-child
 {
-	height:84px;
+	height:75px;
 }
 
 
@@ -912,6 +954,8 @@ h1 a{
 	text-align:left;
 }
 
+
+
 .search-box-container{
 	font-size:22pt;
 }
@@ -1036,6 +1080,36 @@ h1{
 	text-align:center;
 	font-family:LiberationSansRegular,"Helvetica", sans-serif;
 	font-size:16px;
+}
+
+.health-pass-title
+{
+	font-size:15pt;
+	top:10px;
+	bottom:10px;
+	-ms-transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+	background-image:url('../design_folder/assets/chssn_topbar.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 30% auto;
+}
+
+#chssn-title
+{
+	background-image:url('../design_folder/assets/chssn_info.png');
+	background-repeat:no-repeat;
+	background-position: left middle;
+	background-size: auto 100%;
+	display:inline-block;
+	width:100px;
+	height:16px;
+}
+
+.item>a.chssn-title-bar
+{
+	height:75px;
 }
 
 

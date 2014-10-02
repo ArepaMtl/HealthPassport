@@ -9,16 +9,31 @@
 
 #menu > .item > a:first-child
 {
-	height:60px;
+	height:50px;
 }
 
 #main-icon{
-  bottom:191px;
+	bottom:215px;
 } 
 
 .lefticon
 {
-	height:40px;
-	margin-top:-20px;
+	height:30px;
+	margin-top:-15px;
 	width:100px;
+}
+
+.item>a:first-child{
+	font-size:16px;
+}
+
+.item-text > div:last-child {
+	font-size:13px;
+}
+
+.item-text {
+	left:105px
+}
+.lefticon {
+	width:90px
 }
