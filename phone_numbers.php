@@ -20,7 +20,7 @@
 			<li class="item"><a href="" data-localize="communityservices.importantnumbers">Community Services/Services Communautaires</a> <a href="" class="below-button"> </a></li>
 			<li class="item"><a href="" data-localize="healthinfo.importantnumbers">Health Info (Nurse)/ Info-Sant&eacute; </a> <a href="" class="below-button"> </a></li>
 			<li class="item"><a href="" data-localize="parentshelpline.importantnumbers">Parents Help Line/Ligne d'aide aux parent</a> <a href="" class="below-button"> </a> </li>
-			<li class="item"><a href="" data-localize="sexualassult.importantnumbers">Sexual assult/Agression sexuelle </a> <a href="" class="below-button"> </a></li>
+			<li class="item"><a href="" data-localize="sexualassult.importantnumbers">Sexual assault/Agression sexuelle </a> <a href="" class="below-button"> </a></li>
 			<li class="item"><a href="" data-localize="sos.importantnumbers">SOS Spousal abuse/SOS violence conjugale </a>  <a href="" class="below-button"> </a></li>
 			<li class="item"><a href="" data-localize="youngprotection.importantnumbers">Youth Protection/Protection de la jeunesse </a> <a href="" class="below-button"> </a></li>
 		</ul>
