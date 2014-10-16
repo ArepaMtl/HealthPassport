@@ -34,11 +34,11 @@ if ($calledDirectly){
 			</div>
 
 			<div class="white-box-history">
-     			<h3 data-localize="firstpersontonotify.personalinformation"> First person to notify / Personne &agrave; contacter en premier lieu</h3>
+     			<h3 data-localize="firstpersontonotify.personalinformation"> Contact in case of emergency / Le contact en cas d'urgence</h3>
      				<div class="left-box-title" data-localize="name.secondpersontonotify">Name / nom:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-name"/></div>
      				<div class="left-box-title" data-localize="language.secondpersontonotify">Language / langue parl&eacute;e:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-lang"/></div> 
      				<div class="left-box-title" data-localize="phone.secondpersontonotify">Home phone / t&eacute;l&eacute;phone maison:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-phone"/> </div>
-     				<div class="left-box-title" data-localize="cellphone.secondpersontonotify">Cell / mobile:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-cell"/> </div>
+     				<div class="left-box-title" data-localize="cellphone.secondpersontonotify">Cell phone / Phone cellulaire:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-cell"/> </div>
      				<div class="left-box-title" data-localize="email.secondpersontonotify">Email / courriel:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-email"/> </div>
      		
 			</div>
@@ -55,7 +55,7 @@ if ($calledDirectly){
      		
      		<div class="white-box-history">
 
-     			<h3 data-localize="other.personalinformation"> Other Information / Autres Informations:</h3>
+     			<h3 data-localize="other.personalinformation"> Other information / Autres informations:</h3>
      			 	<div class="left-box-title" data-localize="familydoctor.other">Family doctor / m&eacute;decin de famille:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info" data-history-id="family-doctor"/> </div>
      			 	<div class="left-box-title" data-localize="nameaddress.other">Name and address of usual clinic / nom et adresse de votre clinique:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info" data-history-id="usual-clinic"/> </div>
      		
