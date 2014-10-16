@@ -16,7 +16,7 @@ if ($calledDirectly){
 	</head>
 	<body>
 	<div class="top-bar medical_history_loader">
-		<h1 data-localize="medicalhistory.title" class='centered'> Medical history/M&eacute;dicaux </h1>
+		<h1 data-localize="medicalhistory.title" class='centered'> Medical history/Ant&eacute;c&eacute;dents m&eacute;dicaux </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>	
 
