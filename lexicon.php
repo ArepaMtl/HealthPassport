@@ -264,7 +264,7 @@
 	</head>
 	<body>
 	<div class="top-bar">
-		<h1 data-localize="lexicon.title" class='centered'> Lexicon </h1>
+		<h1 data-localize="lexicon.title" class='centered'> Helpful Phrases </h1>
 		<a href="index.php" id="back-button"></a> 
 		<a id="informationicon" href="">  </a>
 	</div>	
