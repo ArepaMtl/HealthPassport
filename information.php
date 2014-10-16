@@ -42,7 +42,7 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+14185222120"><div class="info-content-small centered">Sexual Assult /<br/>Agression sexuelle:<br/>418 522-2120</div></a>
+					<a class="info-link" href="tel:+14185222120"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>418 522-2120</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
