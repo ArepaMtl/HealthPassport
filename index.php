@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" media="screen and (max-height: 600px)" href="css/style_small_height.css">
 	
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="javascript/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){	
 				$("#informationicon").click(function(event){
