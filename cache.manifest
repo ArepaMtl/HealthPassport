@@ -1,5 +1,9 @@
 CACHE MANIFEST
-# rev 10
+# rev 226
+
+# cache 
+CACHE:
+
 index.php
 history.php
 css/style.css
@@ -37,3 +41,8 @@ design_folder/assets/popup_close.png
 design_folder/assets/chssn_topbar.png
 design_folder/assets/chssn_info.png
 design_folder/assets/logo_splash_screen.png
+
+# network
+NETWORK:
+
+http://www.google-analytics.com/

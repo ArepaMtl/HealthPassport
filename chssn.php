@@ -6,6 +6,17 @@
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56545433-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 	</head>
 	<body>
      <div class="top-bar">
@@ -15,6 +26,7 @@
 	 <ul id="menuchssn">
 			<!--<li class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a><a href="phone_numbers.php" class="below-button"> </a></li>
 			<li class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a> <a href="chssn.php" class="below-button"> </a></li>-->
+			
 			
 			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div>Community Health and</br>Social Services Network</div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
@@ -38,6 +50,19 @@
 					Il y a plusieurs ann&#233;es, un organisme communautaire au service de la communaut&#233; anglophone de la r&#233;gion Chaudi&#232;re-Appalaches au Qu&#233;bec a d&#233;cid&#233; d&#39;investir des ressources qu&#39;il avait re&#231;ues de Sant&#233; Canada pour promouvoir une meilleure sant&#233; de sa communaut&#233; dans une r&#233;f&#233;rence de poche qui pourrait &#234;tre utilis&#233; lors d&#39;une visite au m&#233;decin ou un service d&#39;urgence. Ils ont estim&#233; que la pr&#233;sence d&#39;une partie du vocabulaire de base n&#233;cessaire &#224; ces visites au bout des doigts d&#39;une personne pourrait am&#233;liorer l&#39;issue de la visite et, finalement, la sant&#233; de l&#39;individu. La r&#233;f&#233;rence de poche a &#233;t&#233; appel&#233;e le Passeport sant&#233; MCDC et fut un &#233;norme succ&#232;s. Le mod&#232;le a depuis &#233;t&#233; adopt&#233; dans plusieurs r&#233;gions du Qu&#233;bec et dans deux communaut&#233;s francophones du Canada (Terre-Neuve et au Yukon). Le RCSSS reconnu une bonne id&#233;e et a d&#233;cid&#233; qu&#39;une version &#233;lectronique de ce passeport pourrait bien &#234;tre la prochaine &#233;tape. Donc nous sommes ici. Cette version du Passeport Sant&#233; b&#233;n&#233;ficie de l&#39;&#233;laboration et la r&#233;vision de plusieurs organisations. MCDC (M&#233;gantic English-speaking Community Development Corporation) a d&#233;velopp&#233; la version originale et VEQ (Voice of English-speaking Qu&#233;bec) et Jeffery Hale Community Services a r&#233;vis&#233; et produit une deuxi&#232;me version. Nous avons pris le contenu (avec VEQ et la permission de MCDC) pour cr&#233;er cette version &#233;lectronique pour une utilisation par la grande communaut&#233; anglophone du Qu&#233;bec. Tout ce travail n&#39;aurait pas &#233;t&#233; possible sans le soutien financier de leur programme d&#39;appui aux langues officielles du Sant&#233; Canada.
 				</div>
 			</div></li>
+			
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div>Design and development<br/>team</div><div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+				<div class="dynamic-size-box">
+					Alexandra Lemus<br/>
+					Gabriela Su&eacute;<br/>
+					Mariolys Rivas<br/>
+					Adolfo Rodr&iacute;guez<br/>
+				</div>
+			</div></li>
+			
+			
+			
+			
 		</ul>
 	</body>
 

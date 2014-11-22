@@ -670,6 +670,11 @@ h1 a{
 	background-color: rgb( 150, 152, 152 );/* Green block */
 }
 
+
+#menuchssn>li:nth-child(3)>a:first-child{
+	background-color: rgb( 150, 152, 152 );/* Green block */
+}
+
 #information_color{
 	background-color: rgb( 141, 212, 46 );
 }
@@ -1140,9 +1145,9 @@ h1{
 	background-size:auto 40%;
 	z-index:200;
 	pointer-events:none;
-	-webkit-animation: fadeout 2s; /* Chrome, Safari, Opera */
-    animation: fadeout 1.5s;
+    /*animation: fadeout 2s;
+	-webkit-animation: fadeout 2s;
 	animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;*/
 }
 
