@@ -31,6 +31,19 @@ if ($calledDirectly){
 			<div class="white-box-history">
 					<p class="text-container" data-localize="belongs.personalinformation">This health passport belongs to / Ce passeport sant&eacute; appartient &agrave;: </p> 
 					<div class="box-input-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="name" data-history-id="user-name"/></div>
+					<div class="left-box-title" data-localize="bloodtype.paragraph"> Blood type / Groupe sanguin :</div>
+					<div class="box-input-container"> 
+					<select class="box-input">
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>
+							<option value="None">Prefer not to say/Pr&eacute;f&egrave;rent pas &agrave; dire</option>
+					</select> </div>
 			</div>
 
 			<div class="white-box-history">

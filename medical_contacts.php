@@ -16,56 +16,36 @@ if ($calledDirectly){
 	</head>
 	<body>
 	<div class="top-bar medical_contacts_loader">
-		<h1 data-localize="medicalcontacts.title" class='centered'>Medical Contacts/Habitudes de vie </h1>
+		<h1 data-localize="medicalcontacts.title" class='centered'>Medical Contacts/Contacts m&eacute;dicaux </h1>
 		<a href="history.php" id="back-button"></a>
 	</div>
+	
 	
 <?php
 
 }
 
 ?>
-		
-			<div class="white-box-history">
-					<p class="text-container" data-localize="belongs.personalinformation">This health passport belongs to / Ce passeport sant&eacute; appartient &agrave;: </p> 
-					<div class="box-input-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="name" data-history-id="user-name"/></div>
-			</div>
-
-			<div class="white-box-history">
-     			<h3 data-localize="firstpersontonotify.personalinformation"> Contact in case of emergency / Le contact en cas d'urgence</h3>
-     				<div class="left-box-title" data-localize="name.secondpersontonotify">Name / nom:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-name"/></div>
-     				<div class="left-box-title" data-localize="language.secondpersontonotify">Language / langue parl&eacute;e:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-lang"/></div> 
-     				<div class="left-box-title" data-localize="phone.secondpersontonotify">Home phone / t&eacute;l&eacute;phone maison:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-phone"/> </div>
-     				<div class="left-box-title" data-localize="cellphone.secondpersontonotify">Cell phone / Phone cellulaire:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-cell"/> </div>
-     				<div class="left-box-title" data-localize="email.secondpersontonotify">Email / courriel:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="first-person" data-history-id="first-person-email"/> </div>
-     		
-			</div>
-			
-			<div class="white-box-history">
-     			<h3 data-localize="secondpersontonotify.personalinformation"> Second person to notify / Personne &agrave; contacter en deuxi&egrave;me lieu</h3>
-     				<div class="left-box-title" data-localize="name.secondpersontonotify">Name / nom:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="second-person" data-history-id="second-person-name"/></div>
-     				<div class="left-box-title" data-localize="language.secondpersontonotify">Language / langue parl&eacute;e:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="second-person" data-history-id="second-person-lang"/></div> 
-     				<div class="left-box-title" data-localize="phone.secondpersontonotify">Home phone / t&eacute;l&eacute;phone maison:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="second-person" data-history-id="second-person-phone"/> </div>
-     				<div class="left-box-title" data-localize="cellphone.secondpersontonotify">Cell / mobile:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="second-person" data-history-id="second-person-cell"/> </div>
-     				<div class="left-box-title" data-localize="email.secondpersontonotify">Email / courriel:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="second-person" data-history-id="second-person-email"/> </div>
-     		
-     		</div>
-     		
-     		<div class="white-box-history">
-
-     			<h3 data-localize="other.personalinformation"> Other information / Autres informations:</h3>
-     			 	<div class="left-box-title" data-localize="familydoctor.other">Family doctor / m&eacute;decin de famille:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info" data-history-id="family-doctor"/> </div>
-     			 	<div class="left-box-title" data-localize="nameaddress.other">Name and address of usual clinic / nom et adresse de votre clinique:</div><div class="right-box-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="other-info" data-history-id="usual-clinic"/> </div>
-     		
-     		</div>
+	
+			 	<div class="white-box-history" id="medical-contacts-box" data-num-copies="1">
+					<div class="left-box-title" data-localize="medicalcontactstype.paragraph"> Type / type:</div>
+					<div class="side-right-box-container"> 
+					<select class="side-box-input">
+							<option value="Other">Other</option>
+  							<option value="Specialist">Specialist</option>
+  							<option value="Pharmacist">Pharmacist</option>
+  							<option value="Family Doctor">Family Doctor</option>
+					</select> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
+					<div class="left-box-title" data-localize="medicalcontactsname.paragraph"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="allergy"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
+					<div class="left-box-title" data-localize="medicalcontactstelf.paragraph"> Telephone / T&eacute;l&eacute;phone:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="allergy"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
+				</div>
+			 <div class="white-box medical_contacts_loader"><a href="" class="plusbutton" data-copiable-item-id="medical-contacts-box"> </a></div>
+			 
 <?php
 
 if ($calledDirectly){
 
 ?>
-     		
-     </div>
-     <div class="footer personalinfo_loader"> </div>
 	</body>
 </html>
 
