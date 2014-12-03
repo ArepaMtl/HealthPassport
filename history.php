@@ -289,7 +289,7 @@
 					addNewCopy(copiableItemId,true);
 				});
 				
-				$("[data-erasable-level]").click(function(){
+				$("[data-erasable-level]").click(function(event){
 					event.preventDefault();
 					var $erasable = $(this);
 					var numLevels = +$erasable.attr("data-erasable-level");
