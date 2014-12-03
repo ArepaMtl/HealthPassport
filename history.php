@@ -255,6 +255,7 @@
 					var $item = $("#"+copiableItemId);
 					var numCopies = +$item.attr("data-num-copies");
 					var numEverCopies = +$item.attr("data-num-ever-copies");
+					//alert(numEverCopies);
 					var $clone = $item.clone(true);
 					$clone.attr("data-original-copy-id",$item.attr("id"));
 					$clone.attr("id",$clone.attr("id")+numEverCopies);
@@ -342,27 +343,7 @@
 					}
 				});
 				
-				//Loading data finally!
 				
-				if (supports_html5_storage()){
-				
-					$("[data-num-copies]").each(function(){
-						var item_id = $(this).attr("id");
-						var localKey = item_id+"-num-copies";
-						var localValue = localStorage.getItem("history-"+localKey);
-						if (localValue==null){
-							return;
-						}
-						for (var i=1;i<localValue;i+=1){
-							addNewCopy(item_id,false);
-						}
-					});		
-					
-					$("[data-history-id]").each(function(){
-						loadHistoryInput(this);
-					});
-				
-				}
 				
 				
 				//At the end!:
@@ -410,6 +391,34 @@
 					}
 				};
 				
+				//Order!!!!!
+				
+				$("[data-num-copies]").each(function(){
+					$(this).attr("data-num-ever-copies",$(this).attr("data-num-copies"));
+				});
+				
+				//Loading data finally!
+				
+				if (supports_html5_storage()){
+				
+					$("[data-num-copies]").each(function(){
+						var item_id = $(this).attr("id");
+						var localKey = item_id+"-num-copies";
+						var localValue = localStorage.getItem("history-"+localKey);
+						if (localValue==null){
+							return;
+						}
+						for (var i=1;i<localValue;i+=1){
+							addNewCopy(item_id,false);
+						}
+					});		
+					
+					$("[data-history-id]").each(function(){
+						loadHistoryInput(this);
+					});
+				
+				}
+				
 				$("[data-dependants]").change(function(){
 					updateDependants(this,true);
 				});
@@ -449,9 +458,7 @@
 				
 				//Almost very end
 				
-				$("[data-num-copies]").each(function(){
-					$(this).attr("data-num-ever-copies",$(this).attr("data-num-copies"));
-				});
+				
 				
 				//At the very very end!
 				updateLoaders();
