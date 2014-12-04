@@ -94,6 +94,12 @@
 								}else if (loaderObject[dataLoaderId] != 1){
 									loaderObject[dataLoaderId]=0;
 								}
+							}else if ($(this).is("select")){
+								if ($(this).val().length > 0){
+									loaderObject[dataLoaderId]=1;
+								}else if (loaderObject[dataLoaderId] != 1){
+									loaderObject[dataLoaderId]=0;
+								}
 							}
 						}
 					});
@@ -260,6 +266,7 @@
 					$clone.attr("data-original-copy-id",$item.attr("id"));
 					$clone.attr("id",$clone.attr("id")+numEverCopies);
 					$clone.find("input").attr("data-copied-ancestor-id",$clone.attr("id"));
+					$clone.find("select").attr("data-copied-ancestor-id",$clone.attr("id"));
 					$clone.removeAttr("data-num-copies");
 					$clone.removeAttr("data-num-ever-copies");
 					var $lastItem = $item;
@@ -269,6 +276,7 @@
 						$lastItem = $lastItem.next();
 					}
 					$clone.find("input[type=text]").val("");
+					$clone.find("select").val("");
     				$clone.find("input[type=radio]").prop('checked',false);
 					//alert($lastItem.length);
 					//alert($clone.length);
@@ -306,6 +314,7 @@
 						if (numCopies==1){
 							var hasFocus = $erasable.find("input[type=text]").first().is(":focus");
     						$erasable.find("input[type=text]").val("");
+    						$erasable.find("select").val("");
     						$erasable.find("input[type=radio]").prop('checked',false);
     						if (!hasFocus){
     							//TODO: FIX THIS!
@@ -321,6 +330,7 @@
     						$next.attr("data-num-ever-copies",$erasable.attr("data-num-ever-copies"));
     						$next.removeAttr("data-original-copy-id");
     						$next.find("input").removeAttr("data-copied-ancestor-id");
+    						$next.find("select").removeAttr("data-copied-ancestor-id");
     						$erasable.remove();
     						
     						resaveHistoryInputs($next.attr("id"),numCopies);
@@ -380,7 +390,7 @@
 									saveHistoryInput(this);
 								}
 							});
-							$dependant.find("input[type=text]").each(function(){
+							$dependant.find("input[type=text],select").each(function(){
 								$(this).val("");
 								//console.log("called from 3");
 								if (doSave){
@@ -447,7 +457,7 @@
 					if ($(this).is("input[type=radio]")){
 						var name = $(this).attr("name");
 						var thisRadio = this;
-						$("input[name='"+name+"']").each(function(){
+						$("input[name='"+name+"'],select[name='"+name+"']").each(function(){
 							if (this != thisRadio){
 								saveHistoryInput(this);
 							}

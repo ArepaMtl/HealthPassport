@@ -33,7 +33,8 @@ if ($calledDirectly){
 					<div class="box-input-container"><input type="text" name="checkListItem" class="box-input" data-loader="loader-personal" data-loader-id="name" data-history-id="user-name"/></div>
 					<div class="left-box-title" data-localize="bloodtype.paragraph"> Blood type / Groupe sanguin :</div>
 					<div class="box-input-container"> 
-					<select class="box-input">
+					<select class="box-input" name="checkListItem" data-loader="loader-personal" data-loader-id="bloodtype" data-history-id="user-bloodtype">
+							<option value=""> </option>
 							<option value="A+">A+</option>
 							<option value="A-">A-</option>
 							<option value="B+">B+</option>
@@ -42,7 +43,7 @@ if ($calledDirectly){
 							<option value="AB-">AB-</option>
 							<option value="O+">O+</option>
 							<option value="O-">O-</option>
-							<option value="None">Prefer not to say/Pr&eacute;f&egrave;rent pas &agrave; dire</option>
+							<option value="None">Prefer not to say / Pr&eacute;f&egrave;rent pas &agrave; dire</option>
 					</select> </div>
 			</div>
 

@@ -27,19 +27,19 @@ if ($calledDirectly){
 
 ?>
 	
-			 	<div class="white-box-history" id="medical-contacts-box" data-num-copies="1">
+			 	<div class="white-box-history" id="medcontacts-box" data-num-copies="1">
 					<div class="left-box-title" data-localize="medicalcontactstype.paragraph"> Type / type:</div>
 					<div class="side-right-box-container"> 
-					<select class="side-box-input">
-							<option value="Other">Other</option>
+					<select class="side-box-input" name="checkListItem" data-history-id="medcontacts-type">
+							<option value="">Other</option>
   							<option value="Specialist">Specialist</option>
   							<option value="Pharmacist">Pharmacist</option>
   							<option value="Family Doctor">Family Doctor</option>
 					</select> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
-					<div class="left-box-title" data-localize="medicalcontactsname.paragraph"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="allergy"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
-					<div class="left-box-title" data-localize="medicalcontactstelf.paragraph"> Telephone / T&eacute;l&eacute;phone:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="allergy"/> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
+					<div class="left-box-title" data-localize="medicalcontactsname.paragraph"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-name"/> </div>
+					<div class="left-box-title" data-localize="medicalcontactstelf.paragraph"> Telephone / T&eacute;l&eacute;phone:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-tel"/></div>
 				</div>
-			 <div class="white-box medical_contacts_loader"><a href="" class="plusbutton" data-copiable-item-id="medical-contacts-box"> </a></div>
+			 <div class="white-box medical_contacts_loader"><a href="" class="plusbutton" data-copiable-item-id="medcontacts-box"> </a></div>
 			 
 <?php
 
