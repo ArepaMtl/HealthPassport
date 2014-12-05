@@ -28,7 +28,7 @@ if ($calledDirectly){
 ?>
 	
 			 	<div class="white-box-history" id="medcontacts-box" data-num-copies="1">
-					<div class="left-box-title" data-localize="medicalcontactstype.paragraph"> Type / type:</div>
+					<div class="left-box-title" data-localize="medicalcontactstype.paragraph"> Type / Type:</div>
 					<div class="side-right-box-container"> 
 					<select class="side-box-input" name="checkListItem" data-history-id="medcontacts-type">
 							<option value="">Other</option>

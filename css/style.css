@@ -9,7 +9,7 @@ html,body {
 
 /*MAIN MENU*/
 
-.top-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
+.top-bar, .right-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
 	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
 }
 
@@ -120,6 +120,14 @@ html,body {
 	text-align:left;
 }
 
+.right-bar{
+		top:89px;
+		right:0px;
+        width: 50px; /* must never add up to more than 100% */
+        background-color: rgb( 255, 255, 255 );
+        height: 150px;
+        position:absolute;
+}
 
 /* LEXICON */
 

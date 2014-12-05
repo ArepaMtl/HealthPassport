@@ -31,6 +31,11 @@
 					$("#main-menu-info").css("display","block");
 				});
 				
+				$("#bookmarkicon").click(function(event){
+					event.preventDefault();
+					$("#main-menu-bookmark-info").css("display","block");
+				});
+				
 				$(".info-popup > div > a:last-child").click(function(event){
 					event.preventDefault();
 					$("#main-menu-info").css("display","none");
@@ -81,6 +86,13 @@
 		<h1 data-localize="menu.title" class='centered health-pass-title'> Health Passport </h1> 
 		<a href="" id="informationicon"> </a>
 	</div>
+	
+	<div class="right-bar">
+		<p>icons </p>
+		<p>go </p>
+		<p>here </p>
+	</div>
+	
 	<div id="main-icon">
 	</div>
 		<ul id="menu">
@@ -99,6 +111,26 @@
 				<a href=""></a>
 			</div>
 		</div>
+		
+		<div id="main-menu-bookmark-info" class="info-popup">
+			<div>
+				<div>
+					To save this app in your screen....
+				</div>
+				<a href=""></a>
+			</div>
+		</div>
+		
+		<div class="info-popup">
+			<div>
+				<div>
+					Rate the Health Passport WebApp
+					Leave us a comment: <div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+				</div>
+				<a href=""></a>
+			</div>
+		</div>
+		
 		<div id='loading-page'></div>
 	</body>
 </html>
