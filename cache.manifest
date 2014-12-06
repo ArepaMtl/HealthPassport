@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 916
+# rev 917
 
 
 # cache 
@@ -24,6 +24,7 @@ chssn.php
 multiple_users.php
 css/arepa.css
 javascript/arepa.js
+lib/add-to-homescreeen/src/addtohomescreen.js
 javascript/jquery-1.11.1.min.js
 design_folder/assets/menu_yourhistory_icon.png
 design_folder/assets/menu_lexicon_icon.png
