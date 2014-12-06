@@ -102,7 +102,7 @@
 	<div id="main-icon">
 	</div>
 		<ul id="menu">
-			<li class="item"> <a href="history.php" data-localize="medicalhistory.link"><div class="item-text"><div>Your History</div><div>Ant&eacute;c&eacute;dents m&eacute;dicaux</div></div></a>  <div class="noclick lefticon" href="" id="menuyourhistory_icon"> </div> </li>
+			<li class="item"> <a href="multiple_users.php" data-localize="medicalhistory.link"><div class="item-text"><div>Your History</div><div>Ant&eacute;c&eacute;dents m&eacute;dicaux</div></div></a>  <div class="noclick lefticon" href="" id="menuyourhistory_icon"> </div> </li>
 			<li class="item"> <a href="lexicon.php" data-localize="medicallexicon.link"><div class="item-text"><div>Helpful phrases</div><div>Lexique</div></div></a>  <div class="noclick lefticon" href="" id="menuyourlexicon_icon"> </div></li>
 			<li class="item"> <a href="information.php" data-localize="information.link"><div class="item-text"><div>Important numbers</div><div>Num&eacute;ros importants</div></div></a> <div class="noclick lefticon" href="" id="menuquestion_icon"> </div></li>
 			<li class="item"> <a href="chssn.php" data-localize="information.link"><div class="item-text"><div>Health Passport</div><div>Passeport sant&eacute;</div></div></a> <div class="noclick lefticon" href="" id="menuinfo_icon"> </div></li>
