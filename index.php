@@ -112,12 +112,15 @@
 		<a href="" id="informationicon"> </a>
 	</div>
 	
+	
+	
+	<div id="main-icon">
+	</div>
+	
 	<div class="right-bar">
 		<div class="ratestar">   </div>
 	</div>
 	
-	<div id="main-icon">
-	</div>
 		<ul id="menu">
 			<li class="item"> <a href="multiple_users.php" data-localize="medicalhistory.link"><div class="item-text"><div>Your History</div><div>Ant&eacute;c&eacute;dents m&eacute;dicaux</div></div></a>  <div class="noclick lefticon" href="" id="menuyourhistory_icon"> </div> </li>
 			<li class="item"> <a href="lexicon.php" data-localize="medicallexicon.link"><div class="item-text"><div>Helpful phrases</div><div>Lexique</div></div></a>  <div class="noclick lefticon" href="" id="menuyourlexicon_icon"> </div></li>
