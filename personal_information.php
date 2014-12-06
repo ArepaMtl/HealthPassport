@@ -18,7 +18,7 @@ if ($calledDirectly){
 	<body>
 	<div class="top-bar personalinfo_loader">
 		<h1 data-localize="personalinformation.title" class='centered'> Personal Information </h1>
-		<a href="history.php" id="back-button"></a>
+		<a href="multiple_users.php" id="back-button"></a>
 	</div>
 	<div class="information">
 		

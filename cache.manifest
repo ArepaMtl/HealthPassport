@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 915
+# rev 916
 
 
 # cache 
@@ -21,6 +21,7 @@ css/style_small_height.css
 lexicon.php
 information.php
 chssn.php
+multiple_users.php
 css/arepa.css
 javascript/arepa.js
 javascript/jquery-1.11.1.min.js
