@@ -1114,7 +1114,7 @@ h1{
 	top:50%;
 	left:50%;
 	width:300px;
-	height:300px;
+	height:200px;
 	background:white;
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);

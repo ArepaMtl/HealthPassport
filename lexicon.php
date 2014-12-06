@@ -310,7 +310,7 @@
 		return preg_replace($pattern, $replacement,$spaced);
 	}
 	$control_point_1 = 6;
-	$control_point_2 = 12;
+	$control_point_2 = 17;
 	$control_color_0 = array(255, 243, 49);
 	$control_color_1 = array(243, 56, 56);
 	$control_color_2 = array(201, 56, 243);
