@@ -74,6 +74,22 @@
 				}else{
 					$("#loading-page").css("display","none");
 				}
+				
+				if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+    				$(".android-only").css("display","none");
+					$(".ios-only").css("display","block");
+					$(".other-os").css("display","none");
+				}else if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+					$(".android-only").css("display","block");
+					$(".ios-only").css("display","none");
+					$(".other-os").css("display","none");
+				}else {
+					$(".android-only").css("display","none");
+					$(".ios-only").css("display","none");
+					$(".other-os").css("display","block");
+				}
+				
+				
 			});
 		</script>
 	
@@ -123,13 +139,16 @@
 		
 		<div id="main-menu-bookmark-info" class="info-popup">
 			<div>
-					<div>
-				 	<p>To save this app in your screen: </p>
+					<div class="ios-only">
+				 	<p>To save this app to your home screen: </p>
 				 	<p> Press the button <span class="sharebutton_icon"> </span> at the top left of the screen.</p> 
-				 	<p> Then select <span class="addtohomescreen_icon"> </span> add to Home Screen.</p>
+				 	<p> Then select <span class="addtohomescreen_icon"> </span> Add to Home Screen.</p>
 					</div>
-					<div>
-				 	To save this app in your screen	Press the menu button at the bottom of the device. Then select Add shortcut.
+					<div class="android-only">
+				 	<p>To save this app to your home screen:</p> <p> Press the menu button at the bottom of the device. Then select Add shortcut. </p> 
+					</div>
+					<div class="other-os">
+				 	<p> For easier access and a better experience please add this app to your device's home screen. </p>
 					</div>
 				
 				<a href=""></a>
