@@ -113,7 +113,7 @@
 	</div>
 	
 	<div class="right-bar">
-		<p>icon </p>
+		<div class="ratestar">   </div>
 	</div>
 	
 	<div id="main-icon">
