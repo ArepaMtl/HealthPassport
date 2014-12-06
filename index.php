@@ -36,9 +36,14 @@
 					$("#main-menu-bookmark-info").css("display","block");
 				});
 				
-				$(".info-popup > div > a:last-child").click(function(event){
+				$("#main-menu-info > div > a:last-child").click(function(event){
 					event.preventDefault();
 					$("#main-menu-info").css("display","none");
+				});
+				
+				$("#main-menu-bookmark-info > div > a:last-child").click(function(event){
+					event.preventDefault();
+					$("#main-menu-bookmark-info").css("display","none");
 				});
 				
 				var shouldAppear = false;
