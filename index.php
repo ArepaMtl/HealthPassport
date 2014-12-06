@@ -83,6 +83,7 @@
 	</head>
 	<body>
 	<div class="top-bar">
+		<a href="" id="bookmarkicon"> </a>
 		<h1 data-localize="menu.title" class='centered health-pass-title'> Health Passport </h1> 
 		<a href="" id="informationicon"> </a>
 	</div>
