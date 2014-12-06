@@ -133,12 +133,14 @@ html,body {
 }
 
 .right-bar{
-		top:89px;
+		top:100px;
 		right:0px;
         width: 50px; /* must never add up to more than 100% */
-        background-color: rgb( 255, 255, 255 );
-        height: 150px;
+        background-color: rgb( 238, 75, 81 );
+        height: 80px;
         position:absolute;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
 }
 
 .sharebutton_icon{
@@ -682,7 +684,7 @@ h1 a{
 /*GABY: LIVING HABITS BACKGROUND WITHOUT LOADER!!!! */
 
 #menuyourhistory>li:nth-child(8)>a:first-child{
-    background-color: rgb( 251, 119, 119 );  /* Red block */
+    background-color: rgb( 342, 53, 98 );  /* Red block */
 }
 
 #menuinformation{
@@ -856,7 +858,7 @@ h1 a{
 /*GABY: LIVING HABITS LOADER!!!! */
 
 .living_habits_loader{
-  background-color: rgb( 191, 22, 95);
+  background-color: rgb( 247, 3, 78);
 }
 
 

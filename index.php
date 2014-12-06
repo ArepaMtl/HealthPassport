@@ -113,9 +113,7 @@
 	</div>
 	
 	<div class="right-bar">
-		<p>icons </p>
-		<p>go </p>
-		<p>here </p>
+		<p>icon </p>
 	</div>
 	
 	<div id="main-icon">
