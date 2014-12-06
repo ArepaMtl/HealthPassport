@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 919
+# rev 921
 
 
 # cache 
@@ -26,6 +26,8 @@ css/arepa.css
 javascript/arepa.js
 lib/add-to-homescreen/src/addtohomescreen.js
 javascript/jquery-1.11.1.min.js
+shareiconios.png
+addtohomescreenios.png
 design_folder/assets/menu_yourhistory_icon.png
 design_folder/assets/menu_lexicon_icon.png
 design_folder/assets/importantnumber_icon.png

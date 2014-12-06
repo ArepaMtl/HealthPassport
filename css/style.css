@@ -141,6 +141,35 @@ html,body {
         position:absolute;
 }
 
+.sharebutton_icon{
+	position:relative;
+	display: inline-block;
+	width:25px;
+	height:25px;
+	background-image:url('../shareiconios.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	vertical-align: middle;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.addtohomescreen_icon{
+	position:relative;
+	display: inline-block;
+	width:25px;
+	height:25px;
+	background-image:url('../addtohomescreenios.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	vertical-align: middle;
+	margin-left: 3px;
+	margin-right: 3px;
+	
+}
+
 /* LEXICON */
 
 #back-button{
@@ -1090,7 +1119,15 @@ h1{
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	border-radius:10px;	
+	border-radius:10px;
+	text-align:center;
+	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+	padding:25px;
+}
+
+#main-menu-bookmark-info > div {
+	width: 350px;
 }
 
 .info-popup > div > a:last-child {
@@ -1108,7 +1145,7 @@ h1{
 	background-size: 50% auto;
 }
 
-.info-popup > div > div
+/*.info-popup > div > div
 {
 	position:absolute;
 	top:35px;
@@ -1118,7 +1155,7 @@ h1{
 	text-align:center;
 	font-family:LiberationSansRegular,"Helvetica", sans-serif;
 	font-size:16px;
-}
+}*/
 
 .health-pass-title
 {

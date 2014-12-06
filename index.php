@@ -123,9 +123,15 @@
 		
 		<div id="main-menu-bookmark-info" class="info-popup">
 			<div>
-				<div>
-					To save this app in your screen....
-				</div>
+					<div>
+				 	<p>To save this app in your screen: </p>
+				 	<p> Press the button <span class="sharebutton_icon"> </span> at the top left of the screen.</p> 
+				 	<p> Then select <span class="addtohomescreen_icon"> </span> add to Home Screen.</p>
+					</div>
+					<div>
+				 	To save this app in your screen	Press the menu button at the bottom of the device. Then select Add shortcut.
+					</div>
+				
 				<a href=""></a>
 			</div>
 		</div>

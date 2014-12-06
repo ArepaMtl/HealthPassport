@@ -9,7 +9,10 @@
 		<link rel="stylesheet" type="text/css" media="screen and (max-height: 600px)" href="css/style_small_height.css">
 	</head>
 		<body>
-		<p> <a href="index.php"> Back </a> </p>
+		<div class="top-bar">
+		<h1 data-localize="multiple-users.title" class='centered'> Multiple users </h1> 
+		<a href="index.php" id="back-button"> </a>
+		</div>
 		<p> <a href="history.php"> Continue </a> </p>
 		</body>
 </html>
