@@ -24,8 +24,11 @@
 		<link rel="stylesheet" type="text/css" media="screen and (max-height: 600px)" href="css/style_small_height.css">
 	
 		<script src="javascript/jquery-1.11.1.min.js"></script>
+		<script src="lib/add-to-homescreeen/src/addtohomescreen.js"></script>
 		<script type="text/javascript">
-			$(document).ready(function(){	
+			$(document).ready(function(){
+				addToHomescreen();
+				
 				$("#informationicon").click(function(event){
 					event.preventDefault();
 					$("#main-menu-info").css("display","block");
