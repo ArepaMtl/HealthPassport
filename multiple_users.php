@@ -13,6 +13,9 @@
 		<h1 data-localize="multiple-users.title" class='centered'> Multiple users </h1> 
 		<a href="index.php" id="back-button"> </a>
 		</div>
+		<div>
+			<div class="pictureuser"> </div> <div> User Name </div>
+		</div>		
 		<p> <a href="history.php"> Continue </a> </p>
 		</body>
 </html>

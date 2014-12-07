@@ -1236,3 +1236,16 @@ h1{
 	-webkit-animation-fill-mode: forwards;*/
 }
 
+/* Multiple Users */
+
+.pictureuser{
+	padding:0px;
+	margin:0px;
+	display:block;
+	height: 100px;
+	width:100px;
+	background-image:url('../hexagon.png');
+	background-size:28px 28px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
