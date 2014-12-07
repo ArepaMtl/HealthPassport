@@ -471,7 +471,30 @@
 				
 				//Almost very end
 				
+				function updateDependentSiblings(element){
+					$(element).find("[data-dependent-sibling-ids]").each(function(){
+						var depList = $(this).attr("data-dependent-sibling-ids");
+						var depArray = depList.split(",");
+						var isSelected = ($(this).attr("value") == $(this.parentNode).val());
+						for (var i=0; i<depArray.length; i+=1){
+							$(this.parentNode.parentNode.parentNode).find("[data-sibling-id="+depArray[i]+"]").each(function(){
+								if (isSelected) {
+									$(this).css("display","block");
+								}else {
+									$(this).css("display","none");
+								}
+							});
+						}
+					});
+				}
 				
+				$("[data-has-dependent-siblings]").each(function(){
+					updateDependentSiblings(this);
+				});
+				
+				$("[data-has-dependent-siblings]").on("input propertychange paste change",function(){
+					updateDependentSiblings(this);
+				});
 				
 				//At the very very end!
 				updateLoaders();

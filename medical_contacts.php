@@ -30,12 +30,14 @@ if ($calledDirectly){
 			 	<div class="white-box-history" id="medcontacts-box" data-num-copies="1">
 					<div class="left-box-title" data-localize="medicalcontactstype.paragraph"> Type / Type:</div>
 					<div class="side-right-box-container"> 
-					<select class="side-box-input" name="checkListItem" data-history-id="medcontacts-type">
-							<option value="">Other</option>
-  							<option value="Specialist">Specialist</option>
-  							<option value="Pharmacist">Pharmacist</option>
+					<select class="side-box-input" name="checkListItem" data-history-id="medcontacts-type" data-has-dependent-siblings="true">
+							<option value="" data-dependent-sibling-ids="specify-title,specify-box">Other</option>
+  							<option value="Specialist" data-dependent-sibling-ids="speciality-title,speciality-box">Specialist</option>
+  							<option value="Pharmacist" >Pharmacist</option>
   							<option value="Family Doctor">Family Doctor</option>
 					</select> <a href="" class="trashbutton" data-erasable-level="2"> </a></div>
+					<div class="left-box-title" data-localize="medicalcontactsname.paragraph" data-sibling-id="speciality-title"> Speciality:</div><div class="side-right-box-container" data-sibling-id="speciality-box"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-speciality"/> </div>
+					<div data-sibling-id="specify-title" class="left-box-title" data-localize="medicalcontactsname.paragraph"> Specify:</div><div  data-sibling-id="specify-box" class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-specify"/> </div>
 					<div class="left-box-title" data-localize="medicalcontactsname.paragraph"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-name"/> </div>
 					<div class="left-box-title" data-localize="medicalcontactstelf.paragraph"> Telephone / T&eacute;l&eacute;phone:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-tel"/></div>
 				</div>
