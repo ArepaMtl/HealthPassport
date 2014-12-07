@@ -9,7 +9,7 @@ html,body {
 
 /*MAIN MENU*/
 
-.top-bar, .right-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
+.top-bar, .right-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menumultipleusers >li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
 	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
 }
 
@@ -117,11 +117,11 @@ html,body {
 #bookmarkicon{
 	position:absolute;
 	left:0px;
-	top:0px;
-	bottom:0px;
+	top: 10px;
+	bottom: 10px;
 	width:64px;
-	background:url('../design_folder/assets/info_icon.png');
-	background-size:28px 28px;
+	background:url('../design_folder/assets/homescreen_icon.png');
+	background-size:contain;
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -653,13 +653,13 @@ h1 a{
 	background-color: rgb( 202, 207, 206 );
 }
 
-#menuyourhistory
+#menuyourhistory, #menumultipleusers
 {
 	margin:0px;
 	padding:0px;
 }
 
-#menuyourhistory > li{
+#menuyourhistory > li, #menumultipleusers>li {
 	margin:0px;
 	margin-top:10px;
 	padding:0px;
@@ -1238,14 +1238,77 @@ h1{
 
 /* Multiple Users */
 
-.pictureuser{
+#multipleusers_icon{
+	background-image:url('../hexagon.png');	
+}
+
+.multipleuserscolor{
+	background-color: rgb( 255, 255, 255 );
+}
+
+.multipleuserscolor>a:first-child{
+    color:rgba(0,0,0,0.78);
+	background-color:rgb(255,255,255);
+}
+
+#editicon{
+	position:absolute;
+	right:0px;
+	top:25px;
+	bottom:25px;
+	width:64px;
+	background-size:28px 28px;
+	background-position:center;
+}
+
+#editicon>a{
+		text-decoration: none;
+		text-align:center;
+		font-family:LiberationSansRegular,"Helvetica", sans-serif;
+		color:rgba(0,0,0,0.78);
+}
+
+
+#forward-button{
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:56px;
+	background-size:12px 21px;
+	background-image:url('../design_folder/assets/forward_button.png');
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+.righticon
+{
+	position:absolute;
+	background-size:contain;
+	background-position:center;
+	right:0px;
+	top:50%;
+	height:52px;
+	margin-top:5px;
+	width:100px;
+	background-repeat:no-repeat;
+	z-index:10;
+}
+
+/*.pictureuser{
+	display:inline-block;
 	padding:0px;
 	margin:0px;
 	display:block;
-	height: 100px;
-	width:100px;
+	height: 40px;
+	width:40px;
 	background-image:url('../hexagon.png');
 	background-size:28px 28px;
 	background-position:center;
 	background-repeat:no-repeat;
-}
+}*/
+
+
+

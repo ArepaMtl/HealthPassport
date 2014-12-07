@@ -35,10 +35,14 @@
 		<div class="top-bar">
 		<h1 data-localize="multiple-users.title" class='centered'> Multiple users </h1> 
 		<a href="index.php" id="back-button"> </a>
+		<div id="editicon"><a href=""> Edit </a> </div>
 		</div>
-		<div>
-			<div class="pictureuser"> </div> <div> User Name </div>
-		</div>		
-		<p> <a href="history.php"> Continue </a> </p>
+		<ul id="menumultipleusers">
+			<li class="item multipleuserscolor" > <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <div class="noclick lefticon" href="" id="multipleusers_icon"> </div> <div class="righticon" id="forward-button"> </div></li>
+			<li class="item multipleuserscolor" > <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <div class="noclick lefticon" href="" id="multipleusers_icon"> </div> <div class="righticon" id="forward-button"> </div></li>
+		    <li class="item multipleuserscolor" > <a href= ""><div class="item-text"> <div> New User </div> </div> </a> </li>
+		    <li class="item multipleuserscolor" > <a href="history.php"> <div class="item-text"> <div> Continue </div> </div> </a> </li>
+		</ul>
+		
 		</body>
 </html>
