@@ -11,6 +11,9 @@
 		<script type="text/javascript" src="javascript/arepa.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
+				var urlHash = window.location.hash+"";
+				
+				
 				$(".item>a:first-child").click(function(event){
 					event.preventDefault();
 					
@@ -141,13 +144,13 @@
 					
 					var numCopies = $("#"+container_id).attr("data-num-copies");
 					
-					localStorage.setItem("history-"+container_id+"-num-copies",numCopies);
+					localStorage.setItem("history-"+urlHash+"-"+container_id+"-num-copies",numCopies);
 					
 					$("#"+container_id).find("[data-history-id]").each(function(){
 						var historyId = $(this).attr("data-history-id");
-						localStorage.removeItem("history-"+historyId);
+						localStorage.removeItem("history-"+urlHash+"-"+historyId);
 						for (var i=1;i<oldNumCopies;i++){
-							localStorage.removeItem("history-"+historyId+"."+i);
+							localStorage.removeItem("history-"+urlHash+"-"+historyId+"."+i);
 						}
 					});
 					
@@ -200,7 +203,7 @@
 						val = $(element).is(":checked");
 					}
 					
-					localStorage.setItem("history-"+historyId,val);
+					localStorage.setItem("history-"+urlHash+"-"+historyId,val);
 					
 				}
 				
@@ -234,7 +237,7 @@
 						//console.log("has NO ancestor!!!!!");
 					}
 					
-					var value = localStorage.getItem("history-"+historyId);
+					var value = localStorage.getItem("history-"+urlHash+"-"+historyId);
 					
 					if (value==null){
 						return;
@@ -414,7 +417,7 @@
 					$("[data-num-copies]").each(function(){
 						var item_id = $(this).attr("id");
 						var localKey = item_id+"-num-copies";
-						var localValue = localStorage.getItem("history-"+localKey);
+						var localValue = localStorage.getItem("history-"+urlHash+"-"+localKey);
 						if (localValue==null){
 							return;
 						}
