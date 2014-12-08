@@ -1252,6 +1252,11 @@ h1{
 	background-color:rgb(255,255,255);
 }
 
+.multipleuserscolor > div{
+	margin: 5px;
+	padding: 5px;
+	bottom: 10px;
+}
 
 #editicon{
 	position:absolute;
@@ -1297,6 +1302,17 @@ h1{
 	width:100px;
 	background-repeat:no-repeat;
 	z-index:10;
+}
+
+.addme{
+	text-align: center;
+}
+
+.addme >a{
+	text-align: center;
+	text-decoration: none;
+	color:rgba(0,0,0,0.78);
+	text-transform:uppercase;
 }
 
 /*.pictureuser{
