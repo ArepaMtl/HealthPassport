@@ -40,7 +40,9 @@
 		<ul id="menumultipleusers">
 			<li class="item multipleuserscolor" > <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <div class="noclick lefticon" href="" id="multipleusers_icon"> </div> <div class="righticon" id="forward-button"> </div></li>
 			<li class="item multipleuserscolor" > <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <div class="noclick lefticon" href="" id="multipleusers_icon"> </div> <div class="righticon" id="forward-button"> </div></li>
-		    <li class="item multipleuserscolor" > <a href= ""><div class="item-text"> <div> New User </div> </div> </a> </li>
+		    <li class="item multipleuserscolor" > 
+					<div class="left-box-title" data-localize="name.user"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" /> </div>	    
+		   	</li>
 		    <li class="item multipleuserscolor" > <a href="history.php"> <div class="item-text"> <div> Continue </div> </div> </a> </li>
 		</ul>
 		

@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 923
+# rev 924
 
 
 # cache 
@@ -45,6 +45,8 @@ design_folder/assets/popup_close.png
 design_folder/assets/printer.png
 design_folder/assets/info_icon.png
 design_folder/assets/Splash_screen_chssn.png
+design_folder/assets/forward_button.png
+design_folder/assets/homescreen_icon.png
 design_folder/assets/rate_app.png
 fonts/Franchise-Bold.woff
 fonts/FuturaCondensedMedium.woff
