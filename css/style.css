@@ -145,11 +145,11 @@ html,body {
 }
 
 .right-bar{
-		top:100px;
+		top:170px;
 		right:0px;
-        width: 50px; /* must never add up to more than 100% */
+        width: 40px; /* must never add up to more than 100% */
         background-color: rgb( 238, 75, 81 );
-        height: 80px;
+        height: 65px;
         position:absolute;
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
