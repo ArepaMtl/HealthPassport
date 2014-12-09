@@ -47,6 +47,11 @@
 					$("#main-menu-bookmark-info").css("display","none");
 				});
 				
+				$("#rate-star-icon > div").click(function(event){
+					event.preventDefault();
+					$("#main-menu-rate-this-app").css("display","block");
+				});
+				
 				var shouldAppear = false;
 				
 				if (document.referrer) {
@@ -115,7 +120,7 @@
 	<div id="main-icon">
 	</div>
 	
-	<div class="right-bar">
+	<div id="rate-star-icon" class="right-bar">
 		<div class="ratestar">   </div>
 	</div>
 	
@@ -154,13 +159,14 @@
 			</div>
 		</div>
 		
-		<div class="info-popup">
+		<div id="main-menu-rate-this-app" class="info-popup">
 			<div>
 				<div>
-					Rate the Health Passport WebApp"
+					Rate the Health Passport WebApp
 					<div id="ratingstars"> </div>
-					Leave us a comment (optional): <div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
-					<div > Submit </div>
+					Leave us a comment (optional): 
+					<div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+					<div> Submit </div>
 				</div>
 				<a href=""></a>
 			</div>
