@@ -1215,6 +1215,13 @@ h1{
 	font-size:16px;
 }*/
 
+.health-pass-link{
+		text-decoration: none;
+		font-family:LiberationSansRegular,"Helvetica", sans-serif;
+		color:rgba(0,0,0,0.78);
+}
+
+
 .health-pass-title
 {
 	font-size:15pt;
@@ -1239,6 +1246,7 @@ h1{
 	width:100px;
 	height:16px;
 }
+
 
 .item>a.chssn-title-bar
 {
