@@ -13,6 +13,15 @@
 			$(document).ready(function(){
 				var urlHash = window.location.hash+"";
 				
+				var trimmed = decodeURIComponent(urlHash).replace(/_/g,"-").trim();
+				
+				if (trimmed.length < 1){
+					trimmed = "#User";
+				}
+				
+				trimmed = trimmed.substring(1);
+				
+				$("#user-name-span").text(trimmed);
 				
 				$(".item>a:first-child").click(function(event){
 					event.preventDefault();
@@ -551,7 +560,7 @@
 	<body>
 	 
 	<div class="top-bar">
-		<h1 data-localize="yourhistory.title" class='centered'> Your history </h1> 
+		<h1 data-localize="yourhistory.title" class='centered'> <span id="user-name-span"></span>'s history </h1> 
 		<a href="multiple_users.php" id="back-button"> </a>
 		<!--<a href="" id="printericon"> </a>-->
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->

@@ -68,14 +68,40 @@
 					localStorage.setItem("user-"+i,name);
 					return i
 				}
+				
+				//GABY: MARIOLYS: Aqui va la lista de colores, por ejemplo ["red","#ff0123","rgb(23,24,255)"]
+				
+				var allColors=["red","green","blue"];
+				
 				function addUserLink(name,i) {
 					if (i<0){
 						return;
 					}
 					$("#editicon").removeClass("addme-noclick");
 					var key = encodeURIComponent(name);
+					
+					var words = name.split(" ");
+					
+					var initials = ""
+					
+					for (var j=0; j<words.length; j+=1){
+						if (words[j].length > 0) {
+							initials += words[j].substring(0,1).toUpperCase();
+						}
+					}
+					
 					key = key.replace(/-/g,"_");
-					$("<li class='item multipleuserscolor user-item' id='user-item-"+i+"'> <a href=\"history.php#"+key+"\" class='user-link'>  <div class='item-text'> <div> "+htmlEncode(name)+" </div> </div> </a> <span class='noclick mulefticon multipleusers_icon' href=''> </span> <a class='remove-button righticon-invisible' href='' data-user-number="+i+"> </a> <div class='noclick forward-button'> </div></li>").insertBefore("#addme-li");
+					
+					var colorNumber = 0;
+					
+					for (var j=0; j<name.length; j+=1) {
+						colorNumber += name.charCodeAt(j);
+					}
+					
+					colorNumber = colorNumber % allColors.length;
+					
+					
+					$("<li class='item multipleuserscolor user-item' id='user-item-"+i+"'> <a href=\"history.php#"+key+"\" class='user-link'>  <div class='item-text'> <div> "+htmlEncode(name)+" </div> </div> </a> <div class='noclick mulefticon multipleusers_icon' href='' style=\"background-color:"+allColors[colorNumber]+"\"><div>"+initials+"</div></div> <a class='remove-button righticon-invisible' href='' data-user-number="+i+"> </a> <div class='noclick forward-button'> </div></li>").insertBefore("#addme-li");
 					addRemoveButtonActions();
 				}
 				function removeUser(i) {
@@ -127,6 +153,8 @@
 				
 				function addRemoveButtonActions(){
 				
+					$( ".remove-button").unbind("click");
+					
 					$(".remove-button").click(function(event){
 						event.preventDefault();
 						if (confirm("Are you sure you wish to delete this user?")){
