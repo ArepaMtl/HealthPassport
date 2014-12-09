@@ -136,6 +136,15 @@ html,body {
 	transform: translate(0%,-50%);
 }
 
+.user-item-text {
+	position:absolute;
+	top:50%;
+	left:50px;
+	-ms-transform: translate(0%,-50%);
+	-webkit-transform: translate(0%,-50%);
+	transform: translate(0%,-50%);
+}
+
 .item-text > div:first-child {
 	text-align:left;
 }
@@ -1291,6 +1300,24 @@ h1{
 }
 
 
+#okicon{
+	position:absolute;
+	right:0px;
+	top:25px;
+	bottom:25px;
+	width:64px;
+	background-size:28px 28px;
+	background-position:center;
+}
+
+#okicon>a{
+		text-decoration: none;
+		text-align:center;
+		font-family:LiberationSansRegular,"Helvetica", sans-serif;
+		color:rgba(0,0,0,0.78);
+}
+
+
 .forward-button{
 	position:absolute;
 	right:0px;
@@ -1320,9 +1347,19 @@ h1{
 	z-index:10;
 }
 
+.righticon-invisible {
+	display:none;
+}
+
 .addme{
 	text-align: center;
 	margin-top:15px;
+}
+
+.addme-noclick {
+	opacity:0.25;
+	pointer-events:none;
+	
 }
 
 .addme >a{
@@ -1358,6 +1395,19 @@ h1{
 	background-position:center;
 	background-repeat:no-repeat;
 }*/
+
+.remove-button {
+	position:absolute;
+	top:5px;
+	right:5px;
+	bottom:5px;
+	width:80px;
+	background-image:url('../design_folder/assets/popup_close.png');
+	background-position:center;
+	background-size:20px 20px;
+	background-repeat:no-repeat;
+	z-index:10;
+}
 
 
 
