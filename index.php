@@ -139,15 +139,15 @@
 		<div id="main-menu-bookmark-info" class="info-popup">
 			<div>
 					<div class="ios-only">
-				 	<p>To save this app to your home screen: </p>
-				 	<p> Press the button <span class="sharebutton_icon"> </span> at the top left of the screen.</p> 
-				 	<p> Then select <span class="addtohomescreen_icon"> </span> Add to Home Screen.</p>
+				 	To save this app to your home screen: <br/>
+				 	<p>Press the button <span class="sharebutton_icon"> </span> at the top left of the screen.</p>
+				 	<p>Then select <span class="addtohomescreen_icon"> </span> Add to Home Screen.</p>
 					</div>
 					<div class="android-only">
-				 	<p>To save this app to your home screen:</p> <p> Press the menu button at the bottom of the device. Then select Add Shortcut. </p> 
+				 	To save this app to your home screen: <p>Press the menu button at the bottom of the device. Then select Add Shortcut.</p>
 					</div>
 					<div class="other-os">
-				 	<p> For easier access and a better experience please bookmark this app or add it to your mobile device's home screen. </p>
+				 	For easier access and a better experience please bookmark this app or add it to your mobile device's home screen.
 					</div>
 				
 				<a href=""></a>
