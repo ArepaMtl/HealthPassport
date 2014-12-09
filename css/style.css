@@ -155,7 +155,7 @@ html,body {
 }
 
 .right-bar{
-		top:170px;
+		top:100px;
 		right:0px;
         width: 40px; /* must never add up to more than 100% */
         background-color: rgb( 238, 75, 81 );
@@ -193,6 +193,20 @@ html,body {
 	margin-left: 3px;
 	margin-right: 3px;
 	
+}
+
+.ratingstars{
+	display:inline-block;
+	height:60px;
+	width: 30px;
+	background-image:url('../design_folder/assets/rate_star.png');
+    background-position:center;
+	background-repeat:no-repeat;
+}
+
+#rateit{
+	font-weight:bold;
+	text-transform:uppercase;
 }
 
 /* LEXICON */
@@ -661,7 +675,7 @@ h1 a{
 }
 
 #menu > li:nth-child(4) >a:first-child{
-	background-color: rgb( 202, 207, 206 );
+	background-color: rgb( 60, 184, 120 );
 }
 
 #menuyourhistory, #menumultipleusers
@@ -761,16 +775,16 @@ h1 a{
 }
 
 #menuchssn>li:nth-child(1)>a:first-child{
-	background-color: rgb( 202, 207, 206 ); /*Green block */
+	background-color: rgb( 68, 208, 136 ); /*Green block */
 }
 
 #menuchssn>li:nth-child(2)>a:first-child{
-	background-color: rgb( 150, 152, 152 );/* Green block */
+	background-color: rgb( 62, 229, 143 );/* Green block */
 }
 
 
 #menuchssn>li:nth-child(3)>a:first-child{
-	background-color: rgb( 150, 152, 152 );/* Green block */
+	background-color: rgb( 130, 245, 185 );/* Green block */
 }
 
 #information_color{
@@ -1268,7 +1282,7 @@ h1{
 /* Multiple Users */
 
 .multipleusers_icon{
-	background-image:url('../hexagon.png');	
+	background-image:url('../design_folder/assets/hexagon_.png');	
 }
 
 .multipleuserscolor{
