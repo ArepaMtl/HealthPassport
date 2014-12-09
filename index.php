@@ -157,8 +157,10 @@
 		<div class="info-popup">
 			<div>
 				<div>
-					Rate the Health Passport WebApp
-					Leave us a comment: <div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+					Rate the Health Passport WebApp"
+					<div id="ratingstars"> </div>
+					Leave us a comment (optional): <div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
+					<div > Submit </div>
 				</div>
 				<a href=""></a>
 			</div>
