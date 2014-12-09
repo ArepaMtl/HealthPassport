@@ -33,17 +33,20 @@
 	</head>
 		<body>
 		<div class="top-bar">
-		<h1 data-localize="multiple-users.title" class='centered'> Multiple users </h1> 
+		<h1 data-localize="multiple-users.title" class='centered'> Your History </h1> 
 		<a href="index.php" id="back-button"> </a>
 		<div id="editicon"><a href=""> Edit </a> </div>
 		</div>
 		<ul id="menumultipleusers">
-			<li class="item multipleuserscolor"> <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <span class="noclick lefticon" href="" id="multipleusers_icon"> </span> <div class="righticon" id="forward-button"> </div></li>
-			<li class="item multipleuserscolor"> <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <span class="noclick lefticon" href="" id="multipleusers_icon"> </span> <div class="righticon" id="forward-button"> </div></li>
-		    <li class="item multipleuserscolor"> 
-					<div class="left-box-title" data-localize="name.user"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" /> </div>	    
+			<li class="item multipleuserscolor" > <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <span class="noclick mulefticon multipleusers_icon" href=""> </span> <div class="noclick forward-button"> </div></li>
+			<li class="item multipleuserscolor" > <a href="history.php">  <div class="item-text"> <div> User name </div> </div> </a> <span class="noclick mulefticon multipleusers_icon" href=""> </span> <div class="noclick forward-button"> </div></li>
+		    <li class="item multipleuserscolor padded-li"> 
+					<div class="left-box-title" data-localize="name.user"> Name / Nom:</div>
+					<div class="box-input-container"><input type="text" name="checkListItem" class="box-input" /> </div>	    
 		   			<div class="addme"> <a href=""> Add New User </a> </div>
 		   	</li>
+		    <!--<li class="item multipleuserscolor" > <a href="history.php"> <div class="item-text"> <div> Continue </div> </div> </a> </li>-->
+
 		</ul>
 		
 		</body>

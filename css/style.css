@@ -4,6 +4,7 @@ html,body {
     margin:0px;
     padding:0px;
     background: rgb( 240, 240, 240 );
+	
 }
 
 
@@ -426,6 +427,7 @@ li{background-color:white}
     position:absolute;
     width:100%;
     top:0px;
+	left:0px;
     height:100%;
     
 }
@@ -659,12 +661,29 @@ h1 a{
 	padding:0px;
 }
 
-#menuyourhistory > li, #menumultipleusers>li {
+#menuyourhistory > li {
 	margin:0px;
 	margin-top:10px;
 	padding:0px;
 	display:block;
 }
+
+ #menumultipleusers>li {
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	display:block;
+}
+
+
+ #menumultipleusers>li.padded-li {
+	margin:0px;
+	margin-top:10px;
+	padding:15px;
+	padding-right:20px;
+	display:block;
+}
+
 
 #menuyourhistory>li:nth-child(1)>a:first-child{
 	background-color: rgb( 166, 223, 246 ); /*Blue block */
@@ -1143,6 +1162,7 @@ h1{
 
 #main-menu-bookmark-info > div {
 	width: 350px;
+	height:150px;
 }
 
 .info-popup > div > a:last-child {
@@ -1238,7 +1258,7 @@ h1{
 
 /* Multiple Users */
 
-#multipleusers_icon{
+.multipleusers_icon{
 	background-image:url('../hexagon.png');	
 }
 
@@ -1252,11 +1272,6 @@ h1{
 	background-color:rgb(255,255,255);
 }
 
-.multipleuserscolor > div{
-	margin: 5px;
-	padding: 5px;
-	bottom: 10px;
-}
 
 #editicon{
 	position:absolute;
@@ -1276,16 +1291,17 @@ h1{
 }
 
 
-#forward-button{
+.forward-button{
 	position:absolute;
 	right:0px;
-	top:0px;
-	bottom:0px;
+	top:5px;
+	bottom:5px;
 	width:56px;
 	background-size:12px 21px;
 	background-image:url('../design_folder/assets/forward_button.png');
 	background-position:center;
 	background-repeat:no-repeat;
+	z-index:10;
 }
 
 
@@ -1306,6 +1322,7 @@ h1{
 
 .addme{
 	text-align: center;
+	margin-top:15px;
 }
 
 .addme >a{
@@ -1313,6 +1330,20 @@ h1{
 	text-decoration: none;
 	color:rgba(0,0,0,0.78);
 	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.mulefticon
+{
+	position:absolute;
+	background-size:contain;
+	background-position:center;
+	left:0px;
+	top:5px;
+	bottom:5px;
+	width:80px;
+	background-repeat:no-repeat;
+	z-index:10;
 }
 
 /*.pictureuser{
