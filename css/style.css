@@ -188,13 +188,17 @@ html,body {
 
 .ratingstars{
 	display:inline-block;
-	height:20px;
-	width: 20px;
+	height:60px;
+	width: 60px;
 	background-image:url('../design_folder/assets/rate_star.png');
     background-position:center;
 	background-repeat:no-repeat;
 }
 
+#rateit{
+	font-weight:bold;
+	text-transform:uppercase;
+}
 
 /* LEXICON */
 
