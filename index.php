@@ -162,13 +162,12 @@
 		<div id="main-menu-rate-this-app" class="info-popup">
 			<div>
 				<div>
-					<div id="rateit">Rate this app: </div>
+					<div id="rateit"> Rate this app: </div>
 					<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
-					<div> Leave us a comment (optional):</div> 
+					<div id="leavecomment"> Leave us a comment (optional):</div> 
 					<div class="right-box-container"> <input type="text" name="checkListItem" class="box-input"/> </div>
-					<div class="addme"> <a href="">Submit </a> </div>
+					<div class="addme"> <a href=""> Submit </a> </div>
 				</div>
-				<a href=""></a>
 			</div>
 		</div>
 		

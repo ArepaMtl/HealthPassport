@@ -200,6 +200,10 @@ html,body {
 	text-transform:uppercase;
 }
 
+#leavecomment{
+	text-align:left;
+}
+
 /* LEXICON */
 
 #back-button{
