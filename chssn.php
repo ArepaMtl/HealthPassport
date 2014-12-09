@@ -35,9 +35,9 @@
 					
 					<b>CHSSN Contact Information</b><br/><br/>
 					
-					<a href='http://www.chssn.org'>www.chssn.org</a><br/><br/>
-					<a href='mailto:info@chssn.org'>info@chssn.org</a><br/><br/>
-					<b>Phone:</b> <a href='tel:+14186842289'>418-684-2289</a><br/><br/>
+					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>
+					<a href='mailto:info@chssn.org' class="health-pass-link">info@chssn.org</a><br/><br/>
+					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-2289</a><br/><br/>
 					<b>Address:</b> 1270, Chemin Ste-Foy, Suite 2106, Quebec, QC G1S 2M4
 					
 				</div>
