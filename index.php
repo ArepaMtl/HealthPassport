@@ -162,11 +162,11 @@
 		<div id="main-menu-rate-this-app" class="info-popup">
 			<div>
 				<div>
-					Rate the Health Passport WebApp
-					<div id="ratingstars"> </div>
-					Leave us a comment (optional): 
-					<div class="right-box-container"><input type="text" name="checkListItem" class="box-input"/></div>
-					<div> Submit </div>
+					<div>Rate the Health Passport WebApp: </div>
+					<div class="ratingstars"> </div> <div class="ratingstars"> </div>
+					<div> Leave us a comment (optional):</div> 
+					<div class="right-box-container"> <input type="text" name="checkListItem" class="box-input"/> </div>
+					<div class="addme"> <a href="">Submit </a> </div>
 				</div>
 				<a href=""></a>
 			</div>
