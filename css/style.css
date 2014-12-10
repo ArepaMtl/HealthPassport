@@ -168,13 +168,17 @@ html,body {
 
 #rate-star-icon {
 	z-index:7;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 #main-menu-rate-this-app-container {
 	position:absolute;
 	top:90px;
 	right:0px;
-    width: 200px;
+    width: 250px;
     height: 230px;
 	z-index:5;
 	overflow:hidden;
@@ -183,13 +187,17 @@ html,body {
 #main-menu-rate-this-app {
 	position:absolute;
 	top:0px;
-	right:-200px;
-    width: 200px;
+	right:-250px;
+    width: 250px;
     height: 230px;
 	font-family:LiberationSansRegular,"Helvetica", sans-serif;
 	font-size:16px;
 	background-color:white;
 	border-radius:10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 #main-menu-rate-this-app > div {
@@ -1422,6 +1430,14 @@ h1{
 }
 
 .addme >a{
+	text-align: center;
+	text-decoration: none;
+	color:rgba(0,0,0,0.78);
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.submit-comment >a{
 	text-align: center;
 	text-decoration: none;
 	color:rgba(0,0,0,0.78);

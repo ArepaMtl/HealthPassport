@@ -33,16 +33,90 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				
-				var dragHandler = function(){
-						var right = -$('#main-menu-rate-this-app').width() + $(window).width() - $("#rate-star-icon").width() - $("#rate-star-icon").position().left;
-						console.log(right);
-						$('#main-menu-rate-this-app').css("right",right+"px");
+				var isRateOpen = false;
+				
+				var isRateMouseDown = false
+				
+				var startHandler = function(){
+					
+					$('#main-menu-rate-this-app').css("-webkit-transition","none");
+					$('#main-menu-rate-this-app').css("-moz-transition","none");
+					$('#main-menu-rate-this-app').css("-o-transition","none");
+					$('#main-menu-rate-this-app').css("transition","none");
+					
+					
+					$('#rate-star-icon').css("-webkit-transition","none");
+					$('#rate-star-icon').css("-moz-transition","none");
+					$('#rate-star-icon').css("-o-transition","none");
+					$('#rate-star-icon').css("transition","none");
 				}
+				
+				var dragHandler = function(){
+						
+					isRateMouseDown = false
+					var right = -$('#main-menu-rate-this-app').width() + $(window).width() - $("#rate-star-icon").width() - $("#rate-star-icon").position().left;
+					//console.log(right);
+					$('#main-menu-rate-this-app').css("right",right+"px");
+				}
+				
+				function toggleRateOpen() {
+					isRateOpen = !isRateOpen;
+					
+					if (isRateOpen) {
+						$("#rate-star-icon").css("right",$('#main-menu-rate-this-app').width()+"px");
+						$('#main-menu-rate-this-app').css("right","0px");
+					}else{
+						$("#rate-star-icon").css("right","0px");
+						$('#main-menu-rate-this-app').css("right",(-$('#main-menu-rate-this-app').width()) + "px");
+					}
+				}
+				
+				var stopHandler = function(){
+					dragHandler();
+					
+					var right = $(window).width() - $("#rate-star-icon").position().left - $("#rate-star-icon").width();
+					
+					$("#rate-star-icon").css("left","auto");
+					$("#rate-star-icon").css("right",right+"px");
+					
+					$('#main-menu-rate-this-app').css("-webkit-transition","all 0.3s ease-in-out");
+					$('#main-menu-rate-this-app').css("-moz-transition","all 0.3s ease-in-out");
+					$('#main-menu-rate-this-app').css("-o-transition","all 0.3s ease-in-out");
+					$('#main-menu-rate-this-app').css("transition","all 0.3s ease-in-out");
+					
+					setTimeout(function(){
+						
+						
+					$('#rate-star-icon').css("-webkit-transition","all 0.3s ease-in-out");
+					$('#rate-star-icon').css("-moz-transition","all 0.3s ease-in-out");
+					$('#rate-star-icon').css("-o-transition","all 0.3s ease-in-out");
+					$('#rate-star-icon').css("transition","all 0.3s ease-in-out");
+					
+					toggleRateOpen();
+						
+					}, 100)
+					
+					
+						
+				}
+				
+				
+				
+				$("#rate-star-icon").mousedown(function(){
+					isRateMouseDown = true
+				});
+				
+				$("#rate-star-icon").click(function(){
+					if (isRateMouseDown) {
+						toggleRateOpen();
+					}
+				});
 				
 				$("#rate-star-icon").draggable({
     				axis: "x",
+					start: startHandler,
 					drag: dragHandler,
-					stop: dragHandler
+					stop: stopHandler
 				});
 				
 				$('#rate-star-icon').on('mousedown', function() {
@@ -192,8 +266,8 @@
 				<div id="rateit"> Rate this app: </div>
 				<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
 				<div id="leavecomment"> Leave us a comment (optional):</div> 
-				<div> <textarea style='height:50px;margin-bottom:5px;'></textarea> </div>
-				<div> <a href=""> Submit </a> </div>
+				<div> <textarea style='height:50px;margin-bottom:5px;margin-top:5px;width:200px'></textarea> </div>
+				<div class="submit-comment"> <a href=""> Submit </a> </div>
 			</div>
 		</div>
 	</div>
