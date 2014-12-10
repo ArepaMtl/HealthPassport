@@ -1471,12 +1471,12 @@ h1{
 .remove-button {
 	position:absolute;
 	top:5px;
-	right:5px;
+	right:15px;
 	bottom:5px;
 	width:80px;
-	background-image:url('../design_folder/assets/popup_close.png');
+	background-image:url('../design_folder/assets/TRASH.png');
 	background-position:center;
-	background-size:20px 20px;
+	background-size:15px 27px;
 	background-repeat:no-repeat;
 	z-index:10;
 }

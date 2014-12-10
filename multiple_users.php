@@ -71,7 +71,8 @@
 				
 				//GABY: MARIOLYS: Aqui va la lista de colores, por ejemplo ["red","#ff0123","rgb(23,24,255)"]
 				
-				var allColors=["red","green","blue"];
+				var allColors=["rgb(89,195,239)","rgb(101,216,114)","rgb(253,198,65)","rgb(238,75,81)", "rgb(136,88,201)", "rgb(84,150,201)", 
+								"rgb(64,163,77)", "rgb(253,132,65)", "rgb(252,117,122)", "rgb(164,134,212)"];
 				
 				function addUserLink(name,i) {
 					if (i<0){
