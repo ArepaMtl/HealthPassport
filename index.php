@@ -24,8 +24,34 @@
 		<link rel="stylesheet" type="text/css" media="screen and (max-height: 600px)" href="css/style_small_height.css">
 	
 		<script src="javascript/jquery-1.11.1.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+		
+		<script src="javascript/jquery-ui.min.js"></script>
+		
+		
 		<script type="text/javascript">
 			$(document).ready(function(){
+				
+				var dragHandler = function(){
+						var right = -$('#main-menu-rate-this-app').width() + $(window).width() - $("#rate-star-icon").width() - $("#rate-star-icon").position().left;
+						$('#main-menu-rate-this-app').css("right",right+"px");
+				}
+				
+				$("#rate-star-icon").draggable({
+    				axis: "x",
+					drag: dragHandler,
+					stop: dragHandler
+				});
+				
+				$('#rate-star-icon').on('mousedown', function() {
+    				var x1 = $(window).width() - $("#rate-star-icon").width() - $('#main-menu-rate-this-app').width();
+    				var x2 = $(window).width() - $("#rate-star-icon").width();
+    				var y1 = $("#rate-star-icon").position().top;
+    				var y2 = $("#rate-star-icon").position().bottom;
+    				$("#rate-star-icon").draggable('option', 'containment', [x1, y1, x2, y2]);
+				});
+				
 				
 				$("#informationicon").click(function(event){
 					event.preventDefault();
@@ -47,10 +73,10 @@
 					$("#main-menu-bookmark-info").css("display","none");
 				});
 				
-				$("#rate-star-icon > div").click(function(event){
-					event.preventDefault();
-					$("#main-menu-rate-this-app").css("display","block");
-				});
+				//$("#rate-star-icon > div").click(function(event){
+				//	event.preventDefault();
+				//	$("#main-menu-rate-this-app").css("display","block");
+				//});
 				
 				var shouldAppear = false;
 				
@@ -159,14 +185,14 @@
 			</div>
 		</div>
 		
-		<div id="main-menu-rate-this-app" class="info-popup">
+		<div id="main-menu-rate-this-app">
 			<div>
 				<div>
 					<div id="rateit"> Rate this app: </div>
 					<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
 					<div id="leavecomment"> Leave us a comment (optional):</div> 
-					<div class="right-box-container"> <input type="text" name="checkListItem" class="box-input"/> </div>
-					<div class="addme"> <a href=""> Submit </a> </div>
+					<div> <textarea style='height:50px;margin-bottom:5px;'></textarea> </div>
+					<div> <a href=""> Submit </a> </div>
 				</div>
 			</div>
 		</div>

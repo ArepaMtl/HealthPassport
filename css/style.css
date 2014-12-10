@@ -166,6 +166,32 @@ html,body {
         cursor: pointer;
 }
 
+#main-menu-rate-this-app {
+	position:absolute;
+	top:90px;
+	right:-200px;
+    width: 200px;
+    height: 230px;
+	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+	background-color:white;
+	z-index:10;
+	border-radius:10px
+}
+
+#main-menu-rate-this-app > div {
+	position:absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	padding:10px;
+}
+
+#main-menu-rate-this-app > div > div {
+	text-align: center;
+}
+
 .sharebutton_icon{
 	position:relative;
 	display: inline-block;
@@ -1443,6 +1469,7 @@ h1{
 	background-repeat:no-repeat;
 	z-index:10;
 }
+
 
 
 

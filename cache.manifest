@@ -18,6 +18,8 @@ index.php
 history.php
 css/style.css
 css/style_small_height.css
+css/jquery-ui.css
+javascript/jquery-ui.min.js
 lexicon.php
 information.php
 chssn.php
@@ -75,6 +77,7 @@ mstile-70x70.png
 mstile-150x150.png
 mstile-310x310.png
 mstile-310x150.png
+
 
 # network
 NETWORK:
