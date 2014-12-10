@@ -35,6 +35,7 @@
 				
 				var dragHandler = function(){
 						var right = -$('#main-menu-rate-this-app').width() + $(window).width() - $("#rate-star-icon").width() - $("#rate-star-icon").position().left;
+						console.log(right);
 						$('#main-menu-rate-this-app').css("right",right+"px");
 				}
 				
@@ -185,17 +186,17 @@
 			</div>
 		</div>
 		
+		<div id="main-menu-rate-this-app-container">
 		<div id="main-menu-rate-this-app">
 			<div>
-				<div>
-					<div id="rateit"> Rate this app: </div>
-					<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
-					<div id="leavecomment"> Leave us a comment (optional):</div> 
-					<div> <textarea style='height:50px;margin-bottom:5px;'></textarea> </div>
-					<div> <a href=""> Submit </a> </div>
-				</div>
+				<div id="rateit"> Rate this app: </div>
+				<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
+				<div id="leavecomment"> Leave us a comment (optional):</div> 
+				<div> <textarea style='height:50px;margin-bottom:5px;'></textarea> </div>
+				<div> <a href=""> Submit </a> </div>
 			</div>
 		</div>
+	</div>
 		
 		<div id='loading-page'></div>
 	</body>

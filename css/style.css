@@ -4,7 +4,7 @@ html,body {
     margin:0px;
     padding:0px;
     background: rgb( 240, 240, 240 );
-	
+	overflow-x: hidden;
 }
 
 
@@ -166,17 +166,30 @@ html,body {
         cursor: pointer;
 }
 
-#main-menu-rate-this-app {
+#rate-star-icon {
+	z-index:7;
+}
+
+#main-menu-rate-this-app-container {
 	position:absolute;
 	top:90px;
+	right:0px;
+    width: 200px;
+    height: 230px;
+	z-index:5;
+	overflow:hidden;
+}
+
+#main-menu-rate-this-app {
+	position:absolute;
+	top:0px;
 	right:-200px;
     width: 200px;
     height: 230px;
 	font-family:LiberationSansRegular,"Helvetica", sans-serif;
 	font-size:16px;
 	background-color:white;
-	z-index:10;
-	border-radius:10px
+	border-radius:10px;
 }
 
 #main-menu-rate-this-app > div {
@@ -186,11 +199,9 @@ html,body {
 	left:0px;
 	bottom:0px;
 	padding:10px;
-}
-
-#main-menu-rate-this-app > div > div {
 	text-align: center;
 }
+
 
 .sharebutton_icon{
 	position:relative;
