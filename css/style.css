@@ -118,9 +118,9 @@ html,body {
 #bookmarkicon{
 	position:absolute;
 	left:0px;
-	top: 10px;
-	bottom: 10px;
-	width:64px;
+	top: 15px;
+	bottom: 15px;
+	width:65px;
 	background:url('../design_folder/assets/homescreen_icon.png');
 	background-size:contain;
 	background-position:center;
