@@ -11,17 +11,38 @@
 		<script type="text/javascript" src="javascript/arepa.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				var urlHash = window.location.hash+"";
-				
-				var trimmed = decodeURIComponent(urlHash).replace(/_/g,"-").trim();
-				
-				if (trimmed.length < 1){
-					trimmed = "#User";
+				var userId = window.location.hash+"";
+				if (userId.length > 0 && userId.substring(0,1) == "#") {
+					userId = userId.substring(1);
+				}
+				var userName = "";
+				var i = 0;
+				while (localStorage.getItem("user-"+i) != null && localStorage.getItem("user-id-"+i) != null) {
+					//alert("comparing "+localStorage.getItem("user-id-"+i)+","+userId);
+					if (localStorage.getItem("user-id-"+i) == userId) {
+						//alert("found name!");
+						userName = localStorage.getItem("user-"+i);
+						break;
+					}
+					i += 1;
 				}
 				
-				trimmed = trimmed.substring(1);
+				var shortUserName = userName.split(" ")[0];
 				
-				$("#user-name-span").text(trimmed);
+				if (shortUserName.length > 0){
+					var lastChar = shortUserName.substring(shortUserName.length-1,shortUserName.length);
+					if (lastChar == "s" || lastChar == "S") {
+						$("#user-name-s-span").css("display","none");
+					}
+				}
+				
+				var nameKey = "history-"+userId+"-user-name";
+				
+				if (localStorage.getItem(nameKey) == null) {
+					localStorage.setItem(nameKey,userName);
+				}
+				
+				$("#user-name-span").text(shortUserName);
 				
 				$(".item>a:first-child").click(function(event){
 					event.preventDefault();
@@ -153,13 +174,13 @@
 					
 					var numCopies = $("#"+container_id).attr("data-num-copies");
 					
-					localStorage.setItem("history-"+urlHash+"-"+container_id+"-num-copies",numCopies);
+					localStorage.setItem("history-"+userId+"-"+container_id+"-num-copies",numCopies);
 					
 					$("#"+container_id).find("[data-history-id]").each(function(){
 						var historyId = $(this).attr("data-history-id");
-						localStorage.removeItem("history-"+urlHash+"-"+historyId);
+						localStorage.removeItem("history-"+userId+"-"+historyId);
 						for (var i=1;i<oldNumCopies;i++){
-							localStorage.removeItem("history-"+urlHash+"-"+historyId+"."+i);
+							localStorage.removeItem("history-"+userId+"-"+historyId+"."+i);
 						}
 					});
 					
@@ -212,7 +233,7 @@
 						val = $(element).is(":checked");
 					}
 					
-					localStorage.setItem("history-"+urlHash+"-"+historyId,val);
+					localStorage.setItem("history-"+userId+"-"+historyId,val);
 					
 				}
 				
@@ -246,7 +267,7 @@
 						//console.log("has NO ancestor!!!!!");
 					}
 					
-					var value = localStorage.getItem("history-"+urlHash+"-"+historyId);
+					var value = localStorage.getItem("history-"+userId+"-"+historyId);
 					
 					if (value==null){
 						return;
@@ -426,7 +447,7 @@
 					$("[data-num-copies]").each(function(){
 						var item_id = $(this).attr("id");
 						var localKey = item_id+"-num-copies";
-						var localValue = localStorage.getItem("history-"+urlHash+"-"+localKey);
+						var localValue = localStorage.getItem("history-"+userId+"-"+localKey);
 						if (localValue==null){
 							return;
 						}
@@ -560,7 +581,7 @@
 	<body>
 	 
 	<div class="top-bar">
-		<h1 data-localize="yourhistory.title" class='centered'> <span id="user-name-span"></span>'s history </h1> 
+		<h1 data-localize="yourhistory.title" class='centered'> <span id="user-name-span"></span>&#39;<span id="user-name-s-span">s</span> history </h1> 
 		<a href="multiple_users.php" id="back-button"> </a>
 		<!--<a href="" id="printericon"> </a>-->
 		<!--<div id="button"> <a href="" data-localize="history.print"> Print</a> </div>-->

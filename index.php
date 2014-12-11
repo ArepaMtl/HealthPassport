@@ -120,9 +120,14 @@
 					if (isRateOpen) {
 						$("#rate-star-icon").css("right",$('#main-menu-rate-this-app').width()+"px");
 						$('#main-menu-rate-this-app').css("right","0px");
+						
+						$("#rate-star-div").css("background-image","url(design_folder/assets/x_rating.png)");
+						
 					}else{
 						$("#rate-star-icon").css("right","0px");
 						$('#main-menu-rate-this-app').css("right",(-$('#main-menu-rate-this-app').width()) + "px");
+						
+						$("#rate-star-div").css("background-image","url(design_folder/assets/rate_app.png)");
 					}
 				}
 				
@@ -277,7 +282,7 @@
 	</div>
 	
 	<div id="rate-star-icon" class="right-bar">
-		<div class="ratestar">   </div>
+		<div class="ratestar" id="rate-star-div">   </div>
 	</div>
 	
 		<ul id="menu">
