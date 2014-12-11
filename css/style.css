@@ -242,11 +242,14 @@ html,body {
 
 .ratingstars{
 	display:inline-block;
-	height:60px;
-	width: 30px;
+	height:34px;
+	width: 34px;
 	background-image:url('../design_folder/assets/rate_star.png');
     background-position:center;
 	background-repeat:no-repeat;
+	margin-top:15px;
+	margin-bottom:15px;
+	cursor:pointer;
 }
 
 #rateit{

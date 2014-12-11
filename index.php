@@ -33,6 +33,61 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				
+				$("#comment-submit").click(function(event){
+					event.preventDefault();
+					$("#comment-text").val("");
+				});
+				
+				var rating = localStorage.getItem("health-passport-rating");
+				
+				if (rating == null) {
+					rating = 0;
+				}else {
+					rating = parseInt(rating)
+				}
+				
+				var index = 1;
+				
+				$(".ratingstars").each(function(){
+					
+					if (index <= rating) {
+						$(this).css("background-color","rgb(238,75,81)");
+					}else {
+						$(this).css("background-color","white");
+					}
+					
+					index += 1;
+				});
+				
+				$(".ratingstars").click(function(){
+					var thisStar = this
+					var foundStar = false
+					var index = 1;
+					var clickedIndex = 0;
+					$(this).parent().find(".ratingstars").each(function(){
+						
+						if (foundStar) {
+							$(this).css("background-color","white");
+						}else {
+							$(this).css("background-color","rgb(238,75,81)");
+						}
+						
+						if (this === thisStar) {
+							foundStar = true;
+							clickedIndex = index
+						}
+						
+						index += 1;
+					});
+					
+					localStorage.setItem("health-passport-rating",clickedIndex);
+					
+					if (clickedIndex > 0){
+						ga('send', 'event', 'star', 'rate', 'feedback', clickedIndex);
+					}
+					
+				});
+				
 				var isRateOpen = false;
 				
 				var isRateMouseDown = false
@@ -266,8 +321,8 @@
 				<div id="rateit"> Rate this app: </div>
 				<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
 				<div id="leavecomment"> Leave us a comment (optional):</div> 
-				<div> <textarea style='height:50px;margin-bottom:5px;margin-top:5px;width:200px'></textarea> </div>
-				<div class="submit-comment"> <a href=""> Submit </a> </div>
+				<div> <textarea id="comment-text" style='height:50px;margin-bottom:5px;margin-top:5px;width:200px'></textarea> </div>
+				<div class="submit-comment"> <a href="" id="comment-submit"> Submit </a> </div>
 			</div>
 		</div>
 	</div>
