@@ -33,6 +33,22 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				
+				var currentVersion = "1.0";
+				
+				var oldVersion = localStorage.getItem("app-version");
+				
+				if (oldVersion !== currentVersion) {
+					$("#new-version-info").css("display","block");
+					
+					localStorage.setItem("app-version",currentVersion);
+				}
+				
+				$("#new-version-info > div > a:last-child").click(function(event){
+					event.preventDefault();
+					$("#new-version-info").css("display","none");
+				});
+				
+				
 				$("#comment-submit").click(function(event){
 					event.preventDefault();
 					
@@ -311,6 +327,15 @@
 				<div>
 				This app is meant as a guide to make it easier for an English-speaking
 				person to communicate with French-speaking health professionals. It does not replace a professional medical opinion in any way.
+				</div>
+				<a href=""></a>
+			</div>
+		</div>
+		
+		<div id="new-version-info" class="info-popup">
+			<div>
+				<div>
+					A new version of this app has become available and it has been automatically downloaded into your device.
 				</div>
 				<a href=""></a>
 			</div>
