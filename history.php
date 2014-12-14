@@ -36,7 +36,7 @@
 					}
 				}
 				
-				var nameKey = "history-"+userId+"-user-name";
+				var nameKey = "history-user:"+userId+"-user-name";
 				
 				if (localStorage.getItem(nameKey) == null) {
 					localStorage.setItem(nameKey,userName);
@@ -174,13 +174,13 @@
 					
 					var numCopies = $("#"+container_id).attr("data-num-copies");
 					
-					localStorage.setItem("history-"+userId+"-"+container_id+"-num-copies",numCopies);
+					localStorage.setItem("history-user:"+userId+"-"+container_id+"-num-copies",numCopies);
 					
 					$("#"+container_id).find("[data-history-id]").each(function(){
 						var historyId = $(this).attr("data-history-id");
-						localStorage.removeItem("history-"+userId+"-"+historyId);
+						localStorage.removeItem("history-user:"+userId+"-"+historyId);
 						for (var i=1;i<oldNumCopies;i++){
-							localStorage.removeItem("history-"+userId+"-"+historyId+"."+i);
+							localStorage.removeItem("history-user:"+userId+"-"+historyId+"."+i);
 						}
 					});
 					
@@ -233,7 +233,7 @@
 						val = $(element).is(":checked");
 					}
 					
-					localStorage.setItem("history-"+userId+"-"+historyId,val);
+					localStorage.setItem("history-user:"+userId+"-"+historyId,val);
 					
 				}
 				
@@ -267,7 +267,7 @@
 						//console.log("has NO ancestor!!!!!");
 					}
 					
-					var value = localStorage.getItem("history-"+userId+"-"+historyId);
+					var value = localStorage.getItem("history-user:"+userId+"-"+historyId);
 					
 					if (value==null){
 						return;
@@ -447,7 +447,7 @@
 					$("[data-num-copies]").each(function(){
 						var item_id = $(this).attr("id");
 						var localKey = item_id+"-num-copies";
-						var localValue = localStorage.getItem("history-"+userId+"-"+localKey);
+						var localValue = localStorage.getItem("history-user:"+userId+"-"+localKey);
 						if (localValue==null){
 							return;
 						}

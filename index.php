@@ -35,7 +35,21 @@
 				
 				$("#comment-submit").click(function(event){
 					event.preventDefault();
-					$("#comment-text").val("");
+					
+					var message = $("#comment-text").val();
+					
+					$.ajax({
+  						type: "POST",
+  						url: "send_feedback.php",
+  						data: {"message":message},
+  						success: function(){
+							alert("Your message has been submitted. Thank you for your feedback.");
+							$("#comment-text").val("");
+						},
+						error: function(){
+							alert("Your message could not be submitted. Please check your internet connection");
+						}
+					});
 				});
 				
 				var rating = localStorage.getItem("health-passport-rating");

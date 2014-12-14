@@ -1500,6 +1500,24 @@ h1{
 	z-index:10;
 }
 
+.edit-name-textbox {
+	position:absolute;
+	left:80px;
+	top:20%;
+	bottom:20%;
+	right:80px;
+	z-index:10;
+	border:1px;
+    border-color:rgba(0,0,0,0.3);
+    border-style:solid;
+	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+}
+
+.edit-invisible {
+	display:none;
+}
+
 
 
 
