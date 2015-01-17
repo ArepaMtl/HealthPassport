@@ -65,8 +65,8 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18002632266"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>1800 263-2266 </div></a>
-					<br/> SMS: 514 600-1002
+					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="tel:+18002632266">SMS: 514 600-1002</a> </div></div>
+					 
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>

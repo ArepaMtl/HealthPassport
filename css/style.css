@@ -673,6 +673,11 @@ input:checked + .actual-radio{
 	bottom:0px;
 }
 
+.phone-link, .phone-link:visited, phone-link:active
+{
+	text-decoration:none
+}
+
 .taller-box{
 	height:96px;
 }
