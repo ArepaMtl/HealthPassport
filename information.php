@@ -37,11 +37,7 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+14186884240"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>418 688-4240</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:211"><div class="info-content-small centered">Community Services /<br/>Services Communautaires:<br/>211</div></a>
+					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -61,12 +57,11 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+14186613700"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>418 661-3700</div></a>
+					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="tel:+18002632266">SMS: 514 600-1002</a> </div></div>
-					 
+					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
