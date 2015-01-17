@@ -33,7 +33,7 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				
-				var currentVersion = "1.0";
+				var currentVersion = "2.0";
 				
 				var oldVersion = localStorage.getItem("app-version");
 				

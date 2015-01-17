@@ -182,6 +182,7 @@ html,body {
     height: 230px;
 	z-index:5;
 	overflow:hidden;
+	pointer-events:none;
 }
 
 #main-menu-rate-this-app {
@@ -198,6 +199,7 @@ html,body {
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	pointer-events:all;
 }
 
 #main-menu-rate-this-app > div {
