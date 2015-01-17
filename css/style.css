@@ -675,7 +675,8 @@ input:checked + .actual-radio{
 
 .phone-link, .phone-link:visited, phone-link:active
 {
-	text-decoration:none
+	text-decoration:none;
+	color:inherit
 }
 
 .taller-box{
