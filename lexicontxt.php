@@ -234,7 +234,4 @@ $lexicon_text[] = "-Hands and feet are blue (cyanosis) / Coloration bleut&eacute
 $lexicon_text[] = "-Fainting / &Eacute;vanouissements";
 $lexicon_text[] = "-Fatigue / Fatigue";
 $lexicon_text[] = "-Sores take a long time to heal / Plaies longues &agrave; gu&eacute;rir";
-$lexicon_text[] = "[Youth services / Services &agrave; la jeunesse]";
-$lexicon_text[] = "[Special needs / Des besoins particuliers ]";
-$lexicon_text[] = "[Mental health / Sant&eacute; mentale]";
 ?>
