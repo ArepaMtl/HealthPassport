@@ -1,1 +1,1 @@
-AddType application/x-httpd-php5 .manifest
+AddType application/x-httpd-php .manifest
