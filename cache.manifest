@@ -7,6 +7,8 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
+//comment
+
 ?>CACHE MANIFEST
 # rev 1029
 
