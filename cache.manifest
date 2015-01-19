@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 1029
+# rev 1032
 
 
 
@@ -62,6 +62,7 @@ design_folder/assets/popup_close.png
 design_folder/assets/chssn_topbar.png
 design_folder/assets/chssn_info.png
 design_folder/assets/logo_splash_screen.png
+design_folder/assets/external_link.png
 design_folder/assets/rate_star.png
 design_folder/assets/hexagon.png
 apple-touch-icon-57x57.png

@@ -640,6 +640,18 @@ input:checked + .actual-radio{
 	background-position:center;
 }
 
+.externallink-icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	width:64px;
+	background-image:url('../design_folder/assets/external_link.png');
+	background-size:26px 28px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
 .info-content
 {
 	color:rgba(0,0,0,0.78);
