@@ -33,12 +33,13 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
+					<div class="info-link"><div class="info-content-small centered">Health Info /<br/>Info-Sant&eacute;:<br/>  
+					<a class='phone-link' href="tel:811">811<a> <br/> <a class='phone-link' href="http://www.msss.gouv.qc.ca/en/sujets/organisation/info-sante-811.php">www.msss.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:211"><div class="info-content centered">Community Information & Referrals/<br/>Centre d’information et de r&eacute;f&eacute;rence:<br/>211</div></a>
-					<a class="info-link" href="http://www.211quebecregions.ca/en/"><br/><div class="info-content-small centered">www.211quebecregions.ca</div></a>					
+					<div class="info-link"><div class="info-content-small centered">Community Information & Referrals /<br/>Centre d'information et de r&eacute;f&eacute;rence:<br/>  
+					<a class='phone-link' href="tel:211">211<a> <br/> <a class='phone-link' href="http://www.211quebecregions.ca/en/">www.211quebecregions.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -46,23 +47,23 @@
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
-					<div class="phone-icon noclick"></div>
+					<a class="info-link" href="http://ligneparents.com"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>www.ligneparents.com</div></a>
+					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
-					<div class="phone-icon noclick"></div>
+					<a class="info-link" href="http://www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre/"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre</div></a>
+					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
-					<div class="phone-icon noclick"></div>
+					<a class="info-link" href="http://www.violsecours.qc.ca/"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>www.violsecours.qc.ca</div></a>
+					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
-					<div class="phone-icon noclick"></div>
+					<a class="info-link" href="http://www.sosviolenceconjugale.ca/"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>www.sosviolenceconjugale.ca</div></a>
+					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
+					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
