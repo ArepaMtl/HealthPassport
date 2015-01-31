@@ -37,31 +37,43 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
-					<div class="externallink-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
+					<a class="info-link" href="tel:211"><div class="info-content centered">Community Services /<br/>Services Communautaires:<br/>211</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
+					<a class="info-link" href="tel:+4182282031"><div class="info-content centered">CSS Beauce/<br/> Beauceville:<br/>418 228-2031</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
+					<a class="info-link" href="tel:+4182480630"><div class="info-content centered">CSS de Montmagny /<br/> L'islet Montmagny:<br/>418 248-0630</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
+					<a class="info-link" href="tel:+4188357121"><div class="info-content centered">CSS Alphonse-Desjardins /<br/> L&eacute;vis:<br/>418 835-7121</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
-					<div class="externallink-icon noclick"></div>
+					<a class="info-link" href="tel:+4183387777"><div class="info-content centered">CSS de la r&eacute;gion de Thetford /<br/> Thetford Mines:<br/>418 338-7777</div></a>
+					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
+					<a class="info-link" href="tel:+4186253101"><div class="info-content centered">CSS des Etchemins /<br/> Lac-Etchemins:<br/>418 625-3101</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4187743304"><div class="info-content centered">Rehabilitation center for drug and alcohol addiction /<br/> Centre de R&eacute;adaptation en Alcoolisme et Toxicomanie (Beauceville):<br/>418 774-3304</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4188333218"><div class="info-content centered">Intellectual Deficiency Rehabilitation Center /<br/> Centre de R&eacute;adaptation en D&eacute;ficience Intellectuelle (CRDI L&eacute;vis):<br/>418 833-3218</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183802064"><div class="info-content centered">Physical Deficiency Rehabilitation Center /<br/> Centre de R&eacute;adaptation en D&eacute;ficience Physique (Charny L&eacute;vis):<br/>418 380-2064</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4188379331"><div class="info-content-small centered">Youth HelpLine /<br/>Les Centres Jeunesse (L&eacute;vis):<br/>418 837-9331</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
