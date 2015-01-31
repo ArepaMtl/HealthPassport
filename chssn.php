@@ -28,7 +28,7 @@
 			<li class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a> <a href="chssn.php" class="below-button"> </a></li>-->
 			
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div>Jeffery Hale</br>Saint Brigid's</div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 				    Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
