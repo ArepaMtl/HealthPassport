@@ -61,8 +61,8 @@ html,body {
 }
 
 #menuinfo_icon{
-	background-image:url('../design_folder/assets/chssn_icon.png');
-	background-size:70% auto;
+	background-image:url('../design_folder/assets/logo_about.png');
+	background-size:contain;
 }
 
 
