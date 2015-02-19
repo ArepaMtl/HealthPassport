@@ -62,7 +62,7 @@ html,body {
 
 #menuinfo_icon{
 	background-image:url('../design_folder/assets/logo_about.png');
-	background-size:70% auto;
+	background-size:contain;
 }
 
 
