@@ -33,6 +33,8 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				
+				//VERSIONING
+				
 				var currentVersion = "2.0";
 				
 				var oldVersion = localStorage.getItem("app-version");
@@ -48,6 +50,8 @@
 					$("#new-version-info").css("display","none");
 				});
 				
+				
+				//SUBMIT COMMENT AND RATING
 				
 				$("#comment-submit").click(function(event){
 					event.preventDefault();
@@ -118,6 +122,8 @@
 					
 				});
 				
+				//OPENING AND CLOSING RATE MENU
+				
 				var isRateOpen = false;
 				
 				var isRateMouseDown = false
@@ -153,11 +159,17 @@
 						
 						$("#rate-star-div").css("background-image","url(design_folder/assets/x_rating.png)");
 						
+						$("#organization-icon").css("display","none");
+						$("#main-menu-organization-container").css("display","none");
+						
 					}else{
 						$("#rate-star-icon").css("right","0px");
 						$('#main-menu-rate-this-app').css("right",(-$('#main-menu-rate-this-app').width()) + "px");
 						
 						$("#rate-star-div").css("background-image","url(design_folder/assets/rate_app.png)");
+						
+						$("#organization-icon").css("display","block");
+						$("#main-menu-organization-container").css("display","block");
 					}
 				}
 				
@@ -190,8 +202,6 @@
 						
 				}
 				
-				
-				
 				$("#rate-star-icon").mousedown(function(){
 					isRateMouseDown = true
 				});
@@ -217,6 +227,114 @@
     				$("#rate-star-icon").draggable('option', 'containment', [x1, y1, x2, y2]);
 				});
 				
+				
+				//OPENING AND CLOSING ORG MENU
+				
+				var isOrgOpen = false;
+				
+				var isOrgMouseDown = false
+				
+				var orgStartHandler = function(){
+					
+					$('#main-menu-organization').css("-webkit-transition","none");
+					$('#main-menu-organization').css("-moz-transition","none");
+					$('#main-menu-organization').css("-o-transition","none");
+					$('#main-menu-organization').css("transition","none");
+					
+					
+					$('#organization-icon').css("-webkit-transition","none");
+					$('#organization-icon').css("-moz-transition","none");
+					$('#organization-icon').css("-o-transition","none");
+					$('#organization-icon').css("transition","none");
+				}
+				
+				var orgDragHandler = function(){
+						
+					isOrgMouseDown = false
+					var left = -$('#main-menu-organization').width() + $("#organization-icon").position().left;
+					//console.log(right);
+					$('#main-menu-organization').css("left",left+"px");
+				}
+				
+				function toggleOrgOpen() {
+					isOrgOpen = !isOrgOpen;
+					
+					if (isOrgOpen) {
+						$("#organization-icon").css("left",$('#main-menu-organization').width()+"px");
+						$('#main-menu-organization').css("left","0px");
+						
+						$("#organization-div").css("background-image","url(design_folder/assets/x_org.png)");
+						
+						$("#rate-star-icon").css("display","none");
+						$("#main-menu-rate-this-app-container").css("display","none");
+						
+					}else{
+						$("#organization-icon").css("left","0px");
+						$('#main-menu-organization').css("left",(-$('#main-menu-organization').width()) + "px");
+						
+						$("#organization-div").css("background-image","url(design_folder/assets/side-org-icon.png)");
+						
+						$("#rate-star-icon").css("display","block");
+						$("#main-menu-rate-this-app-container").css("display","block");
+					}
+				}
+				
+				var orgStopHandler = function(){
+					orgDragHandler();
+					
+					//var right = $(window).width() - $("#organization-icon").position().left - $("#organization-icon").width();
+					
+					//$("#organization-icon").css("left","auto");
+					//$("#organization-icon").css("right",right+"px");
+					
+					$('#main-menu-organization').css("-webkit-transition","all 0.3s ease-in-out");
+					$('#main-menu-organization').css("-moz-transition","all 0.3s ease-in-out");
+					$('#main-menu-organization').css("-o-transition","all 0.3s ease-in-out");
+					$('#main-menu-organization').css("transition","all 0.3s ease-in-out");
+					
+					setTimeout(function(){
+						
+						
+					$('#organization-icon').css("-webkit-transition","all 0.3s ease-in-out");
+					$('#organization-icon').css("-moz-transition","all 0.3s ease-in-out");
+					$('#organization-icon').css("-o-transition","all 0.3s ease-in-out");
+					$('#organization-icon').css("transition","all 0.3s ease-in-out");
+					
+					toggleOrgOpen();
+						
+					}, 100)
+					
+					
+						
+				}
+				
+				$("#organization-icon").mousedown(function(){
+					isOrgMouseDown = true
+				});
+				
+				$("#organization-icon").click(function(){
+					if (isOrgMouseDown) {
+						toggleOrgOpen();
+					}
+				});
+				
+				$("#organization-icon").draggable({
+    				axis: "x",
+					start: orgStartHandler,
+					drag: orgDragHandler,
+					stop: orgStopHandler
+				});
+				
+				$('#organization-icon').on('mousedown', function() {
+					var x1 = 0;
+					var x2 = $('#main-menu-organization').width();
+    				var y1 = $("#organization-icon").position().top;
+    				var y2 = $("#organization-icon").position().bottom;
+    				$("#organization-icon").draggable('option', 'containment', [x1, y1, x2, y2]);
+				});
+				
+				
+				//INFORMATION AND OTHER
 				
 				$("#informationicon").click(function(event){
 					event.preventDefault();
@@ -311,9 +429,7 @@
 	<div id="main-icon">
 	</div>
 	
-	<div id="rate-star-icon" class="right-bar">
-		<div class="ratestar" id="rate-star-div">   </div>
-	</div>
+	
 	
 		<ul id="menu">
 			<li class="item"> <a href="multiple_users.php" data-localize="medicalhistory.link"><div class="item-text"><div>Your History</div><div>Ant&eacute;c&eacute;dents m&eacute;dicaux</div></div></a>  <div class="noclick lefticon" href="" id="menuyourhistory_icon"> </div> </li>
@@ -359,17 +475,33 @@
 			</div>
 		</div>
 		
+		<div id="rate-star-icon" class="right-bar">
+			<div class="ratestar" id="rate-star-div">   </div>
+		</div>
+		
 		<div id="main-menu-rate-this-app-container">
-		<div id="main-menu-rate-this-app">
-			<div>
-				<div id="rateit"> Rate this app: </div>
-				<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
-				<div id="leavecomment"> Leave us a comment (optional):</div> 
-				<div> <textarea id="comment-text" style='height:50px;margin-bottom:5px;margin-top:5px;width:200px'></textarea> </div>
-				<div class="submit-comment"> <a href="" id="comment-submit"> Submit </a> </div>
+			<div id="main-menu-rate-this-app">
+				<div>
+					<div id="rateit"> Rate this app: </div>
+					<div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div> <div class="ratingstars"> </div>
+					<div id="leavecomment"> Leave us a comment (optional):</div> 
+					<div> <textarea id="comment-text" style='height:50px;margin-bottom:5px;margin-top:5px;width:200px'></textarea> </div>
+					<div class="submit-comment"> <a href="" id="comment-submit"> Submit </a> </div>
+				</div>
 			</div>
 		</div>
-	</div>
+		
+		<div id="organization-icon" class="left-bar">
+			<div class="orgicon" id="organization-div">   </div>
+		</div>
+		
+		<div id="main-menu-organization-container">
+			<div id="main-menu-organization">
+				<div>
+					Hello
+				</div>
+			</div>
+		</div>
 		
 		<div id='loading-page'></div>
 	</body>
