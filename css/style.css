@@ -32,6 +32,9 @@ html,body {
 }
 
 
+
+
+
 .lefticon
 {
 	position:absolute;
@@ -1127,6 +1130,16 @@ h1 a{
 	src: url(../fonts/liberationsans-regular-webfont.woff);
 }
 
+.bar-title-container {
+	text-align:center;
+}
+
+.org-name {
+	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-stretch: condensed;
+	font-size:16px;
+}
+
 .item-text > div:first-child {
 	font-family:LiberationSansBold,"Helvetica", sans-serif;
 	font-weight:bold;
@@ -1295,10 +1308,7 @@ h1{
 	font-size:15pt;
 	top:10px;
 	bottom:10px;
-	-ms-transform: translate(-50%,0);
-	-webkit-transform: translate(-50%,0);
-	transform: translate(-50%,0);
-	background-image:url('../design_folder/assets/chssn_topbar.png');
+	/*background-image:url('../design_folder/assets/chssn_topbar.png');*/
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 30% auto;

@@ -302,7 +302,10 @@
 	<body>
 	<div class="top-bar">
 		<a href="" id="bookmarkicon"> </a>
-		<h1 data-localize="menu.title" class='centered health-pass-title'> Health Passport </h1> 
+		<div class="centered bar-title-container">
+		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
+		<span class='org-name'>Organization Name</span>
+		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
 	
