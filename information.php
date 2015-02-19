@@ -47,8 +47,17 @@
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
+<<<<<<< HEAD
 					<a class="info-link" href="http://ligneparents.com"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>www.ligneparents.com</div></a>
 					<div class="externallink-icon noclick"></div>
+=======
+					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
+					<div class="phone-icon noclick"></div>
+>>>>>>> master
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="http://www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre/"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre</div></a>
