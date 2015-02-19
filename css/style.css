@@ -127,6 +127,14 @@ html,body {
 	background-repeat:no-repeat;
 }
 
+.lng-en{
+	display:block;
+}
+
+.lng-fr{
+	display:none;
+}
+
 #bookmarkicon{
 	position:absolute;
 	left:0px;
