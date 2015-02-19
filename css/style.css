@@ -225,6 +225,7 @@ html,body {
 	pointer-events:none;
 }
 
+
 #main-menu-organization-container {
 	position:absolute;
 	top:90px;
@@ -280,6 +281,9 @@ html,body {
 	text-align: center;
 }
 
+#main-menu-organization >div {
+	padding:15px;
+}
 
 .sharebutton_icon{
 	position:relative;
