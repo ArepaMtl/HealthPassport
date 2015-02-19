@@ -20,7 +20,7 @@
 	</head>
 	<body>
      <div class="top-bar">
-		 <h1 data-localize="information.title" class='centered'> HEALTH PASSPORT </h1>	
+		 <h1 data-localize="information.title" class='centered'> ABOUT </h1>	
 	 	<a href="index.php" id="back-button"></a>
 	 </div>
 	 <ul id="menuchssn">
