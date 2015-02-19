@@ -10,7 +10,7 @@ html,body {
 
 /*MAIN MENU*/
 
-.top-bar, .right-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menumultipleusers >li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
+.top-bar, .right-bar, .left-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menumultipleusers >li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
 	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
 }
 
@@ -115,6 +115,18 @@ html,body {
 	background-repeat:no-repeat;
 }
 
+.orgicon{
+	position:absolute;
+	left:0px;
+	right:2px;
+	top:0px;
+	bottom:0px;
+	background:url('../design_folder/assets/rate_app.png');
+	background-size:28px 28px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
 #bookmarkicon{
 	position:absolute;
 	left:0px;
@@ -166,7 +178,27 @@ html,body {
         cursor: pointer;
 }
 
+.left-bar{
+		top:100px;
+		left:0px;
+        width: 40px; /* must never add up to more than 100% */
+        background-color: rgb( 238, 75, 81 );
+        height: 65px;
+        position:absolute;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        cursor: pointer;
+}
+
 #rate-star-icon {
+	z-index:7;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#organization-icon {
 	z-index:7;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -185,10 +217,38 @@ html,body {
 	pointer-events:none;
 }
 
+#main-menu-organization-container {
+	position:absolute;
+	top:90px;
+	left:0px;
+    width: 250px;
+    height: 230px;
+	z-index:5;
+	overflow:hidden;
+	pointer-events:none;
+}
+
 #main-menu-rate-this-app {
 	position:absolute;
 	top:0px;
 	right:-250px;
+    width: 250px;
+    height: 230px;
+	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+	background-color:white;
+	border-radius:6px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	pointer-events:all;
+}
+
+#main-menu-organization {
+	position:absolute;
+	top:0px;
+	left:-250px;
     width: 250px;
     height: 230px;
 	font-family:LiberationSansRegular,"Helvetica", sans-serif;
