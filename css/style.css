@@ -121,8 +121,8 @@ html,body {
 	right:2px;
 	top:0px;
 	bottom:0px;
-	background:url('../design_folder/assets/rate_app.png');
-	background-size:28px 28px;
+	background:url('../design_folder/assets/side-org-icon.png');
+	background-size:28px auto;
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -182,7 +182,7 @@ html,body {
 		top:100px;
 		left:0px;
         width: 40px; /* must never add up to more than 100% */
-        background-color: rgb( 238, 75, 81 );
+        background-color: rgb(255,255,255);
         height: 65px;
         position:absolute;
         border-top-right-radius: 6px;
@@ -191,7 +191,7 @@ html,body {
 }
 
 #rate-star-icon {
-	z-index:7;
+	z-index:11;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -199,7 +199,7 @@ html,body {
 }
 
 #organization-icon {
-	z-index:7;
+	z-index:11;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -212,7 +212,7 @@ html,body {
 	right:0px;
     width: 250px;
     height: 230px;
-	z-index:5;
+	z-index:11;
 	overflow:hidden;
 	pointer-events:none;
 }
@@ -223,7 +223,7 @@ html,body {
 	left:0px;
     width: 250px;
     height: 230px;
-	z-index:5;
+	z-index:11;
 	overflow:hidden;
 	pointer-events:none;
 }

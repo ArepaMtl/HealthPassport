@@ -263,7 +263,7 @@
 						$("#organization-icon").css("left",$('#main-menu-organization').width()+"px");
 						$('#main-menu-organization').css("left","0px");
 						
-						$("#organization-div").css("background-image","url(design_folder/assets/x_rating.png)");
+						$("#organization-div").css("background-image","url(design_folder/assets/x_org.png)");
 						
 						$("#rate-star-icon").css("display","none");
 						$("#main-menu-rate-this-app-container").css("display","none");
@@ -272,7 +272,7 @@
 						$("#organization-icon").css("left","0px");
 						$('#main-menu-organization').css("left",(-$('#main-menu-organization').width()) + "px");
 						
-						$("#organization-div").css("background-image","url(design_folder/assets/rate_app.png)");
+						$("#organization-div").css("background-image","url(design_folder/assets/side-org-icon.png)");
 						
 						$("#rate-star-icon").css("display","block");
 						$("#main-menu-rate-this-app-container").css("display","block");
