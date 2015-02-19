@@ -45,15 +45,20 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-<<<<<<< HEAD
+
 					<a class="info-link" href="tel:+4182480630"><div class="info-content centered">CSS de Montmagny /<br/> L'islet Montmagny:<br/>418 248-0630</div></a>
-=======
+					<div class="phone-icon noclick"></div>
+				</div>
+
+
+				<div class="white-box taller-box">
+
 					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
->>>>>>> master
+
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
