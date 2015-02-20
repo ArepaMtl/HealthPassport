@@ -42,22 +42,21 @@
 					<a class='phone-link' href="tel:211">211<a> <br/> <a class='phone-link' href="http://www.211quebecregions.ca/en/">www.211quebecregions.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
+				<div class="white-box">
+					<a class="info-link" href="tel:4186845333"><div class="info-content centered">Jeffery Hale-Saint Brigid: <br/> 418-684-5333</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-<<<<<<< HEAD
 					<a class="info-link" href="http://ligneparents.com"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>www.ligneparents.com</div></a>
 					<div class="externallink-icon noclick"></div>
-=======
-					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
-					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
+					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
->>>>>>> master
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="http://www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre/"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre</div></a>
