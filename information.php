@@ -37,35 +37,59 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
-					<div class="externallink-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
+					<a class="info-link" href="tel:211"><div class="info-content-small centered">Community Services Information /<br/>Services d'information communautaire:<br/>211</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
+					<a class="info-link" href="tel:+18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/> 800 463-5060</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
+					<a class="info-link" href="tel:+18003531143"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>  800 353-1143</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
+					<a class="info-link" href="tel:+18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/> 800 361-5085</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
+					<a class="info-link" href="tel:+18003312311"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle (CAVAC):<br/> 800 331-2311</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
-					<div class="externallink-icon noclick"></div>
+					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/> 800 363-9010</div></a>
+					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
+					<a class="info-link" href="tel:+188848922870"><div class="info-content-small centered">Elder Abuse Line /<br/>Abus envers les a&icir;n&eacute;s Ligne:<br/>  888 489-2287</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18558527787"><div class="info-content-small centered">Support Line for Caregivers /<br/>Ligne d'aide pour les aidants naturels (APPUI):<br/>   855 852-7787</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/> 866 277-3553</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18662773553"><div class="info-content centered"> Ottawa Distress Centre  /<br/>Centre de d&eacute;tresse d'Ottawa (24/7):<br/> 613 238-3311</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18662773553"><div class="info-content centered"> Crisis/Distress Counselling  /<br/>Crise/d&eacute;tresse Counselling (24/7):<br/> 819 595-999</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18005676810"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse Outaouais:<br/> 800 567-6810</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8197765584"><div class="info-content centered"> Ottawa Rehabilitation Centre (Addiction)   /<br/>Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais:<br/> 819 776-5584</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18777902526"><div class="info-content-small centered">Alcoholics Anonymous /<br/>Alcooliques Anonymes:<br/>  877 790-2526</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
