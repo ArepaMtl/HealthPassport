@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+
+$useDropDown = FALSE;
+
+
+?><!DOCTYPE html>
 <html manifest="cache.manifest">
 	<head>
 		<title>
@@ -18,6 +23,12 @@
   ga('create', 'UA-56545433-1', 'auto');
   ga('send', 'pageview');
 
+  			<?php
+			
+			if ($useDropDown) {
+			
+			?>
+  
   
   			$(document).ready(function(){
   
@@ -47,6 +58,13 @@
 				});
 				
 			});
+			
+			<?php 
+			
+			
+			}
+			
+			?>
   
   
   
@@ -61,8 +79,30 @@
 			<!--<li class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a><a href="phone_numbers.php" class="below-button"> </a></li>
 			<li class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a> <a href="chssn.php" class="below-button"> </a></li>-->
 			
+			<?php
+			
+			if ($useDropDown) {
+				
+			?>
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Urgent Resources</div><div> <!-- FRENCH HERE --> </div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+				
+			<?php
+			
+			}else{
+				
+			?>
+			
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Important phone numbers</div><div> Num&eacute;ros de t&eacute;l&eacute;phone </div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			
+			
+			<?php
+			
+			}
+			
+			?>
+				
+				
 				<div class="white-box">
 					<a class="info-link" href="tel:911"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
 					<div class="phone-icon noclick"></div>
@@ -105,12 +145,26 @@
 				</div>
 			</div></li>
 			
+			<?php
+			
+			if ($useDropDown) {
+				
+			?>
+			
+			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box">
 					<a class="info-link" href="tel:911"><div class="info-content centered">Something: 911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
+			
+			
+			<?php
+			
+			}
+			
+			?>
 		</ul>
 	</body>
 
