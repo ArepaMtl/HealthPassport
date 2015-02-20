@@ -37,15 +37,85 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060<"><div class="info-content centered"> Poison Control <br/>800 463-5060</div></a>
+					<a class="info-link" href="tel:18004635060"><div class="info-content centered"> Poison Control/ Centre anti-poison: <br/>800 463-5060</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				
-				
-				
-				
-				
-				
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide (Bas-Saint-Laurent) <br/>866 277-3553</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Action on Mental Illness /<br/>Action sur la maladie mentale:<br/>  <a class='phone-link' href="tel:+18773030264"> 877 303-0264<a> <br/> <a class='phone-link' href="www.amiquebec.org"> www.amiquebec.org</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+					<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Gasp&eacute; Center for Health and Social Services /<br/> Centre de sant&eacute; et des services sociaux de Gasp&eacute; Fondation du cancer:<br/>  <a class='phone-link' href="tel:+4183683301">418 368-3301<a> <br/> <a class='phone-link' href="tel:+41836825727"> CLSC 418 368-2572</a> <br/> <a class='phone-link' href="tel:+4183686663"> UMF 418 368-6663</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:4183681803"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>418 368-1803</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:4183683232"><div class="info-content centered"> Police: <br/>418 368-3232</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183686883"><div class="info-content-small centered"> Women Sexual Assault /<br/> Les femmes victimes d'agression sexuelle (L'Aid-Elle):<br/>418 368-6883</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183686883"><div class="info-content-small centered"> Women Sexual Assault /<br/> Les femmes victimes d'agression sexuelle (CALACS la B&ocirc;me):<br/>418 368-6883</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18664666379"><div class="info-content-small centered"> Men Sexual Assault /<br/> Les hommes victimes d'agression sexuelle:<br/>866-466-6379</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered"> Victims of Sexual Assault & Incest Survivors /<br/> Les victimes d'agression sexuelle et Inceste survivants:<br/>888-933-9007</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183933310"><div class="info-content-small centered"> Multi-service /<br/> Multi-services:<br/>418 393-3310</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183686634"><div class="info-content-small centered"> Alzheimer Society /<br/> Soci&eacute;t&eacute; Alzheimer:<br/>418 368-6634</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Gasp&eacute; Cancer Foundation /<br/> Gasp&eacute; Fondation du cancer:<br/>  <a class='phone-link' href="tel:+4183688994">418 368-8994<a> <br/> <a class='phone-link' href="tel:+4183685527">418 368-5527</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18883620063"><div class="info-content-small centered"> Quebec Cancer Foundation /<br/>Gasp&eacute; Quebec Fondation du cancer:<br/>  888 362-0063</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183686676"><div class="info-content-small centered"> Alcoholics/Narcotics Anonymous /<br/>Alcooliques / Narcotiques Anonymes (Mi-chemin):<br/>  418 368-6676</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18002652626"><div class="info-content-small centered"> Drug & Alcohol Help line /<br/>Ligne de drogues et alcool aide: <br/>  800 265-2626</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183684700"><div class="info-content-small centered"> Homeless shelter & food bank /<br/>Sans-abri et banque alimentaire: <br/> 418 368-4700</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183686624"><div class="info-content-small centered"> Adapted transit /<br/>Transport Adapt&eacute; et collectif: <br/> 418 368-6624</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183688875"><div class="info-content-small centered"> House of Parenfant family / <br/>Maison de la famille Parenfant: <br/>418 368-8875</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183682104"><div class="info-content-small centered"> Town of Gasp&eacute; / <br/>Ville de Gasp&eacute;: 418 368-2104</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
 				
 				
 				
