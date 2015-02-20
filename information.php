@@ -41,6 +41,10 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
+					<a class="info-link" href="tel:4183863553"><div class="info-content-small centered">MCDC Chaudi&egrave;r Appalaches:<br/>418 386-3553</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
 					<a class="info-link" href="tel:+4182282031"><div class="info-content-small centered">CSS Beauce/<br/> Beauceville:<br/>418 228-2031</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
