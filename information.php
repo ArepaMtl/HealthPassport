@@ -7,6 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
+		<script src="javascript/jquery-1.11.1.min.js"></script>
+		
 		<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,6 +18,38 @@
   ga('create', 'UA-56545433-1', 'auto');
   ga('send', 'pageview');
 
+  
+  			$(document).ready(function(){
+  
+  				$(".item>a:first-child").click(function(event){
+					event.preventDefault();
+					
+					var this_item = this;
+					var $items = $(this).parent().find(".info-items");
+					var $downButton = $(this).parent().find(".below-button");
+					if ($items.css("display")==="none"){
+						$items.css({"opacity":0});
+						$items.show();
+						$items.animate({"opacity":1},300);
+						$downButton.css({"transform":"rotate(180deg)"},2000);
+						/*$('html, body').animate({
+	    					"scrollTop": $(this_item).offset().top
+						}, 200);*/
+						//$('html, body').scrollTop($(this_item).offset().top);
+					}else{
+						if ($(this).parent().hasClass("detached-header")){
+							$(this).parent().removeClass("detached-header");
+							$('html, body').scrollTop($(this_item).offset().top);
+						}
+						$items.hide();
+						$downButton.css({"transform":"rotate(0deg)"},2000);
+					}
+				});
+				
+			});
+  
+  
+  
   </script>
 	</head>
 	<body>
@@ -27,7 +61,8 @@
 			<!--<li class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a><a href="phone_numbers.php" class="below-button"> </a></li>
 			<li class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a> <a href="chssn.php" class="below-button"> </a></li>-->
 			
-			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Important phone numbers</div><div>Num&eacute;ros de t&eacute;l&eacute;phone</div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Urgent Resources</div><div> <!-- FRENCH HERE --> </div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box">
 					<a class="info-link" href="tel:911"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
 					<div class="phone-icon noclick"></div>
@@ -66,6 +101,13 @@
 				</div>
 				<div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+			</div></li>
+			
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+				<div class="white-box">
+					<a class="info-link" href="tel:911"><div class="info-content centered">Something: 911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
