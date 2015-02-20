@@ -7,6 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
+		<script src="javascript/jquery-1.11.1.min.js"></script>
+		
 		<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,6 +26,9 @@
 				$(".lng-en").css("display","block");
 				$(".lng-fr").css("display","none");
 				
+				$("#fr-button").removeClass("selected-lang");
+				$("#en-button").addClass("selected-lang");
+				
 			};
 			
 			var setFrench = function(){
@@ -31,7 +36,22 @@
 				$(".lng-fr").css("display","block");
 				$(".lng-en").css("display","none");
 				
+				$("#en-button").removeClass("selected-lang");
+				$("#fr-button").addClass("selected-lang");
+				
 			};
+			
+			$("#en-button").click(function(){
+				
+				setEnglish();
+				
+			});
+			
+			$("#fr-button").click(function(){
+				
+				setFrench();
+				
+			});
 		})
   
   </script>
@@ -45,6 +65,7 @@
 			<!--<li class="item"><a href="phone_numbers.php" data-localize="importantphone.link"> Important phone numbers/Num&eacute;ros de t&eacute;l&eacute;phone importants</a><a href="phone_numbers.php" class="below-button"> </a></li>
 			<li class="item"><a href="chssn.php" data-localize="chssn.link"> Chssn </a> <a href="chssn.php" class="below-button"> </a></li>-->
 			
+			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
 			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Community Health and</br>Social Services Network</div><div class='lng-fr'>Community Health and</br>Social Services Network</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
