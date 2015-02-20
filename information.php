@@ -69,15 +69,15 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/> 866 277-3553</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/> 866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content centered"> Ottawa Distress Centre  /<br/>Centre de d&eacute;tresse d'Ottawa (24/7):<br/> 613 238-3311</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> Ottawa Distress Centre  /<br/>Centre de d&eacute;tresse d'Ottawa (24/7):<br/> 613 238-3311</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content centered"> Crisis/Distress Counselling  /<br/>Crise/d&eacute;tresse Counselling (24/7):<br/> 819 595-999</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> Crisis/Distress Counselling  /<br/>Crise/d&eacute;tresse Counselling (24/7):<br/> 819 595-999</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -85,7 +85,7 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+8197765584"><div class="info-content centered"> Ottawa Rehabilitation Centre (Addiction)   /<br/>Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais:<br/> 819 776-5584</div></a>
+					<a class="info-link" href="tel:+8197765584"><div class="info-content-small centered"> Ottawa Rehabilitation Centre (Addiction)   /<br/>Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais:<br/> 819 776-5584</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
