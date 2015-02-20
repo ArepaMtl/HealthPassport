@@ -41,6 +41,10 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
+					<a class="info-link" href="tel: 418 332-3851"><div class="info-content-small centered">MCDC Mauricie Centre-du-Québec:<br/> 418 332-3851</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
 					<a class="info-link" href="tel:+8195234581"><div class="info-content-small centered">CSS du Haut-Saint Maurice /<br/> La Tuque:<br/>819 523-4581</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
