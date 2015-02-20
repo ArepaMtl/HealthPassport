@@ -116,51 +116,7 @@
 					<a class="info-link" href="tel:+4183682104"><div class="info-content-small centered"> Town of Gasp&eacute; / <br/>Ville de Gasp&eacute;: 418 368-2104</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
-					<div class="externallink-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
-					<div class="externallink-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
-					<div class="phone-icon noclick"></div>
-				</div>
+
 			</div></li>
 		</ul>
 	</body>
