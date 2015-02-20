@@ -37,8 +37,48 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
-					<div class="externallink-icon noclick"></div>
+					<a class="info-link" href="tel:211"><div class="info-content-small centered">Community Services /<br/>Services Communautaires:<br/>211</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8195234581"><div class="info-content-small centered">CSS du Haut-Saint Maurice /<br/> La Tuque:<br/>819 523-4581</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183657555"><div class="info-content-small centered">CSSS de la Vall&eacute;e de la Batiscan /<br/> St-Tite:<br/>418 365-7555</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8195367500"><div class="info-content-small centered">CSSS de la l'&Eacute;nergie /<br/> Shawinigan:<br/>819 536-7500</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8192282731"><div class="info-content-small centered">CSSS de Maskinong&eacute;:/<br/> Louiseville:<br/>819 228-2731</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8193702100"><div class="info-content-small centered">CSSS de Trois-Rivi&eacute;eres /<br/> Trois-Rivi&eacute;eres:<br/>819 370-2100</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8192932071"><div class="info-content-small centered">CSSS de B&eacute;cancour-Nicolet-Yamaska /<br/> Nicolet:<br/>819 293-2071</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8194786464"><div class="info-content-small centered">CSSS de Drummond /<br/>Drummondville:<br/>819 478-6464</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8193572030"><div class="info-content-small centered">CSSS d'Arthabaska et de l'&Eacute;rable /<br/>Victoriaville:<br/>819 357-2030</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+4183796868"><div class="info-content-small centered">Centre de réadaptation en déficience intellectuelle (CRDI) /<br/>Trois-Rivi&eacute;eres:<br/>418 379-6868</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+8193785481"><div class="info-content-small centered">Youth HelpLine /<br/>Les Centres Jeunesse (Trois-Rivi&eacute;eres):<br/>819 378-5481</div></a>
+					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
@@ -46,26 +86,6 @@
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
-					<div class="externallink-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
