@@ -37,6 +37,29 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18004635060<"><div class="info-content centered"> Poison Control <br/>800 463-5060</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="white-box taller-box">
 					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
 					<div class="externallink-icon noclick"></div>
 				</div>
