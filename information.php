@@ -37,23 +37,23 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:211"><div class="info-content centered">Community Services /<br/>Services Communautaires:<br/>211</div></a>
+					<a class="info-link" href="tel:211"><div class="info-content-small centered">Community Services /<br/>Services Communautaires:<br/>211</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4182282031"><div class="info-content centered">CSS Beauce/<br/> Beauceville:<br/>418 228-2031</div></a>
+					<a class="info-link" href="tel:+4182282031"><div class="info-content-small centered">CSS Beauce/<br/> Beauceville:<br/>418 228-2031</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
 
-					<a class="info-link" href="tel:+4182480630"><div class="info-content centered">CSS de Montmagny /<br/> L'islet Montmagny:<br/>418 248-0630</div></a>
+					<a class="info-link" href="tel:+4182480630"><div class="info-content-small centered">CSS de Montmagny /<br/> L'islet Montmagny:<br/>418 248-0630</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 
 
 				<div class="white-box taller-box">
 
-					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
+					<a class="info-link" href="tel:18662773553<"><div class="info-content-small centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -62,27 +62,27 @@
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4188357121"><div class="info-content centered">CSS Alphonse-Desjardins /<br/> L&eacute;vis:<br/>418 835-7121</div></a>
+					<a class="info-link" href="tel:+4188357121"><div class="info-content-small centered">CSS Alphonse-Desjardins /<br/> L&eacute;vis:<br/>418 835-7121</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183387777"><div class="info-content centered">CSS de la r&eacute;gion de Thetford /<br/> Thetford Mines:<br/>418 338-7777</div></a>
+					<a class="info-link" href="tel:+4183387777"><div class="info-content-small centered">CSS de la r&eacute;gion de Thetford /<br/> Thetford Mines:<br/>418 338-7777</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4186253101"><div class="info-content centered">CSS des Etchemins /<br/> Lac-Etchemins:<br/>418 625-3101</div></a>
+					<a class="info-link" href="tel:+4186253101"><div class="info-content-small centered">CSS des Etchemins /<br/> Lac-Etchemins:<br/>418 625-3101</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4187743304"><div class="info-content centered">Rehabilitation center for drug and alcohol addiction /<br/> Centre de R&eacute;adaptation en Alcoolisme et Toxicomanie (Beauceville):<br/>418 774-3304</div></a>
+					<a class="info-link" href="tel:+4187743304"><div class="info-content-small centered">Rehabilitation center for drug and alcohol addiction /<br/> Centre de R&eacute;adaptation en Alcoolisme et Toxicomanie (Beauceville):<br/>418 774-3304</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4188333218"><div class="info-content centered">Intellectual Deficiency Rehabilitation Center /<br/> Centre de R&eacute;adaptation en D&eacute;ficience Intellectuelle (CRDI L&eacute;vis):<br/>418 833-3218</div></a>
+					<a class="info-link" href="tel:+4188333218"><div class="info-content-small centered">Intellectual Deficiency Rehabilitation Center /<br/> Centre de R&eacute;adaptation en D&eacute;ficience Intellectuelle (CRDI L&eacute;vis):<br/>418 833-3218</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183802064"><div class="info-content centered">Physical Deficiency Rehabilitation Center /<br/> Centre de R&eacute;adaptation en D&eacute;ficience Physique (Charny L&eacute;vis):<br/>418 380-2064</div></a>
+					<a class="info-link" href="tel:+4183802064"><div class="info-content-small centered">Physical Deficiency Rehabilitation Center /<br/> Centre de R&eacute;adaptation en D&eacute;ficience Physique (Charny L&eacute;vis):<br/>418 380-2064</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
