@@ -1,6 +1,6 @@
 <?php
 
-$useDropDown = FALSE;
+$useDropDown = TRUE;
 
 
 ?><!DOCTYPE html>
