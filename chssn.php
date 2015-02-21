@@ -68,7 +68,7 @@
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Community Health and</br>Social Services Network</div><div class='lng-fr'>Community Health and</br>Social Services Network</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'></div><div class='lng-fr'></div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 			
 					
@@ -77,26 +77,13 @@
 					Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
 					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>-->
-					
-					<b>Jeffery Hale-Saint Brigid's Contact Information</b><br/><br/>
-					
-					<a href='http://www.jhsb.ca/en' class="health-pass-link">www.jhsb.ca</a><br/><br/>
-					<!--<a href='mailto:info@chssn.org' class="health-pass-link">info@chssn.org</a><br/><br/>-->
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-5333</a><br/><br/>
-					<b>Address:</b>  1250, chemin Sainte-Foy, Qu&eacute;bec, QC G1S 2M6
 				</div>
 				
 				<div class='lng-fr'>
-					Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>
+					L&#x27;H&#xF4;pital Jeffery Hale - Saint Brigid&#x27;s est un &#xE9;tablissement public qui offre une grande vari&#xE9;t&#xE9; de services de soins de sant&#xE9; primaires en fran&#xE7;ais et en anglais &#xE0; la population de la r&#xE9;gion de la Capitale-Nationale (grande r&#xE9;gion de Qu&#xE9;bec).
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
 					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>-->
 					
-					<b>Jeffery Hale-Saint Brigid's Contact Information</b><br/><br/>
-					
-					<a href='http://www.jhsb.ca/en' class="health-pass-link">www.jhsb.ca</a><br/><br/>
-					<!--<a href='mailto:info@chssn.org' class="health-pass-link">info@chssn.org</a><br/><br/>-->
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-5333</a><br/><br/>
-					<b>Address:</b>  1250, chemin Sainte-Foy, Qu&eacute;bec, QC G1S 2M6
 				</div>
 				
 					
