@@ -501,15 +501,21 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					CHSSN <br/>
-					The Community Health and Social Services Network<br/> <br/>
-					<b>CHSSN Contact Information</b><br/>
-					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/>
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-2289</a><br/>
-					<b>Address:</b> 1270, Chemin Ste-Foy, Suite 2106, Quebec, QC G1S 2M4
+					OHSSN <br/>
+					Connexions Resource Centre<br/> <br/>
+					<b>OHSSN Contact Information</b><br/>
+					<a href='http://www.chssn.org' class="health-pass-link"> www.centreconnexions.org</a><br/>
+					<b>Phone:</b> <a href='tel:+18197773206' class="health-pass-link">819 777-3206</a><br/>
+					<b>Address:</b> 2 rue Millar Gatineau, Quebec J8Y 3N3
 				</div>
 			</div>
 		</div>
+		
+		 
+
+
+
+
 		
 		<div id='loading-page'></div>
 	</body>
