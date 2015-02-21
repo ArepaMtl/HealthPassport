@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>Vision Gasp&eacute;</span>
+		<span class='org-name'>Vision Gasp&eacute;-Perc&eacute;</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,12 +501,11 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					CHSSN <br/>
-					The Community Health and Social Services Network<br/> <br/>
-					<b>CHSSN Contact Information</b><br/>
-					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/>
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-2289</a><br/>
-					<b>Address:</b> 1270, Chemin Ste-Foy, Suite 2106, Quebec, QC G1S 2M4
+					Visi&oacute;n Gasp&eacute;-Perc&eacute;<br/> <br/>
+					<b>Visi&oacute;n Gasp&eacute; Contact Information</b><br/>
+					<a href='http://visiongaspeperce.ca/' class="health-pass-link">www.visiongaspeperce.ca/</a><br/>
+					<b>Phone:</b> <a href='tel:+14183683212' class="health-pass-link">  418 368-3212</a><br/>
+					<b>Address:</b>  28 Rue St. Patrick P.O. Box # 67 Douglastown Gaspe, QC G4X1H0
 				</div>
 			</div>
 		</div>
