@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 1054
+# rev 1120
 
 
 
@@ -52,6 +52,8 @@ design_folder/assets/forward_button.png
 design_folder/assets/homescreen_icon.png
 design_folder/assets/rate_app.png
 design_folder/assets/x_rating.png
+design_folder/assets/side-org-icon.png
+design_folder/assets/x_org.png
 fonts/Franchise-Bold.woff
 fonts/FuturaCondensedMedium.woff
 fonts/liberationsans-bold-webfont.woff
@@ -65,6 +67,7 @@ design_folder/assets/logo_splash_screen.png
 design_folder/assets/external_link.png
 design_folder/assets/rate_star.png
 design_folder/assets/hexagon.png
+design_folder/assets/logo_about.png
 apple-touch-icon-57x57.png
 apple-touch-icon-114x114.png
 apple-touch-icon-72x72.png
