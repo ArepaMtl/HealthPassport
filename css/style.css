@@ -10,7 +10,7 @@ html,body {
 
 /*MAIN MENU*/
 
-.top-bar, .right-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menumultipleusers >li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
+.top-bar, .right-bar, .left-bar, .white-box, .white-box-history, #menuyourhistory>.item>a:first-child, #menuinformation>.item>a:first-child, #menuchssn>.item>a:first-child, #menu > li, #menuyourhistory > li, #menumultipleusers >li, #menuinformation > li, #menuchssn > li, #menulexicon > li, #menuphonenumbers > li, .footer, #emergency, .dynamic-size-box{
 	 box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
 }
 
@@ -118,6 +118,26 @@ html,body {
 	background-repeat:no-repeat;
 }
 
+.orgicon{
+	position:absolute;
+	left:0px;
+	right:2px;
+	top:5px;
+	bottom:5px;
+	background:url('../design_folder/assets/side-org-icon.png');
+	background-size:28px auto;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.lng-en{
+	display:block;
+}
+
+.lng-fr{
+	display:none;
+}
+
 #bookmarkicon{
 	position:absolute;
 	left:0px;
@@ -169,8 +189,28 @@ html,body {
         cursor: pointer;
 }
 
+.left-bar{
+		top:100px;
+		left:0px;
+        width: 40px; /* must never add up to more than 100% */
+        background-color: rgb(255,255,255);
+        height: 65px;
+        position:absolute;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        cursor: pointer;
+}
+
 #rate-star-icon {
-	z-index:7;
+	z-index:11;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#organization-icon {
+	z-index:11;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -183,7 +223,19 @@ html,body {
 	right:0px;
     width: 250px;
     height: 230px;
-	z-index:5;
+	z-index:11;
+	overflow:hidden;
+	pointer-events:none;
+}
+
+
+#main-menu-organization-container {
+	position:absolute;
+	top:90px;
+	left:0px;
+    width: 250px;
+    height: 230px;
+	z-index:11;
 	overflow:hidden;
 	pointer-events:none;
 }
@@ -192,6 +244,23 @@ html,body {
 	position:absolute;
 	top:0px;
 	right:-250px;
+    width: 250px;
+    height: 230px;
+	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-size:16px;
+	background-color:white;
+	border-radius:6px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	pointer-events:all;
+}
+
+#main-menu-organization {
+	position:absolute;
+	top:0px;
+	left:-250px;
     width: 250px;
     height: 230px;
 	font-family:LiberationSansRegular,"Helvetica", sans-serif;
@@ -215,6 +284,9 @@ html,body {
 	text-align: center;
 }
 
+#main-menu-organization >div {
+	padding:15px;
+}
 
 .sharebutton_icon{
 	position:relative;
@@ -845,16 +917,16 @@ h1 a{
 	background-color: rgb( 48, 212, 90 );/* Green block */
 }
 
-#menuchssn>li:nth-child(1)>a:first-child{
+#menuchssn>li:nth-child(2)>a:first-child{
 	background-color: rgb( 68, 208, 136 ); /*Green block */
 }
 
-#menuchssn>li:nth-child(2)>a:first-child{
+#menuchssn>li:nth-child(3)>a:first-child{
 	background-color: rgb( 62, 229, 143 );/* Green block */
 }
 
 
-#menuchssn>li:nth-child(3)>a:first-child{
+#menuchssn>li:nth-child(4)>a:first-child{
 	background-color: rgb( 130, 245, 185 );/* Green block */
 }
 
@@ -1547,6 +1619,65 @@ h1{
 .edit-invisible {
 	display:none;
 }
+
+#org-about {
+	position:absolute;
+	left:10px;
+	right:10px;
+	top:50%;
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+	font-size:11pt;
+	
+}
+
+#language-pane {
+	
+	height:41px;
+	background-color:rgb(240,240,240);
+	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	cursor:pointer;
+	
+}
+
+#en-button {
+	position:absolute;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	width:50%;
+}
+
+#fr-button {
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:50%;
+}
+
+.selected-lang {
+	background-color:white;
+	box-shadow: 0px 0px 5px 2px rgba( 0, 0, 0 ,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
