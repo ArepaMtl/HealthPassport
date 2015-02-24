@@ -504,7 +504,7 @@
 					OHSSN <br/>
 					Connexions Resource Centre<br/> <br/>
 					<b>OHSSN Contact Information</b><br/>
-					<a href='http://www.chssn.org' class="health-pass-link"> www.centreconnexions.org</a><br/>
+					<a href='http://www.centreconnexions.org' class="health-pass-link"> www.centreconnexions.org</a><br/>
 					<b>Phone:</b> <a href='tel:+18197773206' class="health-pass-link">819 777-3206</a><br/>
 					<b>Address:</b> 2 rue Millar Gatineau, Quebec J8Y 3N3
 				</div>
