@@ -1,6 +1,6 @@
 <?php
 
-$useDropDown = FALSE;
+$useDropDown = TRUE;
 
 
 ?><!DOCTYPE html>
@@ -153,13 +153,11 @@ $useDropDown = FALSE;
 			
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
-				<div class="white-box">
-					<a class="info-link" href="tel:911"><div class="info-content centered">Something: 911</div></a>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">CHSSN: <br/>  <a class='phone-link' href='http://www.chssn.org'>www.chssn.org<a> <br/> <a class='phone-link' href="tel:+14186842289"> 418 684-2289</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
-			
-			
 			<?php
 			
 			}
