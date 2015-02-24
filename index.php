@@ -505,7 +505,7 @@
 					The Megantic English-speaking Community Development Corporation<br/> <br/>
 					<b>MCDC Contact Information</b><br/>
 					<a href='http://www.mcdc.info/' class="health-pass-link">www.mcdc.info</a><br/>
-					<b>Phone:</b> <a href='tel:+14183323851' class="health-pass-link">4418 332-3851</a><br/>
+					<b>Phone:</b> <a href='tel:+14183323851' class="health-pass-link">418 332-3851</a><br/>
 					<b>Address:</b> Comm. Development Corp. 906 Mooney Street Thetford Mines (QC) G6G 6H2
 				</div>
 			</div>
