@@ -122,20 +122,20 @@
 					</div>
 					
 					<div class='lng-fr'>
-					Cette App Passeport Sant&eacute; est con&ccedil;u pour aider vous et votre famille &agrave; garder une trace des 
-					informations de sant&eacute; essentiels.
-					Il met aussi en mots et des phrases utiles en fran&ccedil;ais &agrave; port&eacute;e de main quand vous allez &agrave; 
-					la clinique ou &agrave; une situation d'urgence.
+					Cette application de Passeport Sant&eacute; est faite pour vous aider, vous et votre famille, &agrave;
+suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
+des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
+Pour cette application en ligne, le RCSSS s'est inspir&eacute; d'une version imprim&eacute;e du
+Passeport Sant&eacute; cr&eacute;&eacute;e il y a quelques ann&eacute;es par la MCDC, organisme desservant la 
+communaut&eacute; d'expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches au Qu&eacute;bec. La
+MCDC a d&eacute;couvert qu'avoir un guide de poche contenant des renseignements
+personnels et du vocabulaire de base sur la sant&eacute; am&eacute;liorerait le r&eacute;sultat des 
+consultations aupr&egrave;s de professionnels de la sant&eacute; francophones et, en fin de compte, 
+am&eacute;liorerait votre sant&eacute;. <br />
 
-					CHSSN a obtenu son inspiration pour cette ligne App partir d'une version papier de la Sant&eacute; a cr&eacute;&eacute; un passeport
-					il ya quelques ann&eacute;es par la MCDC, une organisation au service de la communaut&eacute; de la langue anglaise
-                    Chaudi&egrave;re-Appalaches de Qu&eacute;bec. MCDC r&eacute;alis&eacute; que la r&eacute;alisation d'un guide de poche des 
-                    renseignements personnels de la sant&eacute; et de base vocabulaire pourrait am&eacute;liorer l'issue de visites de langue fran&ccedil;aise professionnels de soins de sant&eacute;,
-                    et, finalement, d'am&eacute;liorer votre sant&eacute;.
-
-Leur mod&egrave;le de papier a &eacute;t&eacute; adopt&eacute;e dans plusieurs r&eacute;gions du Qu&eacute;bec et par les deux communaut&eacute;s francophones
-Canada (&agrave; Terre-Neuve et le Yukon). Quant &agrave; Passeport Sant&eacute; App RCSSS, qui sait jusqu'o&ugrave; il ira?
-
+Plusieurs r&eacute;gions du Qu&eacute;bec et deux communaut&eacute;s francophones du Canada (&agrave; Terre-
+Neuve et au Yukon) ont adopt&eacute; le mod&egrave;le imprim&eacute;. Quant &agrave; l'application du Passeport
+Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
 					
 
 				</div>
@@ -149,36 +149,33 @@ Canada (&agrave; Terre-Neuve et le Yukon). Quant &agrave; Passeport Sant&eacute;
 					<div class='lng-en'>
 					This electronic version of the Health Passport App has happened thanks to the collaboration of a 
 					few organizations:<br/><br/>
-                    	MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version<br/>
-                    	VEQ (Voice of English-speaking Qu&eacute;bec) and Jeffery Hale Community Services for producing a revised second 
+                    	-MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version<br/>
+                    	-VEQ (Voice of English-speaking Qu&eacute;bec) and Jeffery Hale Community Services for producing a revised second 
                     	paper version and for helping to bring this electronic version to life.<br/>
-                    	Health Canada, and the financial support of their Official Languages Support Program in particular, for making all of this work possible<br/><br/>
+                    	-Health Canada, and the financial support of their Official Languages Support Program in particular, for making all of this work possible<br/><br/>
 
                     Special thanks to our technical development and support team in Montr&eacute;al, Qu&eacute;bec, Canada:<br/><br/>
 
-					Alexandra Lemus<br/>
-					Gabriela Su&eacute;<br/>
-					Mariolys Rivas<br/>
-					Adolfo Rodr&iacute;guez<br/>
+					-Alexandra Lemus<br/>
+					-Gabriela Su&eacute;<br/>
+					-Mariolys Rivas<br/>
+					-Adolfo Rodr&iacute;guez<br/>
 					
 					</div>
 					
 					<div class='lng-fr'>
-				    Cette version &#233;lectronique de l&#39;App Passeport Sant&#233; est arriv&#233; gr&#226;ce &#224; 
-				    la collaboration de quelques organisations:<br/><br/>
+				    Cette version &eacute;lectronique de l'application du Passeport Sant&eacute; a vu le jour gr&acirc;ce &agrave; la collaboration de quelques organismes&nbsp;: <br/> <br/>
 
-					MCDC (Soci&#233;t&#233; de d&#233;veloppement communautaire expression anglaise de M&#233;gantic) 
-					pour la cr&#233;ation de la version originale de papier.<br/>
-					VEQ (Voice of English-speaking Qu&#233;bec) et Jeffery Hale Services communautaires pour la production d&#39; une deuxi&#232;me 
-					version r&#233;vis&#233;e du papier et pour aider &#224; porter cette version &#233;lectronique &#224; la vie.<br/>
-					Sant&#233; Canada, et le soutien financier de leur Programme d&#39;appui aux langues 
-					officielles, en particulier, pour faire tout ce travail possible. <br/><br/>
+					-MCDC (Corporation de d&eacute;veloppement de la communaut&eacute; d'expression anglaise de M&eacute;gantic), auteur de la version imprim&eacute;e originale;  <br/>
+					-VEQ (Voice of English-speaking Qu&eacute;bec) et les Services communautaires Jeffery Hale, qui ont produit une deuxi&egrave;me version imprim&eacute;e r&eacute;vis&eacute;e et qui ont contribu&eacute; &agrave; la cr&eacute;ation de cette version &eacute;lectronique;  <br/>
+					-Sant&eacute; Canada, et le soutien financier de leur Programme d'appui aux langues officielles en particulier, qui ont permis la r&eacute;alisation de tout ce travail.<br /><br/>
 
-					Un merci sp&#233;cial &#224; notre d&#233;veloppement technique et l&#39;&#233;quipe de soutien &#224; Montr&#233;al, Qu&#233;bec, Canada <br/><br/>
-					Alexandra Lemus<br/>
-					Gabriela Su&eacute;<br/>
-					Mariolys Rivas<br/>
-					Adolfo Rodr&iacute;guez<br/>
+
+					Nous remercions tout particuli&egrave;rement notre &eacute;quipe de soutien et de d&eacute;veloppement technique &agrave; Montr&eacute;al (Qu&eacute;bec, Canada): <br/><br/>
+					-Alexandra Lemus<br/>
+					-Gabriela Su&eacute;<br/>
+					-Mariolys Rivas<br/>
+					-Adolfo Rodr&iacute;guez<br/>
 					
 					</div>
 					
