@@ -117,10 +117,6 @@ $useDropDown = TRUE;
 					<a class='phone-link' href="tel:211">211<a> <br/> <a class='phone-link' href="http://www.211quebecregions.ca/en/">www.211quebecregions.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box">
-					<a class="info-link" href="tel:4186845333"><div class="info-content centered">Jeffery Hale-Saint Brigid: <br/> 418-684-5333</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
 					<div class="externallink-icon noclick"></div>
