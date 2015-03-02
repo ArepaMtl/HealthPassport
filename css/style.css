@@ -1390,11 +1390,13 @@ h1{
 {
 	background-image:url('../design_folder/assets/chssn_info.png');
 	background-repeat:no-repeat;
-	background-position: left middle;
-	background-size: auto 100%;
+	background-position: center;
+	background-size: contain;
 	display:inline-block;
-	width:100px;
-	height:16px;
+	width:40px;
+	height:32px;
+	float:left;
+	margin-right:5px;
 }
 
 
@@ -1622,8 +1624,8 @@ h1{
 
 #org-about {
 	position:absolute;
-	left:10px;
-	right:10px;
+	left:0px;
+	right:0px;
 	top:50%;
 	-ms-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
