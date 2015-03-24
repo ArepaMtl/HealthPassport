@@ -97,14 +97,14 @@
 					This Health Passport App is designed to help you and your family keep track of essential health information. 
 					It also puts helpful words and phrases in French at your fingertips when you go to clinic or an emergency. 
 
-					CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
+					<!--CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
 					few years ago by MCDC, an organization serving the English-speaking community of the 
 					Chaudi&egrave;re-Appalaches region of Qu&eacute;bec. 
 					MCDC realized that carrying a pocket guide with personal health information and basic 
 					vocabulary could improve the outcome of visits to French-speaking health care professionals, 
-					and ultimately, improve your health. 
+					and ultimately, improve your health. -->
 
-					Their paper model has been adopted in several regions of Quebec and by two Francophone communities in 
+					The paper model has been adopted in several regions of Quebec and by two Francophone communities in 
 					Canada (in Newfoundland and Yukon). As for CHSSN's Health Passport App, who knows how far it will go?
 					
 					</div>
@@ -137,34 +137,37 @@ Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
 					<div class='lng-en'>
 					This electronic version of the Health Passport App has happened thanks to the collaboration of a 
 					few organizations:<br/><br/>
-                    	-MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version<br/>
-                    	-VEQ (Voice of English-speaking Qu&eacute;bec) and Jeffery Hale Community Services for producing a revised second 
-                    	paper version and for helping to bring this electronic version to life.<br/>
-                    	-Health Canada, and the financial support of their Official Languages Support Program in particular, for making all of this work possible<br/><br/>
-
+					<ul style="list-style-type: disc;">
+                    	<li>MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version </li> <br/>
+                    	<li>VEQ (Voice of English-speaking Qu&eacute;bec) and Jeffery Hale Community Services for producing a revised second 
+                    	paper version and for helping to bring this electronic version to life. </li> <br/>
+                    	<li>Health Canada, and the financial support of their Official Languages Support Program in particular, for making all of this work possible </li> <br/><br/>
+ 					</ul>
                     Special thanks to our technical development and support team in Montr&eacute;al, Qu&eacute;bec, Canada:<br/><br/>
 
-					-Alexandra Lemus<br/>
-					-Gabriela Su&eacute;<br/>
-					-Mariolys Rivas<br/>
-					-Adolfo Rodr&iacute;guez<br/>
-					
+					<ul style="list-style-type: disc;">
+					<li>Alexandra Lemus </li> <br/>
+					 <li>Gabriela Su&eacute; </li> <br/>
+					 <li>Mariolys Rivas </li> <br/>
+					 <li>Adolfo Rodr&iacute;guez </li> <br/>
+					</ul>
 					</div>
 					
 					<div class='lng-fr'>
 				    Cette version &eacute;lectronique de l'application du Passeport Sant&eacute; a vu le jour gr&acirc;ce &agrave; la collaboration de quelques organismes&nbsp;: <br/> <br/>
-
-					-MCDC (Corporation de d&eacute;veloppement de la communaut&eacute; d'expression anglaise de M&eacute;gantic), auteur de la version imprim&eacute;e originale;  <br/>
-					-VEQ (Voice of English-speaking Qu&eacute;bec) et les Services communautaires Jeffery Hale, qui ont produit une deuxi&egrave;me version imprim&eacute;e r&eacute;vis&eacute;e et qui ont contribu&eacute; &agrave; la cr&eacute;ation de cette version &eacute;lectronique;  <br/>
-					-Sant&eacute; Canada, et le soutien financier de leur Programme d'appui aux langues officielles en particulier, qui ont permis la r&eacute;alisation de tout ce travail.<br /><br/>
-
+					<ul style="list-style-type: disc;">
+					<li> MCDC (Corporation de d&eacute;veloppement de la communaut&eacute; d'expression anglaise de M&eacute;gantic), auteur de la version imprim&eacute;e originale; </li>  <br/>
+					<li>VEQ (Voice of English-speaking Qu&eacute;bec) et les Services communautaires Jeffery Hale, qui ont produit une deuxi&egrave;me version imprim&eacute;e r&eacute;vis&eacute;e et qui ont contribu&eacute; &agrave; la cr&eacute;ation de cette version &eacute;lectronique;</li>  <br/>
+					<li>Sant&eacute; Canada, et le soutien financier de leur Programme d'appui aux langues officielles en particulier, qui ont permis la r&eacute;alisation de tout ce travail. </li><br /><br/>
+					</ul>
 
 					Nous remercions tout particuli&egrave;rement notre &eacute;quipe de soutien et de d&eacute;veloppement technique &agrave; Montr&eacute;al (Qu&eacute;bec, Canada): <br/><br/>
-					-Alexandra Lemus<br/>
-					-Gabriela Su&eacute;<br/>
-					-Mariolys Rivas<br/>
-					-Adolfo Rodr&iacute;guez<br/>
-					
+					<ul style="list-style-type: disc;">
+					<li>Alexandra Lemus </li> <br/>
+					 <li>Gabriela Su&eacute; </li> <br/>
+					 <li>Mariolys Rivas </li> <br/>
+					 <li>Adolfo Rodr&iacute;guez </li> <br/>
+					</ul>
 					</div>
 					
 				</div>
