@@ -465,7 +465,9 @@
 				 	<p>Then select <span class="addtohomescreen_icon"> </span> Add to Home Screen.</p>
 					</div>
 					<div class="android-only">
-				 	To save this app to your home screen: <p>Press the menu button at the bottom of the device. Then select Add Shortcut.</p>
+				 	To save this app to your home screen: <br/>
+				 	<p>Look for the three-dot menu <span class="threedotmenu_icon"> </span> </p>
+				 	<p>Or the menu screen <span class="addtohomescreenandroid_icon"> </span> Then add to Home Screen.</p>
 					</div>
 					<div class="other-os">
 				 	For easier access and a better experience please bookmark this app or add it to your mobile device's home screen.
