@@ -501,11 +501,11 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					Jeffery Hale-Saint Brigid <br/><br/>
-					<b>Jeffery Hale-Saint Brigid's Contact Information</b><br/>
-					<a href='http://www.jhsb.ca/en' class="health-pass-link">www.jhsb.ca</a><br/>
-					<b>Phone:</b> <a href='tel:+14186845333' class="health-pass-link">418 684-5333</a><br/>
-					<b>Address:</b> 1250, chemin Sainte-Foy, Qu&eacute;bec, QC G1S 2M6
+					Voice of English-speaking Qu&#233;bec <br/><br/>
+					<b>Contact Information</b><br/>
+					<a href='http://veq.ca/' class="health-pass-link">www.veq.ca</a><br/>
+					<b>Phone:</b> <a href='tel:+1418683236' class="health-pass-link">418 683-2366</a><br/>
+					<b>Address:</b> 1270, chemin Sainte-Foy, Suite 2141, Jeffery Hale Pavilion, Qu&eacute;bec, QC G1S 2M4 
 				</div>
 			</div>
 		</div>
