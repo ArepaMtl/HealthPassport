@@ -8,8 +8,7 @@ header("Pragma: no-cache");
 header('Content-Type: text/cache-manifest'); 
 
 ?>CACHE MANIFEST
-# rev 1060
-
+# rev 2002
 
 
 

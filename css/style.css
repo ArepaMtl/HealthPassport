@@ -1428,8 +1428,8 @@ h1{
 	bottom:0px;
 	background-image:url('../design_folder/assets/logo_splash_screen.png');
 	background-repeat:no-repeat;
-	background-position:center;
-	background-size:auto 40%;
+	background-position:top;
+	background-size:contain;
 	z-index:200;
 	pointer-events:none;
     /*animation: fadeout 2s;
