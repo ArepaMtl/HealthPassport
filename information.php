@@ -124,7 +124,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 					<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Gasp&eacute; Center for Health and Social Services /<br/> Centre de sant&eacute; et des services sociaux de Gasp&eacute; Fondation du cancer:<br/>  <a class='phone-link' href="tel:+4183683301">418 368-3301<a> <br/> <a class='phone-link' href="tel:+41836825727"> CLSC 418 368-2572</a> <br/> <a class='phone-link' href="tel:+4183686663"> UMF 418 368-6663</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"> Integrated Centre for Health and Social Services of the Gasp&eacute;sie /<br/> Centre Int&eacute;gr&eacute; de Sant&eacute; et de Services Sociaux de la Gasp&eacute;sie:<br/>  <a class='phone-link' href="tel:+4183683301">418 368-3301<a> <br/> <a class='phone-link' href="tel:+41836825727"> CLSC 418 368-2572</a> <br/>  </div></div> <!--<a class='phone-link' href="tel:+4183686663"> UMF 418 368-6663</a>-->
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -136,11 +136,11 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183686883"><div class="info-content-small centered"> Women Sexual Assault /<br/> Les femmes victimes d'agression sexuelle (L'Aid-Elle):<br/>418 368-6883</div></a>
+					<a class="info-link" href="tel:+4183686883"><div class="info-content-small centered"> L'Aid'Elle Women's Shelter for Assistance and Support /<br/>  Maison d'aide et d'h&eacute;bergement L'Aid'Elle:<br/>418 368-6883</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183686883"><div class="info-content-small centered"> Women Sexual Assault /<br/> Les femmes victimes d'agression sexuelle (CALACS la B&ocirc;me):<br/>418 368-6883</div></a>
+					<a class="info-link" href="tel:+4183686686"><div class="info-content-small centered"> CALACS La B&ocirc;me-Gasp&eacute;sie Women and youth sexual assault help centre /<br/>CALACS La B&ocirc;me-Gasp&eacute;sie Centre d'aide et de lutte contre les agressions &agrave; caract&egrave;re sexuel: <br/>418 368-6686</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -156,7 +156,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183686634"><div class="info-content-small centered"> Alzheimer Society /<br/> Soci&eacute;t&eacute; Alzheimer:<br/>418 368-6634</div></a>
+					<a class="info-link" href="tel:+4183681616"><div class="info-content-small centered"> Alzheimer Society /<br/> Soci&eacute;t&eacute; Alzheimer:<br/>418 368-1616</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -180,11 +180,11 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183686624"><div class="info-content-small centered"> Adapted transit /<br/>Transport Adapt&eacute; et collectif: <br/> 418 368-6624</div></a>
+					<a class="info-link" href="tel:+4183686324"><div class="info-content-small centered"> Adapted transit /<br/>Transport Adapt&eacute; et collectif: <br/> 418 368-6324</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4183688875"><div class="info-content-small centered"> House of Parenfant family / <br/>Maison de la famille Parenfant: <br/>418 368-8875</div></a>
+					<a class="info-link" href="tel:+4183686028"><div class="info-content-small centered"> The Family House / <br/>Maison de la famille Parenfant: <br/>418 368-6028</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -192,7 +192,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 
-			</div></li>
+			</div></li>  
 			
 			<?php
 			
