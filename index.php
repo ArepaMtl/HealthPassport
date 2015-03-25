@@ -387,11 +387,11 @@
 					$("#loading-page").css("display","none");
 				}
 				
-				if (false && navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+				if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
     				$(".android-only").css("display","none");
 					$(".ios-only").css("display","block");
 					$(".other-os").css("display","none");
-				}else if (true || navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+				}else if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
 					$(".android-only").css("display","block");
 					$(".ios-only").css("display","none");
 					$(".other-os").css("display","none");
