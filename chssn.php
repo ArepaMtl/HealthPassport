@@ -68,7 +68,7 @@
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Community Health and</br>Social Services Network</div><div class='lng-fr'>Community Health and</br>Social Services Network</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'></div><div class='lng-fr'></div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 			
 					
@@ -77,72 +77,59 @@
 					Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
 					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>-->
-					
-					<b>Jeffery Hale-Saint Brigid's Contact Information</b><br/><br/>
-					
-					<a href='http://www.jhsb.ca/en' class="health-pass-link">www.jhsb.ca</a><br/><br/>
-					<!--<a href='mailto:info@chssn.org' class="health-pass-link">info@chssn.org</a><br/><br/>-->
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-5333</a><br/><br/>
-					<b>Address:</b>  1250, chemin Sainte-Foy, Qu&eacute;bec, QC G1S 2M6
 				</div>
 				
 				<div class='lng-fr'>
-					Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>
+					L&#x27;H&#xF4;pital Jeffery Hale - Saint Brigid&#x27;s est un &#xE9;tablissement public qui offre une grande vari&#xE9;t&#xE9; de services de soins de sant&#xE9; primaires en fran&#xE7;ais et en anglais &#xE0; la population de la r&#xE9;gion de la Capitale-Nationale (grande r&#xE9;gion de Qu&#xE9;bec).
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
 					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>-->
 					
-					<b>Jeffery Hale-Saint Brigid's Contact Information</b><br/><br/>
-					
-					<a href='http://www.jhsb.ca/en' class="health-pass-link">www.jhsb.ca</a><br/><br/>
-					<!--<a href='mailto:info@chssn.org' class="health-pass-link">info@chssn.org</a><br/><br/>-->
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-5333</a><br/><br/>
-					<b>Address:</b>  1250, chemin Sainte-Foy, Qu&eacute;bec, QC G1S 2M6
 				</div>
 				
 					
 				</div>
 			</div></li>
 			
-			<!--<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div>Health Passport</div><div>Information passeport sant&eacute;</div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div>Health Passport</div><div>Information passeport sant&eacute;</div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 					<div class='lng-en'>
 					This Health Passport App is designed to help you and your family keep track of essential health information. 
 					It also puts helpful words and phrases in French at your fingertips when you go to clinic or an emergency. 
 
-					CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
+					<!--CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
 					few years ago by MCDC, an organization serving the English-speaking community of the 
 					Chaudi&egrave;re-Appalaches region of Qu&eacute;bec. 
 					MCDC realized that carrying a pocket guide with personal health information and basic 
 					vocabulary could improve the outcome of visits to French-speaking health care professionals, 
-					and ultimately, improve your health. 
+					and ultimately, improve your health. -->
 
-					Their paper model has been adopted in several regions of Quebec and by two Francophone communities in 
+					The paper model has been adopted in several regions of Quebec and by two Francophone communities in 
 					Canada (in Newfoundland and Yukon). As for CHSSN's Health Passport App, who knows how far it will go?
 					
 					</div>
 					
 					<div class='lng-fr'>
-					Cette App Passeport Sant&eacute; est con&ccedil;u pour aider vous et votre famille &agrave; garder une trace des 
-					informations de sant&eacute; essentiels.
-					Il met aussi en mots et des phrases utiles en fran&ccedil;ais &agrave; port&eacute;e de main quand vous allez &agrave; 
-					la clinique ou &agrave; une situation d'urgence.
+					Cette application de Passeport Sant&eacute; est faite pour vous aider, vous et votre famille, &agrave;
+suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
+des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
+Pour cette application en ligne, le RCSSS s'est inspir&eacute; d'une version imprim&eacute;e du
+Passeport Sant&eacute; cr&eacute;&eacute;e il y a quelques ann&eacute;es par la MCDC, organisme desservant la 
+communaut&eacute; d'expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches au Qu&eacute;bec. La
+MCDC a d&eacute;couvert qu'avoir un guide de poche contenant des renseignements
+personnels et du vocabulaire de base sur la sant&eacute; am&eacute;liorerait le r&eacute;sultat des 
+consultations aupr&egrave;s de professionnels de la sant&eacute; francophones et, en fin de compte, 
+am&eacute;liorerait votre sant&eacute;. <br />
 
-					CHSSN a obtenu son inspiration pour cette ligne App partir d'une version papier de la Sant&eacute; a cr&eacute;&eacute; un passeport
-					il ya quelques ann&eacute;es par la MCDC, une organisation au service de la communaut&eacute; de la langue anglaise
-                    Chaudi&egrave;re-Appalaches de Qu&eacute;bec. MCDC r&eacute;alis&eacute; que la r&eacute;alisation d'un guide de poche des 
-                    renseignements personnels de la sant&eacute; et de base vocabulaire pourrait am&eacute;liorer l'issue de visites de langue fran&ccedil;aise professionnels de soins de sant&eacute;,
-                    et, finalement, d'am&eacute;liorer votre sant&eacute;.
-
-Leur mod&egrave;le de papier a &eacute;t&eacute; adopt&eacute;e dans plusieurs r&eacute;gions du Qu&eacute;bec et par les deux communaut&eacute;s francophones
-Canada (&agrave; Terre-Neuve et le Yukon). Quant &agrave; Passeport Sant&eacute; App RCSSS, qui sait jusqu'o&ugrave; il ira?
-
+Plusieurs r&eacute;gions du Qu&eacute;bec et deux communaut&eacute;s francophones du Canada (&agrave; Terre-
+Neuve et au Yukon) ont adopt&eacute; le mod&egrave;le imprim&eacute;. Quant &agrave; l'application du Passeport
+Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
 					
 
 				</div>
 
 				</div>
-			</div></li>-->
+			</div></li>
 			
 			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div><div class='lng-en'>Credits<br/>Thanks</div><div class='lng-fr'>Cr&eacute;dits<br/>Merci</div></div><div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
@@ -150,37 +137,37 @@ Canada (&agrave; Terre-Neuve et le Yukon). Quant &agrave; Passeport Sant&eacute;
 					<div class='lng-en'>
 					This electronic version of the Health Passport App has happened thanks to the collaboration of a 
 					few organizations:<br/><br/>
-                    	MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version<br/>
-                    	VEQ (Voice of English-speaking Qu&eacute;bec) and Jeffery Hale Community Services for producing a revised second 
-                    	paper version and for helping to bring this electronic version to life.<br/>
-                    	Health Canada, and the financial support of their Official Languages Support Program in particular, for making all of this work possible<br/><br/>
-
+					<ul style="list-style-type: disc;">
+                    	<li>MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version </li> <br/>
+                    	<li>VEQ (Voice of English-speaking Qu&eacute;bec) and Jeffery Hale Community Services for producing a revised second 
+                    	paper version and for helping to bring this electronic version to life. </li> <br/>
+                    	<li>Health Canada, and the financial support of their Official Languages Support Program in particular, for making all of this work possible </li> <br/><br/>
+ 					</ul>
                     Special thanks to our technical development and support team in Montr&eacute;al, Qu&eacute;bec, Canada:<br/><br/>
 
-					Alexandra Lemus<br/>
-					Gabriela Su&eacute;<br/>
-					Mariolys Rivas<br/>
-					Adolfo Rodr&iacute;guez<br/>
-					
+					<ul style="list-style-type: disc;">
+					<li>Alexandra Lemus </li> <br/>
+					 <li>Gabriela Su&eacute; </li> <br/>
+					 <li>Mariolys Rivas </li> <br/>
+					 <li>Adolfo Rodr&iacute;guez </li> <br/>
+					</ul>
 					</div>
 					
 					<div class='lng-fr'>
-				    Cette version &#233;lectronique de l&#39;App Passeport Sant&#233; est arriv&#233; gr&#226;ce &#224; 
-				    la collaboration de quelques organisations:<br/><br/>
+				    Cette version &eacute;lectronique de l'application du Passeport Sant&eacute; a vu le jour gr&acirc;ce &agrave; la collaboration de quelques organismes&nbsp;: <br/> <br/>
+					<ul style="list-style-type: disc;">
+					<li> MCDC (Corporation de d&eacute;veloppement de la communaut&eacute; d'expression anglaise de M&eacute;gantic), auteur de la version imprim&eacute;e originale; </li>  <br/>
+					<li>VEQ (Voice of English-speaking Qu&eacute;bec) et les Services communautaires Jeffery Hale, qui ont produit une deuxi&egrave;me version imprim&eacute;e r&eacute;vis&eacute;e et qui ont contribu&eacute; &agrave; la cr&eacute;ation de cette version &eacute;lectronique;</li>  <br/>
+					<li>Sant&eacute; Canada, et le soutien financier de leur Programme d'appui aux langues officielles en particulier, qui ont permis la r&eacute;alisation de tout ce travail. </li><br /><br/>
+					</ul>
 
-					MCDC (Soci&#233;t&#233; de d&#233;veloppement communautaire expression anglaise de M&#233;gantic) 
-					pour la cr&#233;ation de la version originale de papier.<br/>
-					VEQ (Voice of English-speaking Qu&#233;bec) et Jeffery Hale Services communautaires pour la production d&#39; une deuxi&#232;me 
-					version r&#233;vis&#233;e du papier et pour aider &#224; porter cette version &#233;lectronique &#224; la vie.<br/>
-					Sant&#233; Canada, et le soutien financier de leur Programme d&#39;appui aux langues 
-					officielles, en particulier, pour faire tout ce travail possible. <br/><br/>
-
-					Un merci sp&#233;cial &#224; notre d&#233;veloppement technique et l&#39;&#233;quipe de soutien &#224; Montr&#233;al, Qu&#233;bec, Canada <br/><br/>
-					Alexandra Lemus<br/>
-					Gabriela Su&eacute;<br/>
-					Mariolys Rivas<br/>
-					Adolfo Rodr&iacute;guez<br/>
-					
+					Nous remercions tout particuli&egrave;rement notre &eacute;quipe de soutien et de d&eacute;veloppement technique &agrave; Montr&eacute;al (Qu&eacute;bec, Canada): <br/><br/>
+					<ul style="list-style-type: disc;">
+					<li>Alexandra Lemus </li> <br/>
+					 <li>Gabriela Su&eacute; </li> <br/>
+					 <li>Mariolys Rivas </li> <br/>
+					 <li>Adolfo Rodr&iacute;guez </li> <br/>
+					</ul>
 					</div>
 					
 				</div>
