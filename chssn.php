@@ -113,7 +113,7 @@
 					This Health Passport App is designed to help you and your family keep track of essential health information. 
 					It also puts helpful words and phrases in French at your fingertips when you go to clinic or an emergency. 
 
-					CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
+					<!--CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
 					few years ago by MCDC, an organization serving the English-speaking community of the 
 					Chaudi&egrave;re-Appalaches region of Qu&eacute;bec. 
 					MCDC realized that carrying a pocket guide with personal health information and basic 
@@ -121,7 +121,7 @@
 					and ultimately, improve your health. 
 
 					Their paper model has been adopted in several regions of Quebec and by two Francophone communities in 
-					Canada (in Newfoundland and Yukon). As for CHSSN's Health Passport App, who knows how far it will go?
+					Canada (in Newfoundland and Yukon). As for CHSSN's Health Passport App, who knows how far it will go?-->
 					
 					</div>
 					
@@ -129,6 +129,7 @@
 					Cette application de Passeport Sant&eacute; est faite pour vous aider, vous et votre famille, &agrave;
 suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
 des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
+<!--
 Pour cette application en ligne, le RCSSS s'est inspir&eacute; d'une version imprim&eacute;e du
 Passeport Sant&eacute; cr&eacute;&eacute;e il y a quelques ann&eacute;es par la MCDC, organisme desservant la 
 communaut&eacute; d'expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches au Qu&eacute;bec. La
@@ -139,7 +140,7 @@ am&eacute;liorerait votre sant&eacute;. <br />
 
 Plusieurs r&eacute;gions du Qu&eacute;bec et deux communaut&eacute;s francophones du Canada (&agrave; Terre-
 Neuve et au Yukon) ont adopt&eacute; le mod&egrave;le imprim&eacute;. Quant &agrave; l'application du Passeport
-Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
+Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?-->
 					
 
 				</div>

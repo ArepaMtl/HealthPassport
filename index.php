@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>OHSSN</span>
+		<span class='org-name'>Connexions Resource Centre</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,9 +501,8 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					OHSSN <br/>
 					Connexions Resource Centre<br/> <br/>
-					<b>OHSSN Contact Information</b><br/>
+					<b>Connexions Resource Centre's Contact Information</b><br/>
 					<a href='http://www.centreconnexions.org' class="health-pass-link"> www.centreconnexions.org</a><br/>
 					<b>Phone:</b> <a href='tel:+18197773206' class="health-pass-link">819 777-3206</a><br/>
 					<b>Address:</b> 2 rue Millar Gatineau, Quebec J8Y 3N3

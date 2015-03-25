@@ -136,7 +136,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+188848922870"><div class="info-content-small centered">Elder Abuse Line /<br/>Abus envers les a&icir;n&eacute;s Ligne:<br/>  888 489-2287</div></a>
+					<a class="info-link" href="tel:+188848922870"><div class="info-content-small centered">Elder Abuse Line /<br/>Abus envers les A&icirc;n&eacute;s Ligne:<br/>  888 489-2287</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -152,15 +152,15 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> Crisis/Distress Counselling  /<br/>Crise/d&eacute;tresse Counselling (24/7):<br/> 819 595-999</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> Crisis/Distress Counselling  /<br/>Centre d'aide (24/7):<br/> 819 595-999</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18005676810"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse Outaouais:<br/> 800 567-6810</div></a>
+					<a class="info-link" href="tel:+18005676810"><div class="info-content-small centered">Youth Protection /<br/>Centre jeunesse Outaouais:<br/> 800 567-6810</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+8197765584"><div class="info-content-small centered"> Ottawa Rehabilitation Centre (Addiction)   /<br/>Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais:<br/> 819 776-5584</div></a>
+					<a class="info-link" href="tel:+8197765584"><div class="info-content-small centered"> Outaouais Rehabilitation Centre (Addiction)   /<br/>Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais (CRDO):<br/> 819 776-5584</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -178,7 +178,7 @@ $useDropDown = TRUE;
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">OHSSN /<br/> Connexions Resource Centre: <br/>  <a class='phone-link' href='http://www.centreconnexions.org'>www.centreconnexions.org<a> <br/> <a class='phone-link' href="tel:+18197773206"> 819 777-3206</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Connexions Resource Centre: <br/>  <a class='phone-link' href='http://www.centreconnexions.org'>www.centreconnexions.org<a> <!--<a class='phone-link' href="tel:+18197773206"> 819 777-3206</a> --></div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
