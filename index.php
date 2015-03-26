@@ -450,6 +450,7 @@
 				Your personal health information is stored on your device, so be sure to secure 
 				it in case of loss or theft.
 				For technical support: 418 683-2366 or info@veq.ca
+				
 				</div>
 				<a href=""></a>
 			</div>
@@ -472,7 +473,7 @@
 				 	<p>Then select <span class="addtohomescreen_icon"> </span> Add to Home Screen.</p>
 					</div>
 					<div class="android-only">
-				 	To save this app to your home screen: <p>Press the menu button at the bottom of the device. Then select Add Shortcut.</p>
+						To save this app to your home screen look for the three-dot menu <span id="threedotmenu_icon"> </span>, or the menu screen <span id="addtohomescreenandroid_icon"> </span>.<br/><br/> Then Add to Home Screen.
 					</div>
 					<div class="other-os">
 				 	For easier access and a better experience please bookmark this app or add it to your mobile device's home screen.
