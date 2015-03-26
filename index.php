@@ -442,7 +442,7 @@
 			<div>
 				<div>
 				This app is meant as a guide to make it easier for an English-speaking
-				person to communicate with French-speaking health professionals. It does not replace a professional medical opinion in any way.
+				person to communicate with French-speaking health professionals. It does not replace a professional medical opinion in any way. Your personal health information is stored on your device, so be sure to secure it in case of loss or theft.
 				</div>
 				<a href=""></a>
 			</div>
@@ -465,9 +465,7 @@
 				 	<p>Then select <span class="addtohomescreen_icon"> </span> Add to Home Screen.</p>
 					</div>
 					<div class="android-only">
-				 	To save this app to your home screen: <br/>
-				 	<p>Look for the three-dot menu <span class="threedotmenu_icon"> </span> </p>
-				 	<p>Or the menu screen <span class="addtohomescreenandroid_icon"> </span> Then add to Home Screen.</p>
+						To save this app to your home screen look for the three-dot menu <span id="threedotmenu_icon"> </span>, or the menu screen <span id="addtohomescreenandroid_icon"> </span>.<br/><br/> Then Add to Home Screen.
 					</div>
 					<div class="other-os">
 				 	For easier access and a better experience please bookmark this app or add it to your mobile device's home screen.

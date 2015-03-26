@@ -10,7 +10,8 @@ header('Content-Type: text/cache-manifest');
 //comment
 
 ?>CACHE MANIFEST
-# rev 1157
+
+# rev 1151
 
 
 
@@ -57,6 +58,8 @@ design_folder/assets/rate_app.png
 design_folder/assets/x_rating.png
 design_folder/assets/side-org-icon.png
 design_folder/assets/x_org.png
+design_folder/assets/addtohomescreenandroid_icon.png
+design_folder/assets/threedotmenu_icon.png
 fonts/Franchise-Bold.woff
 fonts/FuturaCondensedMedium.woff
 fonts/liberationsans-bold-webfont.woff
