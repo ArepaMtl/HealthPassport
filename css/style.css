@@ -1664,8 +1664,26 @@ h1{
 }
 
 
+#threedotmenu_icon, #addtohomescreenandroid_icon {
+	position:relative;
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
 
+#threedotmenu_icon {
+	background-image:url(../design_folder/assets/addtohomescreenandroid_icon.png);
+	height:20px;
+}
 
+#addtohomescreenandroid_icon {
+	background-image:url(../design_folder/assets/threedotmenu_icon.png);
+	width:20px;
+	height:25px;
+}
 
 
 
