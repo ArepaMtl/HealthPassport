@@ -39,6 +39,7 @@ if ($calledDirectly){
 					<div class="left-box-title" data-localize="medicalcontactsname.paragraph" data-sibling-id="speciality-title"> Speciality:</div><div class="side-right-box-container" data-sibling-id="speciality-box"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-speciality"/> </div>
 					<div data-sibling-id="specify-title" class="left-box-title" data-localize="medicalcontactsname.paragraph"> Specify:</div><div  data-sibling-id="specify-box" class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-specify"/> </div>
 					<div class="left-box-title" data-localize="medicalcontactsname.paragraph"> Name / Nom:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-name"/> </div>
+					<div class="left-box-title" data-localize="medicalcontactstelf.paragraph"> Address / Adresse:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-adr"/></div>
 					<div class="left-box-title" data-localize="medicalcontactstelf.paragraph"> Telephone / T&eacute;l&eacute;phone:</div><div class="side-right-box-container"><input type="text" name="checkListItem" class="side-box-input" data-history-id="medcontacts-tel"/></div>
 				</div>
 			 <div class="white-box medical_contacts_loader"><a href="" class="plusbutton" data-copiable-item-id="medcontacts-box"> </a></div>
