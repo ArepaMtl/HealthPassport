@@ -445,7 +445,11 @@
 			<div>
 				<div>
 				This app is meant as a guide to make it easier for an English-speaking
-				person to communicate with French-speaking health professionals. It does not replace a professional medical opinion in any way.
+				person to communicate with French-speaking health professionals. 
+				It does not replace a professional medical opinion in any way. 
+				Your personal health information is stored on your device, so be sure to secure 
+				it in case of loss or theft.
+				For technical support: 418 683-2366 or info@veq.ca
 				</div>
 				<a href=""></a>
 			</div>
