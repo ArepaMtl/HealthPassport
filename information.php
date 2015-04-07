@@ -107,8 +107,8 @@ $useDropDown = TRUE;
 				</div>
 				<!--<div class="white-box taller-box">
 					<a class="info-link"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div> <br/> <a class='phone-link' href="tel:+14386884240">438 688-4240</a> </a>
-					<div class="externallink-icon noclick"></div>-->
-				</div>
+					<div class="externallink-icon noclick"></div>
+				</div>-->
 				<div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>  <a class='phone-link' href="href="http://www.centredecrise.ca/centre-de-crise.php">www.centredecrise.ca</a><br/> <a class='phone-link' href="tel:+14386884240">438 688-4240</a> </div></div>
 					<div class="phone-icon noclick"></div>
