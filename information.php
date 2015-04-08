@@ -119,12 +119,12 @@ $useDropDown = TRUE;
 				</div>
 
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/> <a class='phone-link' href="http://ligneparents.com">www.ligneparents.com</a> <br/> <a class='phone-link' href="tel:+18003615085">1 8003615085</a></div></div>
+					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/> <a class='phone-link' href="http://ligneparents.com">www.ligneparents.com</a> <br/> <a class='phone-link' href="tel:+18003615085">1 800 361-5085</a></div></div>
 					<div class="externallink-icon noclick"></div>
 				</div>
 				
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/><a class='phone-link' href="http://www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre/">www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre</a> <br/> <a class='phone-link' href="tel:+18004635060">1 8004635060</a></div></div>
+					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/><a class='phone-link' href="http://www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre/">www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre</a> <br/> <a class='phone-link' href="tel:+18004635060">1 800 463-5060</a></div></div>
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -132,7 +132,7 @@ $useDropDown = TRUE;
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/><a class='phone-link' href="http://www.sosviolenceconjugale.ca/">www.sosviolenceconjugale.ca</a> <br/ <a class='phone-link' href="tel:+18004649010">1 8004649010</a></div></div>
+					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/><a class='phone-link' href="http://www.sosviolenceconjugale.ca/">www.sosviolenceconjugale.ca</a> <br/ <a class='phone-link' href="tel:+18004649010">1 800 464-9010</a></div></div>
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -165,7 +165,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Jeffery Hale Saint Brigid's: <br/>  <a class='phone-link' href='http://www.jhsb.ca/en'>www.jhsb.ca<a> <br/> <a class='phone-link' href="tel:+14186845333"> 418 684-5333</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Jeffery Hale-Saint Brigid's: <br/>  <a class='phone-link' href='http://www.jhsb.ca/en'>www.jhsb.ca<a> <br/> <a class='phone-link' href="tel:+14186845333"> 418 684-5333</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>

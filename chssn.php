@@ -74,13 +74,16 @@
 					
 					
 				<div class='lng-en'>
-					Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>
+					The Voice of English-speaking Qu&eacute;bec (VEQ) is an autonomous, non-profit organization dedicated to the preservation of a dynamic English-speaking community in the Greater Qu&eacute;bec and Chaudi&egrave;re-Appalaches regions and to the promotion of its interests.
+					<!--Jeffery Hale - Saint Brigid's is a public institution that provides a wide range of primary health care services in French and English to the population of the Capitale-Nationale (Greater Quebec City) region.<br/> <br/>-->
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
 					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>-->
 				</div>
 				
 				<div class='lng-fr'>
-					L&#x27;H&#xF4;pital Jeffery Hale - Saint Brigid&#x27;s est un &#xE9;tablissement public qui offre une grande vari&#xE9;t&#xE9; de services de soins de sant&#xE9; primaires en fran&#xE7;ais et en anglais &#xE0; la population de la r&#xE9;gion de la Capitale-Nationale (grande r&#xE9;gion de Qu&#xE9;bec).
+					Voice of English-speaking Qu&eacute;bec est un organisme autonome &agrave; but non lucratif d&eacute;di&eacute; &agrave; la pr&eacute;servation d&rsquo;une communaut&eacute; anglophone dynamique dans la r&eacute;gion de Qu&eacute;bec et de Chaudi&egrave;re-Appalaches, et &agrave; la promotion de ses int&eacute;r&ecirc;ts.
+					
+					<!--L&#x27;H&#xF4;pital Jeffery Hale - Saint Brigid&#x27;s est un &#xE9;tablissement public qui offre une grande vari&#xE9;t&#xE9; de services de soins de sant&#xE9; primaires en fran&#xE7;ais et en anglais &#xE0; la population de la r&#xE9;gion de la Capitale-Nationale (grande r&#xE9;gion de Qu&#xE9;bec).-->
 					<!--The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
 					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>-->
 					
