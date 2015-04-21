@@ -67,14 +67,19 @@
 			
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Community Health and</br>Social Services Network</div><div class='lng-fr'>Community Health and</br>Social Services Network</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Council for Anglophone </br>Magdalen Islanders</div><div class='lng-fr'>Community Health and</br>Social Services Network</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
-					The Community Health and Social Services Network (CHSSN) is a network over 60 community resources, associations, foundations, public institutions and other stakeholders dedicated to creating partnerships that enhance health and social services for English-speaking communities in Quebec.<br/><br/>
-					Several years ago a community organization serving the English-speaking community of the Chaudi&#232;re-Appalaches Region in Quebec decided to invest resources it had received from Health Canada for promoting better health of its community into a pocket reference that could be used on a visit to the doctor or an emergency room.  They felt that having some of the basic vocabulary necessary for these visits at a person&#8217;s fingertips could improve the outcome of the visit and ultimately the health of the individual.   The pocket reference was called the MCDC Health Passport and was a huge success.  The model has since been adopted in several regions of Quebec and in two Francophone communities across Canada (Newfoundland and Yukon).  The CHSSN recognized a good idea and decided that an electronic version of this passport just might be the next step.  So here we are.  This version of the Health Passport is benefiting from the development and revision of several organizations.  MCDC (Megantic English-speaking Community Development Corporation) developed the original version and VEQ (Voice of English-speaking Quebec) and Jeffery Hale Community Services revised and produced a second version.  We have taken the content (with VEQ and MCDC&#8217;s permission) to create this electronic version for use by the greater English-speaking community of Quebec.  All of this work would not have been possible without the financial support from Health Canada and their Official Languages Support Program.<br/><br/>
-
-					
+					CAMI (Council for Anglophone Magdalen Islanders) has been working in the English-speaking 
+					community of the Magdalen Islands since 1987.  A non-profit organization, 
+					CAMI works for the community, promoting the rights of Anglophone Magdalen Islanders.  
+					CAMI ensures that English-speakers benefit from the various available programs, 
+					across an array of sectors, and that English-speakers benefit from these programs 
+					in their own language.  Health, education, language, culture and heritage are 
+					all part of CAMI’s mandate, a mandate that will continue to guide the organization 
+					through the years to come.
+ 
 
 					
 					<!--<b>CHSSN Contact Information</b><br/><br/>
@@ -86,11 +91,17 @@
 				</div>
 				
 				<div class='lng-fr'>
-					Le R&#233;seau communautaire de sant&#233; et de services sociaux est un r&#233;seau de plus de 60 ressources communautaires, des associations, des fondations, des institutions publiques et d&#39;autres intervenants d&#233;di&#233;s &#224; la cr&#233;ation de partenariats qui am&#233;liorent les services sociaux et de sant&#233; pour les communaut&#233;s anglophones du Qu&#233;bec.<br/><br/>
-					
-					
-					Il y a plusieurs ann&eacute;es, un organisme communautaire desservant la communaut&eacute; d&rsquo;expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches du Qu&eacute;bec a d&eacute;cid&eacute; d&rsquo;investir les ressources qu&rsquo;il avait re&ccedil;ues de Sant&eacute; Canada pour promouvoir l&rsquo;am&eacute;lioration de la sant&eacute; de sa communaut&eacute; en produisant un guide de poche &agrave; consulter lors des visites chez le m&eacute;decin ou &agrave; l&rsquo;urgence. Il a sembl&eacute; aux responsables de cet organisme qu&rsquo;avoir sous la main le vocabulaire de base n&eacute;cessaire &agrave; ces visites am&eacute;liorerait le r&eacute;sultat de la consultation et, en fin de compte, la sant&eacute; de la personne concern&eacute;e. Ce guide de poche, qui a pour titre Passeport-sant&eacute; de la MCDC, a connu un succ&egrave;s retentissant. Ce mod&egrave;le a depuis lors &eacute;t&eacute; repris dans plusieurs r&eacute;gions du Qu&eacute;bec et dans deux communaut&eacute;s francophones ailleurs au Canada (&agrave; Terre-Neuve et au Yukon). Le RCSSS, &agrave; qui cette bonne id&eacute;e n&rsquo;a pas &eacute;chapp&eacute;, a d&eacute;cid&eacute; que la prochaine &eacute;tape serait de produire une version &eacute;lectronique de ce passeport. Voici donc o&ugrave; nous en sommes. Cette version du Passeport Sant&eacute; b&eacute;n&eacute;ficie de la r&eacute;vision de plusieurs organismes. La MCDC (Corporation de d&eacute;veloppement de la communaut&eacute; d&rsquo;expression anglaise de M&eacute;gantic) a cr&eacute;&eacute; la version originale, tandis que VEQ (Voice of English-speaking Quebec) et les Services communautaires Jeffery Hale l&rsquo;ont r&eacute;vis&eacute;e et produit une deuxi&egrave;me version. Nous avons ensuite repris ce contenu (avec l&rsquo;autorisation de VEQ et de la MCDC) pour cr&eacute;er cette version &eacute;lectronique destin&eacute;e &agrave; la communaut&eacute; d&rsquo;expression anglaise &eacute;largie du Qu&eacute;bec. Tout ce travail n&rsquo;aurait pu s&rsquo;accomplir sans le soutien financier de Sant&eacute; Canada et de leur Programme d&rsquo;appui aux langues officielles.
-
+					CAMI (Conseil des anglophones madelinots) a travaill&eacute; 
+					dans la communaut&eacute; anglophone des &Icirc;les de la Madeleine 
+					depuis 1987. Une organisation &agrave; but non lucratif, 
+					CAMI travaille pour la communaut&eacute; , promouvoir les droits 
+					des anglophones madelinots. CAMI assure que les anglophones 
+					b&eacute;n&eacute;ficient des divers programmes disponibles, &agrave; 
+					travers une gamme de secteurs , et que les anglophones b&eacute;n&eacute;ficient 
+					de ces programmes dans leur propre langue. Sant&eacute;, l'&eacute;ducation, 
+					la langue, la culture et le patrimoine font partie du mandat de la CAMI, 
+					un mandat qui continuera &agrave; guider l'organisation &agrave; 
+					travers les ann&eacute;es &agrave; venir.
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>
@@ -106,36 +117,16 @@
 				<div class="dynamic-size-box">
 					
 					<div class='lng-en'>
-					This Health Passport App is designed to help you and your family keep track of essential health information. 
-					It also puts helpful words and phrases in French at your fingertips when you go to clinic or an emergency. 
-
-					CHSSN got its inspiration for this online App from a paper version of the Health Passport created a 
-					few years ago by MCDC, an organization serving the English-speaking community of the 
-					Chaudi&egrave;re-Appalaches region of Qu&eacute;bec. 
-					MCDC realized that carrying a pocket guide with personal health information and basic 
-					vocabulary could improve the outcome of visits to French-speaking health care professionals, 
-					and ultimately, improve your health. 
-
-					Their paper model has been adopted in several regions of Quebec and by two Francophone communities in 
-					Canada (in Newfoundland and Yukon). As for CHSSN's Health Passport App, who knows how far it will go?
-					
+						This Health Passport App is designed to help you and your family keep track of 
+						essential health information. It also puts helpful words and phrases in French at your fingertips 
+						when you go to clinic or an emergency.					
 					</div>
 					
 					<div class='lng-fr'>
 					Cette application de Passeport Sant&eacute; est faite pour vous aider, vous et votre famille, &agrave;
-suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
-des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
-Pour cette application en ligne, le RCSSS s'est inspir&eacute; d'une version imprim&eacute;e du
-Passeport Sant&eacute; cr&eacute;&eacute;e il y a quelques ann&eacute;es par la MCDC, organisme desservant la 
-communaut&eacute; d'expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches au Qu&eacute;bec. La
-MCDC a d&eacute;couvert qu'avoir un guide de poche contenant des renseignements
-personnels et du vocabulaire de base sur la sant&eacute; am&eacute;liorerait le r&eacute;sultat des 
-consultations aupr&egrave;s de professionnels de la sant&eacute; francophones et, en fin de compte, 
-am&eacute;liorerait votre sant&eacute;. <br />
+					suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
+					des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
 
-Plusieurs r&eacute;gions du Qu&eacute;bec et deux communaut&eacute;s francophones du Canada (&agrave; Terre-
-Neuve et au Yukon) ont adopt&eacute; le mod&egrave;le imprim&eacute;. Quant &agrave; l'application du Passeport
-Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
 					
 
 				</div>

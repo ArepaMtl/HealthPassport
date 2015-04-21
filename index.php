@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>Organization Name</span>
+		<span class='org-name'>CAMI (Council for Anglophone Magdalen Islanders)</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,12 +501,12 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					CHSSN <br/>
-					The Community Health and Social Services Network<br/> <br/>
-					<b>CHSSN Contact Information</b><br/>
-					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/>
-					<b>Phone:</b> <a href='tel:+14186842289' class="health-pass-link">418-684-2289</a><br/>
-					<b>Address:</b> 1270, Chemin Ste-Foy, Suite 2106, Quebec, QC G1S 2M4
+					CAMI <br/>
+					Council for Anglophone Magdalen Islanders<br/> <br/>
+					<b>CAMI Contact Information</b><br/>
+					<a href='http://www.chssn.org' class="health-pass-link">http://www.micami.org/</a><br/>
+					<b>Phone:</b> <a href='tel:+14189852116' class="health-pass-link">418 985-2116</a><br/>
+					<b>Address:</b> 787 chemin Principal Grosse-Ile, QC G4T 6B5
 				</div>
 			</div>
 		</div>
