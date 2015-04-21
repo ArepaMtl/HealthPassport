@@ -108,11 +108,11 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
+					<a class="info-link" href="tel:811"><div class="info-content centered">Info Social /<br/>Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:211"><div class="info-content-small centered">Community Services Information /<br/>Services d'information communautaire:<br/>211</div></a>
+					<a class="info-link" href="tel:211"><div class="info-content-small centered">Community Services Information /<br/>Information sur les services communautaires:<br/>211</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -124,11 +124,11 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/> 800 361-5085</div></a>
+					<a class="info-link" href="tel:+18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parents:<br/> 800 361-5085</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18003312311"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle (CAVAC):<br/> 800 331-2311</div></a>
+					<a class="info-link" href="tel:+18003312311"><div class="info-content-small centered">Sexual Assault-Crime Victims Assistance Centre /<br/>Agression sexuelle-Centre d'aide aux victimes d'actes criminels (CAVAC):<br/> 800 331-2311</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -136,11 +136,11 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+188848922870"><div class="info-content-small centered">Elder Abuse Line /<br/>Abus envers les A&icirc;n&eacute;s Ligne:<br/>  888 489-2287</div></a>
+					<a class="info-link" href="tel:+188848922870"><div class="info-content-small centered">Elder Abuse Line /<br/>Ligne Aide Abus A&icirc;n&eacute;s:<br/>  888 489-2287</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18558527787"><div class="info-content-small centered">Support Line for Caregivers /<br/>Ligne d'aide pour les aidants naturels (APPUI):<br/>   855 852-7787</div></a>
+					<a class="info-link" href="tel:+18558527787"><div class="info-content-small centered">APPUI Support Line for Caregivers /<br/>Ligne Info-aidant:<br/>   855 852-7787</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -160,7 +160,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+8197765584"><div class="info-content-small centered"> Outaouais Rehabilitation Centre (Addiction)   /<br/>Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais (CRDO):<br/> 819 776-5584</div></a>
+					<a class="info-link" href="tel:+8197765584"><div class="info-content-small centered"> Outaouais Rehabilitation Centre (Addiction)   /<br/> Centre de r&eacute;adaptation en d&eacute;pendance de l'Outaouais (CRDO):<br/> 819 776-5584</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">

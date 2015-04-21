@@ -71,11 +71,14 @@
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
-						The Connexions Resource Centre serves and promotes the health, well-being and vitality of 
-						the English-speaking population of the Outaouais. 
-						Connexions links the community to health and social services 
-						through information and referrals, school and community programs and activities, and partnerships to 
-						increase access to services.
+					The <b>Connexions Resource Centre</b> serves and promotes the health, well-being and 
+					vitality of the English-speaking population of the Outaouais. <br/>
+					<b>Connexions</b> responds to the needs of the Outaouais English-speaking 
+					community by providing information and referrals, 
+					developing and offering health promotion programs and activities 
+					and collaborating with public and community organizations to improve 
+					access to health and social services.
+
 
 					
 					<!--<b>CHSSN Contact Information</b><br/><br/>
@@ -88,12 +91,16 @@
 				
 				<div class='lng-fr'>
 					
-					Le Centre de ressources Connexions sert et favorise la sant&#xE9;, 
-					le bien-&#xEA;tre et la vitalit&#xE9; de la population anglophone de l&#x27;Outaouais. 
-					Liens Connexions &#xE0; la communaut&#xE9; de la sant&#xE9; et des services sociaux 
-					par l&#x27;information et des r&#xE9;f&#xE9;rences, 
-					des programmes scolaires et communautaires et des activit&#xE9;s, 
-					et les partenariats pour accro&#xEE;tre l&#x27;acc&#xE8;s aux services.
+					Le <b>Centre de ressources Connexions</b> a pour mission de servir la population 
+					anglophone de l&rsquo;Outaouais afin de favoriser sa sant&eacute;, 
+					son bien-&ecirc;tre et sa vitalit&eacute;. <br/>
+					Le <b>Centre de ressources&nbsp;
+					Connexions </b> r&eacute;pond aux besoins de la collectivit&eacute; 
+					anglophone de l&rsquo;Outaouais en lui fournissant de l&rsquo;information 
+					et des services d&rsquo;aiguillage, en cr&eacute;ant et en offrant des 
+					programmes et des activit&eacute;s de promotion de la sant&eacute; et 
+					en collaborant avec des organismes publics et 
+					communautaires pour am&eacute;liorer l&rsquo;acc&egrave;s aux services sociaux et de sant&eacute;.
 
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
