@@ -91,17 +91,16 @@
 				</div>
 				
 				<div class='lng-fr'>
-					CAMI (Conseil des anglophones madelinots) a travaill&eacute; 
-					dans la communaut&eacute; anglophone des &Icirc;les de la Madeleine 
-					depuis 1987. Une organisation &agrave; but non lucratif, 
-					CAMI travaille pour la communaut&eacute; , promouvoir les droits 
-					des anglophones madelinots. CAMI assure que les anglophones 
-					b&eacute;n&eacute;ficient des divers programmes disponibles, &agrave; 
-					travers une gamme de secteurs , et que les anglophones b&eacute;n&eacute;ficient 
-					de ces programmes dans leur propre langue. Sant&eacute;, l'&eacute;ducation, 
-					la langue, la culture et le patrimoine font partie du mandat de la CAMI, 
-					un mandat qui continuera &agrave; guider l'organisation &agrave; 
-					travers les ann&eacute;es &agrave; venir.
+					CAMI (Council for Anglophone Magdalen Islanders) &oelig;uvre dans la 
+					communaut&eacute; anglophone des &Icirc;les-de-la-Madeleine depuis 1987. 
+					Organisme &agrave; but non lucratif dont l&rsquo;existence 
+					est rendue possible gr&acirc;ce &agrave; un conseil d&rsquo;administration 
+					b&eacute;n&eacute;vole, CAMI est issu de la communaut&eacute; et travaille 
+					pour le bien de celle-ci en favorisant le mieux-&ecirc;tre des Madelinots 
+					anglophones dans divers secteurs. D&rsquo;un point de vue strat&eacute;gique, 
+					CAMI vise &agrave; &ecirc;tre le principal promoteur et motivateur de la communaut&eacute; 
+					anglophone des &Icirc;les-de-la-Madeleine en mati&egrave;re de sant&eacute; et de services 
+					sociaux.
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>
