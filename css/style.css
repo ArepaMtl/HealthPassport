@@ -1393,8 +1393,8 @@ h1{
 	background-position: center center;
 	background-size: contain;
 	display: inline-block;
-	width: 80px;
-	height: 40px;
+	width: 100px;
+	height: 28px;
 	float: left;
 	margin-right: 5px;
 }
