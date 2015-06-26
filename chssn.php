@@ -72,13 +72,15 @@
 					
 				<div class='lng-en'>
 					CAMI (Council for Anglophone Magdalen Islanders) has been working in the English-speaking 
-					community of the Magdalen Islands since 1987.  A non-profit organization, 
-					CAMI works for the community, promoting the rights of Anglophone Magdalen Islanders.  
-					CAMI ensures that English-speakers benefit from the various available programs, 
-					across an array of sectors, and that English-speakers benefit from these programs 
-					in their own language.  Health, education, language, culture and heritage are 
-					all part of CAMI’s mandate, a mandate that will continue to guide the organization 
-					through the years to come.
+					community of the Magdalen Islands since 1987. A non-profit organization, 
+					CAMI's mandate is to promote and motivate the English-speaking community of the Magdalen 
+					Islands, by encouraging them to improve and strengthen networks within the English and 
+					French speaking communities, thus fostering community vitality and supporting community 
+					development.  CAMI ensures that English-speakers benefit from various programs & services, 
+					across an array of sectors, and that English-speakers have access to these programs in 
+					their own language. Health and social services, education, economic development, 
+					the arts and preservation of culture and heritage are all part of CAMI's mandate, 
+					a mandate that will continue to guide the organization through the years to come.
  
 
 					
