@@ -67,21 +67,13 @@
 			
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Council for Anglophone </br> Magdalen Islanders</div><div class='lng-fr'>Council for Anglophone </br>Magdalen Islanders</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>The East Island Network </br> for English-Language Services
+</div><div class='lng-fr'>Le r&eacute;seau de l'est de l'&icirc;le  </br>pour les services en anglais</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
-					CAMI (Council for Anglophone Magdalen Islanders) has been working in the English-speaking 
-					community of the Magdalen Islands since 1987. A non-profit organization, 
-					CAMI's mandate is to promote and motivate the English-speaking community of the Magdalen 
-					Islands, by encouraging them to improve and strengthen networks within the English and 
-					French speaking communities, thus fostering community vitality and supporting community 
-					development.  CAMI ensures that English-speakers benefit from various programs & services, 
-					across an array of sectors, and that English-speakers have access to these programs in 
-					their own language. Health and social services, education, economic development, 
-					the arts and preservation of culture and heritage are all part of CAMI's mandate, 
-					a mandate that will continue to guide the organization through the years to come.
- 
+					REISA (The East Island Network for English-Language Services), a community organization, works to increase access to health and social services in English for residents of Montreal&rsquo;s east-end, through collaboration with public, private and community stakeholders.
+
 
 					
 					<!--<b>CHSSN Contact Information</b><br/><br/>
@@ -93,16 +85,7 @@
 				</div>
 				
 				<div class='lng-fr'>
-					CAMI (Council for Anglophone Magdalen Islanders) &oelig;uvre dans la 
-					communaut&eacute; anglophone des &Icirc;les-de-la-Madeleine depuis 1987. 
-					Organisme &agrave; but non lucratif dont l&rsquo;existence 
-					est rendue possible gr&acirc;ce &agrave; un conseil d&rsquo;administration 
-					b&eacute;n&eacute;vole, CAMI est issu de la communaut&eacute; et travaille 
-					pour le bien de celle-ci en favorisant le mieux-&ecirc;tre des Madelinots 
-					anglophones dans divers secteurs. D&rsquo;un point de vue strat&eacute;gique, 
-					CAMI vise &agrave; &ecirc;tre le principal promoteur et motivateur de la communaut&eacute; 
-					anglophone des &Icirc;les-de-la-Madeleine en mati&egrave;re de sant&eacute; et de services 
-					sociaux.
+					REISA (Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais), un organisme communautaire, collabore avec des partenaires publics et communautaires pour am&eacute;liorer et promouvoir l&rsquo;acc&egrave;s &agrave; des services de sant&eacute; et des services sociaux en anglais dans l&rsquo;Est de Montr&eacute;al. 
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>

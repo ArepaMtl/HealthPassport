@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>REISA (Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais)</span>
+		<span class='org-name'>REISA</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -502,7 +502,7 @@
 			<div id="main-menu-organization">
 				<div id="org-about">
 					<b> REISA </b><br/>
-					The East Island Network for English-Language Services
+					Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais
 <br/> <br/>
 					<b>REISA Contact Information</b><br/>
 					<a href='http://www.reisa.ca/' class="health-pass-link">www.reisa.ca</a><br/>
