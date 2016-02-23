@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>CAMI (Council for Anglophone Magdalen Islanders)</span>
+		<span class='org-name'>REISA (Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais)</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,12 +501,14 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					CAMI <br/>
-					Council for Anglophone Magdalen Islanders<br/> <br/>
-					<b>CAMI Contact Information</b><br/>
-					<a href='http://www.chssn.org' class="health-pass-link">http://www.micami.org/</a><br/>
-					<b>Phone:</b> <a href='tel:+14189852116' class="health-pass-link">418 985-2116</a><br/>
-					<b>Address:</b> 787 chemin Principal Grosse-Ile, QC G4T 6B5
+					<b> REISA </b><br/>
+					The East Island Network for English-Language Services
+<br/> <br/>
+					<b>REISA Contact Information</b><br/>
+					<a href='http://www.reisa.ca/' class="health-pass-link">www.reisa.ca</a><br/>
+					<b>Phone:</b> <a href='tel:+15149558370' class="health-pass-link">514-955-8370 </a><br/>
+                    ext. 2217<br/>
+					<b>Address:</b> 8370, Lacordaire Boulevard, Suite 312 St-L&eacute;onard (QC) H1R 3Y6 
 				</div>
 			</div>
 		</div>
