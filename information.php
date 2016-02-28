@@ -107,12 +107,12 @@ $useDropDown = TRUE;
 					<a class="info-link" href="tel:+911"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				<!--<div class="white-box taller-box">
 					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
-				</div>
+				</div>-->
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4189864044"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>418 986-4044</div></a>
+					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>514 351-49592</div></a>
 					<div  class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
