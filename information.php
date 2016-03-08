@@ -115,57 +115,77 @@ $useDropDown = TRUE;
 					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>514 351-49592</div></a>
 					<div  class="phone-icon noclick"></div>
 				</div>
+          
+          <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Youth HelpLine / Ligne d'aide aux jeunes
+:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a>
+					<!--<br/> <a class='phone-link' href="tel:+4189864299">Entry Island: 418 986-4299</a>-->  </div></div>
+                    
+					<div class="phone-icon noclick"></div>
+				</div>
+                
+                  
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parents:<br/>1800 361-5085</div></a>
+				
+                <!--<div class="white-box taller-box">
+					<a class="info-link" href="tel:+18003615085"><div class="info-content-small centered">Parents Help Line/ Ligne d'aide aux parents:<br/>1800 361-5085</div></a>
+                    
+                   <br/> <a class="info-link" href="http://www.ligneparents.com"><div class="info-content-small centered"> <br/>www.ligneparents.com</div></a>
 					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
+				</div>-->
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+4189862230"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>418 986-2230</div></a>
+				
+                <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18004634834"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>1 800 463-4834</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">CLSC:<br/>  <a class='phone-link' href="tel:+4189852572"> Grosse Ile: 418 985-2572<a> <br/> <a class='phone-link' href="tel:+4189862572">Cap-aux-Meules: 418 986-2572</a>
-					<br/> <a class='phone-link' href="tel:+4189864299">Entry Island: 418 986-4299</a>  </div></div>
-					<div class="phone-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
+                
+				
+				
+                <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">CSSS des Iles:<br/>  <a class='phone-link' href="tel:+4189862121"> 418 986-2121<a> <br/> <a class='phone-link' href="tel:+4189866225">Appointments: 418 986-6225</a>
 					<br/> <a class='phone-link' href="tel:+4189866611">Doctor's Secretary: 418 986-6611</a> <br/> <a class='phone-link' href="tel:+4189866110">Specialist's Secretary: 418 986-6110</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189864649"><div class="info-content-small centered">Services for Seniors /<br/>Centre D'Action B&eacute;n&eacute;vole:<br/>418 986-4649</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189865044"><div class="info-content-small centered">For female victims of conjugal violence /<br/>Maison d'Aide et d'H&eacute;bergement l'Accalmie:<br/>418 986-5044</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189866456"><div class="info-content-small centered">Support to people affected by mental health issues /<br/>Centre Communautaire L'Eclaircie:<br/> 418 986-6456</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189862121"><div class="info-content-small centered">Service for people with addiction /<br/>Centre L'Escale:<br/> 418 986-2121. Ext.3113</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				<div class="white-box taller-box">
+				
+                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189866631"><div class="info-content-small centered">Temporary lodging for vulnerable populations /<br/>La Maison a Damas:<br/> 418 986-6631</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
