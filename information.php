@@ -117,8 +117,8 @@ $useDropDown = TRUE;
 				</div>
           
           <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine / Ligne d'aide aux jeunes
-:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a>
+					<div class="info-link"><div class="info-content-small centered"> <b>Youth HelpLine / Ligne d'aide aux jeunes
+:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a></b>
 					<!--<br/> <a class='phone-link' href="tel:+4189864299">Entry Island: 418 986-4299</a>-->  </div></div>
                     
 					<div class="phone-icon noclick"></div>
@@ -130,12 +130,15 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				
-                <!--<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18003615085"><div class="info-content-small centered">Parents Help Line/ Ligne d'aide aux parents:<br/>1800 361-5085</div></a>
+                   <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Parents Help Line:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085
                     
-                   <br/> <a class="info-link" href="http://www.ligneparents.com"><div class="info-content-small centered"> <br/>www.ligneparents.com</div></a>
+                    <br/><a href="www.ligneparents.com"> 
+					 www.ligneparents.com</a> <br/> 
+					<a class='phone-link' href="tel:+4189866110">Specialist's Secretary: 418 986-6110</a> </div></div>
 					<div class="phone-icon noclick"></div>
-				</div>-->
+				</div>
+				
 				
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
@@ -143,7 +146,7 @@ $useDropDown = TRUE;
 				</div>
 				
                 <div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
+					<a class="info-link" href="tel:+5149339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>514 933-9007</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
@@ -185,11 +188,11 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				
-                <div class="white-box taller-box">
+                <!--<div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189866631"><div class="info-content-small centered">Temporary lodging for vulnerable populations /<br/>La Maison a Damas:<br/> 418 986-6631</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-			</div></li>
+			</div></li>-->
 			
 			<?php
 			
