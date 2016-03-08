@@ -130,39 +130,38 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				
-                   <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Parents Help Line:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085
-                    
-                    <br/><a href="www.ligneparents.com"> 
-					 www.ligneparents.com</a> <br/> 
-					<a class='phone-link' href="tel:+4189866110">Specialist's Secretary: 418 986-6110</a> </div></div>
-					<div class="phone-icon noclick"></div>
-				</div>
-				
-				
                 <div class="white-box taller-box">
-					<a class="info-link" href="tel:+18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				
-                <div class="white-box taller-box">
-					<a class="info-link" href="tel:+5149339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>514 933-9007</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				
-                <div class="white-box taller-box">
-					<a class="info-link" href="tel:+18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				
-                <div class="white-box taller-box">
-					<a class="info-link" href="tel:+18004634834"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>1 800 463-4834</div></a>
+					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="www.ligneparents.com"> www.ligneparents.com</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
+                  <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1800 463-5060<a> <br/> <a class='phone-link' href="www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre"> www.santemontreal.qc.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
 				
+                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+5149339007"> 514 933-9007<a> <br/> <a class='phone-link' href="www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+         
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1 800 464-9010<a> <br/> <a class='phone-link' href="www.sosviolenceconjugale.ca">www.sosviolenceconjugale.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+               
+               <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="www.centrejeunessedequebec.qc.ca">www.centrejeunessedequebec.qc.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
 				
                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="www.maltraitanceaines.gouv.qc.ca/en/">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				
+				
+               <!-- <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">CSSS des Iles:<br/>  <a class='phone-link' href="tel:+4189862121"> 418 986-2121<a> <br/> <a class='phone-link' href="tel:+4189866225">Appointments: 418 986-6225</a>
 					<br/> <a class='phone-link' href="tel:+4189866611">Doctor's Secretary: 418 986-6611</a> <br/> <a class='phone-link' href="tel:+4189866110">Specialist's Secretary: 418 986-6110</a> </div></div>
 					<div class="phone-icon noclick"></div>
@@ -187,7 +186,7 @@ $useDropDown = TRUE;
 					<a class="info-link" href="tel:+4189862121"><div class="info-content-small centered">Service for people with addiction /<br/>Centre L'Escale:<br/> 418 986-2121. Ext.3113</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
-				
+				-->
                 <!--<div class="white-box taller-box">
 					<a class="info-link" href="tel:+4189866631"><div class="info-content-small centered">Temporary lodging for vulnerable populations /<br/>La Maison a Damas:<br/> 418 986-6631</div></a>
 					<div class="phone-icon noclick"></div>
