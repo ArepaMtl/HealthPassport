@@ -72,7 +72,7 @@
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
-					REISA (The East Island Network for English-Language Services), a community organization, works to increase access to health and social services in English for residents of Montreal&rsquo;s east-end, through collaboration with public, private and community stakeholders.
+					<b>The North Shore Community Association (NSCA)</b> </br>Is a non-profit regional organization dedicated to serving, representing, and instilling pride in the English-speaking community of Quebec&rsquo;s North Shore. Our aim is to empower residents and to strengthen the community across the region by working to make information and resources available, by facilitating community initiatives, by encouraging and improving communication, by promoting access to services, by developing partnerships and by increasing the visibility of the English-speaking community. Together, we are building a vital, informed and strong community.
 
 
 					
