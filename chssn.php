@@ -85,7 +85,7 @@
 				</div>
 				
 				<div class='lng-fr'>
-					REISA (Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais), un organisme communautaire, collabore avec des partenaires publics et communautaires pour am&eacute;liorer et promouvoir l&rsquo;acc&egrave;s &agrave; des services de sant&eacute; et des services sociaux en anglais dans l&rsquo;Est de Montr&eacute;al. 
+					<b>La North Shore Community Association (NSCA)</b> </br> est un organisme &agrave; but non lucratif vou&eacute; &agrave; servir, &agrave; repr&eacute;senter et &agrave; inspirer la fiert&eacute; de la communaut&eacute; d&rsquo;expression anglaise qui habite la C&ocirc;te-Nord. Elle a pour but d&rsquo;habiliter les r&eacute;sidents de la C&ocirc;te-Nord en assurant la disponibilit&eacute; des ressources, en appuyant les initiatives communautaires, en favorisant et en am&eacute;liorant la communication, en &eacute;tablissant des partenariats, en promouvant l&rsquo;acc&egrave;s aux services et en am&eacute;liorant la visibilit&eacute; de la communaut&eacute; d&rsquo;expression anglaise. Ensemble, nous construisons une communaut&eacute; vitale, inform&eacute;e et forte.
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>

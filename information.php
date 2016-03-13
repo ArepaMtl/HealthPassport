@@ -202,7 +202,7 @@ $useDropDown = TRUE;
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">CAMI: <br/>  <a class='phone-link' href='http://www.micami.org/'>www.micami.org<a> <br/> <a class='phone-link' href="tel:+14189852116"> 418 985-2116</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">NSCA : <br/>  <a class='phone-link' href='http://www.quebecnorthshore.org/'>www.quebecnorthshore.org<a> <br/> <a class='phone-link' href="tel:+4182961545 "> 418 296-1545 </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
