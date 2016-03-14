@@ -69,9 +69,23 @@ $useDropDown = TRUE;
   
   
   </script>
-	</head>
+  
+  <style type="text/css">
+  .white-box-color{
+	position:relative;
+	margin:0px;
+	margin-top:10px;
+	height:64px;
+	padding:0px;
+	display:block;
+	background-color:#CCC;
+
+}
+		</style>
+</head>
 	<body>
-     <div class="top-bar">
+    
+    <div class="top-bar">
 		 <h1 data-localize="information.title" class='centered'> Phone Numbers </h1>	
 	 	<a href="index.php" id="back-button"></a>
 	 </div>
@@ -104,7 +118,11 @@ $useDropDown = TRUE;
 				
 				
 				<div class="white-box">
-					<a class="info-link" href="tel:+911"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
+					<a class="info-link" href="tel:+811"><div class="info-content centered">Emergencies / Urgences: 811</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+                <div class="white-box">
+					<a class="info-link" href="tel:+911"><div class="info-content centered">Fire (feu) / Police / Ambulance: 911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<!--<div class="white-box taller-box">
@@ -116,13 +134,7 @@ $useDropDown = TRUE;
 					<div  class="phone-icon noclick"></div>
 				</div>
           
-          <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered"> <b>Youth HelpLine / Ligne d'aide aux jeunes
-:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a></b>
-					<!--<br/> <a class='phone-link' href="tel:+4189864299">Entry Island: 418 986-4299</a>-->  </div></div>
-                    
-					<div class="phone-icon noclick"></div>
-				</div>
+          
                 
                   
 				<div class="white-box taller-box">
@@ -150,12 +162,58 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
                
-               <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="www.centrejeunessedequebec.qc.ca">www.centrejeunessedequebec.qc.ca</a> </div></div>
+               <!--next section-->
+              <div class="white-box-color">
+				<div class="info-link"><div class="info-content-small centered"><b>Youth Protection /<br/>Protection de la jeunesse:</b><br/>    </div></div>
+					<div class="below-button noclick"></div>
+				</div>
+                
+                <div class="white-box">
+				  <a class="info-link" href="tel:+14182333143"><div class="info-content centered">Les Escoumins </br> 418 233-3143</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
-                <div class="white-box taller-box">
+                <div class="white-box">
+				  <a class="info-link" href="tel:+14185872204"><div class="info-content centered">Forestville </br> 418 587-2204</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+             
+              <div class="white-box">
+				<a class="info-link" href="tel:+14185899927"><div class="info-content centered">Baie-Comeau </br> 418 589-9927</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+            
+            <div class="white-box">
+			  <a class="info-link" href="tel:+14187662572"><div class="info-content centered">Port-Cartier </br> 418 766-2572</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+            <div class="white-box">
+			  <a class="info-link" href="tel:+14189622578"><div class="info-content centered">Sept-Îles </br> 418 962-2578</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14185382955"><div class="info-content centered">Havre-Saint-Pierre </br> 418 538-2955</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14182875461"><div class="info-content centered">Fermont </br> 418 287-5461</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14185852252"><div class="info-content centered">Kawawachikamach </br> 418 585-2252</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+              <!--New section-->
+              <div class="white-box-color">
+				<div class="info-link"><div class="info-content-small centered"><b>CLSC</b><br/>    </div></div>
+					<div class="below-button noclick"></div>
+				</div>
+              
+              <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="www.maltraitanceaines.gouv.qc.ca/en/">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>

@@ -364,6 +364,24 @@ html,body {
     transition-duration: 0.2s;
 }
 
+
+.below-button-exception{
+    position:absolute;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:56px;
+	background-size:21px 12px;
+	background-image:url('../design_folder/assets/back_icon_down.png');
+	background-position:center;
+	background-repeat:no-repeat;
+    -webkit-transition-property: transform -webkit-transform;
+    -webkit-transition-duration: 0.0s;
+    transition-property: transform -webkit-transform;
+    transition-duration: 0.0s;
+}
+
+
 .white-box{
 	position:relative;
 	margin:0px;
