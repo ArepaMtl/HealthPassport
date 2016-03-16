@@ -169,41 +169,41 @@ $useDropDown = TRUE;
 				</div>
                 
                 <div class="white-box">
-				  <a class="info-link" href="tel:+14182333143"><div class="info-content centered">Les Escoumins </br> 418 233-3143</div></a>
+				  <a class="info-link" href="tel:+14182333143"><div class="info-content-small centered">Les Escoumins </br> 418 233-3143</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
                 <div class="white-box">
-				  <a class="info-link" href="tel:+14185872204"><div class="info-content centered">Forestville </br> 418 587-2204</div></a>
+				  <a class="info-link" href="tel:+14185872204"><div class="info-content-small centered">Forestville </br> 418 587-2204</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
              
               <div class="white-box">
-				<a class="info-link" href="tel:+14185899927"><div class="info-content centered">Baie-Comeau </br> 418 589-9927</div></a>
+				<a class="info-link" href="tel:+14185899927"><div class="info-content-small centered">Baie-Comeau </br> 418 589-9927</div></a>
 					<div class="phone-icon noclick"></div>
 			  </div>
             
             <div class="white-box">
-			  <a class="info-link" href="tel:+14187662572"><div class="info-content centered">Port-Cartier </br> 418 766-2572</div></a>
+			  <a class="info-link" href="tel:+14187662572"><div class="info-content-small centered">Port-Cartier </br> 418 766-2572</div></a>
 					<div class="phone-icon noclick"></div>
 			  </div>
             <div class="white-box">
-			  <a class="info-link" href="tel:+14189622578"><div class="info-content centered">Sept-Îles </br> 418 962-2578</div></a>
+			  <a class="info-link" href="tel:+14189622578"><div class="info-content-small centered">Sept-&Icirc;les </br> 418 962-2578</div></a>
 					<div class="phone-icon noclick"></div>
 			  </div>
               
               <div class="white-box">
-			  <a class="info-link" href="tel:+14185382955"><div class="info-content centered">Havre-Saint-Pierre </br> 418 538-2955</div></a>
+			  <a class="info-link" href="tel:+14185382955"><div class="info-content-small centered">Havre-Saint-Pierre </br> 418 538-2955</div></a>
 					<div class="phone-icon noclick"></div>
 			  </div>
               
                <div class="white-box">
-			  <a class="info-link" href="tel:+14182875461"><div class="info-content centered">Fermont </br> 418 287-5461</div></a>
+			  <a class="info-link" href="tel:+14182875461"><div class="info-content-small centered">Fermont </br> 418 287-5461</div></a>
 					<div class="phone-icon noclick"></div>
 			  </div>
               
                <div class="white-box">
-			  <a class="info-link" href="tel:+14185852252"><div class="info-content centered">Kawawachikamach </br> 418 585-2252</div></a>
+			  <a class="info-link" href="tel:+14185852252"><div class="info-content-small centered">Kawawachikamach </br> 418 585-2252</div></a>
 					<div class="phone-icon noclick"></div>
 			  </div>
               
@@ -213,10 +213,169 @@ $useDropDown = TRUE;
 					<div class="below-button noclick"></div>
 				</div>
               
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14182364637"><div class="info-content-small centered">Sacr&eacute; Coeur</br> 418 236-4637</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14182332931"><div class="info-content-small centered">Escoumins</br> 418 233-2931</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+                  <div class="white-box">
+			  <a class="info-link" href="tel:+14185872212"><div class="info-content-small centered">Forestville</br> 418 587-2212</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+             
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14185672005"><div class="info-content-small centered">Chute-aux-Outardes</br> 418 567-2005</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+             
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14182962572"><div class="info-content-small centered">Baie-Comeau</br> 418 296-2572</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14189392226"><div class="info-content-small centered">Baie-Trint&eacute;</br> 418 939-2226</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+                <div class="white-box">
+			  <a class="info-link" href="tel:+14187662572"><div class="info-content-small centered">Port-Cartier</br> 418 766-2572</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14189629761"><div class="info-content-small centered">Sept-&Icirc;les</br> 418 962-9761</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14185382212"><div class="info-content-small centered">Havre-Saint-Pierre</br> 418 538-2212</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14182875461"><div class="info-content-small centered">Fermont</br> 418 287-5461</div></a>
+					<div class="phone-icon noclick"></div>
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14185852645"><div class="info-content-small centered">Schefferville</br> 418 585-2645</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14185852897"><div class="info-content-small centered">Kawawachikamach</br> 418 585-2897</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+            <!--next section-->  
+            
+            <div class="white-box-color">
+				<div class="info-link"><div class="info-content-small centered"><b>Hospitals / H&ocirc;pitaux</b><br/>    </div></div>
+					<div class="below-button noclick"></div>
+				</div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14185893701"><div class="info-content-small centered">Baie-Comeau</br> 418 589-3701</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14189629761"><div class="info-content-small centered">Sept-&Icirc;les</br> 418 962-9761</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+               <div class="white-box-color">
+				<div class="info-link"><div class="info-content-small centered"><b>CHSLD</b><br/>    </div></div>
+					<div class="below-button noclick"></div>
+				</div>
+                
+                <div class="white-box">
+			  <a class="info-link" href="tel:+14182326224"><div class="info-content-small centered">Bergeronnes</br> 418 232-6224</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14185872212"><div class="info-content-small centered">Forestville</br> 418 587-2212</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14185892425"><div class="info-content-small centered">Baie-Comeau (N.-A.-Labrie)</br> 418 589-2425</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14182962501"><div class="info-content-small centered">Baie-Comeau (Boisvert)</br> 418 296-2501</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+               <div class="white-box">
+			  <a class="info-link" href="tel:+14189629761"><div class="info-content-small centered">Sept-&Icirc;les</br> 418 962-9761</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14187662572"><div class="info-content-small centered">Port-Cartier</br> 418 766-2572</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+                            <div class="white-box">
+			  <a class="info-link" href="tel:+14185382212"><div class="info-content-small centered">Havre-Saint-Pierre</br> 418 538-2212</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+
+           <!--next section-->  
+            
+            <div class="white-box-color">
+				<div class="info-link"><div class="info-content centered"><b>Services for Seniors /</br>Services aux a&icirc;n&eacute;s
+centre d’action b&eacute;n&eacute;vole</b>   </div></div>
+					<div class="below-button noclick"></div>
+				</div>
+                
+                 <div class="white-box">
+			  <a class="info-link" href="tel:+14182962686"><div class="info-content-small centered">Baie-Comeau</br> 418 296-2686</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+              <div class="white-box">
+			  <a class="info-link" href="tel:+14187663202"><div class="info-content-small centered">Port-Cartier</br> 418 766-3202</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+              
+             
               <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="www.maltraitanceaines.gouv.qc.ca/en/">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Sept-&Icirc;les<br/>  <a class='phone-link' href="tel:+18779625751"> 1 877 962-5751<a> <br/> <a class='phone-link' href="tel:+4189625751"> 418 962-5751</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
+                
+                 <div class="white-box">
+			  <a class="info-link" href="tel:+14185874226"><div class="info-content-small centered">Forestville</br> 418 587-4226</div></a>
+					<div class="phone-icon noclick"></div>
+                    
+			  </div>
+                
+                    
+             <!-- <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="www.maltraitanceaines.gouv.qc.ca/en/">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>-->
 				
 				
                <!-- <div class="white-box taller-box">
