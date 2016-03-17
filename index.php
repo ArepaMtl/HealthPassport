@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>REISA</span>
+		<span class='org-name'>Agape</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,14 +501,16 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					<b> REISA </b><br/>
+					<b> Agape</b><br/>
 					Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais
 <br/> <br/>
-					<b>REISA Contact Information</b><br/>
-					<a href='http://www.reisa.ca/' class="health-pass-link">www.reisa.ca</a><br/>
-					<b>Phone:</b> <a href='tel:+15149558370' class="health-pass-link">514-955-8370 </a><br/>
-                    ext. 2217<br/>
-					<b>Address:</b> 8370, Lacordaire Boulevard, Suite 312 St-L&eacute;onard (QC) H1R 3Y6 
+					<b>Contact Information</b><br/>
+					<a href='http://www.agapeassociationinc.com/' class="health-pass-link">www.agapeassociationinc.com</a><br/>
+					<b>Phone:</b> <a href='tel:+14506864333' class="health-pass-link">450 686-4333 </a><br/>
+                    <br/>
+					<b>Address:</b> Agape Association Inc. 
+3950 Boul. Notre-Dame
+Laval, Qc. H7W 1S7
 				</div>
 			</div>
 		</div>
