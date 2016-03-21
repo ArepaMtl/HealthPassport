@@ -82,7 +82,7 @@
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
 			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'> <b>AGAPE </b></br> 
-</div><div class='lng-fr'>  </br></div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+</div><div class='lng-fr'>  <b>AGAPE </b></br></div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
@@ -127,7 +127,7 @@ A support group meets once per week to find a sense of dignity and well-being. T
 <b> Seniors</b> </br>Through the New Horizons for Seniors initiative various projects help our English speaking seniors: youth and seniors mentoring, computer courses for seniors.
 
  
-Caregivers of Seniors, Agape offers services and referrals for those who care for their aging loved ones.
+<!--Caregivers of Seniors, Agape offers services and referrals for those who care for their aging loved ones.-->
 					
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
@@ -138,7 +138,46 @@ Caregivers of Seniors, Agape offers services and referrals for those who care fo
 				</div>
 				
 				<div class='lng-fr'>
-					REISA (Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais), un organisme communautaire, collabore avec des partenaires publics et communautaires pour am&eacute;liorer et promouvoir l&rsquo;acc&egrave;s &agrave; des services de sant&eacute; et des services sociaux en anglais dans l&rsquo;Est de Montr&eacute;al. 
+					<b> &ldquo;AGAPE&rdquo;</b> is a non-profit charitable organization serving the English speaking and multi-cultural communities of Laval, Quebec since 1976. </br> <b> Our services:</b>
+</br>
+
+    </br> Bread Counter <b><a href="http://www.agapeassociationinc.com/bread_counter.ws" >(Bread Counter)</a></b>
+    </br>Budget planning <b><a href="http://www.agapeassociationinc.com/budget_planning.ws">(Budget Planning)</a></b> 
+    </br>Help and guidance for victims of all types of addiction <b><a href="http://www.agapeassociationinc.com/clear_head__clean_soul.ws">(Clear Head, Clean Soul)</a></b>
+    
+    </br>Food, clothes, furniture and toys to the less fortunate <b><a href="http://www.agapeassociationinc.com/food__clothes___furniture.ws">(Food, Clothes & Furniture)</a></b>
+    </br>Help and guidance for victims of abuse <b><a href="http://www.agapeassociationinc.com/healing_the_family.ws">(Healing the Family)</a></b>
+    </br>Projects for seniors and youth <b><a href="http://www.agapeassociationinc.com/seniors_paving_the_future.ws">(Seniors Paving the Future)</a></b>
+    </br>Presence of a social worker at Agape <b><a href="http://www.agapeassociationinc.com/social_worker.ws">(Social Worker)</a></b>
+    </br>Transitional place for homeless families and newly arrived immigrants <b><a href="http://www.agapeassociationinc.com/transition_house.ws">(Transition House</a>)</b>
+    </br>Support for underprivileged Countries <b><a href="http://www.agapeassociationinc.com/underprivileged_countries.ws">(Underprivileged Countries)</a></b> 
+
+</br>
+</br>
+
+<b>The Networking Partnership Initiative</b>
+</br>
+
+ (NPI) is a program designed to support Quebec&rsquo;s minority English-speaking communities in improving and maintaining access to the full range of Health and Social Services. Agape is representing Laval&rsquo;s network and forms a larger network of 20 English community groups across Quebec via the Community Health and Social Services Network.
+
+ 
+ </br>
+</br>
+<b>Children&rsquo;s Time</b>
+</br>
+
+This service is part of our Health Promotion project. Children in vulnerable situations are referred from the community to participate in activities that provide respite and develop confidence and a sense of well-being.
+
+ </br>
+</br>
+<b>Women recovering from abuse and violence</b>
+
+ </br>
+A support group meets once per week to find a sense of dignity and well-being. Their children often participate in Children&rsquo;s time.
+ </br>
+ </br>
+<b> Seniors</b> </br>Through the New Horizons for Seniors initiative various projects help our English speaking seniors: youth and seniors mentoring, computer courses for seniors.
+
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>

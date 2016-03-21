@@ -103,34 +103,75 @@ $useDropDown = TRUE;
 			?>
 				
 				
-				<div class="white-box">
-					<a class="info-link" href="tel:+911"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+911"><div class="info-content centered">Emergencies / Police / Ambulance / Urgences: </br> 911</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:+811"><div class="info-content centered">Info Social/<br/>Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<!--<div class="white-box taller-box">
-					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>-->
-				<div class="white-box taller-box">
 					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>514 351-49592</div></a>
 					<div  class="phone-icon noclick"></div>
+				</div>-->
+                <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content centered"><b>City of Laval </b><br/>(from home phone): <a class='phone-link' href="tel:+311"> 311<a> <br/> <a class='phone-link' href="http://www.laval.ca/Pages/En/home.aspx"> www.laval.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+          <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18004635060"><div class="info-content centered">Qu&eacute;bec Poison Control/<br/>Centre anti-poison du Qu&eacute;bec::<br/>1 800 463-5060</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+          
+                <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Help /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
+					<div class="phone-icon noclick"></div>
 				</div>
           
           <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered"> <b>Youth HelpLine / Ligne d'aide aux jeunes
-:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a></b>
+					<a class="info-link" href="tel:+18884892287"><div class="info-content-small centered">ELder Abuse<br/>1 888 489-2287</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+                
+                <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="www.centrejeunessedequebec.qc.ca">www.centrejeunessedequebec.qc.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+                
+          <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered"> Youth HelpLine / Ligne d'aide aux jeunes
+:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a>
 					<!--<br/> <a class='phone-link' href="tel:+4189864299">Entry Island: 418 986-4299</a>-->  </div></div>
                     
 					<div class="phone-icon noclick"></div>
 				</div>
                 
+                <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1-800-363-9010<a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
                   
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
+                  
+                  
+                  <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">CAAP LAVAL-complaints about the health system </br> <a class='phone-link' href="tel:+14506626022"> 450 662-6022<a> <br/> <a class='phone-link' href="http://www.caaplaval.com/en/contact-us.php"> www.caaplaval.com</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
-                <div class="white-box taller-box">
+                
+                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">City of Laval (Crisis Intervention)</br> <a class='phone-link' href="tel:+14506624595"> 450-662-4595 <a> <br/> <a class='phone-link' href="www.laval.ca/Pages/En/Citizens/social-emergency.aspx?lcidsync=1"> www.laval.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+                
+                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Taxi CO-OPLAVAL<br/>  <a class='phone-link' href="tel:+4506888700"> 450 688-8700<a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+                
+				
+              <!--  <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="www.ligneparents.com"> www.ligneparents.com</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
@@ -145,21 +186,15 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
          
-				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1 800 464-9010<a> <br/> <a class='phone-link' href="www.sosviolenceconjugale.ca">www.sosviolenceconjugale.ca</a> </div></div>
-					<div class="phone-icon noclick"></div>
-				</div>
+				
                
-               <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="www.centrejeunessedequebec.qc.ca">www.centrejeunessedequebec.qc.ca</a> </div></div>
-					<div class="phone-icon noclick"></div>
-				</div>
+               
 				
                 <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="www.maltraitanceaines.gouv.qc.ca/en/">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
-				
+				-->
 				
                <!-- <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">CSSS des Iles:<br/>  <a class='phone-link' href="tel:+4189862121"> 418 986-2121<a> <br/> <a class='phone-link' href="tel:+4189866225">Appointments: 418 986-6225</a>
@@ -202,7 +237,7 @@ $useDropDown = TRUE;
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">CAMI: <br/>  <a class='phone-link' href='http://www.micami.org/'>www.micami.org<a> <br/> <a class='phone-link' href="tel:+14189852116"> 418 985-2116</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Agape INC.: <br/>  <a class='phone-link' href='http://agapeassociationinc.com'>www.agapeassociationinc.com<a> <br/> <a class='phone-link' href="tel:+14506864333 "> 450 686-4333 </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
