@@ -202,11 +202,12 @@ $useDropDown = TRUE;
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">CAMI: <br/>  <a class='phone-link' href='http://www.micami.org/'>www.micami.org<a> <br/> <a class='phone-link' href="tel:+14189852116"> 418 985-2116</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">REISA <br/>  <a class='phone-link' href='http://www.reisa.ca/'>www.reisa.ca<a> <br/> <a class='phone-link' href="tel:+15149558370 "> 514 955-8370 </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
 			<?php
+			
 			
 			}
 			
