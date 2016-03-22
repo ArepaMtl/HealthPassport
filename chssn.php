@@ -67,8 +67,8 @@
 			
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>The East Island Network </br> for English-Language Services
-</div><div class='lng-fr'>Le r&eacute;seau de l'est de l'&icirc;le  </br>pour les services en anglais</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>The North Shore Community Association (NSCA)
+</div><div class='lng-fr'>(NSCA) </div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
