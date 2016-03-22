@@ -71,6 +71,7 @@ $useDropDown = TRUE;
   </script>
   
   <style type="text/css">
+  
   .white-box-color{
 	position:relative;
 	margin:0px;
@@ -81,6 +82,18 @@ $useDropDown = TRUE;
 	background-color:#CCC;
 
 }
+.white-box-color-taller{
+	position:relative;
+	margin:0px;
+	margin-top:10px;
+	height:96px;
+	padding:0px;
+	display:block;
+	background-color:#CCC;
+
+}
+
+
 		</style>
 </head>
 	<body>
@@ -341,9 +354,8 @@ $useDropDown = TRUE;
 
            <!--next section-->  
             
-            <div class="white-box-color">
-				<div class="info-link"><div class="info-content centered"><b>Services for Seniors /</br>Services aux a&icirc;n&eacute;s
-centre d’action b&eacute;n&eacute;vole</b>   </div></div>
+            <div class="white-box-color-taller">
+				<div class="info-link"><div class="info-content centered"><b>Services for Seniors /</br>Services aux a&icirc;n&eacute;s centre d&rsquo;action b&eacute;n&eacute;vole</b>   </div></div>
 					<div class="below-button noclick"></div>
 				</div>
                 
