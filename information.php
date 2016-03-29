@@ -156,22 +156,22 @@ $useDropDown = TRUE;
 				</div>
 				
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="www.ligneparents.com"> www.ligneparents.com</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="http://www.ligneparents.com"> www.ligneparents.com</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                   <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1800 463-5060<a> <br/> <a class='phone-link' href="www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre"> www.santemontreal.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1800 463-5060<a> <br/> <a class='phone-link' href="http://www.santemontreal.qc.ca/en/support-services/emergency- services/poison-control-centre"> www.santemontreal.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
                  <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+18889339007"> 1 888 933-9007<a> <br/> <a class='phone-link' href="www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+18889339007"> 1 888 933-9007<a> <br/> <a class='phone-link' href="http://www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
          
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18003639010"> 1 800 363-9010<a> <br/> <a class='phone-link' href="www.sosviolenceconjugale.ca">www.sosviolenceconjugale.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18003639010"> 1 800 363-9010<a> <br/> <a class='phone-link' href="http://www.sosviolenceconjugale.ca">www.sosviolenceconjugale.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                
