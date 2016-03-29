@@ -135,7 +135,7 @@ $useDropDown = TRUE;
 				</div>
                 
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="www.centrejeunessedequebec.qc.ca">www.centrejeunessedequebec.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="http://www.centrejeunessedequebec.qc.ca">www.centrejeunessedequebec.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
@@ -161,7 +161,7 @@ $useDropDown = TRUE;
 				
                 
                  <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">City of Laval (Crisis Intervention)</br> <a class='phone-link' href="tel:+14506624595"> 450-662-4595 <a> <br/> <a class='phone-link' href="www.laval.ca/Pages/En/Citizens/social-emergency.aspx?lcidsync=1"> www.laval.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">City of Laval (Crisis Intervention)</br> <a class='phone-link' href="tel:+14506624595"> 450-662-4595 <a> <br/> <a class='phone-link' href="http://www.laval.ca/Pages/En/Citizens/social-emergency.aspx?lcidsync=1"> www.laval.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
@@ -237,7 +237,7 @@ $useDropDown = TRUE;
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Agape INC.: <br/>  <a class='phone-link' href='http://agapeassociationinc.com'>www.agapeassociationinc.com<a> <br/> <a class='phone-link' href="tel:+14506864333 "> 450 686-4333 </a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Agape INC.: <br/>  <a class='phone-link' href='http://www.agapeassociationinc.com'>www.agapeassociationinc.com<a> <br/> <a class='phone-link' href="tel:+14506864333 "> 450 686-4333 </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
