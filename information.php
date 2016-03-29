@@ -142,10 +142,10 @@ $useDropDown = TRUE;
 					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>-->
-				<div class="white-box taller-box">
+				<!--<div class="white-box taller-box">
 					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>514 351-49592</div></a>
 					<div  class="phone-icon noclick"></div>
-				</div>
+				</div>-->
           
           
                 
@@ -166,12 +166,12 @@ $useDropDown = TRUE;
 				</div>
 				
                  <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+5149339007"> 514 933-9007<a> <br/> <a class='phone-link' href="www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+1889339007"> 1 88 933-9007<a> <br/> <a class='phone-link' href="www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
          
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1 800 464-9010<a> <br/> <a class='phone-link' href="www.sosviolenceconjugale.ca">www.sosviolenceconjugale.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18003639010"> 1 800 363-9010<a> <br/> <a class='phone-link' href="www.sosviolenceconjugale.ca">www.sosviolenceconjugale.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                
