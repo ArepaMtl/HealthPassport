@@ -107,60 +107,122 @@ $useDropDown = TRUE;
 					<a class="info-link" href="tel:+911"><div class="info-content centered">Emergencies / Urgences: 911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
+                
+                <div class="white-box">
+					<b>
+                    <div class="info-link"><div class="info-content-small centered">CISSAT of Rouyn-Noranda<br/>  <a class='phone-link' href="http://www.csssrn.qc.ca/"> www.csssrn.qc.ca</a> </div></div></b>
+					<div class="externallink-icon noclick"></div>
+				</div>
 				<!--<div class="white-box taller-box">
 					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>-->
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>514 351-49592</div></a>
+				<div class="white-box">
+					<a class="info-link" href="tel:+18197645131"><div class="info-content-small centered">Hospital<br/> 819 764-5131</div></a>
+					<div  class="phone-icon noclick"></div>
+				</div>
+                
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197625599"><div class="info-content-small centered">CLSC Appointment Center<br/> 819 762-5599</div></a>
 					<div  class="phone-icon noclick"></div>
 				</div>
           
-          <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered"> <b>Youth HelpLine / Ligne d'aide aux jeunes
-:<br/>  <a class='phone-link' href="tel:+18002632266">  1 800 263-2266<a> <br/> <a class='phone-link' href="tel:+5146001002"> SMS: 514 600-1002</a></b>
-					<!--<br/> <a class='phone-link' href="tel:+4189864299">Entry Island: 418 986-4299</a>-->  </div></div>
-                    
-					<div class="phone-icon noclick"></div>
+          <div class="white-box">
+					<a class="info-link" href="tel:+18197649591"><div class="info-content-small centered">Hospital Appointments & Admissions<br/>819 764-9591</div></a>
+					<div  class="phone-icon noclick"></div>
 				</div>
                 
-                  
-				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1 866 277-3553</div></a>
-					<div class="phone-icon noclick"></div>
-				</div>
-				
-                <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="http://www.ligneparents.com"> www.ligneparents.com</a> </div></div>
-					<div class="phone-icon noclick"></div>
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197642938"><div class="info-content-small centered">
+                    Blood Test Appointment Center<br/> 819 764-2938</div></a>
+					<div  class="phone-icon noclick"></div>
 				</div>
                 
-                  <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1 800 463-5060<a> <br/> <a class='phone-link' href="https://santemontreal.qc.ca/population/"> www.santemontreal.qc.ca</a> </div></div>
-					<div class="phone-icon noclick"></div>
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197620908"><div class="info-content-small centered">
+                    Pie XII Long Term Care Centre <br/> 819 762-0908</div></a>
+					<div  class="phone-icon noclick"></div>
 				</div>
-				
-                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+5149339007"> 514 933-9007<a> <br/> <a class='phone-link' href="http://www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
-					<div class="phone-icon noclick"></div>
-				</div>
-         
-				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1 800 464-9010<a> <br/> <a class='phone-link' href="http://www.sosviolenceconjugale.ca/">www.sosviolenceconjugale.ca</a> </div></div>
-					<div class="phone-icon noclick"></div>
+                
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197620995"><div class="info-content-small centered">
+                    Pediatric and Pain Clinic (Youville) <br/> 819 762-0995</div></a>
+					<div  class="phone-icon noclick"></div>
 				</div>
                
-               <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="http://www.centrejeunessedequebec.qc.ca/Pages/default.aspx">www.centrejeunessedequebec.qc.ca</a> </div></div>
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197620995"><div class="info-content-small centered">
+                    Volunteer Center <br/> 819 762-0515</div></a>
+					<div  class="phone-icon noclick"></div>
+				</div>
+                 
+                 
+                 
+                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">
+                   Le Pont (Mental Health & Counseling) <br/>  <a class='phone-link' href="tel:+18197975141">
+                    819 797-5141<a> <br/> <a class='phone-link' href="http://www.le-pont.ca/"> 
+                    www.le-pont.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
-				
+                
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197627368"><div class="info-content-small centered">
+                    Adapted Transportation Services <br/> 819 762-7368</div></a>
+					<div  class="phone-icon noclick"></div>
+				</div>
+                
+                <div class="white-box">
+					<a class="info-link" href="tel:+18882218122"><div class="info-content-small centered">
+                    Ambulance (Administration) <br/> 1 888-221-8122</div></a>
+					<div  class="phone-icon noclick"></div>
+				</div>
+                 
+                  <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">
+                   Suicide Prevention <br/>  <a class='phone-link' href="tel:+18662773553">
+                    866 277-3553<a> <br/> <a class='phone-link' href="http://www.cps-rouyn-noranda.ca/"> 
+                    www.cps-rouyn-noranda.ca</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+                
+                <div class="white-box">
+					<a class="info-link" href="tel:+18197971016"><div class="info-content-small centered">
+                   Alcohol Anonymous AA<br/> 819 797-1016</div></a>
+					<div  class="phone-icon noclick"></div>
+				</div>
+                
+                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">
+                   Centre Jeunesse  <br/>  <a class='phone-link' href="tel:+18005676405">
+                    1 800-567-6405<a> <br/> <a class='phone-link' href="http://www.cjat.qc.ca/"> 
+                    www.cjat.qc.ca </a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+                 
+                 
+                 <div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">
+                   Centre Normand  <br/>  <a class='phone-link' href="tel:+18197620088">
+                   819 762-0088<a> <br/> <a class='phone-link' href="http://www.centrenormand.org/"> 
+                   www.centrenormand.org </a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+                  
+                  
+                 
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="https://www.mfa.gouv.qc.ca/fr/aines/lutte_contre_maltraitance/Pages/index.aspx">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">
+                   Maison de l&rsquo;envol  <br/>  <a class='phone-link' href="tel:+18197627273">
+                   819 762-7273<a> <br/> <a class='phone-link' href=" http://www.maisondelenvol.ca/"> 
+                    www.maisondelenvol.ca </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
-				
-				
+                
+                
+             
+                
+         
                <!-- <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">CSSS des Iles:<br/>  <a class='phone-link' href="tel:+4189862121"> 418 986-2121<a> <br/> <a class='phone-link' href="tel:+4189866225">Appointments: 418 986-6225</a>
 					<br/> <a class='phone-link' href="tel:+4189866611">Doctor's Secretary: 418 986-6611</a> <br/> <a class='phone-link' href="tel:+4189866110">Specialist's Secretary: 418 986-6110</a> </div></div>
@@ -199,10 +261,12 @@ $useDropDown = TRUE;
 				
 			?>
 			
+
+
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">REISA <br/>  <a class='phone-link' href='http://www.reisa.ca/'>www.reisa.ca<a> <br/> <a class='phone-link' href="tel:+15149558370 "> 514 955-8370 </a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"><b>Neighbours Regional Association of Rouyn-Noranda</b><br/>  <a class='phone-link' href='http://www.neighbours-rouyn-noranda.ca/'>www.neighbours-rouyn-noranda.ca<a> <br/> <a class='phone-link' href="tel:+18197620882 "> 819 762-0882 </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 			</div></li>
