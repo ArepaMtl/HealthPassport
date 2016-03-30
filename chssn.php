@@ -67,13 +67,25 @@
 			
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>The East Island Network </br> for English-Language Services
-</div><div class='lng-fr'>Le r&eacute;seau de l'est de l'&icirc;le  </br>pour les services en anglais</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>Neighbours Regional Association  </br> of Rouyn-Noranda
+</div><div class='lng-fr'>L'association r&eacute;gionale  </br>des voisins de Rouyn-Noranda</div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
-					REISA (The East Island Network for English-Language Services), a community organization, works to increase access to health and social services in English for residents of Montreal&rsquo;s east-end, through collaboration with public, private and community stakeholders.
+					<b>Neighbours Regional Association of Rouyn-Noranda</b></br>
+</br>
 
+Is a volunteer-based organization who believes in a vital future for our community.
+
+We serve the English-speaking population of the Rouyn-Noranda area through 
+
+facilitating information sharing, defending the right of access to service in English and 
+
+organizing social and cultural events.
+
+We are committed to strengthening networks within the English and French speaking 
+
+population as well as encouraging community development initiatives.
 
 					
 					<!--<b>CHSSN Contact Information</b><br/><br/>
@@ -85,7 +97,7 @@
 				</div>
 				
 				<div class='lng-fr'>
-					REISA (Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais), un organisme communautaire, collabore avec des partenaires publics et communautaires pour am&eacute;liorer et promouvoir l&rsquo;acc&egrave;s &agrave; des services de sant&eacute; et des services sociaux en anglais dans l&rsquo;Est de Montr&eacute;al. 
+					<b>L'association r&eacute;gionale des voisins de Rouyn-Noranda</b></br> </br>est un organisme b&eacute;n&eacute;vole qui croit en un avenir vital pour notre communaut&eacute;. Nous servons la population anglophone de la r&eacute;gion de Rouyn-Noranda en faciliter le partage d'informations, la d&eacute;fense du droit d'acc&egrave;s aux services en anglais et l'organisation d'&eacute;v&eacute;nements sociaux et culturels. Nous nous engageons &agrave; renforcer les r&eacute;seaux au sein de la population de langue anglaise et fran&ccedil;aise, ainsi que d'encourager les initiatives de d&eacute;veloppement communautaire.
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>

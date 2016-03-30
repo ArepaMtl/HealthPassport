@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>REISA</span>
+		<span class='org-name'>Neighbours</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,14 +501,15 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					<b> REISA </b><br/>
-					Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais
-<br/> <br/>
-					<b>REISA Contact Information</b><br/>
-					<a href='http://www.reisa.ca/' class="health-pass-link">www.reisa.ca</a><br/>
-					<b>Phone:</b> <a href='tel:+15149558370' class="health-pass-link">514-955-8370 </a><br/>
-                    ext. 2217<br/>
-					<b>Address:</b> 8370, Lacordaire Boulevard, Suite 312 St-L&eacute;onard (QC) H1R 3Y6 
+					<b> Neighbours</b>  <br/><br/>
+					
+
+					<b>Contact Information:</b><br/>
+					<a href='http://www.neighbours-rouyn-noranda.ca/' class="health-pass-link">www.neighbours-rouyn-noranda.ca</a><br/>
+					<b>Phone:</b> <a href='tel:+18197620882' class="health-pass-link">819 762-0882 </a>
+					<b>Address:</b> 139 avenue Murdoch </br><b>Mailing Address:</b>
+CP. 2277
+Rouyn-Noranda, Quebec J9X 1C9
 				</div>
 			</div>
 		</div>
