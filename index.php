@@ -502,7 +502,7 @@
 			<div id="main-menu-organization">
 				<div id="org-about">
 					<b> Agape</b><br/>
-					Le r&eacute;seau de l'est de l'&icirc;le pour les services en anglais
+					The Youth and Parents Agape Association Inc.
 <br/> <br/>
 					<b>Contact Information</b><br/>
 					<a href='http://www.agapeassociationinc.com/' class="health-pass-link">www.agapeassociationinc.com</a><br/>

@@ -1223,7 +1223,9 @@ h1 a{
 	font-stretch: condensed;
 	font-size:16px;
      white-space:nowrap;
-}
+	 }
+	 
+	
 
 .lexicon-items>li{
 	font-family: LiberationSansRegular,"Helvetica", sans-serif;
@@ -1393,8 +1395,8 @@ h1{
 	background-position: center center;
 	background-size: contain;
 	display: inline-block;
-	width: 100px;
-	height: 28px;
+	width: 122px;
+	height: 50px;
 	float: left;
 	margin-right: 5px;
 }
