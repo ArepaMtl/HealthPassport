@@ -93,6 +93,15 @@ $useDropDown = TRUE;
 
 }
 
+.white-box-colorB{
+	position:relative;
+	margin:0px;
+	margin-top:10px;
+	height:64px;
+	padding:0px;
+	display:block;
+	background-color:rgba(89, 195, 239, 0.65);
+	}
 
 		</style>
 </head>
@@ -634,7 +643,7 @@ $useDropDown = TRUE;
                     <br/>  418 759-3443 Ext #2402 (Marjo Cormier)    </div></a>
 					<div class="phone-icon noclick"></div>
                    </div>
-                   
+                   </li>
                    
                    
                    
@@ -657,8 +666,269 @@ $useDropDown = TRUE;
 			?>
 			
 			
-			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
-				<div class="white-box taller-box">
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>SUPPORT RESOURCES</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+				
+                
+                
+                  <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183686686 "><div class="info-content-small centered"> 
+                    CALACS Women &amp; Youth Sexual Assault Help Centre </br> Centre d&rsquo;aide et lutte contre les agressions &agrave; caract&egrave;re sexuel (CALACS): 
+                
+                    
+                    <br/>  418 368-6686     </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18664666379  "><div class="info-content-small centered"> 
+                    Men Sexual Assault Victims</br>Les hommes victimes d&rsquo;agression sexuelle: 
+                
+                    
+                    <br/>  1 866 466-6379     </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                
+                
+                
+                
+                <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18889339007  "><div class="info-content-small centered"> 
+                    Victims of Sexual Assault &amp; Incest Survivors </br> Les victimes d&rsquo;agression sexuelle et survivants d&rsquo;inceste:  
+                
+                    
+                    <br/>  1 888 933-9007      </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                
+                <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18665322822   "><div class="info-content-small centered"> 
+                    CAVAC (Crisis Help Line for Victims of Criminal Acts) </br> CAVAC (Centre d&rsquo;aide aux victimes d&rsquo;actes criminels):  
+                
+                    
+                    <br/>  1 866 532-2822      </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                
+                
+                 <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18665322822   "><div class="info-content-small centered"> 
+                    Parent Help Line / Ligne Parents : 
+                
+                    
+                    <br/>  1 800 361-5085     </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                
+                 <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18665322822   "><div class="info-content-small centered"> 
+                  Drug &amp; Alcohol Help Line </br>Aide et reference d&eacute;pendances: 
+                
+                    
+                    <br/>  1 800 265-2626   </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                 <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18003639010   "><div class="info-content-small centered"> 
+                  SOS Spousal Abuse / SOS violence conjugale: 
+                
+                    
+                    <br/>  1 800 363-9010    </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                <!--here new sub-->
+                
+                
+                 <div class="white-box-colorB">
+				<div class="info-link"><div class="info-content-small centered">
+                
+               <b> 
+               
+             If you live between l&rsquo;Anse-&agrave;-Valleau and Douglastown </br> Si vous demeurez entre l&rsquo;anse-&agrave;-valleau et Douglastown &hellip;
+               
+               </b>
+                
+              <br/>    </div></div>
+               <div class="below-button noclick"></div>
+				</div>
+                
+                
+                
+                 <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183684700"><div class="info-content-small centered"> 
+                  Accueil Blanche Goulet (homeless shelter &amp; food bank) </br> Accueil Blanche Goulet (foyer pour sans-abri &amp; banque alimentaire):  
+                
+                    
+                    <br/>  418 368-4700    </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                 <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183686324"><div class="info-content-small centered"> 
+                  TAC Adapted Public Transit Service </br> Transport adapt&eacute; et collectif (TAC): 
+                
+                    
+                    <br/>  418 368-6324    </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                
+                 <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183686028"><div class="info-content-small centered"> 
+                  The Family House Gasp&eacute; </br> Maison de la famille Parenfant de Gasp&eacute;: 
+                
+                    
+                    <br/>  418 368-6028    </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                
+                
+                <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183682104 "><div class="info-content-small centered"> 
+                  Town of Gasp&eacute; / Ville de Gasp&eacute;: 
+                
+                    
+                    <br/>  418 368-2104   </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   
+                    <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183686634 "><div class="info-content-small centered"> 
+                  CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-the-Beach </br> CAB Le Hauban (Anse-&agrave;-Valleau &ndash; Coin-du-Banc): 
+                
+                    
+                    <br/>  418 368-6634  </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                    <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183683212 "><div class="info-content-small centered"> 
+                  
+Vision Gaspe Perce Now (VGPN): 
+
+                
+                    
+                    <br/>  418 368-3212  </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18883932610  "><div class="info-content-small centered"> 
+                  
+Multi-Services (Help at Home) </br> Multi-Services (soins &agrave; domicile): 
+
+                
+                    
+                    <br/>  1 888 393-2610   </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   
+                   <div class="white-box taller-box">
+					<a class="info-link" href="tel:+18883932610  "><div class="info-content-small centered"> 
+                  
+Multi-Services (Help at Home) </br> Multi-Services (soins &agrave; domicile): 
+
+                
+                    
+                    <br/>  1 888 393-2610   </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   <!--Here new sub-->
+                   
+                   
+                   
+                 <div class="white-box-colorB">
+				<div class="info-link"><div class="info-content-small centered">
+                
+               <b> 
+               
+             If you live between Saint-Georges-de-Malbaie and Port-Daniel </br> Si vous demeurez entre Saint-Georges-de-Malbaie et Port-Daniel 
+               
+               </b>
+                
+              <br/>    </div></div>
+               <div class="below-button noclick"></div>
+				</div>
+                   
+                   
+                   <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14183686634"><div class="info-content-small centered"> 
+                  
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-the-Beach</br>CAB Le Hauban (Anse-&agrave;-Valleau &ndash; Coin-du-Banc): 
+
+                
+                    
+                    <br/>  418 368-6634   </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   
+                   
+                   <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14186896023"><div class="info-content-small centered"> 
+                  
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Gascons - Perce </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Gascons-Perc&eacute;: 
+
+                
+                    
+                    <br/>  418 689-6023   </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                  
+                  
+                    <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14187525577"><div class="info-content-small centered"> 
+                  
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Simeon Port-Daniel </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Sim&eacute;on Port-Daniel: 
+                
+                    
+                    <br/>  418 752-5577 </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                    <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14186894144"><div class="info-content-small centered"> 
+                  
+Transport des Anses (Transportation Service) </br> Transport des Anses: 
+                    
+                    <br/>  418 689-4144 </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   
+                    <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14186894144"><div class="info-content-small centered"> 
+                  
+Transport des Anses (Transportation Service) </br> Transport des Anses: 
+                    
+                    <br/>  418 689-4144 </div></a>
+					<div class="phone-icon noclick"></div>
+                   </div>
+                   
+                   <!--herenow-->
+                   
+                
+                
+                
+                
+                
+                <div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">NSCA : <br/>  <a class='phone-link' href='http://www.quebecnorthshore.org/'>www.quebecnorthshore.org<a> <br/> <a class='phone-link' href="tel:+4182961545 "> 418 296-1545 </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
@@ -676,7 +946,13 @@ $useDropDown = TRUE;
 			?>
 			
 			
-			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>HEALTH RESOURCES</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+            
+            
+            
+            
+            
+            
 				<div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">NSCA : <br/>  <a class='phone-link' href='http://www.quebecnorthshore.org/'>www.quebecnorthshore.org<a> <br/> <a class='phone-link' href="tel:+4182961545 "> 418 296-1545 </a> </div></div>
 					<div class="phone-icon noclick"></div>
