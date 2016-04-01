@@ -386,7 +386,7 @@ html,body {
 	position:relative;
 	margin:0px;
 	margin-top:10px;
-	height:64px;
+	height:120px;
 	padding:0px;
 	display:block;
 	background-color:white;
@@ -785,7 +785,7 @@ input:checked + .actual-radio{
 }
 
 .taller-box{
-	height:96px;
+	height:120px;
 }
 
 /*   */

@@ -76,7 +76,7 @@ $useDropDown = TRUE;
 	position:relative;
 	margin:0px;
 	margin-top:10px;
-	height:64px;
+	height:130px;
 	padding:0px;
 	display:block;
 	background-color:rgba(48, 212, 90, 0.68);
@@ -86,7 +86,7 @@ $useDropDown = TRUE;
 	position:relative;
 	margin:0px;
 	margin-top:10px;
-	height:96px;
+	height:120px;
 	padding:0px;
 	display:block;
 	background-color:#CCC;
@@ -94,10 +94,11 @@ $useDropDown = TRUE;
 }
 
 .white-box-colorB{
+	
 	position:relative;
 	margin:0px;
 	margin-top:10px;
-	height:64px;
+	height:130px;
 	padding:0px;
 	display:block;
 	background-color:rgba(89, 195, 239, 0.65);
@@ -140,12 +141,12 @@ $useDropDown = TRUE;
 				
 				
 				<div class="white-box">
-					<a class="info-link" href="tel:+811"><div class="info-content centered">Emergencies / Urgences: 811</div></a>
+					<a class="info-link" href="tel:+811"><div class="info-content centered">Emergencies / Urgences</br>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                 <div class="white-box taller-box">
-					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
+					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info <br/>Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
@@ -155,12 +156,12 @@ $useDropDown = TRUE;
 				</div>
                 
                 <div class="white-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> <b>Suicide Prevention / La pr&eacute;vention du suicide: </b><br/> 1 866 277-3553</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> <b>Suicide Prevention </br> La pr&eacute;vention du suicide: </b><br/> 1 866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                 <div class="white-box">
-					<a class="info-link" href="tel:*4141"><div class="info-content-small centered"> <b>Police / Suret&eacute; du Qu&eacute;bec: </b><br/>310-4141 (if calling from a cellphone dial cellphone dial) </div></a>
+					<a class="info-link" href="tel:*4141"><div class="info-content-small centered"> <b>Police </br> Suret&eacute; du Qu&eacute;bec: </b><br/>310-4141 </br>(if calling from a cellphone dial cellphone dial) </div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
