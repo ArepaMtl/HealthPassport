@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>North Shore</span>
+		<span class='org-name'>CASA</span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
@@ -501,16 +501,18 @@
 		<div id="main-menu-organization-container">
 			<div id="main-menu-organization">
 				<div id="org-about">
-					<b> NSCA </b><br/>
+					<b> CASA </b><br/>
+                   (Committee for Anglophone Social Action)
+                   </br>
 				
 					</br><b>Contact Information:</b><br/>
-					<a href='http://www.quebecnorthshore.org/' class="health-pass-link">www.quebecnorthshore.org</a><br/>
-					</br> <b>Phone:</b> <a href='tel:+4182961545' class="health-pass-link">418 296-1545 </a><br/>
-                    <br/>
+					<a href='http://www.casa-gaspe.com/' class="health-pass-link">www.casa-gaspe.com</a><br/>
+					<b>Phone:</b> <a href='tel:+14187525995' class="health-pass-link">418 752-5995  </a><br/>
+                   
 					<b>Address:</b> 
-                    </br>39 Marquette
-                  Local 314
-                  Baie-Comeau </br>Qc G4Z 1K4
+                    </br>208B Gerard D. Levesque
+P.O. Box 219
+New Carlisle, QC G0C 1Z0 
 
 
 				</div>

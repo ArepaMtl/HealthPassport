@@ -67,12 +67,12 @@
 			
 			<li class="item" id="language-pane"><div id="en-button" class="selected-lang"><div class='centered'>English</div></div><div id="fr-button"><div class='centered'>Fran&ccedil;ais</div></div></li>
 			
-			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>The North Shore Community Association (NSCA)
-</div><div class='lng-fr'>(NSCA) </div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
+			<li class="item"><a href="chssn.php" class='chssn-title-bar'><div class='item-text submenu-text'><div id='chssn-title'></div><div><div class='lng-en'>CASA </br>(Committee for Anglophone Social Action)
+</div><div class='lng-fr'>CASA </div></div></div> <div class="below-button noclick"> </div></a><div class="info-items">
 				<div class="dynamic-size-box">
 					
 				<div class='lng-en'>
-					<b>The North Shore Community Association (NSCA)</b> </br>Is a non-profit regional organization dedicated to serving, representing, and instilling pride in the English-speaking community of Quebec&rsquo;s North Shore. Our aim is to empower residents and to strengthen the community across the region by working to make information and resources available, by facilitating community initiatives, by encouraging and improving communication, by promoting access to services, by developing partnerships and by increasing the visibility of the English-speaking community. Together, we are building a vital, informed and strong community.
+					<b>CASA, the Committee for Anglophone Social Action</b> </br>is a non-profit community organization dedicated to serving the English-speaking population of the Gasp&eacute; Coast by representing the community&rsquo;s interests and designing and delivering programs that respond to its needs since 1975. 
 
 
 					
@@ -85,7 +85,7 @@
 				</div>
 				
 				<div class='lng-fr'>
-					<b>La North Shore Community Association (NSCA)</b> </br> est un organisme &agrave; but non lucratif vou&eacute; &agrave; servir, &agrave; repr&eacute;senter et &agrave; inspirer la fiert&eacute; de la communaut&eacute; d&rsquo;expression anglaise qui habite la C&ocirc;te-Nord. Elle a pour but d&rsquo;habiliter les r&eacute;sidents de la C&ocirc;te-Nord en assurant la disponibilit&eacute; des ressources, en appuyant les initiatives communautaires, en favorisant et en am&eacute;liorant la communication, en &eacute;tablissant des partenariats, en promouvant l&rsquo;acc&egrave;s aux services et en am&eacute;liorant la visibilit&eacute; de la communaut&eacute; d&rsquo;expression anglaise. Ensemble, nous construisons une communaut&eacute; vitale, inform&eacute;e et forte.
+					<b>CASA, le comit&eacute; pour l&rsquo;action sociale anglophone</b> </br>est un organisme &agrave; but non-lucratif qui dessert la population d&rsquo;expression anglaise de la Gasp&eacute;sie depuis 1975. Plus pr&eacute;cis&eacute;ment, CASA repr&eacute;sente les int&eacute;r&ecirc;ts des anglophones en d&eacute;veloppant et en livrant divers programmes qui r&eacute;pondent &agrave; leurs besoins.
 					<!--<b>CHSSN Contact Information</b><br/><br/>
 					
 					<a href='http://www.chssn.org' class="health-pass-link">www.chssn.org</a><br/><br/>
