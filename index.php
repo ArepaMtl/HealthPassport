@@ -422,7 +422,7 @@
 		<a href="" id="bookmarkicon"> </a>
 		<div class="centered bar-title-container">
 		<h1 data-localize="menu.title" class='health-pass-title'> Health Passport </h1> 
-		<span class='org-name'>CASA</span>
+		<span class='org-name'><img src="design_folder/assets/side-org-icon-top.png" width="40"  alt=""/></span>
 		</div>
 		<a href="" id="informationicon"> </a>
 	</div>
