@@ -141,27 +141,27 @@ $useDropDown = TRUE;
 				
 				
 				<div class="white-box">
-					<a class="info-link" href="tel:+811"><div class="info-content centered">Emergencies / Urgences</br>811</div></a>
+					<a class="info-link" href="tel:+911"><div class="info-content centered">Emergencies / Urgences</br>911</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                 <div class="white-box taller-box">
-					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info <br/>Info-Sant&eacute;:<br/>811</div></a>
+					<a class="info-link" href="tel:+811"><div class="info-content centered">Health Info <br/>Info-Sant&eacute;<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1 800 463-5060<a> <br/> <a class='phone-link' href="https://www.santemontreal.qc.ca/en/public/support-and-services/poison-control-centre/"> www.santemontreal.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>Centre anti-poison du Qu&eacute;bec<br/>  <a class='phone-link' href="tel:+18004635060"> 1 800 463-5060<a> <br/> <a class='phone-link' href="https://www.santemontreal.qc.ca/en/public/support-and-services/poison-control-centre/"> www.santemontreal.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                 <div class="white-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> <b>Suicide Prevention </br> La pr&eacute;vention du suicide: </b><br/> 1 866 277-3553</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content-small centered"> <b>Suicide Prevention </br> La pr&eacute;vention du suicide </b><br/> 1 866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                 <div class="white-box">
-					<a class="info-link" href="tel:*4141"><div class="info-content-small centered"> <b>Police </br> Suret&eacute; du Qu&eacute;bec: </b><br/>310-4141 </br>(if calling from a cellphone dial cellphone dial) </div></a>
+					<a class="info-link" href="tel:*4141"><div class="info-content-small centered"> <b>Police </br> S&ucirc;ret&eacute; du Qu&eacute;bec </b><br/>310-4141 </br>(If calling from a cellphone dial 4141 ) </div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
@@ -179,18 +179,18 @@ $useDropDown = TRUE;
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>HEALTH RESOURCES</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				
                 <div class="white-box taller-box">
-					<a class="info-link" href="tel:+18006168816"><div class="info-content centered"> Alzheimer Society</br>Soci&eacute;t&eacute; Alzheimer:<br/> 1 800 616-8816</div></a>
+					<a class="info-link" href="tel:+18006168816"><div class="info-content centered"> Alzheimer Society</br>Soci&eacute;t&eacute; Alzheimer<br/> 1 800 616-8816</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                  <div class="white-box taller-box">
-					<a class="info-link" href="tel:+18773030264"><div class="info-content-small centered"> AMI-Quebec Action on Mental Illness </br> Action sur la maladie mentale AMI-Quebec:<br/> 1 877 303-0264</div></a>
+					<a class="info-link" href="tel:+18773030264"><div class="info-content-small centered"> AMI-Qu&eacute;bec Action on Mental Illness </br> Action sur la maladie mentale AMI-Quebec<br/> 1 877 303-0264</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                
                
                 <div class="white-box taller-box">
-					<a class="info-link" href="tel:+14183683301"><div class="info-content-small centered"> Integrated Center for Health & Social Services (CISSS) Gaspesie </br> Centre int&eacute;gr&eacute; de sant&eacute; et de services sociaux (CISSS) Gasp&eacute;sie:<br/> 418 368-3301</div></a>
+					<a class="info-link" href="tel:+14183683301"><div class="info-content-small centered"> Integrated Center for Health & Social Services (CISSS) Gasp&eacute;sie </br> Centre Int&eacute;gr&eacute; de Sant&eacute; et de Services Sociaux (CISSS) Gasp&eacute;sie<br/> 418 368-3301</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                
@@ -198,7 +198,7 @@ $useDropDown = TRUE;
                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18003630063"><div class="info-content-small centered"> 
                     
-                    Quebec Cancer Foundation </br> Fondation qu&eacute;b&eacute;coise du cancer: 
+                    Qu&eacute;bec Cancer Foundation </br> Fondation Qu&eacute;b&eacute;coise du cancer 
                     
                     <br/> 1 800 363-0063</div></a>
 					<div class="phone-icon noclick"></div>
@@ -209,7 +209,7 @@ $useDropDown = TRUE;
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18004630806"><div class="info-content-small centered"> 
                     
-                   ACEQ (Cancer Association for Eastern Quebec)  </br>Association du cancer de l&rsquo;Est du Qu&eacute;bec (ACEQ): 
+                   ACEQ (Cancer Association for Eastern Qu&eacute;bec)  </br>Association du cancer de l&rsquo;Est du Qu&eacute;bec (ACEQ) 
                   
                     <br/>  1 800 463-0806</div></a>
 					<div class="phone-icon noclick"></div>
@@ -218,7 +218,7 @@ $useDropDown = TRUE;
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18776062136"><div class="info-content-small centered"> 
                     
-                   LEUCAN (assistance for families dealing with child with cancer) </br> LEUCAN (pour familles avec enfant atteint du cancer): 
+                   LEUCAN (Assistance for families dealing with a child with cancer) </br> LEUCAN (Pour familles avec enfant atteint du cancer) 
                   
                   
                     
@@ -266,7 +266,7 @@ $useDropDown = TRUE;
 					<div class="info-link"><div class="info-content-small centered">
                     
                     
-                    Gaspe Cancer Foundation (l&rsquo;Anse-a-Valleau to Corner-of-the-Beach) </br>Foundation du cancer de Gaspe <a class='phone-link' href="tel:+4183681566"> </br> 418 368-1566<a> <br/> <a class='phone-link' href="tel:+14183683276"> 418 368-3276</a> </div></div>
+                   Gasp&eacute;  Cancer Foundation (l&rsquo;Anse-a-Valleau to Corner-of-the-Beach) </br>Foundation du cancer de Gasp&eacute;  <a class='phone-link' href="tel:+4183681566"> </br> 418 368-1566<a> <br/> <a class='phone-link' href="tel:+14183683276"> 418 368-3276</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                
@@ -297,7 +297,7 @@ $useDropDown = TRUE;
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183683301,3053"><div class="info-content-small centered"> 
                     
-                  Cancer Liaison Nurse / Infirmi&egrave;re pivot en oncologie:
+                  Cancer Liaison Nurse / Infirmi&egrave;re pivot en oncologie
                   
                   
                     
@@ -311,7 +311,7 @@ $useDropDown = TRUE;
                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183682572"><div class="info-content-small centered"> 
                     
-                  Gaspe CLSC / CLSC Gaspe:
+                  Gasp&eacute;  CLSC / CLSC Gasp&eacute; 
                   
                 
                     
@@ -324,7 +324,7 @@ $useDropDown = TRUE;
                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183683301"><div class="info-content-small centered"> 
                     
-                  Cote-de-Gaspe Health &amp; Social Services (CSSS) </br>CSSS Cote-de-Gaspe: 
+                  Cote-de-Gasp&eacute; Health &amp; Social Services (CSSS) </br>CSSS Cote-de-Gasp&eacute;  
                   
                 
                     
@@ -350,7 +350,7 @@ $useDropDown = TRUE;
 					<div class="info-link"><div class="info-content-small centered">
                     
                     
-                    Gaspe Cancer Foundation (l&rsquo;Anse-a-Valleau to Corner-of-the-Beach) </br>Foundation du cancer de Gaspe : 
+                    Gasp&eacute;  Cancer Foundation (l&rsquo;Anse-a-Valleau to Corner-of-the-Beach) </br>Foundation du cancer de Gasp&eacute;  
                     <a class='phone-link' href="tel:+14183681566"> </br> 418 368-1566<a> <br/> <a class='phone-link' href="tel:+14183683276"> 418 368-3276</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
@@ -360,7 +360,7 @@ $useDropDown = TRUE;
 					<div class="info-link"><div class="info-content-small centered">
                     
                     
-                    Michel Lancup Foundation (Perce to Port Daniel)</br> Fondation Michel Lancup:
+                    Michel Lancup Foundation (Perce to Port Daniel)</br> Fondation Michel Lancup
                     <a class='phone-link' href="tel:+14186892261,2019"> </br>  418 689-2261 Ext #2019<a> <br/> <a class='phone-link' href="tel:+14186896737"> 418 689-6737</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
@@ -373,7 +373,7 @@ $useDropDown = TRUE;
                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14186892261,2030"><div class="info-content-small centered"> 
                     
-                  Cancer Liaison Nurse / Infirmi&egrave;re pivot en oncologie : 
+                  Cancer Liaison Nurse / Infirmi&egrave;re pivot en oncologie  
                   
                   
                     
@@ -386,7 +386,7 @@ $useDropDown = TRUE;
               <div class="white-box taller-box">
 					<a class="info-link" href="tel:+141864525721"><div class="info-content-small centered"> 
                     
-                  Barachois CLSC / CLSC Barachois :
+                  Barachois CLSC / CLSC Barachois 
                   
                 
                     
@@ -398,7 +398,7 @@ $useDropDown = TRUE;
               <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183962572"><div class="info-content-small centered"> 
                     
-                 Gascons CLSC / CLSC Gascons: 
+                 Gascons CLSC / CLSC Gascons 
                 
                     
                     <br/>  418 396-2572</div></a>
@@ -409,7 +409,7 @@ $useDropDown = TRUE;
                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187822572"><div class="info-content-small centered"> 
                     
-                 Perce CLSC / CLSC Perce:
+                 Perce CLSC / CLSC Perce
                 
                     
                     <br/>  418 782-2572</div></a>
@@ -448,7 +448,7 @@ $useDropDown = TRUE;
                <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187525995"><div class="info-content-small centered"> 
                     
-                Linda Lemore-Brown Foundation (Cancer)</br>Fondation Linda Lemore-Brown (Cancer):
+                Linda Lemore-Brown Foundation (Cancer)</br>Fondation Linda Lemore-Brown (Cancer)
                 
                     
                     <br/>  418 752-5995</div></a>
@@ -462,7 +462,7 @@ $useDropDown = TRUE;
               <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187593443"><div class="info-content-small centered"> 
                     
-                Baie-des-Chaleurs Health &amp; Social Services Center (CSSS)</br> CSSS Baie-des-Chaleurs: 
+                Baie-des-Chaleurs Health &amp; Social Services (CSSS)</br> CSSS Baie-des-Chaleurs 
                 
                     
                     <br/>  418 759-3443</div></a>
@@ -473,7 +473,7 @@ $useDropDown = TRUE;
                    <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187522572"><div class="info-content-small centered"> 
                     
-               Paspebiac CLSC / CLSC Paspebiac: 
+               Paspebiac CLSC / CLSC Paspebiac 
                 
                     
                     <br/>  418 752-2572</div></a>
@@ -483,7 +483,7 @@ $useDropDown = TRUE;
               <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183882572"><div class="info-content-small centered"> 
                     
-               Caplan CLSC / CLSC Caplan:
+               Caplan CLSC / CLSC Caplan
                 
                     
                     <br/>  418 388-2572</div></a>
@@ -493,7 +493,7 @@ $useDropDown = TRUE;
               <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187593443,2402"><div class="info-content-small centered"> 
                     
-               Cancer Liasion Nurse / Infirmi&egrave;re pivot en oncologie: 
+               Cancer Liasion Nurse / Infirmi&egrave;re pivot en oncologie 
                 
                     
                     <br/>  418 759-3443 Ext #2402 (Marjo Cormier)</div></a>
@@ -517,7 +517,7 @@ $useDropDown = TRUE;
               
               <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187593443"><div class="info-content-small centered"> 
-                    Baie-des-Chaleurs Health &amp; Social Services Center (CSSS) </br> CSSS Baie-des-Chaleurs: 
+                    Baie-des-Chaleurs Health &amp; Social Services (CSSS) </br> CSSS Baie-des-Chaleurs
                 
                     
                     <br/>  418 759-3443</div></a>
@@ -528,7 +528,7 @@ $useDropDown = TRUE;
                    
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14188652221"><div class="info-content-small centered"> 
-                    Malauze CLSC (Matapedia) / CLSC Malauze (Matapedia):  
+                    Malauze CLSC (Matapedia) / CLSC Malauze (Matapedia)  
                 
                     
                     <br/>  418 865-2221 </div></a>
@@ -541,7 +541,7 @@ $useDropDown = TRUE;
                    
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183647064  "><div class="info-content-small centered"> 
-                    Saint Omer CLSC / CLSC Saint-Omer: 
+                    Saint Omer CLSC / CLSC Saint-Omer
                 
                     
                     <br/>  418 364 -7064   </div></a>
@@ -554,7 +554,7 @@ $useDropDown = TRUE;
                    
                    <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187885454 "><div class="info-content-small centered"> 
-                    Pointe-a-la-Croix CLSC / CLSC Pointe-&agrave;-la-Croix: 
+                    Pointe-a-la-Croix CLSC / CLSC Pointe-&agrave;-la-Croix
                 
                     
                     <br/>  418 788-5454  </div></a>
@@ -568,7 +568,7 @@ $useDropDown = TRUE;
                    
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187593443,2402"><div class="info-content-small centered"> 
-                    Cancer Liasion Nurse </br> Infirmi&egrave;re pivot en oncologie: 
+                    Cancer Liasion Nurse </br> Infirmi&egrave;re pivot en oncologie 
                 
                     
                     <br/>  418 759-3443 Ext #2402 (Marjo Cormier)    </div></a>
@@ -600,7 +600,7 @@ $useDropDown = TRUE;
                 
                   <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183686686 "><div class="info-content-small centered"> 
-                    CALACS Women &amp; Youth Sexual Assault Help Centre </br> Centre d&rsquo;aide et lutte contre les agressions &agrave; caract&egrave;re sexuel (CALACS): 
+                    CALACS Women &amp; Youth Sexual Assault Help Centre </br> Centre d&rsquo;aide et lutte contre les agressions &agrave; caract&egrave;re sexuel (CALACS) 
                 
                     
                     <br/>  418 368-6686     </div></a>
@@ -609,7 +609,7 @@ $useDropDown = TRUE;
                 
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18664666379  "><div class="info-content-small centered"> 
-                    Men Sexual Assault Victims</br>Les hommes victimes d&rsquo;agression sexuelle: 
+                    Men Sexual Assault Victims</br>Les hommes victimes d&rsquo;agression sexuelle 
                 
                     
                     <br/>  1 866 466-6379     </div></a>
@@ -623,7 +623,7 @@ $useDropDown = TRUE;
                 
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18889339007  "><div class="info-content-small centered"> 
-                    Victims of Sexual Assault &amp; Incest Survivors </br> Les victimes d&rsquo;agression sexuelle et survivants d&rsquo;inceste:  
+                    Victims of Sexual Assault &amp; Incest Survivors </br> Les victimes d&rsquo;agression sexuelle et survivants d&rsquo;inceste  
                 
                     
                     <br/>  1 888 933-9007      </div></a>
@@ -634,7 +634,7 @@ $useDropDown = TRUE;
                 
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18665322822   "><div class="info-content-small centered"> 
-                    CAVAC (Crisis Help Line for Victims of Criminal Acts) </br> CAVAC (Centre d&rsquo;aide aux victimes d&rsquo;actes criminels):  
+                    CAVAC (Crisis Help Line for Victims of Criminal Acts) </br> CAVAC (Centre d&rsquo;aide aux victimes d&rsquo;actes criminels)  
                 
                     
                     <br/>  1 866 532-2822      </div></a>
@@ -646,7 +646,7 @@ $useDropDown = TRUE;
                 
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18665322822   "><div class="info-content-small centered"> 
-                    Parent Help Line / Ligne Parents : 
+                    Parent Help Line / Ligne Parents  
                 
                     
                     <br/>  1 800 361-5085     </div></a>
@@ -657,7 +657,7 @@ $useDropDown = TRUE;
                 
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18665322822   "><div class="info-content-small centered"> 
-                  Drug &amp; Alcohol Help Line </br>Aide et reference d&eacute;pendances: 
+                  Drug &amp; Alcohol Help Line </br>Aide et reference d&eacute;pendances
                 
                     
                     <br/>  1 800 265-2626   </div></a>
@@ -667,7 +667,7 @@ $useDropDown = TRUE;
                 
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18003639010   "><div class="info-content-small centered"> 
-                  SOS Spousal Abuse / SOS violence conjugale: 
+                  SOS Spousal Abuse / SOS violence conjugale 
                 
                     
                     <br/>  1 800 363-9010    </div></a>
@@ -695,7 +695,7 @@ $useDropDown = TRUE;
                 
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183684700"><div class="info-content-small centered"> 
-                  Accueil Blanche Goulet (homeless shelter &amp; food bank) </br> Accueil Blanche Goulet (foyer pour sans-abri &amp; banque alimentaire):  
+                  Accueil Blanche Goulet (Homeless shelter &amp; food bank) </br> Accueil Blanche Goulet (Foyer pour sans-abri &amp; banque alimentaire)  
                 
                     
                     <br/>  418 368-4700    </div></a>
@@ -704,7 +704,7 @@ $useDropDown = TRUE;
                 
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183686324"><div class="info-content-small centered"> 
-                  TAC Adapted Public Transit Service </br> Transport adapt&eacute; et collectif (TAC): 
+                  TAC Adapted Public Transit Service </br> Transport adapt&eacute; et collectif (TAC) 
                 
                     
                     <br/>  418 368-6324    </div></a>
@@ -715,7 +715,7 @@ $useDropDown = TRUE;
                 
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183686028"><div class="info-content-small centered"> 
-                  The Family House Gasp&eacute; </br> Maison de la famille Parenfant de Gasp&eacute;: 
+                  Family House Gasp&eacute; </br> Maison de la famille Parenfant Gasp&eacute;
                 
                     
                     <br/>  418 368-6028    </div></a>
@@ -725,7 +725,7 @@ $useDropDown = TRUE;
                 
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183682104 "><div class="info-content-small centered"> 
-                  Town of Gasp&eacute; / Ville de Gasp&eacute;: 
+                  Town of Gasp&eacute; / Ville de Gasp&eacute;
                 
                     
                     <br/>  418 368-2104   </div></a>
@@ -735,7 +735,7 @@ $useDropDown = TRUE;
                    
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183686634 "><div class="info-content-small centered"> 
-                  CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-the-Beach </br> CAB Le Hauban (Anse-&agrave;-Valleau &ndash; Coin-du-Banc): 
+                  CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-the-Beach </br> CAB Le Hauban (Anse-&agrave;-Valleau &ndash; Coin-du-Banc)
                 
                     
                     <br/>  418 368-6634  </div></a>
@@ -745,7 +745,7 @@ $useDropDown = TRUE;
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183683212 "><div class="info-content-small centered"> 
                   
-Vision Gaspe Perce Now (VGPN): 
+Vision Gaspe Perce Now (VGPN) 
 
                 
                     
@@ -753,22 +753,22 @@ Vision Gaspe Perce Now (VGPN):
 					<div class="phone-icon noclick"></div>
                    </div>
                    
-                   <div class="white-box taller-box">
+                  <!-- <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18883932610  "><div class="info-content-small centered"> 
                   
-Multi-Services (Help at Home) </br> Multi-Services (soins &agrave; domicile): 
+Multi-Services (Help at Home) </br> Multi-Services (soins &agrave; domicile) 
 
                 
                     
                     <br/>  1 888 393-2610   </div></a>
 					<div class="phone-icon noclick"></div>
-                   </div>
+                   </div>-->
                    
                    
                    <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18883932610  "><div class="info-content-small centered"> 
                   
-Multi-Services (Help at Home) </br> Multi-Services (soins &agrave; domicile): 
+Multi-Services (Help at Home) </br> Multi-Services (Soins &agrave; domicile) 
 
                 
                     
@@ -797,7 +797,7 @@ Multi-Services (Help at Home) </br> Multi-Services (soins &agrave; domicile):
                    <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14183686634"><div class="info-content-small centered"> 
                   
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-the-Beach</br>CAB Le Hauban (Anse-&agrave;-Valleau &ndash; Coin-du-Banc): 
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-the-Beach</br>CAB Le Hauban (Anse-&agrave;-Valleau &ndash; Coin-du-Banc) 
 
                 
                     
@@ -810,7 +810,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Anse-a-Valleau to Corner-of-t
                    <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14186896023"><div class="info-content-small centered"> 
                   
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Gascons - Perce </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Gascons-Perc&eacute;: 
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Gascons - Perce </br> CAB (Centre d&rsquo;action b&eacute;n&eacute;vole) Gascons-Perc&eacute; 
 
                 
                     
@@ -823,7 +823,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Gascons - Perce </br> CAB (ce
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187525577"><div class="info-content-small centered"> 
                   
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Simeon Port-Daniel </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Sim&eacute;on Port-Daniel: 
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Simeon Port-Daniel </br> CAB (Centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Sim&eacute;on Port-Daniel 
                 
                     
                     <br/>  418 752-5577 </div></a>
@@ -833,7 +833,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Simeon Port-Daniel </br
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14186894144"><div class="info-content-small centered"> 
                   
-Transport des Anses (Transportation Service) </br> Transport des Anses: 
+Transport des Anses (Transportation Service) </br> Transport des Anses 
                     
                     <br/>  418 689-4144 </div></a>
 					<div class="phone-icon noclick"></div>
@@ -843,7 +843,7 @@ Transport des Anses (Transportation Service) </br> Transport des Anses:
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14186895722"><div class="info-content-small centered"> 
                   
-Senior Association MRC Rocher-Perce (Perce to Port Daniel) </br> Association des ain&eacute;s de la MRC Rocher-Perce: 
+Senior Association MRC Rocher-Perce (Perce to Port Daniel) </br> Association des a&icirc;n&eacute;s de la MRC Rocher-Perce 
                     
                     <br/>  418 689-5722  </div></a>
 					<div class="phone-icon noclick"></div>
@@ -869,12 +869,12 @@ Senior Association MRC Rocher-Perce (Perce to Port Daniel) </br> Association des
 				</div>
                    
                     
-                    <div class="white-box taller-box">
-					<a class="info-link" href="tel:+14187525577"><div class="info-content-small centered"> 
-                  
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Simeon Port-Daniel </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Simeon Port-Daniel: 
                     
-                    <br/> 418 752-5577  </div></a>
+                    <div class="white-box taller-box">
+					<a class="info-link" href="tel:+14185343751 "><div class="info-content-small centered"> 
+                  
+Entre-Tiens Chaleurs (Home Services) </br> Entre-Tiens Chaleurs (Soins &agrave; domicile)</br>(Between CAB Saint-Alphonse Nouvelle & Transport Bonaventure Avignon)
+                    <br/> 418 534-3751  </div></a>
 					<div class="phone-icon noclick"></div>
                    </div>
                    
@@ -883,7 +883,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Simeon Port-Daniel </br
                     <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187593131 "><div class="info-content-small centered"> 
                   
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Alphonse Nouvelle</br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Alphonse Nouvelle: 
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Alphonse Nouvelle</br> CAB (Centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Alphonse Nouvelle 
                     
                     <br/> 418 759-3131  </div></a>
 					<div class="phone-icon noclick"></div>
@@ -893,7 +893,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Alphonse Nouvelle</br> 
                      <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18775343325  "><div class="info-content-small centered"> 
     
-Transport Bonaventure Avignon: 
+Transport Bonaventure Avignon 
 
                     <br/>  1 877 534-3325  </div></a>
 					<div class="phone-icon noclick"></div>
@@ -910,7 +910,7 @@ Transport Bonaventure Avignon:
                 
                <b> 
                
-             If you live between Shigawake and Cascapedia-St-Jules </br>Si vous demeurez entre Shigawake et Cascapedia-St-Jules
+             If you live between Gesgapegiag and L&rsquo;Ascension-de-Patap&eacute;dia </br>Si vous demeurez entre Gesgapegiag et L&rsquo;Ascension-de-Patap&eacute;dia
                
                </b>
                 
@@ -923,7 +923,7 @@ Transport Bonaventure Avignon:
                   <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14187593131"><div class="info-content-small centered"> 
     
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Alphonse Nouvelle </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Alphonse Nouvelle: 
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Alphonse Nouvelle </br> CAB (Centre d&rsquo;action b&eacute;n&eacute;vole) Saint-Alphonse Nouvelle
 
                     <br/>  418 759-3131 </div></a>
 					<div class="phone-icon noclick"></div>
@@ -933,7 +933,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Saint-Alphonse Nouvelle </br>
                  <div class="white-box taller-box">
 					<a class="info-link" href="tel:+14188652740"><div class="info-content-small centered"> 
     
-CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Ascension Escuminac </br> CAB (centre d&rsquo;action b&eacute;n&eacute;vole) Ascension Escuminac: 
+CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Ascension Escuminac </br> CAB (Centre d&rsquo;action b&eacute;n&eacute;vole) Ascension Escuminac 
 
                     <br/>  418 865-2740  </div></a>
 					<div class="phone-icon noclick"></div>
@@ -943,7 +943,7 @@ CAB (Centre d&rsquo;Action B&eacute;n&eacute;vole) Ascension Escuminac </br> CAB
                 <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18773646760"><div class="info-content-small centered"> 
     
-CAEntre-Tiens Avignon (Home Services) </br>Entre-Tiens Avignon (soins &agrave; domicile):  
+Entre-Tiens Avignon (Home Services) </br>Entre-Tiens Avignon (Soins &agrave; domicile)  
 
                     <br/>  1 877 364-6760 </div></a>
 					<div class="phone-icon noclick"></div>
@@ -953,7 +953,7 @@ CAEntre-Tiens Avignon (Home Services) </br>Entre-Tiens Avignon (soins &agrave; d
                   <div class="white-box taller-box">
 					<a class="info-link" href="tel:+18775343325"><div class="info-content-small centered"> 
     
-Transport Bonaventure Avignon: 
+Transport Bonaventure Avignon 
 
                     <br/>  1 877 534-3325  </div></a>
 					<div class="phone-icon noclick"></div>
@@ -1007,7 +1007,7 @@ Transport Bonaventure Avignon:
              
 					<div class="info-link"><div class="info-content-small centered"> <b>Website</b> <br/>  <a class='phone-link' href="http://www.casa-gaspe.com/"> www.casa-gaspe.com<a> <br/> 
                     
-                    <a class='phone-link' href="https://www.facebook.com/groups/548155035288065/"> <b>Facebook </b></a> </div></div>
+                    <a class='phone-link' href="https://www.facebook.com/groups/548155035288065/"> <b>Facebook </b></br> <b>CASA</b> &ndash; Committee for Anglophone Social Action </a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
             
