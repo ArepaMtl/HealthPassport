@@ -156,7 +156,7 @@ $useDropDown = TRUE;
 				</div>
 				
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered"> <b>Elder Abuse</b> <br/> Maltraitance des ain&eacute;s </br><a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="https://www.mfa.gouv.qc.ca/fr/aines/lutte_contre_maltraitance/Pages/index.aspx">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"> <b>Elder Abuse</b> <br/> Maltraitance des ain&eacute;s: </br><a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="https://www.mfa.gouv.qc.ca/fr/aines/lutte_contre_maltraitance/Pages/index.aspx">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
