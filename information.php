@@ -112,7 +112,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>-->
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre /<br/>Centre de crise:<br/>514 351-49592</div></a>
+					<a class="info-link" href="tel:+51435149592"><div class="info-content centered">Crisis Centre <br/>Centre de crise:<br/>514 351-49592</div></a>
 					<div  class="phone-icon noclick"></div>
 				</div>
           
@@ -126,37 +126,37 @@ $useDropDown = TRUE;
                 
                   
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1 866 277-3553</div></a>
+					<a class="info-link" href="tel:+18662773553"><div class="info-content centered">Suicide Prevention <br/>La Pr&eacute;vention du suicide:<br/>1 866 277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="http://www.ligneparents.com"> www.ligneparents.com</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"><b>Parents Help Line</b> <br/>Ligne d'aide aux parent:<br/>  <a class='phone-link' href="tel:+18003615085"> 1 800 361-5085<a> <br/> <a class='phone-link' href="http://www.ligneparents.com"> www.ligneparents.com</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
                   <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1 800 463-5060<a> <br/> <a class='phone-link' href="https://santemontreal.qc.ca/population/"> www.santemontreal.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"> <b>Qu&eacute;bec Poison Control</b> <br/>Centre anti-poison du Qu&eacute;bec:<br/>  <a class='phone-link' href="tel:+18004635060"> 1 800 463-5060<a> <br/> <a class='phone-link' href="https://santemontreal.qc.ca/population/"> www.santemontreal.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
                  <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+5149339007"> 514 933-9007<a> <br/> <a class='phone-link' href="http://www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"><b>Sexual Assault</b> <br/>Agression sexuelle:<br/>  <a class='phone-link' href="tel:+5149339007"> 514 933-9007<a> <br/> <a class='phone-link' href="http://www.agressionssexuelles.gouv.qc.ca/en/index.php"> www.agressionssexuelles.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
          
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1 800 464-9010<a> <br/> <a class='phone-link' href="http://www.sosviolenceconjugale.ca/">www.sosviolenceconjugale.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"><b>SOS Spousal Abuse </b><br/>SOS Violence conjugale:<br/>  <a class='phone-link' href="tel:+18004649010"> 1 800 464-9010<a> <br/> <a class='phone-link' href="http://www.sosviolenceconjugale.ca/">www.sosviolenceconjugale.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                
                <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="http://www.centrejeunessedequebec.qc.ca/Pages/default.aspx">www.centrejeunessedequebec.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"><b>Youth Protection </b><br/>Protection de la jeunesse:<br/>  <a class='phone-link' href="tel:+18004634834"> 1 800-463-4834<a> <br/> <a class='phone-link' href="http://www.centrejeunessedequebec.qc.ca/Pages/default.aspx">www.centrejeunessedequebec.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
                 <div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Elder Abuse <br/>  <a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="https://www.mfa.gouv.qc.ca/fr/aines/lutte_contre_maltraitance/Pages/index.aspx">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered"> <b>Elder Abuse</b> <br/> Maltraitance des ain&eacute;s </br><a class='phone-link' href="tel:+5144892287"> 514 489-2287<a> <br/> <a class='phone-link' href="https://www.mfa.gouv.qc.ca/fr/aines/lutte_contre_maltraitance/Pages/index.aspx">www.maltraitanceaines.gouv.qc.ca</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 				
@@ -202,8 +202,8 @@ $useDropDown = TRUE;
 			
 			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">REISA <br/>  <a class='phone-link' href='http://www.reisa.ca/'>www.reisa.ca<a> <br/> <a class='phone-link' href="tel:+15149558370 "> 514 955-8370 </a> </div></div>
-					<div class="phone-icon noclick"></div>
+					<div class="info-link"><div class="info-content-small centered"><b>REISA</b> <br/>  <a class='phone-link' href='http://www.reisa.ca/'>www.reisa.ca<a> <br/> <a class='phone-link' href="tel:+15149558370 "> 514 955-8370 Ext.2217</a> </div></div>
+					<div class=s"phone-icon noclick"></div>
 				</div>
 			</div></li>
 			<?php
