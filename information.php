@@ -161,7 +161,7 @@ $useDropDown = TRUE;
 				</div>
                 
                 <div class="white-box">
-					<a class="info-link" href="tel:*4141"><div class="info-content-small centered"> <b>Police </br> S&ucirc;ret&eacute; du Qu&eacute;bec </b><br/>*310-4141 </br>(If calling from a cellphone dial *4141) </div></a>
+					<a class="info-link" href="tel:*4141"><div class="info-content-small centered"> <b>Police </br> S&ucirc;ret&eacute; du Qu&eacute;bec </b><br/>310-4141 </br>(If calling from a cellphone dial *4141) </div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
                 
@@ -266,7 +266,7 @@ $useDropDown = TRUE;
 					<div class="info-link"><div class="info-content-small centered">
                     
                     
-                   Gasp&eacute;  Cancer Foundation (L&rsquo;Anse-&agrave;-Valleau to Corner-of-the-Beach) </br>Foundation du cancer de Gasp&eacute;  <a class='phone-link' href="tel:+4183681566"> </br> 418 368-1566<a> <br/> <a class='phone-link' href="tel:+14183683276"> 418 368-3276</a> </div></div>
+                   Gasp&eacute;  Cancer Foundation (L&rsquo;Anse-&agrave;-Valleau to Corner-of-the-Beach) </br>Fondation du cancer de Gasp&eacute;  <a class='phone-link' href="tel:+4183681566"> </br> 418 368-1566<a> <br/> <a class='phone-link' href="tel:+14183683276"> 418 368-3276</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
                
@@ -350,7 +350,7 @@ $useDropDown = TRUE;
 					<div class="info-link"><div class="info-content-small centered">
                     
                     
-                    Gasp&eacute;  Cancer Foundation (L&rsquo;Anse-&agrave;-Valleau to Corner-of-the-Beach) </br>Foundation du cancer de Gasp&eacute;  
+                    Gasp&eacute;  Cancer Foundation (L&rsquo;Anse-&agrave;-Valleau to Corner-of-the-Beach) </br>Fondation du cancer de Gasp&eacute;  
                     <a class='phone-link' href="tel:+14183681566"> </br> 418 368-1566<a> <br/> <a class='phone-link' href="tel:+14183683276"> 418 368-3276</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
