@@ -125,7 +125,7 @@ html,body {
 	top:5px;
 	bottom:5px;
 	background:url('../design_folder/assets/side-org-icon.png');
-	background-size:70px auto;
+	background-size:100px auto;
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -192,9 +192,9 @@ html,body {
 .left-bar{
 		top:100px;
 		left:0px;
-        width: 70px; /* must never add up to more than 100% */
+        width: 100px; /* must never add up to more than 100% */
         background-color: rgb(255,255,255);
-        height: 85px;
+        height: 100px;
         position:absolute;
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
