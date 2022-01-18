@@ -1383,8 +1383,8 @@ h1{
 	background-position: left middle;
 	background-size: auto 100%;
 	display:inline-block;
-	width:100px;
-	height:16px;
+	width:auto;
+	height:auto;
 }
 
 
