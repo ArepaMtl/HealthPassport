@@ -1370,7 +1370,7 @@ h1{
 	-ms-transform: translate(-50%,0);
 	-webkit-transform: translate(-50%,0);
 	transform: translate(-50%,0);
-	background-image:url('../design_folder/assets/chssn_topbar.png');
+	background-image:url('../design_folder/assets/logo-full.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 30% auto;
@@ -1378,7 +1378,7 @@ h1{
 
 #chssn-title
 {
-	background-image:url('../design_folder/assets/chssn_info.png');
+	background-image:url('../design_folder/assets/logo-full.png');
 	background-repeat:no-repeat;
 	background-position: left middle;
 	background-size: auto 100%;
