@@ -15,7 +15,7 @@ html,body {
 }
 
 .top-bar{
-	height:80px;
+	height:85px;
 	background-color: rgb( 255, 255, 255 );
 	position:relative;
 }
@@ -243,7 +243,7 @@ html,body {
 	right:-250px;
     width: 250px;
     height: 230px;
-	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:16px;
 	background-color:white;
 	border-radius:6px;
@@ -260,7 +260,7 @@ html,body {
 	left:-250px;
     width: 250px;
     height: 230px;
-	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:16px;
 	background-color:white;
 	border-radius:6px;
@@ -379,7 +379,7 @@ html,body {
 	margin-top:10px;
 	display:block;
 	background-color:white;
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	text-align:left;
 	padding:20px;
@@ -1200,20 +1200,20 @@ h1 a{
 }
 
 .item-text > div:first-child {
-	font-family:LiberationSansBold,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
 }
 
 .item-text > div:last-child {
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-stretch: condensed;
 	font-size:16px;
      white-space:nowrap;
 }
 
 .lexicon-items>li{
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:14px;
 	text-align:left;
 }
@@ -1237,12 +1237,12 @@ h1 a{
 }
 
 .search-result-bubble{
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:15pt;
 }
 
 .history-items{
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:14px;
 }
 
@@ -1267,20 +1267,20 @@ h1 a{
 }
 
 .info-content{
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	font-weight: bold;
 }
 
 .info-content-small
 {
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:16px;
 }
 
 
 h1{
-	font-family:LiberationSansBold,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
 	font-size: 15pt;
@@ -1289,7 +1289,7 @@ h1{
 
 #emergency {
 	font-weight: bold;
-	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size:50px;
 }
 
@@ -1318,8 +1318,8 @@ h1{
 	transform: translate(-50%,-50%);
 	border-radius:6px;
 	text-align:center;
-	font-family:LiberationSansRegular,"Helvetica", sans-serif;
-	font-size:16px;
+	font-family:'Poppins', sans-serif;
+	font-size:13px;
 	padding:25px;
 }
 
@@ -1357,7 +1357,7 @@ h1{
 
 .health-pass-link{
 		text-decoration: none;
-		font-family:LiberationSansRegular,"Helvetica", sans-serif;
+		font-family:'Poppins', sans-serif;
 		color:rgba(0,0,0,0.78);
 }
 
@@ -1381,12 +1381,12 @@ h1{
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-size: 50% auto;
+	background-size: 60% auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
+	margin-top: 20px;
 	width:100px;
-	height:50px;
+	height:52px;
 
 }
 #chssn-title
@@ -1448,7 +1448,7 @@ h1{
 
 .multipleuserscolor{
 	background-color: rgb( 255, 255, 255 );
-	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 }
 
 .multipleuserscolor>a:first-child{
@@ -1470,7 +1470,7 @@ h1{
 #editicon>a{
 		text-decoration: none;
 		text-align:center;
-		font-family:LiberationSansRegular,"Helvetica", sans-serif;
+		font-family:'Poppins', sans-serif;
 		color:rgba(0,0,0,0.78);
 }
 
@@ -1488,7 +1488,7 @@ h1{
 #okicon>a{
 		text-decoration: none;
 		text-align:center;
-		font-family:LiberationSansRegular,"Helvetica", sans-serif;
+		font-family:'Poppins', sans-serif;
 		color:rgba(0,0,0,0.78);
 }
 
@@ -1615,7 +1615,7 @@ h1{
 	border:1px;
     border-color:rgba(0,0,0,0.3);
     border-style:solid;
-	font-family: LiberationSansRegular,"Helvetica", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 }
 
@@ -1631,7 +1631,7 @@ h1{
 	-ms-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-size:11pt;
+	font-size:13px;
 	
 }
 
@@ -1639,7 +1639,7 @@ h1{
 	
 	height:41px;
 	background-color:rgb(240,240,240);
-	font-family:LiberationSansRegular,"Helvetica", sans-serif;
+	font-family:'Poppins', sans-serif;
 	cursor:pointer;
 	
 }

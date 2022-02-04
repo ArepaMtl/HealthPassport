@@ -9,6 +9,11 @@ $useDropDown = TRUE;
 		<title>
 			Health Passport Web App - Information
 		</title>
+		<!--Google Fonts-->	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
@@ -108,41 +113,85 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:811"><div class="info-content centered">Health Info /<br/>Info-Sant&eacute;:<br/>811</div></a>
+					<a class="info-link" href="tel:811"><div class="info-content centered">Health Information / Info-Sant&eacute;:<br/>811</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centredecrise.ca/centre-de-crise.php"><div class="info-content-small centered">Crisis Centre /<br/>Centre de crise:<br/>www.centredecrise.ca</div></a>
+					<a class="info-link" href="tel:18002652626"><div class="info-content-small centered">Drugs: Help and Referral <br/>1-800-265-2626</div></a>
 					<div class="externallink-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18662773553<"><div class="info-content centered">Suicide Prevention /<br/>La Pr&eacute;vention du suicide:<br/>1866 277-3553</div></a>
+					<a class="info-link" href="tel:4186996000"><div class="info-content centered">Police (Saguenay) </br>418-699-6000</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parents Help Line /<br/>Ligne d'aide aux parent:<br/>1800 361-5085</div></a>
+					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Elder Mistreatment Helpline<br/>1-888-489-2287</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control /<br/>Centre anti-poison du Qu&eacute;bec:<br/>1800 463-5060</div></a>
+					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>1800 463-5060</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:+18889339007"><div class="info-content-small centered">Sexual Assault /<br/>Agression sexuelle:<br/>1888 933-9007</div></a>
+					<a class="info-link" href="tel:18006686868"><div class="info-content-small centered">Kids Help Phone <br/>1-800-668-6868</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Spousal Abuse /<br/>SOS Violence conjugale:<br/>1800 363-9010</div></a>
+					<a class="info-link" href="tel:18003639010"><div class="info-content-small centered">SOS Domestic Violence <br/>1-800-363-9010</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18003615085"><div class="info-content-small centered">Parent Help line  <br/>1-800-361-5085</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="http://www.centrejeunessedequebec.qc.ca/Pages/Contact.aspx"><div class="info-content-small centered">Youth Protection /<br/>Protection de la jeunesse:<br/>www.centrejeunessedequebec.qc.ca</div></a>
-					<div class="externallink-icon noclick"></div>
-				</div>
-				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">Youth HelpLine /<br/>Ligne d'aide aux jeunes:<br/>  <a class='phone-link' href="tel:+18002632266">1800 263-2266<a> <br/> <a class='phone-link' href="sms:+15146001002">SMS: 514 600-1002</a> </div></div>
+					<a class="info-link" href="tel:18662773553"><div class="info-content-small centered">Suicide Prevention  <br/>1-866-277-3553</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18773030264"><div class="info-content-small centered">Action on Mental Health  <br/>1-877-303-0264</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">First Nations and Inuit for Wellness Help  <br/>1-800-463-5060</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18889339007"><div class="info-content-small centered">Victims of Sexual Assault  <br/>1-888-933-9007</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18666334220"><div class="info-content-small centered">National Eating Disorder-Information Center  <br/>1-866-633-4220</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18002632266"><div class="info-content-small centered">TEL-JEUNES <br/>1-800-263-2266</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:4186988808"><div class="info-content-small centered">Saguenay Food Bank  <br/>418-698-8808</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18664666379"><div class="info-content-small centered"> Men’s Sexual Assault <br/> 1-866-466-6379</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18555446362"><div class="info-content-small centered"> Narcotics anonymous Québec <br/> 1-855-LIGNENA (544-6362)</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+			
+				
 			</div></li>
 			
 			<?php
