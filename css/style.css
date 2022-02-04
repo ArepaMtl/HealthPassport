@@ -121,8 +121,10 @@ html,body {
 	right:2px;
 	top:5px;
 	bottom:5px;
-	background:url('../design_folder/assets/side-org-icon.png');
-	background-size:28px auto;
+	background:url('../design_folder/assets/logo-full.png');
+	-ms-transform: rotate(90deg); /* IE 9 */
+  	transform: rotate(90deg);
+	background-size:39px auto;
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -178,7 +180,7 @@ html,body {
 		top:100px;
 		right:0px;
         width: 40px; /* must never add up to more than 100% */
-        background-color: rgb( 238, 75, 81 );
+        background-color:#ffb179;
         height: 65px;
         position:absolute;
         border-top-left-radius: 6px;
@@ -477,7 +479,7 @@ li{background-color:white}
 	position:relative;
 	height:64px;
     color:rgba(0,0,0,0.78);
-	background-color:rgb(89,195,239);
+	background-color:#6fced8;
 	z-index:5;
 }
 
@@ -807,15 +809,15 @@ h1 a{
 }
 
 #menu >li:nth-child(2) >a:first-child{
-	background-color: rgb( 255, 240, 3 );
+	background-color: #beeeef;
 }
 
 #menu > li:nth-child(3) >a:first-child{
-	background-color: rgb( 141, 212, 46 );
+	background-color: #ffb179;
 }
 
 #menu > li:nth-child(4) >a:first-child{
-	background-color: rgb( 60, 184, 120 );
+	background-color: #dff8ff;
 }
 
 #menuyourhistory, #menumultipleusers
