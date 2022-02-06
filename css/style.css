@@ -48,11 +48,12 @@ html,body {
 
 #menuyourhistory_icon{
 	background-image:url('../design_folder/assets/vectors/menu_your_history_icon.svg');
-	
+	opacity: 0.7;
 }
 
 #menuyourlexicon_icon{
-	background-image:url('../design_folder/assets/menu_lexicon_icon.png');
+	background-image:url('../design_folder/assets/vectors/menu_lexicon_icon.svg');
+	opacity: 0.7;
 }
 
 
@@ -424,7 +425,7 @@ html,body {
 	left:0px;
 	bottom:0px;
 	width:60px;
-	background-image:url('../design_folder/assets/lexicon_lupe.png');
+	background-image:url('../design_folder/assets/vectors/lupe_icon.svg');
 	background-size:27px 24px;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -706,7 +707,7 @@ input:checked + .actual-radio{
 	top:0px;
 	bottom:0px;
 	width:64px;
-	background-image:url('../design_folder/assets/importantnumbers_phone.png');
+	background-image:url('../design_folder/assets/vectors/phone_icon.svg');
 	background-size:26px 28px;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -1598,7 +1599,7 @@ h1{
 	right:15px;
 	bottom:5px;
 	width:80px;
-	background-image:url('../design_folder/assets/TRASH.png');
+	background-image:url('../design_folder/assets/vectors/trash_icon.svg');
 	background-position:center;
 	background-size:15px 27px;
 	background-repeat:no-repeat;
