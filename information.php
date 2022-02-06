@@ -118,7 +118,7 @@ $useDropDown = TRUE;
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:18002652626"><div class="info-content-small centered">Drugs: Help and Referral <br/>1-800-265-2626</div></a>
-					<div class="externallink-icon noclick"></div>
+					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:4186996000"><div class="info-content centered">Police (Saguenay) </br>418-699-6000</div></a>
@@ -201,17 +201,132 @@ $useDropDown = TRUE;
 			?>
 			
 			
-			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Information and Referral</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Hospitals</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+				
 				<div class="white-box taller-box">
-					<div class="info-link"><div class="info-content-small centered">CHSSN: <br/>  <a class='phone-link' href='http://www.chssn.org'>www.chssn.org<a> <br/> <a class='phone-link' href="tel:+14186842289"> 418 684-2289</a> </div></div>
+					<div class="info-link"><div class="info-content-small centered">La Baie Hospital <br/> 1000, rue du Docteur-Desgagn&#xE9;
+						La Baie <br/> <a class='phone-link' href="tel:+14185443381"> 418-544-3381</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
+
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Alma Hospital <br/> 
+						300, boulevard Champlain Sud Alma <br/> <a class='phone-link' href="tel:+14186692000"> 418-669-2000</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Chicoutimi Hospital <br/> 
+						305, rue Saint-Vallier Chicoutimi <br/> <a class='phone-link' href="tel:+14185411000"> 418-541-1000</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Jonqui&#xE8;re Hospital <br/> 
+						2230, rue de L&#x2019;H&#xF4;pital Jonqui&#xE8;re <br/> <a class='phone-link' href="tel:+14186957700"> 418-695-7700</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Roberval Hospital <br/> 
+						450, rue Brassard Roberval <br/> <a class='phone-link' href="tel:+14182750110"> 418-275-0110</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Dolbeau-Mistassini Hospital <br/> 
+						2000, boulevard Sacr&#xE9;-C&#x153;ur Dolbeau-Mistassini <br/> <a class='phone-link' href="tel:+14182761234"> 418-276-1234</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				
 			</div></li>
 			<?php
 			
 			}
 			
 			?>
+
+			<?php
+			
+			if ($useDropDown) {
+				
+			?>
+			
+			
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Delivery</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+				
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Midwife-run Birth Centre <br/> 
+						Maison de naissance du Fjord-au-Lac (Chicoutimi) <br/> <a class='phone-link' href="tel:+14185411166"> 418-541-1166</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Gynecology Clinic <br/> 
+						Clinique de gyn&#xE9;cologie du Saguenay (Chicoutimi)  <br/> <a class='phone-link' href="tel:+14185452666"> 418-545-2666</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Women’s Health Department <br/> 
+						D&#xE9;partement de sant&#xE9; de la femme (Chicoutimi)  <br/> <a class='phone-link' href="tel:+14185411033"> 418-541-1033</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Women’s Health Department <br/> 
+						D&#xE9;partement de sant&#xE9; de la femme (Chicoutimi)  <br/> <a class='phone-link' href="tel:+14185411033"> 418-541-1033</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				
+			</div></li>
+			<?php
+			
+			}
+			
+			?>
+
+			<?php
+			
+			if ($useDropDown) {
+				
+			?>
+			
+			
+			<li class="item" style="background-color: pink !important;"><a href="information.php"><div class='item-text submenu-text'><div>Birthing Centres</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+				
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Chicoutimi Hospital  
+						 <br/> <a class='phone-link' href="tel:+14185411000"> 418-541-1000 ext 2362 </a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Alma Hospital   
+						 <br/> <a class='phone-link' href="tel:+14182761234 "> 418-276-1234  ext 4218</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Dolbeau-Mistassini
+						 <br/> <a class='phone-link' href="tel:+14182761234">  418-276-1234  ext 4218</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				<div class="white-box taller-box">
+					<div class="info-link"><div class="info-content-small centered">Roberval Hospital  
+						 <br/> <a class='phone-link' href="tel:+14182750110"> 418-275-0110  ext 2282</a> </div></div>
+					<div class="phone-icon noclick"></div>
+				</div>
+
+				
+
+				
+			</div></li>
+			<?php
+			
+			}
+			
+			?>
+
 		</ul>
 	</body>
 
