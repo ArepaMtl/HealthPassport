@@ -124,20 +124,20 @@
 					</div>
 					
 					<div class='lng-fr'>
-					Cette application de Passeport Sant&eacute; est faite pour vous aider, vous et votre famille, &agrave;
-suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
-des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
-Pour cette application en ligne, le RCSSS s'est inspir&eacute; d'une version imprim&eacute;e du
-Passeport Sant&eacute; cr&eacute;&eacute;e il y a quelques ann&eacute;es par la MCDC, organisme desservant la 
-communaut&eacute; d'expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches au Qu&eacute;bec. La
-MCDC a d&eacute;couvert qu'avoir un guide de poche contenant des renseignements
-personnels et du vocabulaire de base sur la sant&eacute; am&eacute;liorerait le r&eacute;sultat des 
-consultations aupr&egrave;s de professionnels de la sant&eacute; francophones et, en fin de compte, 
-am&eacute;liorerait votre sant&eacute;. <br />
+						Cette application de Passeport Sant&eacute; est faite pour vous aider, vous et votre famille, &agrave;
+						suivre l'information essentielle sur la sant&eacute;. Elle vous permet aussi d'avoir sous la main
+						des mots et expressions utiles en fran&ccedil;ais quand vous allez &agrave; la clinique ou &agrave; l'urgence.
+						Pour cette application en ligne, le RCSSS s'est inspir&eacute; d'une version imprim&eacute;e du
+						Passeport Sant&eacute; cr&eacute;&eacute;e il y a quelques ann&eacute;es par la MCDC, organisme desservant la 
+						communaut&eacute; d'expression anglaise de la r&eacute;gion Chaudi&egrave;re-Appalaches au Qu&eacute;bec. La
+						MCDC a d&eacute;couvert qu'avoir un guide de poche contenant des renseignements
+						personnels et du vocabulaire de base sur la sant&eacute; am&eacute;liorerait le r&eacute;sultat des 
+						consultations aupr&egrave;s de professionnels de la sant&eacute; francophones et, en fin de compte, 
+						am&eacute;liorerait votre sant&eacute;. <br />
 
-Plusieurs r&eacute;gions du Qu&eacute;bec et deux communaut&eacute;s francophones du Canada (&agrave; Terre-
-Neuve et au Yukon) ont adopt&eacute; le mod&egrave;le imprim&eacute;. Quant &agrave; l'application du Passeport
-Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
+						Plusieurs r&eacute;gions du Qu&eacute;bec et deux communaut&eacute;s francophones du Canada (&agrave; Terre-
+						Neuve et au Yukon) ont adopt&eacute; le mod&egrave;le imprim&eacute;. Quant &agrave; l'application du Passeport
+						Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
 					
 
 				</div>
@@ -149,6 +149,14 @@ Sant&eacute; du RCSSS, qui sait o&ugrave; cela nous m&egrave;nera?
 				<div class="dynamic-size-box">
 					
 					<div class='lng-en'>
+						<div class="row" style="width:300px;">
+						  <div class="column">
+						    <img src="design_folder/assets/CHSSN-Logo-main.svg" style="width:100%">
+						  </div>
+						  <div class="column">
+						    <img src="design_folder/assets/Logo-Health-Canada.png" style="width:100%">
+						  </div>
+						</div>
 					This electronic version of the Health Passport App has happened thanks to the collaboration of a 
 					few organizations:<br/><br/>
                     	-MCDC (Megantic English-speaking Community Development Corporation) for creating the original paper version<br/>
