@@ -4,6 +4,24 @@
 		<title>
 			Health Passport Web App - Information
 		</title>
+		<style type="text/css">
+						* {
+			  box-sizing: border-box;
+			}
+
+			.column {
+			  float: left;
+			  width: 50%;
+			  padding: 5px;
+			}
+
+			/* Clearfix (clear floats) */
+			.row::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+		</style>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -149,12 +167,12 @@
 				<div class="dynamic-size-box">
 					
 					<div class='lng-en'>
-						<div class="row" style="width:300px;">
+						<div class="row">
 						  <div class="column">
-						    <img src="design_folder/assets/CHSSN-Logo-main.svg" style="width:100%">
+						    <img src="design_folder/assets/CHSSN-Logo-main.svg" style="width:100%;">
 						  </div>
 						  <div class="column">
-						    <img src="design_folder/assets/Logo-Health-Canada.png" style="width:100%">
+						    <img src="design_folder/assets/Logo-Health-Canada.png" style="width:100%; padding-top:5%;">
 						  </div>
 						</div>
 					This electronic version of the Health Passport App has happened thanks to the collaboration of a 
@@ -174,6 +192,14 @@
 					</div>
 					
 					<div class='lng-fr'>
+						<div class="row">
+						  <div class="column">
+						    <img src="design_folder/assets/CHSSN-Logo-main.svg" style="width:100%;">
+						  </div>
+						  <div class="column">
+						    <img src="design_folder/assets/Logo-Health-Canada.png" style="width:100%; padding-top:5%;">
+						  </div>
+						</div>
 				    Cette version &eacute;lectronique de l'application du Passeport Sant&eacute; a vu le jour gr&acirc;ce &agrave; la collaboration de quelques organismes&nbsp;: <br/> <br/>
 
 					-MCDC (Corporation de d&eacute;veloppement de la communaut&eacute; d'expression anglaise de M&eacute;gantic), auteur de la version imprim&eacute;e originale;  <br/>
