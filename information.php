@@ -290,7 +290,7 @@ $useDropDown = TRUE;
 			?>
 			
 			
-			<li class="item" style="background-color: pink !important;"><a href="information.php"><div class='item-text submenu-text'><div>Birthing Centres</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Birthing Centres</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				
 				<div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Chicoutimi Hospital  
