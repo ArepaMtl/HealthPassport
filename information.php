@@ -129,7 +129,7 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>1800 463-5060</div></a>
+					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>1-800 463-5060</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -290,7 +290,7 @@ $useDropDown = TRUE;
 			?>
 			
 			
-			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Birthing Centres</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
+			<li class="item"><a href="information.php"><div class='item-text submenu-text'><div>Birthing Centers</div><div><!-- FRENCH HERE --></div></div> <div class="below-button noclick"> </div></a><div class="info-items" style="display:none;">
 				
 				<div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Chicoutimi Hospital  
@@ -300,7 +300,7 @@ $useDropDown = TRUE;
 
 				<div class="white-box taller-box">
 					<div class="info-link"><div class="info-content-small centered">Alma Hospital   
-						 <br/> <a class='phone-link' href="tel:+14182761234 "> 418-276-1234  ext 4218</a> </div></div>
+						 <br/> <a class='phone-link' href="tel:+14186992000"> 418-699-2000 ext 6635</a> </div></div>
 					<div class="phone-icon noclick"></div>
 				</div>
 
