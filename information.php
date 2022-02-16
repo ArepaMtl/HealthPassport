@@ -129,11 +129,12 @@ $useDropDown = TRUE;
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>1-800 463-5060</div></a>
+					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">Qu&eacute;bec Poison Control <br/>
+					1-800-463-5060</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18006686868"><div class="info-content-small centered">Kids Help Phone <br/>1-800-668-6868</div></a>
+					<a class="info-link" href="tel:18006686868"><div class="info-content-small centered">Kids Help Phone <br/>1-800-668-6868 </br>or text 686868 </div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 				<div class="white-box taller-box">
@@ -151,12 +152,12 @@ $useDropDown = TRUE;
 				</div>
 
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18773030264"><div class="info-content-small centered">Action on Mental Health  <br/>1-877-303-0264</div></a>
+					<a class="info-link" href="tel:18773030264"><div class="info-content-small centered">Ami-Québec Action on Mental Illness Support  <br/>1-877-303-0264</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 
 				<div class="white-box taller-box">
-					<a class="info-link" href="tel:18004635060"><div class="info-content-small centered">First Nations and Inuit for Wellness Help  <br/>1-800-463-5060</div></a>
+					<a class="info-link" href="tel:18552423310"><div class="info-content-small centered">First Nations and Inuit for Wellness Help  <br/>1-855-242-3310</div></a>
 					<div class="phone-icon noclick"></div>
 				</div>
 
@@ -187,6 +188,10 @@ $useDropDown = TRUE;
 
 				<div class="white-box taller-box">
 					<a class="info-link" href="tel:18555446362"><div class="info-content-small centered"> Narcotics anonymous Québec <br/> 1-855-LIGNENA (544-6362)</div></a>
+					<div class="phone-icon noclick"></div>
+				</div>
+				<div class="white-box taller-box">
+					<a class="info-link" href="tel:18885051010"><div class="info-content-small centered"> Sexual orientation and identity <br/> 1-888-505-1010 call or text </div></a> 
 					<div class="phone-icon noclick"></div>
 				</div>
 
